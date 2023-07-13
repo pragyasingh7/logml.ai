@@ -10,7 +10,7 @@ about:
   links:
     - icon: twitter
       text: twitter
-      href: https://twitter.com/emmsskyyy
+      href: https://michellemli.com/
 ---
 
 ```{=html}
