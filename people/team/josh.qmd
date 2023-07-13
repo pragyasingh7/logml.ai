@@ -1,0 +1,17 @@
+---
+title: "Josh Southern"
+sortby: "Josh Southern"
+description: "Imperial College London"
+image: josh.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/emmsskyyy
+---
+
+
+Josh is a second-year PhD candidate at Imperial College London,  supervised by Prof. Michael Bronstein and Dr. Kirill Veselkov. His  research explores graph generative models and their applications to  healthcare such as the design of drugs, proteins and hyperfood recipes.

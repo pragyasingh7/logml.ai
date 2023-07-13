@@ -1,0 +1,19 @@
+---
+format: html
+---
+
+
+<style>
+  body {
+  background-image: url(homepage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+  
+  .hero {
+  height: 800px;
+}
+</style>
+

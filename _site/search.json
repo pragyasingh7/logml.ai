@@ -1,0 +1,317 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "LOGML",
+    "section": "",
+    "text": "Home\n    People"
+  },
+  {
+    "objectID": "team.html#organising-committee",
+    "href": "team.html#organising-committee",
+    "title": "LOGML",
+    "section": "Organising Committee",
+    "text": "Organising Committee\n\n\n\n\n\n\n\n\n\n\nMichele Li\n\n\nPhD student\n\n\n\n\n\n\n\n\n\n\n\n\n\nValentina Giunchiglia\n\n\nPhD student\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "team.html#scientific-advisory-committee",
+    "href": "team.html#scientific-advisory-committee",
+    "title": "LOGML",
+    "section": "Scientific Advisory Committee",
+    "text": "Scientific Advisory Committee\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/team/michele.html",
+    "href": "people/team/michele.html",
+    "title": "Michele Li",
+    "section": "",
+    "text": "Michelle is a PhD candidate in the Department of Biomedical Informatics  at Harvard Medical School. Advised by Prof. Marinka Zitnik, Michelle is  developing deep graph representation learning algorithms to characterize  drugs at a single cell resolution and to better leverage rich  biomedical knowledge graphs for diagnosing rare diseases."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LOGML-website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "people/team/valentina.html",
+    "href": "people/team/valentina.html",
+    "title": "Valentina Giunchiglia",
+    "section": "",
+    "text": "Home\n    People\n    Organising Committee\n    Valentina Giunchiglia\n  \n\nValentina Giunchiglia is a PhD student at Imperial College London. Her research lies at the intersection of machine learning, biomedical research and computational modelling, applied specifically to the study of cognition and neurodegenerative diseases. In particular, she is interested in the application of graph neural networks and explainable AI to understand how the brain functions. She has previously organised a range of different events. For instance, she was an organiser of TEDx-UniHeidelberg, of a networking event for postgraduate students at Imperial and of a data science year long activity at Imperial called DS Helper Team that consisted of different data science workshops and lectures."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "LOGML",
+    "section": "",
+    "text": "Home\n    People"
+  },
+  {
+    "objectID": "people.html#organising-committee",
+    "href": "people.html#organising-committee",
+    "title": "LOGML",
+    "section": "Organising Committee",
+    "text": "Organising Committee\n\n\n\n\n\n\n\n\n\n\nDaniel Platt\n\n\nKing’s College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Dasoulas\n\n\nHarvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuadalupe Gozalez\n\n\nPrescient Design, Roche\n\n\n\n\n\n\n\n\n\n\n\n\n\nJosh Southern\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate Benjamin\n\n\nUniversity of Oxford\n\n\n\n\n\n\n\n\n\n\n\n\n\nKonstantinos Barmpas\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nMichele Li\n\n\nHarvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nValentina Giunchiglia\n\n\nImperial College London\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#scientific-advisory-committee",
+    "href": "people.html#scientific-advisory-committee",
+    "title": "LOGML",
+    "section": "Scientific Advisory Committee",
+    "text": "Scientific Advisory Committee\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/team/guada.html",
+    "href": "people/team/guada.html",
+    "title": "Guadalupe Gozalez",
+    "section": "",
+    "text": "Guadalupe is a third-year PhD candidate at Imperial College London, supervised by Prof. Michael Bronstein and Dr. Kirill Veselkov. Her research lies on the intersection of graph machine learning and biomedical research, with a special emphasis on drug repositioning, combinatorial therapeutics and hyperfoods (i.e. molecules in foods with disease-beating properties) prediction."
+  },
+  {
+    "objectID": "program.html",
+    "href": "program.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "The schedule of the events will be available in the following calendar. The timezone is GMT+00:00.\nYou can add the events to your calendar via iCal or Google calendar."
+  },
+  {
+    "objectID": "people/team/konstantinos.html",
+    "href": "people/team/konstantinos.html",
+    "title": "Konstantinos Barmpas",
+    "section": "",
+    "text": "Konstantinos Barmpas is a PhD student at Imperial College London under the supervision of Professor Stefanos Zafeiriou. His research lies in the intersection of Machine Learning and Brain-Computer Interfaces (BCIs). Prior to his PhD studies, Konstantinos received his M.Eng. (integrated B.Eng) in Electrical and Electronic Engineering from Imperial College London in 2020. He undertook his Master’s  Year as an exchange student at ETH Zürich, where he conducted his Master Thesis at the Data Analytics Lab under the supervision of Professor Thomas Hofmann."
+  },
+  {
+    "objectID": "people/team/george.html",
+    "href": "people/team/george.html",
+    "title": "George Dasoulas",
+    "section": "",
+    "text": "George Dasoulas is a postdoc at Harvard University,  concentrating in learning graph representations for bioinformatics applications. His research focuses on building powerful graph learning models, that are able to extract knowledge from biomedical networks. He received a Ph.D. in Computer Science from Laboratoire d’informatique at École Polytechnique in Paris, France."
+  },
+  {
+    "objectID": "people/team/kate.html",
+    "href": "people/team/kate.html",
+    "title": "Kate Benjamin",
+    "section": "",
+    "text": "Katherine Benjamin is a DPhil student in the Mathematical Institute at the University of Oxford. As a member of the Centre for Topological Data Analysis, her research focuses on topological methods for analysis of biomedical data with spatial components. In particular, she is interested in geometric invariants of biomolecular structure, and topological summaries for spatial transcriptomics data."
+  },
+  {
+    "objectID": "people/team/josh.html",
+    "href": "people/team/josh.html",
+    "title": "Josh Southern",
+    "section": "",
+    "text": "Josh is a second-year PhD candidate at Imperial College London,  supervised by Prof. Michael Bronstein and Dr. Kirill Veselkov. His  research explores graph generative models and their applications to  healthcare such as the design of drugs, proteins and hyperfood recipes."
+  },
+  {
+    "objectID": "people/team/daniel.html",
+    "href": "people/team/daniel.html",
+    "title": "Daniel Platt",
+    "section": "",
+    "text": "Daniel is a postdoc at King’s College London working on differential geometry. He obtained my PhD from Imperial College London for his thesis on gauge theory in dimension 7 on problems that are motivated by string theory. Because of this, he is interested in big datasets of Calabi-Yau manifolds. Apart from this, Lie groups and  group actions are important for the kind of geometry that he studies and he is also interested in applications of differential geometry to group invariant machine learning."
+  },
+  {
+    "objectID": "projects.html#math-projects",
+    "href": "projects.html#math-projects",
+    "title": "Projects",
+    "section": "Math projects",
+    "text": "Math projects"
+  },
+  {
+    "objectID": "projects/ML/Math/proj1/project1.html",
+    "href": "projects/ML/Math/proj1/project1.html",
+    "title": "Understanding Missing Values in Regression",
+    "section": "",
+    "text": "This blog post is about understanding missing value mechanism in a regression setting. After understanding this machanism, I will mention common pitfalls to aviod in data subsetting.\n[Under construction for now!]\n\nThis blog post is about understanding missing value mechanism in a regression setting. After understanding this machanism, I will mention common pitfalls to aviod in data subsetting.\n[Under construction for now!]"
+  },
+  {
+    "objectID": "projects/ML/Math/index.html",
+    "href": "projects/ML/Math/index.html",
+    "title": "Understanding Missing Values in Regression",
+    "section": "",
+    "text": "This blog post is about understanding missing value mechanism in a regression setting. After understanding this machanism, I will mention common pitfalls to aviod in data subsetting.\n[Under construction for now!]\n\nThis blog post is about understanding missing value mechanism in a regression setting. After understanding this machanism, I will mention common pitfalls to aviod in data subsetting.\n[Under construction for now!]"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Data reductions for graph attention variants\n\n\n\n\n\n\n\nR\n\n\nMissing Values\n\n\nRegression\n\n\n \n\n\n\n\nZeki Akyol\n\n\n\n\n\n\n  \n\n\n\n\nMachine learning the fine interior\n\n\n\n\n\n\n\nR\n\n\nMissing Values\n\n\nRegression\n\n\n \n\n\n\n\nProf Alexander Kasprzyk\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#ml-projects",
+    "href": "projects.html#ml-projects",
+    "title": "Projects",
+    "section": "ML projects",
+    "text": "ML projects"
+  },
+  {
+    "objectID": "projects/project1/index.html",
+    "href": "projects/project1/index.html",
+    "title": "Data reductions for graph attention variants",
+    "section": "",
+    "text": "Kaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "projects/project2/project2.html",
+    "href": "projects/project2/project2.html",
+    "title": "Machine learning the fine interior",
+    "section": "",
+    "text": "Alexander Kasprzyk is  Associate Professor of Geometry and Head of Pure Mathematics at the  University of Nottingham. His research focuses on the intersection of  algebraic geometry, combinatorics, and Big Data. Through his work he has  pioneered the use of massively-parallel computational algebra and large databases to address fundamental  questions in geometry, applying tens of centuries of computing time to  make substantial and important mathematical advances in the  classification of Fano varieties, including the largest collections of Fano 3-fold and 4-fold varieties known. He maintains the online  Graded Ring Database, and is an editor for the new interdisciplinary  journal “Data Science in the Mathematical Sciences”."
+  },
+  {
+    "objectID": "projects/project2/project2.html#biography",
+    "href": "projects/project2/project2.html#biography",
+    "title": "Machine learning the fine interior",
+    "section": "Biography",
+    "text": "Biography\nIn this project we will explore the classification of certain four-dimension lattice simplices – those containing a single interior lattice point. Each of these 338,752 simplices can be described uniquely by an integer-valued vector (a_0,…,a_4), and in nearly every case we know the Fine interior as a result of brute-force computations totalling many decades of CPU time. We will ask whether Machine Learning can predict the dimension of F(P) directly from the vector (a_0,…,a_4) and, if successful, attempt to understand how the machine is performing this calculation. This should present us with unique insights into the combinatorics of the Fine interior, which in turn will generate a richer understanding of the underlying geometry."
+  },
+  {
+    "objectID": "projects/project2/project2.html#project",
+    "href": "projects/project2/project2.html#project",
+    "title": "Machine learning the fine interior",
+    "section": "Project",
+    "text": "Project\nFirst described in 1983, the Fine interior is a key combinatorial tool in Mirror Symmetry. Broadly speaking, a convex lattice polytope P corresponds to a hypersurface Z in a toric variety. Associate to P is the Fine interior F(P): the rational polytope given by moving all supporting hyperplanes of P in by lattice distance 1. Many geometric properties of Z can be deduced from combinatorial properties of F(P). For example, there exists a unique canonical model of Z if F(P) is non-empty, and the Kodaira dimension is determined by the dimension of F(P). Computing the Fine interior F(P) is computationally challenging and, despite being so important, almost nothing is known about how the combinatorics of P determines the dimension of F(P). This is an area perfect for investigation via Machine Learning.\nIn this project we will explore the classification of certain four-dimension lattice simplices – those containing a single interior lattice point. Each of these 338,752 simplices can be described uniquely by an integer-valued vector (a_0,…,a_4), and in nearly every case we know the Fine interior as a result of brute-force computations totalling many decades of CPU time. We will ask whether Machine Learning can predict the dimension of F(P) directly from the vector (a_0,…,a_4) and, if successful, attempt to understand how the machine is performing this calculation. This should present us with unique insights into the combinatorics of the Fine interior, which in turn will generate a richer understanding of the underlying geometry."
+  },
+  {
+    "objectID": "projects/project2/project2.html#prof-alexander-kasprzyk",
+    "href": "projects/project2/project2.html#prof-alexander-kasprzyk",
+    "title": "Machine learning the fine interior",
+    "section": "",
+    "text": "Alexander Kasprzyk is  Associate Professor of Geometry and Head of Pure Mathematics at the  University of Nottingham. His research focuses on the intersection of  algebraic geometry, combinatorics, and Big Data. Through his work he has  pioneered the use of massively-parallel computational algebra and large databases to address fundamental  questions in geometry, applying tens of centuries of computing time to  make substantial and important mathematical advances in the  classification of Fano varieties, including the largest collections of Fano 3-fold and 4-fold varieties known. He maintains the online  Graded Ring Database, and is an editor for the new interdisciplinary  journal “Data Science in the Mathematical Sciences”."
+  },
+  {
+    "objectID": "projects/project1/index.html#kaustubh-dholé",
+    "href": "projects/project1/index.html#kaustubh-dholé",
+    "title": "Data reductions for graph attention variants",
+    "section": "",
+    "text": "Kaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "projects/project1/index.html#project",
+    "href": "projects/project1/index.html#project",
+    "title": "Data reductions for graph attention variants",
+    "section": "Project",
+    "text": "Project\nThere are a lot of data reduction techniques that have been applied over general transformers like Linformer (JL-Lemma), Reformer (using LSH), Nymstromformer (using Nymstrom method), etc. However, many of these approaches which have sped up attention computation have not been explored for speeding up graph attention variants. I am vouching for performing a baseline set of experiments to test some of these data reduction approaches to approximate GAT/GATv2’s attention and measure how much drop on some downstream task is seen.\nKaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "speaker.html",
+    "href": "speaker.html",
+    "title": "Speakers",
+    "section": "",
+    "text": "Joan Bruna\n\nTitle: Theoretical graph\n\nDescription of the talk to be determined\n\n\n\n\n\n\n\n\n\n\n\nPietro Lio\n\nTitle: Theoretical graph\n\nDescription of the talk to be determined"
+  },
+  {
+    "objectID": "speaker.html#theoretical-graph",
+    "href": "speaker.html#theoretical-graph",
+    "title": "Speakers",
+    "section": "Theoretical Graph",
+    "text": "Theoretical Graph"
+  },
+  {
+    "objectID": "speaker.html#theorethical-graph",
+    "href": "speaker.html#theorethical-graph",
+    "title": "Speakers",
+    "section": "Theorethical graph",
+    "text": "Theorethical graph\n\nDescription of the talk to be determined"
+  },
+  {
+    "objectID": "speakers/joan.html",
+    "href": "speakers/joan.html",
+    "title": "Joan Bruna",
+    "section": "",
+    "text": "Home\n    Speakers\n    Joan Bruna\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nI am an Associate Professor of Computer Science, Data Science and Mathematics (affiliated) at the Courant Institute and the Center for Data Science, New York University. I belong to the CILVR (Computational Intelligence, Learning, Vision and Robotics) group and I co-founded the MaD (Math and Data) group. During Spring 2020 I was also a Member of the Institute for Advanced Study, part of the Special Year on Optimization, Statistics and Theoretical Machine Learning.\nMy research interests touch several areas of Machine Learning, Signal Processing and High-Dimensional Statistics. I am particularly interested in mathematical foundations of Deep Learning, covering optimization, representation and statistical aspects and their interplay. I am also interested in developing applications to computational science, in areas such as Quantum chemistry, cosmology and climate modeling.\nAs of Fall 2020, I am also a Visiting Scholar at the Flatiron Institute (Simons Foundation), at the Center for Computational Mathematics, where I am co-organizing a working group on the Mathematics of Deep Learning."
+  },
+  {
+    "objectID": "speakers/joan.html#kaustubh-dholé",
+    "href": "speakers/joan.html#kaustubh-dholé",
+    "title": "Data reductions for graph attention variants",
+    "section": "",
+    "text": "Kaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "speakers/joan.html#project",
+    "href": "speakers/joan.html#project",
+    "title": "Data reductions for graph attention variants",
+    "section": "Project",
+    "text": "Project\nThere are a lot of data reduction techniques that have been applied over general transformers like Linformer (JL-Lemma), Reformer (using LSH), Nymstromformer (using Nymstrom method), etc. However, many of these approaches which have sped up attention computation have not been explored for speeding up graph attention variants. I am vouching for performing a baseline set of experiments to test some of these data reduction approaches to approximate GAT/GATv2’s attention and measure how much drop on some downstream task is seen.\nKaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "logml2022/projects.html",
+    "href": "logml2022/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "logml2022/projects2022/project1/index.html",
+    "href": "logml2022/projects2022/project1/index.html",
+    "title": "Data reductions for graph attention variants",
+    "section": "",
+    "text": "Kaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "logml2022/projects2022/project1/index.html#kaustubh-dholé",
+    "href": "logml2022/projects2022/project1/index.html#kaustubh-dholé",
+    "title": "Data reductions for graph attention variants",
+    "section": "",
+    "text": "Kaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "logml2022/projects2022/project1/index.html#project",
+    "href": "logml2022/projects2022/project1/index.html#project",
+    "title": "Data reductions for graph attention variants",
+    "section": "Project",
+    "text": "Project\nThere are a lot of data reduction techniques that have been applied over general transformers like Linformer (JL-Lemma), Reformer (using LSH), Nymstromformer (using Nymstrom method), etc. However, many of these approaches which have sped up attention computation have not been explored for speeding up graph attention variants. I am vouching for performing a baseline set of experiments to test some of these data reduction approaches to approximate GAT/GATv2’s attention and measure how much drop on some downstream task is seen.\nKaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia."
+  },
+  {
+    "objectID": "logml2022/logml2022.html",
+    "href": "logml2022/logml2022.html",
+    "title": "Readings, lectures, and videos",
+    "section": "",
+    "text": "Each class session has a set of required readings that you should complete before watching the lecture."
+  },
+  {
+    "objectID": "logml2022.html",
+    "href": "logml2022.html",
+    "title": "Readings, lectures, and videos",
+    "section": "",
+    "text": "Each class session has a set of required readings that you should complete before watching the lecture."
+  },
+  {
+    "objectID": "logml2022/people.html",
+    "href": "logml2022/people.html",
+    "title": "Organisers",
+    "section": "",
+    "text": "Home\n    People"
+  },
+  {
+    "objectID": "logml2022/people.html#organising-committee",
+    "href": "logml2022/people.html#organising-committee",
+    "title": "Organisers",
+    "section": "Organising Committee",
+    "text": "Organising Committee\n\n\n\n\n\n\n\n\n\n\nDaniel Platt\n\n\nKing’s College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Dasoulas\n\n\nHarvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuadalupe Gozalez\n\n\nPrescient Design, Roche\n\n\n\n\n\n\n\n\n\n\n\n\n\nJosh Southern\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate Benjamin\n\n\nUniversity of Oxford\n\n\n\n\n\n\n\n\n\n\n\n\n\nKonstantinos Barmpas\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nMichele Li\n\n\nHarvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nValentina Giunchiglia\n\n\nImperial College London\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "logml2022/people.html#scientific-advisory-committee",
+    "href": "logml2022/people.html#scientific-advisory-committee",
+    "title": "Organisers",
+    "section": "Scientific Advisory Committee",
+    "text": "Scientific Advisory Committee\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "logml2022/speaker.html",
+    "href": "logml2022/speaker.html",
+    "title": "Speakers",
+    "section": "",
+    "text": "Joan Bruna\n\nTitle: Theoretical graph\n\nDescription of the talk to be determined\n\n\n\n\n\n\n\n\n\n\n\nPietro Lio\n\nTitle: Theoretical graph\n\nDescription of the talk to be determined"
+  }
+]

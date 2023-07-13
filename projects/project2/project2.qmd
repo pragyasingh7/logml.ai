@@ -1,0 +1,20 @@
+---
+title: "Machine learning the fine interior"
+author: "Prof Alexander Kasprzyk"
+categories: [R, Missing Values, Regression]
+image: Kasprzykjpg.jpg
+about:
+  id: project-profile
+  template: solana
+---
+
+
+## Prof Alexander Kasprzyk
+
+Alexander Kasprzyk is  Associate Professor of Geometry and Head of Pure Mathematics at the  University of Nottingham. His research focuses on the intersection of  algebraic geometry, combinatorics, and Big Data. Through his work he has  pioneered the use of massively-parallel computational algebra and large databases to address fundamental  questions in geometry, applying tens of centuries of computing time to  make substantial and important mathematical advances in the  classification of Fano varieties, including the largest collections of Fano 3-fold and 4-fold varieties known. He maintains the online  Graded Ring Database, and is an editor for the new interdisciplinary  journal "Data Science in the Mathematical Sciences".
+
+## Project
+
+First described in 1983, the Fine interior is a key combinatorial tool in Mirror Symmetry. Broadly speaking, a convex lattice polytope P corresponds to a hypersurface Z in a toric variety. Associate to P is the Fine interior F(P): the rational polytope given by moving all supporting hyperplanes of P in by lattice distance 1. Many geometric properties of Z can be deduced from combinatorial properties of F(P). For example, there exists a unique canonical model of Z if F(P) is non-empty, and the Kodaira dimension is determined by the dimension of F(P). Computing the Fine interior F(P) is computationally challenging and, despite being so important, almost nothing is known about how the combinatorics of P determines the dimension of F(P). This is an area perfect for investigation via Machine Learning.
+
+In this project we will explore the classification of certain four-dimension lattice simplices -- those containing a single interior lattice point. Each of these 338,752 simplices can be described uniquely by an integer-valued vector (a_0,...,a_4), and in nearly every case we know the Fine interior as a result of brute-force computations totalling many decades of CPU time. We will ask whether Machine Learning can predict the dimension of F(P) directly from the vector (a_0,...,a_4) and, if successful, attempt to understand how the machine is performing this calculation. This should present us with unique insights into the combinatorics of the Fine interior, which in turn will generate a richer understanding of the underlying geometry.

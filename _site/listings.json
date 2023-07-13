@@ -1,0 +1,46 @@
+[
+  {
+    "listing": "/team.html",
+    "items": [
+      "/people/team/michele.html",
+      "/people/team/valentina.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/team/daniel.html",
+      "/people/team/george.html",
+      "/people/team/guada.html",
+      "/people/team/josh.html",
+      "/people/team/kate.html",
+      "/people/team/konstantinos.html",
+      "/people/team/michele.html",
+      "/people/team/valentina.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/project1/index.html",
+      "/projects/project2/project2.html"
+    ]
+  },
+  {
+    "listing": "/logml2022/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/logml2022/people.html",
+    "items": [
+      "/people/team/daniel.html",
+      "/people/team/george.html",
+      "/people/team/guada.html",
+      "/people/team/josh.html",
+      "/people/team/kate.html",
+      "/people/team/konstantinos.html",
+      "/people/team/michele.html",
+      "/people/team/valentina.html"
+    ]
+  }
+]

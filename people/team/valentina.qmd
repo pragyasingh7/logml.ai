@@ -1,0 +1,27 @@
+---
+title: "Valentina Giunchiglia"
+sortby: "Valentina, Giunchiglia"
+description: "Imperial College London"
+image: valentina.png
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/emmsskyyy
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Organising Committee</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+Valentina Giunchiglia is a PhD student at Imperial College London. Her research lies at the intersection of machine learning, biomedical research and computational modelling, applied specifically to the study of cognition and neurodegenerative diseases. In particular, she is interested in the application of graph neural networks and explainable AI to understand how the brain functions. She has previously organised a range of different events. For instance, she was an organiser of TEDx-UniHeidelberg, of a networking event for postgraduate students at Imperial and of a data science year long activity at Imperial called DS Helper Team that consisted of different data science workshops and lectures.

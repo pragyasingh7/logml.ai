@@ -1,0 +1,17 @@
+---
+title: "George Dasoulas"
+sortby: "George Dasoulas"
+description: "Harvard University"
+image: george.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/emmsskyyy
+---
+
+
+George Dasoulas is a postdoc at Harvard University,  concentrating in learning graph representations for bioinformatics applications. His research focuses on building powerful graph learning models, that are able to extract knowledge from biomedical networks. He received a Ph.D. in Computer Science from Laboratoire d'informatique at École Polytechnique in Paris, France.

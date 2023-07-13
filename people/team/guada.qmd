@@ -1,0 +1,17 @@
+---
+title: "Guadalupe Gozalez"
+sortby: "Guadalupe Gonzalez"
+description: "Prescient Design, Roche"
+image: guada.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: link
+      text: website
+      href: https://michellemli.com/
+---
+
+
+Guadalupe is a third-year PhD candidate at Imperial College London, supervised by Prof. Michael Bronstein and Dr. Kirill Veselkov. Her research lies on the intersection of graph machine learning and biomedical research, with a special emphasis on drug repositioning, combinatorial therapeutics and hyperfoods (i.e. molecules in foods with disease-beating properties) prediction.

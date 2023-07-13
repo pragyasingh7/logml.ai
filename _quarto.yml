@@ -1,0 +1,67 @@
+project:
+  type: website
+
+website:
+  title: "LOGML"
+  navbar:
+    pinned: true
+    logo: "logo.png"
+    background: "#73313A"
+    foreground: "#FFFFFF"
+    width: 3000px
+    left:
+      - href: people.qmd
+        text: People
+      - href: projects.qmd
+        text: Projects
+      - text: Program
+        menu:
+          - text: Schedule
+            href: program.qmd
+          - text: Speakers
+            href: speaker.qmd
+      - href: faq.qmd
+        text: FAQ
+      - href: logml2022/people.qmd
+        text: "Archives"
+ 
+    right: 
+      - icon: youtube
+        href: https://www.youtube.com/channel/UC7m0STJK9e4BbD-elwS4bNw
+      - icon: twitter
+        href: https://twitter.com/LogmlSchool
+      - icon: linkedin
+        href: https://www.linkedin.com/company/logml/
+
+    sidebar:
+      - title: "Archives"
+        style: "docked"
+        background: light
+        search: false
+        contents:
+          - logml2022/people.qmd
+          - logml2022/projects.qmd
+          - logml2022/speaker.qmd
+         
+              
+  page-footer: 
+    left: "Copyright © 2023, LOGML Team" 
+    right: 
+      - icon: youtube
+        href: https://www.youtube.com/channel/UC7m0STJK9e4BbD-elwS4bNw
+      - icon: twitter
+        href: https://twitter.com/LogmlSchool
+      - icon: linkedin
+        href: https://www.linkedin.com/company/logml/
+      - icon: envelope
+        href: mailto:logml@gmail.com
+
+format:
+  html:
+    #mainfont: Proxima Nova
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

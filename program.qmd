@@ -1,0 +1,10 @@
+---
+title: Schedule
+---
+
+The schedule of the events will be available in the following calendar. The timezone is GMT+00:00.
+
+You can add the events to your calendar via [iCal](https://calendar.google.com/calendar/ical/8o55r4enm3vf69tolou0otvdic%40group.calendar.google.com/public/basic.ics) or [Google calendar](https://calendar.google.com/calendar/embed?src=8o55r4enm3vf69tolou0otvdic%40group.calendar.google.com&ctz=Europe%2FLondon).
+
+
+<iframe src="https://calendar.google.com/calendar/embed?src=8o55r4enm3vf69tolou0otvdic%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

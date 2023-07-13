@@ -1,0 +1,29 @@
+---
+title: "Speakers"
+---
+
+<br>
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-5}
+[![](speakers/joan.jpeg)](speakers/joan.qmd)
+:::
+::: {.g-col-15 .g-col-md-7}
+# Joan Bruna
+### Title: Theoretical graph
+#### Description of the talk to be determined
+
+:::
+
+
+::: {.g-col-12 .g-col-md-5}
+[![](speakers/joan.jpeg)](https://arxiv.org/abs/2211.16731)
+:::
+::: {.g-col-12 .g-col-md-7}
+# Pietro Lio
+### Title: Theoretical graph
+#### Description of the talk to be determined
+:::
+
+:::
