@@ -1,0 +1,30 @@
+---
+title: "Geometric tools for investigating loss landscapes of deep neural networks"
+author: "Dr James Lucas"
+categories: [Graphs, ML, GDL]
+image: Lucas.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://www.cs.toronto.edu/~jlucas/
+---
+## Dr James Lucas
+James Lucas is a Research Scientist at NVIDIA within the Toronto AI lab. He is also a PhD candidate at the University of Toronto, where he is supervised by Richard Zemel and Roger Grosse. James has a broad set of research interests within deep learning and ML more broadly. In the past, his research has focused on understanding and improving the optimization of deep neural networks. In particular, he has worked towards understanding the loss landscape geometry of these models and how we may leverage their properties in practice. He is also excited by deep generative models for 3D geometry and improving the data-efficiency of deep learning systems.
+
+## Project
+Neural networks have achieved extraordinary success, but this achievement is limited to only those networks that are trainable with stochastic gradient descent (SGD). What is special about these networks? At the very least, SGD can effectively traverse their loss landscapes. In this project, we will train neural networks and investigate their loss landscapes using tools from geometry.
+
+Shocking phenomena have been discovered in relation to loss landscape geometry. For example, the existence of sparse subnetworks within larger networks that can be trained in isolation to achieve comparable performance [1]. Or linear paths within loss landscapes that exhibit monotonically decreasing loss [2, 3] (or that connect together several minima [4, 5]). Explaining these phenomena is challenging because loss landscapes in deep learning are extremely high dimensional and come with minimal guarantees on their geometric structure. However, in practice, we observe a surprisingly rich structure in the loss landscapes of neural networks.
+
+We will review existing work that has successfully utilized geometric tools to better understand deep neural networks (for example, [3,6]). While this project will have its roots in deep learning theory, there will be a significant element of empirical analysis as we implement and evaluate standard deep learning architectures. Some general questions that we may hope to address include: how does the geometry around initialization differ from that at local minima? How does the geometry at initialization shape optimization? Can we identify global structure in the loss landscapes of neural networks?
+
+References
+[1] The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks, Frankle & Carbin. ICLR 2019
+[2] Qualitatively characterizing neural network optimization problems, Goodfellow et al. ICLR 2015
+[3] Analyzing Monotonic Linear Interpolation in Neural Network Loss Landscapes, Lucas et al. ICML 2021
+[4] Topology and geometry of half-rectified network optimization, Freeman & Bruna. ICLR 2017
+[5] Linear mode connectivity and the lottery ticket hypothesis, Frankle et al. ICML 2020
+[6] Exponential expressivity in deep neural networks through transient chaos, Poole et al. NeurIPS 2016

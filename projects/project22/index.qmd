@@ -1,0 +1,18 @@
+---
+title: "Latent graph learning for multivariate time series"
+author: "Dr Xiang Zhang"
+categories: [Graphs, ML, GDL]
+image: Zhang.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://xiangzhang.info
+---
+## Dr Xiang Zhang
+Dr. Xiang Zhang is a postdoctoral fellow at Harvard University. He received his Ph.D. degree in Computer Science at the University of New South Wales. His research interests lie in data mining, deep learning, and graph representation learning with applications in pervasive healthcare, Brain-Computer Interfaces (BCIs), and biomedical sciences. Xiang's research outcomes have been published in prestigious conferences (such as ICLR, NeurIPS, KDD, and UbiComp) and journals (like Nature Computational Science). Moreover, he has published a book, which is the only off-the-shelf one of its kind, in deep learning for BCI.
+
+## Project
+Multivariate time series are prevalent in a variety of domains, including healthcare, transportation, space science, biology, and finance. Recently, it has attracted increasing attention to leverage the structural relationships among channels to learn stronger representation. Previous studies demonstrated that inter-sensor correlations bring rich information in modelling time series. In this project, we will learn how to use a graph neural network model to learn the latent relationship between different time series sensors (such as different leads in ECG signals). The learned graph patterns will correspond to the task. The model will be evaluated by the PhysioNet benchmark.

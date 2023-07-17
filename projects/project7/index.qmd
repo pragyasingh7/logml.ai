@@ -1,0 +1,18 @@
+---
+title: "Contrastive learning"
+author: "Dr Melanie Weber"
+categories: [Graphs, ML, GDL]
+image: Weber.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://web.math.princeton.edu/~mw25/
+---
+## Dr Melanie Weber
+Melanie is a Hooke Research Fellow at the University of Oxford. Her research focuses on the mathematical foundations of Machine Learning and Data Science, with a special interest in understanding the geometric features of data and in developing machine learning methods that utilize such geometric knowledge. She received her PhD from Princeton University under the supervision of Charles Fefferman. She held visiting positions at MIT’s Laboratory for Information and Decision Systems and the Simons Institute in Berkeley and interned in the research labs of Facebook, Google and Microsoft. In addition to her academic work, she is the Chief Scientist of the Legal AI start up Claudius Legal Intelligence, where she leads a team of researchers in developing Trustworthy Machine Learning tools for legal analytics. Her awards include Princeton’s C.V. Starr Fellowship, a Simons-Berkeley Fellowship, a selection as Rising Star in EECS and an Alan Turing Post-Doctoral Enrichment Award.
+
+## Project
+Contrastive learning seeks to train a representation function that encodes the similarity structure in a data set based on pairs of positive samples (similar data points) and negative samples (dissimilar data points). This project will investigate ways of incorporating geometric information, such as equivariances or symmetries, into Contrastive Learning approaches. Depending on the interests and expertise of the group, both computational and theoretical avenues of investigation may be pursued.

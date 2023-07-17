@@ -1,0 +1,22 @@
+---
+title: "Learning graph rewiring using RL"
+author: "Dr Eli Meirom"
+categories: [Graphs, ML, GDL]
+image: Meirom.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/i/flow/login?redirect_after_login=%2Feli_meirom
+---
+## Dr Eli Meirom
+Eli Meirom is a research scientist at NVIDIA Research. His research interests include machine learning on graphs and reinforcement learning. He completed his Ph.D at the Technion, Israel. Before joining NVIDIA Research, he co-founded HearWize and Amooka-AI, the latter was acquired by Ford in 2018, where he worked as a senior research scientist, developing Ford's autonomous vehicles driving policy.
+
+## Project
+Most GNNs are based on the concept of message passing, which is by itself based on information diffusion. In diffusion dynamics, key information lies in closer objects, and distant nodes’ effect is decimated [1]. However, it is not clear that the topological graph structure must dictate the information transfer on the graph. In fact, in many cases, such as combinatorial optimization problems, nodes and edges that are distant from a node may have a major impact on the node’s value or class. To that end, graph rewiring allows adding edges, nodes, or other structures in order to assist information transfer. In practice, it decouples the information graph from the topological (input) graph. In this project, we will investigate how we can (meta) learn to build better information graphs using RL. Specifically, our agent will learn how to modify (add/remove) edges, i.e., perform graph rewiring, to improve learning. Our goal is to publish the results of this project in a top ML conference.
+
+References
+[1] Understanding over-squashing and bottlenecks on graphs via curvature, Topping et. al., 2022.
+[2] On the bottleneck of graph neural networks and its practical implications, Alon et. al., 2020

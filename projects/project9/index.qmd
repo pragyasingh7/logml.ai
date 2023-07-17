@@ -1,0 +1,26 @@
+---
+title: "Line bundle cohomology formulae on Calabi-Yau threefolds"
+author: "Dr Andrei Constantin"
+categories: [Graphs, ML, GDL]
+image: Constantin.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://www.wolfson.ox.ac.uk/person/andrei-constantin
+---
+## Dr Andrei Constantin
+Andrei is a Stephen Hawking Fellow in Theoretical Physics. He studied Physics in Bremen and received an MSc in Theoretical and Mathematical Physics from LMU Munich. He did his doctoral studies in Oxford, followed by two postdocs, one in Oxford and one in Uppsala. His research lies at the interface of string theory, algebraic geometry, and machine learning and focuses on developing mathematical and computational tools to investigate string theory and its implications for particle physics, cosmology and quantum gravity. One of the central drives of his research is to construct models of particle physics from string theory. His current work is related to the study of vector bundle cohomology and its applications to string model building. Computing cohomology is a crucial and time consuming step in the derivation of the spectrum of low-energy particles resulting from string compactifications. He has shown that in many cases of interest in string theory topological formulae for cohomology exist. These mathematical shortcuts can reduce the time needed for deciding the physical viability of a string compactification from several months of computer algebra to a split of a second. He is also working on adapting, refining and applying machine learning techniques to problems in string theory and mathematics. He is using these to generate new conjectures about Calabi-Yau manifolds, vector bundles and cohomology, as well as to probe the landscape of string theory solutions relevant for particle physics.
+
+## Project
+Cohomology is a universal tool in mathematics: from topology and geometry to algebra and number theory, cohomology is used to quantify the possible ways in which a problem fails to meet the naive expectations of the problem solver. As such, estimates of cohomology represent a vital key to problem solving. In areas of theoretical physics such as string theory, cohomology is linked to the low-energy quantum excitations of fields and strings that can be experimentally observed.
+
+In practice, cohomology computations are notoriously difficult to carry out in general. However, it has been recently shown that line bundle cohomology dimensions on several classes of two-dimensional and three-dimensional complex manifolds, including compact toric surfaces, generalised del Pezzo surfaces, K3 surfaces and Calabi-Yau threefolds, are described by closed-form formulae. This new technique for the computation of cohomology uses a combination of algebro-geometric methods and exploratory machine learning methods. The goal of the project will be to go one step further and discover exact generating functions for line bundle cohomology on Calabi-Yau threefolds.
+
+References:
+[1] C. Brodie, A. Constantin, J. Gray, A. Lukas, F. Ruehle, Recent Developments in Line Bundle Cohomology and Applications to String Phenomenology, Nankai Symposium on Mathematical Dialogues 2021 Conference Proceedings, arXiv: 2112.12107.
+[2] C. Brodie, A. Constantin, R. Deen, A. Lukas, Machine Learning Line Bundle Cohomology, Fortsch.Phys. 68 (2020) 1, 1900087, arXiv: 1906.08730.
+[3] C. Brodie, A. Constantin, A. Lukas, Flops, Gromov-Witten invariants and symmetries of line bundle cohomology on Calabi-Yau three-folds, J.Geom.Phys. 171 (2022), arXiv: 2010.06597.
+[4] C. Brodie, A. Constantin, Cohomology Chambers on Complex Surfaces and Elliptically Fibered Calabi-Yau Three-folds, arXiv: 2009.01275.

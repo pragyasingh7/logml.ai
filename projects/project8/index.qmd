@@ -1,0 +1,18 @@
+---
+title: "Graph-rewiring for GNNs from a geometric perspective"
+author: "Dr Francesco di Giovanni"
+categories: [Graphs, ML, GDL]
+image: Giovanni.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/i/flow/login?redirect_after_login=%2FFrancesco_dgv
+---
+## Dr Francesco di Giovanni
+Francesco is an ML Researcher currently working at Twitter with Michael Bronstein on geometry-inspired ideas applied in the context of graph machine learning. He completed a PhD in Riemannian geometry focussing on singularity formation of symmetric (cohomogeneity-1) Ricci flows at UCL under the supervision of Jason Lotay.
+
+## Project
+In this project we will investigate possible ways to formalize and understand the notion of graph-rewiring in the context of Graph Neural Networks from a geometric perspective. In certain regimes - existence of long-range dependencies that are crucial for the classification task or heterophily of the label (feature) distribution - the graph structure is known not to be beneficial and, in some cases, even harmful. However, a clear understanding of how classical GNNs behave with respect to specific topological transformations is still missing. Providing a clearer picture in this regard is intimately connected with the problem of stability of GNNs with respect to topological perturbations and might also shed some light on tackling expressivity from a different angle. The main goal of the project consists in studying notions of distances among graphs and associated classes of transformations that would allow us to better tackle the problem of graph-rewiring and analyse theoretically its effects on GNNs.

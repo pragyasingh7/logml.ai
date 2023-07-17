@@ -1,0 +1,19 @@
+---
+title: "Exploring network medicine principles encoded by graph neural networks"
+author: "Kexin Huang"
+categories: [Graphs, ML, GDL]
+image: Huang.png
+about:
+  id: project-profile
+  template: solana
+---
+
+## Kexin Huang
+Kexin Huang is a CS PhD student at Stanford with Prof. Jure Leskovec. His research interest lies in algorithmic challenges arising from real-world biomedicine, with a focus on graph learning and therapeutic discovery.
+
+## Project
+Graph neural networks (GNNs) have enabled many successful biomedical applications when applying to biological networks - from prioritization of treatments, detection of side effects, to identification of protein function. Because of the impressive performance, it is hypothesized that GNN must capture fundamental biological principles [1] but it is unclear what they are and how GNNs encode these principles. There are decades of research in the field of network medicine [2] where researchers study the organizing principles of biological networks and described hypotheses of governing laws. In this project, we will explore what are these important network medicine principles, how they are manifested in the GNN embedding space. If GNN fails to encode some network medicine principles, then we can motivate a new method to tackle them.
+
+References
+[1] Li, Michelle M., Kexin Huang, and Marinka Zitnik. Graph Representation Learning in Biomedicine (2021). arXiv: 2104.04883
+[2] Barabási, Albert-László, Natali Gulbahce, and Joseph Loscalzo. Network medicine: a network-based approach to human disease. Nature reviews genetics 12.1 (2011): 56-68.

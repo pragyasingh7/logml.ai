@@ -1,0 +1,23 @@
+---
+title: "Differential geometry for representation learning"
+author: "Prof Georgios Arvanitidis"
+categories: [Graphs, ML, GDL]
+image: Arvanitidis.jpg
+about:
+  id: project-profile
+  template: solana
+  
+---
+## Prof Georgios Arvanitidis
+Georgios is a tenure-track assistant professor in the Section for Cognitive Systems at the Technical University of Denmark (DTU), from where he received his PhD in 2019 under the supervision of Søren Hauberg and Lars Kai Hansen. In between, he was a postdoctoral researcher at the Empirical Inference department at the Max Planck Institute for Intelligent Systems at Tübingen working with Bernhard Schölkopf. His research is mainly focused on geometrical methods in machine learning. In particular, he develops methods that learn the geometric structure of the data based on latent variable models, as well as the associated techniques that enable the analysis in these nonlinear spaces.
+
+## Project
+A common hypothesis in machine learning is that the data lie near a low dimensional manifold which is embedded in a high dimensional ambient space. This implies that shortest paths between points should respect the underlying geometric structure. In practice, we can capture the geometry of a data manifold through a Riemannian metric in the latent space of a stochastic generative model, relying on meaningful uncertainty estimation for the generative process. This enables us to compute identifiable distances, since the length of the shortest path remains invariant under re-parametrizations of the latent space. Consequently, we are able to study the learned latent representations beyond the classic Euclidean perspective.
+
+In this project you will develop methods to learn Riemannian metrics in the latent space of deep generative models. You will then use the learned metrics for computing shortest paths in the representation space and for fitting a statistical model that respects the learned nonlinear geometry of the data.
+
+References
+(*) Latent Space Oddity: on the Curvature of Deep Generative Models, Georgios Arvanitidis, Lars Kai Hansen, Søren Hauberg, International Conference on Learning Representations (ICLR), 2018.
+(*) A prior-based approximate latent Riemannian metric, Georgios Arvanitidis, Bogdan Georgiev, Bernhard Schölkopf, International Conference on Artificial Intelligence and Statistics (AISTATS), 2022.
+(*) Fast and robust shortest paths on manifolds learned from data, Georgios Arvanitidis, Søren Hauberg, Philipp Hennig, Michael Tiemann, International Conference on Artificial Intelligence and Statistics (AISTATS), 2019.
+(*) A locally adaptive normal distribution, Georgios Arvanitidis, Lars Kai Hansen, Søren Hauberg, Advances in Neural Information Processing Systems (NeurIPS), 2016.

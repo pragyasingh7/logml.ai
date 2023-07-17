@@ -1,0 +1,30 @@
+---
+title: "Generalized Laplacian positional encoding for graph learning"
+author: "Dr Haggai Maron"
+categories: [Graphs, ML, GDL]
+image: Maron.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://haggaim.github.io
+---
+## Dr Haggai Maron
+Haggai is a Research Scientist at NVIDIA Research and a member of NVIDIA's TLV lab. His main fields of interest are machine learning, optimization, and shape analysis. In particular, he is working on applying deep learning to irregular domains (e.g., sets, graphs, point clouds, and surfaces), usually by leveraging their symmetry structure. He completed his Ph.D. in 2019 at the Weizmann Institute of Science under the supervision of Prof. Yaron Lipman. He will be joining the Faculty of Electrical and Computer Engineering at the Technion as an Assistant Professor in 2023.
+
+## Project
+Laplacian positional encoding (LPE), i.e. using the graph laplacian eigenvectors as input node features to GNNs [1,2,3], has emerged as a successful and popular positional encoding scheme in the past few years. Nevertheless, the space of positional encodings on graphs is largely unexplored. Following the observation that laplacian eigenvectors are a solution to a specific problem: minimizing the L2 distance between node embeddings, weighted by their affinity score (see [1], section 3.1), our intention is to generalize LPEs to a family of positional encodings defined by the minimisers of the same function with general Lp norms (for p!=2).
+The PE formulation presented above raises several interesting challenges and questions, which we aim to explore in this project.
+How to calculate these positional encodings? While the L2 based functional can be easily minimized by solving a generalized eigenvalue problem, it is not clear how to approach the minimization of the generalized functionals above. Is there an efficient way to calculate/approximate these minimizers?
+What graph/node properties do these embeddings capture? Which graph learning tasks can benefit from them? Where do we expect to see them outperform L2 embeddings?
+Expressive power. What is the expressive power of GNNs that use these positional encodings?
+Symmetries. Is it possible to devise GNN architectures that are invariant to the natural symmetries of these embeddings? (see [4] for a solution to the L2 case)
+The plan is to explore these questions in the week we have and then continue the project with a focus on a specific challenge, aiming for a submission to ICLR/ICML. Candidates with some prior knowledge in optimization theory / GNN expressive power / equivariant deep learning are the most suitable for this project.
+
+References
+[1] Laplacian Eigenmaps for Dimensionality Reduction and Data Representation, Belkin and Niyogi, Neural Computation 2003
+[2] Rethinking graph transformers with spectral attention, Kreuzer et al., NeurIPS 2021
+[3] A generalization of transformer networks to graphs, Dwivedi et al., AAAI WS 2021
+[4] Sign and Basis Invariant Networks for Spectral Graph Representation Learning, Lim et al., 2022

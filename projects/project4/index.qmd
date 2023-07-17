@@ -1,0 +1,27 @@
+---
+title: "Equivariant machine learning for vegetation dynamics"
+author: "Prof Soledad Villar"
+categories: [Graphs, ML, GDL]
+image: Villar.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://www.ams.jhu.edu/villar/
+---
+## Prof Soledad Villar
+Soledad Villar is an Assistant Professor in Applied Mathematics and Statistics at Johns Hopkins University. Prior to that she worked with Joan Bruna and Afonso Bandeira at New York University and was affiliated with the Simons Foundation in New York City and UC Berkeley. She received her PhD from UT Austin supervised by Rachel Ward. Her research interests include equivariant machine learning, graph neural networks and mathematical foundations of deep learning. She is also interested in applications to computational biology.
+
+## Project
+Predicting vegetation dynamics is a fundamental problem in ecology, especially in the context of climate change. In this project we aim to learn the equations that rule the vegetation dynamics from data with machine learning.
+
+The input features to the learning problem include observables such as rainfall, vegetation density, waterabsorbed into the soil, etc. Each of these observables have precise units (liters per day per square meter, grams per square meter, and  liters per square meter,  respectively for the  examples  above); therefore  the learning should be units-equivariant. This means that if – for instance – we do a transformation where all the input features with units of meters are rescaled to inches, the predictions should transform accordingly. This symmetry is known as unit equivariance and it corresponds to group equivariance by an action by the (non-compact) group of scalings (see Section 3 of [3]).
+
+A few methods, based  on classical dimensional analysis, have been recently proposed to model units-equivariant machine learning problems (see [3, 1]). In this project we propose to combine these ideas with symbolic regression and PDE integrators to learn the equations that produce the dynamics from data. For more information about the prediction problem and how the data is generated refer to Section 7 of [3] or contact Prof. Villar at soledad.villar@jhu.edu.
+
+References
+[1] Joseph  Bakarji, Jared  Callaham, Steven L Brunton, and J Nathan Kutz. Dimensionally consistent learning with buckingham Pi.arXiv:2202.04643, 2022.
+[2] Max Rietkerk, Maarten C Boerlijst, Frank van Langevelde, Reinier HilleRisLambers, Johan van de Kop-pel, Lalit Kumar, Herbert HT Prins, and Andr ́e M de Roos. Self-organization of vegetation in aridecosystems. The American Naturalist, 160(4):524–530, 2002.
+[3]  Soledad Villar, Weichi Yao, David W Hogg, Ben Blum-Smith, and Bianca Dumitrascu. Dimensionless machine learning: Imposing exact units equivariance. arXiv preprint arXiv:2204.00887, 2022.

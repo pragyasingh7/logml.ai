@@ -1,0 +1,22 @@
+---
+title: "Learning non-geodesic submanifolds"
+author: "Prof Nina Miolane"
+categories: [Graphs, ML, GDL]
+image: Miolane.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://www.ninamiolane.com
+---
+## Prof Nina Miolane
+Nina Miolane is an Assistant Professor at the University of California, Santa Barbara, and an Affiliate Researcher with the SLAC National Laboratory, Stanford. She received her M.S. in Mathematics from Ecole Polytechnique (France) & Theoretical Physics from Imperial College (UK), and her Ph.D. in Computer Science from INRIA (France) in collaboration with Stanford University (US). She was a postdoc and lecturer in Statistics at Stanford University, and worked as a deep learning software engineer in the Silicon Valley. At UCSB, Nina directs the BioShape Lab, whose research investigates how the shapes of proteins, cells, and organs correlate with physiological conditions and pathologies. Her team co-develops Geomstats, a software for machine learning on geometric data such as biological shape data. The BioShape Lab was awarded a NIH R01 grant on Molecular Shape Reconstruction and the NSF SCALE MoDL grant on Mathematical Foundations of Deep Learning. Nina was the recipient of the L'Oréal-Unesco for Women in Science Award, of the Regents’ Junior Faculty Fellowship Award. In her free time, Nina pilots single-engine airplanes in the Californian skies.
+
+## Project
+Representation learning aims to transform data x into a lower-dimensional variable z designed to be more efficient for any downstream machine learning task, such as classification. In this project, you will tackle representation learning for manifold-valued data x, and specifically delve into non-geodesic submanifold learning with algorithms of curve fitting and variational autoencoders (rVAE) on manifolds. You will contribute to the open-source package Geomstats by implementing a representation learning module which will unify and contrast the aforementioned methods.
+
+References
+(*) Miolane et al. Geomstats: A Python Package for Riemannian Geometry in Machine Learning (JMLR 2020).
+(*) Miolane, Holmes. Learning Weighted Submanifolds with Variational Autoencoders and Riemannian Variational Autoencoders (CVPR 2020).

@@ -1,0 +1,23 @@
+---
+title: "Adaptive frame averaging for invariant and equivariant representations"
+author: "Prof Bruno Ribeiro"
+categories: [Graphs, ML, GDL]
+image: Ribeiro.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://www.cs.purdue.edu/homes/ribeirob/
+---
+## Prof Bruno Ribeiro
+Bruno Ribeiro is an Assistant Professor in the Department of Computer Science at Purdue University. He obtained his Ph.D. at the University of Massachusetts Amherst and was a postdoctoral fellow at Carnegie Mellon University from 2013-2015. His research interests involve devising learning algorithms and methods that operate in nontrivially structured data (such as graphs) and in the intersection between causality and machine learning. He received an NSF CAREER award in 2020 and has several best paper awards.
+
+## Project
+Many machine learning tasks require learning functions that are invariant or equivariant to known symmetries of the input data. Unfortunately, there is a significant challenge in the design of neural network architectures that simultaneously (a) take into account the symmetries, (b) are expressive enough to have small generalization error, and (c) are computationally efficient. Murphy et al. [1, 2] have shown that it is possible to sacrifice (c) --computational efficiency-- for (a) and (b) with the use of symmetrization (Reynolds operator). Recently, Puny et al. [3] have proposed a method (Frame Averaging) to improve the efficiency of symmetrization. However, in some tasks, Frame Averaging can lead to large generalization errors. This is because of a fundamental trade-off between computationally efficient and generalization error in symmetrization. This project will study this trade-off and propose efficient solutions to achieve both computational efficiency and better generalization error in the affected tasks.
+
+References
+[1] Murphy, Ryan L., Balasubramaniam Srinivasan, Vinayak Rao, and Bruno Ribeiro. Janossy pooling: Learning deep permutation-invariant functions for variable-size inputs. ICLR 2019.
+[2] Murphy, Ryan, Balasubramaniam Srinivasan, Vinayak Rao, and Bruno Ribeiro. Relational pooling for graph representations. In International Conference on Machine Learning, pp. 4663-4673. PMLR, 2019.
+[3] Puny, Omri, Matan Atzmon, Heli Ben-Hamu, Edward J. Smith, Ishan Misra, Aditya Grover, and Yaron Lipman. Frame Averaging for Invariant and Equivariant Network Design. ICLR 2022.

@@ -1,0 +1,24 @@
+---
+title: "Distilling large GNNs for molecules"
+author: "Johannes Gasteiger"
+categories: [Graphs, ML, GDL]
+image: Gasteiger.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://www.cit.tum.de/cit/startseite/
+---
+## Johannes Gasteiger
+Johannes Gasteiger is a PhD student at the Data Analytics and Machine Learning group at the TU Munich and has previously interned at FAIR and DeepMind. His main research interests are graph neural networks and any aspects that are relevant for their benefit to society -- be it scalability, accuracy, fairness, applications, or robustness. His research has explored ways of combining graph structure with geometric spaces, with a special focus on applications in science, such as molecular systems. Before starting his PhD he studied Computer Science and Physics at the TU Munich and the University of Cambridge.
+
+## Project
+Predicting the energy and forces of an atomic system is a central task for multiple fields of science, such as computational chemistry and material science. Large directional GNNs like GemNet [1] currently set the state of the art for this task on diverse datasets such as COLL and OC20. Unfortunately, these models are computationally expensive since they are centered around directed edge embeddings and their message passing is based on triplets or even quadruplets of nodes. This makes them prohibitively expensive for long simulations and large systems such as proteins. This project aims at making these models substantially faster, while retaining a similar level of accuracy. In order to achieve this, we will explore a combination of (i) cheap models that circumvent edge-based representations either partially or altogether such as PaiNN [2] and (ii) distilling large directional GNNs into cheaper regular GNNs.
+
+There are three aspects that make distillation of atomic GNNs especially promising. First, the cheaper student GNN can actually have more learnable parameters than the teacher model. This is offset by using the parameters in a more efficient way that circumvents higher-order graph representations. Second, energy-and-force models allow us to generate an arbitrary amount of additional data without requiring a transfer set. Third, previous evidence suggests that models trained on small atomic systems generalize well to large systems. We thus do not need to train the expensive teacher GNN on large systems. Together, these properties suggest that an accurate and cheap atomic GNN might be within reach.
+
+References
+[1] Gasteiger, Becker, Günnemann. GemNet: Universal Directional Graph Neural Networks for Molecules. NeurIPS 2021
+[2] Schütt, Unke, Gastegger. Equivariant message passing for the prediction of tensorial properties and molecular spectra. ICML 2021

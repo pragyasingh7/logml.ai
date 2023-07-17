@@ -1,0 +1,15 @@
+---
+title: "Characterizing generalization and adversarial robustness for set networks"
+author: "Prof Tolga Birdal"
+categories: [Graphs, ML, GDL]
+image: Birdal.jpg
+about:
+  id: project-profile
+  template: solana
+  
+---
+## Prof Tolga Birdal
+Tolga Birdal is a prospective assistant professor in the Department of Computing of Imperial College London. Previously, he was a senior Postdoctoral Research Fellow at Stanford University within the Geometric Computing Group of Prof. Leonidas Guibas. Tolga has defended his masters and Ph.D. theses at the Computer Vision Group, Chair for Computer Aided Medical Procedures, Technical University of Munich led by Prof. Nassir Navab. He was also a Doktorand at Siemens AG under supervision of Dr. Slobodan Ilic working on “Geometric Methods for 3D Reconstruction from Large Point Clouds”. His current foci of interest involve geometric machine learning and 3D computer vision. More theoretical work is aimed at investigating and interrogating limits in geometric computing and non-Euclidean inference as well as principles of deep learning and artificial consciousness. Tolga has several publications at the well-respected venues such as NeurIPS, CVPR, ICCV, ECCV, T-PAMI, ICRA, IROS, ICASSP and 3DV. Aside from his academic life, Tolga is an entrepreneur. He has co-founded multiple companies including Befunky, a widely used web-based image editing platform.
+
+## Project
+Disobeying the classical wisdom of statistical learning theory, modern deep neural networks generalize well even though they typically contain millions of parameters. Hence, a new generation of learning theory has emerged to explain the characteristics of deep neural networks, such as generalization, overfitting or robustness. Empirical or theoretical, most of the works which prosper in bringing insights to the learning phenomenon, focus on convolutional networks, operating on the image domain. However, a vast majority of the computer vision problems involve either graphs or point clouds which live in unstructured domains. The goal of this project is to first empirically understand the generalization character of point cloud networks. To this end, we will deploy a series of state of the art measures. Guided by this empirical study, we aim to theorize how and why deep sets generalize. In particular, we will focus on topological data analysis as a unifying framework.

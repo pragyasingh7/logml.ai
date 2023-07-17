@@ -1,0 +1,25 @@
+---
+title: "PDE-inspired sheaf neural networks"
+author: "Cristian Bodnar"
+categories: [Graphs, ML, GDL]
+image: Bodnar.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://cbodnar.com
+---
+## Cristian Bodnar
+Cristian is a third-year PhD student in the Department of Computer Science, University of Cambridge, supervised by Prof Pietro Liò. His research uses applied Topology and Differential Geometry for understanding and developing Geometric Deep Learning models suitable for problems presenting an underlying combinatorial structure. He is also a Microsoft Research PhD Fellow (2021) and a former research intern at Twitter Cortex, Google Brain and Google X.
+
+## Project
+Cellular sheaves [1, 2] equip graphs with a "geometrical" structure by attaching vector spaces and linear maps to their nodes and edges. It turns out that this additional structure can help mitigate some of the well-known problems of Graph Neural Networks. In a recent paper [3], we studied neural diffusion PDEs on sheaves and proved they have many desirable properties, such as better performance in heterophilic settings than GNNs and robust behaviour in the infinite-time limit (i.e. infinitely many layers).
+
+In this project, we aim to extend this approach to other sheaf-based PDEs that behave differently from diffusion, leading to novel Sheaf Neural Network models. We will be studying the theoretical properties of these neural PDEs (e.g. Do they minimise some energy? Are the dynamics stable?) with the ultimate goal of building practical models for node classification and regression tasks.
+
+References
+[1] Jakob Hansen, Robert Ghrist, Toward a Spectral Theory of Cellular Sheaves, Journal of Applied and Computational Topology volume 3, pages 315–358 (2019)
+[2] Jakob Hansen, Thomas Gebhart, Sheaf Neural Networks, NeurIPS 2020 Workshop on TDA and Beyond
+[3] Bodnar et al., Neural Sheaf Diffusion: A Topological Perspective on Heterophily and Oversmoothing in GNNs, Preprint 2022
