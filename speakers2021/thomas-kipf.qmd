@@ -1,0 +1,31 @@
+---
+title: "Thomas Kipf"
+description: "Google Brain"
+image: marinka-zitnik.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://tkipf.github.io/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Thomas Kipf is a Research Scientist at Google Research in the Brain Team in Amsterdam. Prior to joining Google, he completed his PhD at University of Amsterdam under Prof. Max Welling on the topic "Deep Learning with Graph-Structured Representations”. His research interests lie in the area of relational learning and in developing models that can reason about the world in terms of structured abstractions such as objects or events.

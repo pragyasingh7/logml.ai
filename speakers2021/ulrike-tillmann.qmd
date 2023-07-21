@@ -1,0 +1,35 @@
+---
+title: "Ulrike Tillmann FRS"
+description: "University of Oxford"
+image: ulrike-tillmann.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://people.maths.ox.ac.uk/tillmann/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Ulrike Tillmann FRS is a mathematician working on topology and geometry. Much of her recent work in topology is motivated by questions from topological data analysis and data science.
+
+She obtained her PhD at Stanford University, Habilitation at Universität Bonn, and now works as a professor of mathematics at the university of Oxford. She is on the editorial boards for a range of mathematical journals, including being the founding and managing editor for the Journal of Topology. She was awarded the Whitehead Prize by the London Mathematical Society (LMS) in 2004, a Bessel Forschungspreis in 2008, was elected an inaugural fellow of the American Mathematical Society in 2012, and has been a Fellow of the Royal Society since 2008.
+
+Apart from that, she is active in outreach and for women in mathematics, for example acting as EMS–EWM Steering Committee Chair for summer schools at the Mittag-Leffler Institute 2015–20 and leading groups at Women in Topology and Women in Mathematical Physics.

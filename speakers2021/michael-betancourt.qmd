@@ -1,0 +1,31 @@
+---
+title: "Michael Betancourt"
+description: "Imperial College London, Twitter"
+image: michael-betancourt.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://betanalpha.github.io/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Michael Betancourt is the principal research scientist with Symplectomorphic, LLC where he develops theoretical and methodological tools to support practical Bayesian inference. He is also a core developer of Stan, where he implements and tests these tools. In addition to hosting tutorials and workshops on Bayesian inference with Stan he also collaborates on analyses in epidemiology, pharmacology, and physics, amongst others. Before moving into statistics, Michael earned a B.S. from the California Institute of Technology and a Ph.D. from the Massachusetts Institute of Technology, both in physics.

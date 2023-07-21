@@ -1,0 +1,31 @@
+---
+title: "Michael Bronstein"
+description: "Imperial College London, Twitter"
+image: michael-bronstein.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.imperial.ac.uk/people/m.bronstein
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Scientist to the World Economic Forum, an honor bestowed on forty world’s leading scientists under the age of forty. Michael is a Fellow of IEEE and IAPR, alumnus of the Technion Excellence Program and the Academy of Achievement, ACM Distinguished Speaker, and a member of the Young Academy of Europe. In addition to academic work, Michael's industrial experience includes technological leadership in multiple startup companies, including Novafora, Videocites, and Invision (acquired by Intel in 2012), and Fabula AI (acquired by Twitter in 2019). Following the acquisition of Fabula, he joined Twitter as Head of Graph Learning Research. He previously served as Principal Engineer at Intel Perceptual Computing (2012-2019) and was one of the key developers of the Intel RealSense 3D camera technology.

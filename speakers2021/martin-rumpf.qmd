@@ -1,0 +1,32 @@
+---
+title: "Martin Rumpf"
+description: "Universität Bonn"
+image: martin-rumpf.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.hcm.uni-bonn.de/people/faculty/profile/martin-rumpf/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Martin Rumpf studied mathematics at Bonn University. He did his PhD in 1992 and was scientific assistant from 1993 to 1996 at the University of Freiburg. In 1996 he became associate professor at Bonn University and in 2001 full professor at Duisburg university. Since 2004 he is full professor for mathematics at Bonn University.
+He is studying Riemannian calculus on shape spaces with applications in imaging and in computer graphics. Furthermore, he is interested in microstructures in material science, in shape optimization and in adaptive finite element methods.

@@ -1,0 +1,31 @@
+---
+title: "Maximilian Nickel"
+description: "Facebook AI Research"
+image: maximilian-nickel.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://mnick.github.io/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Max is a Research Scientist at Facebook AI Research in New York, working on foundational methods for learning from structured and temporal information and their applications in artificial intelligence, network science, and computational social science. Before joining FAIR in 2016, he was a postdoctoral fellow at MIT where he was with the Laboratory for Computational and Statistical Learning and the Center for Brains, Minds and Machines. In 2013, Max earned his PhD with summa cum laude from the Ludwig Maximilian University in Munich. From 2010 to 2013 he worked as a research assistant at Siemens Corporate Technology.

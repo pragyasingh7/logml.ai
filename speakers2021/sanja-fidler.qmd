@@ -1,0 +1,31 @@
+---
+title: "Sanja Fidler"
+description: "University of Toronto, Vector Institute, Nvidia"
+image: sanja-fidler.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.cs.utoronto.ca/~fidler/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Sanja is an Associate Professor at University of Toronto, and a Director of AI at NVIDIA, leading a research lab in Toronto. Prior coming to Toronto, in 2012/2013, she was a Research Assistant Professor at Toyota Technological Institute at Chicago, an academic institute located in the campus of University of Chicago. She did my postdoc with Prof. Sven Dickinson at University of Toronto in 2011/2012. She finished her PhD in 2010 at University of Ljubljana in Slovenia in the group of Prof. Ales Leonardis. In 2010, she was visiting Prof. Trevor Darrell's group at UC Berkeley and ICSI. She got my BSc degree in Applied Math at University of Ljubljana.

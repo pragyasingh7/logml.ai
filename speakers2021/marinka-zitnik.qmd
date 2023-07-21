@@ -1,0 +1,31 @@
+---
+title: "Marinka Zitnik"
+description: "Harvard University"
+image: marinka-zitnik.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://zitniklab.hms.harvard.edu/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Marinka Zitnik is an Assistant Professor at Harvard with appointments in the Department of Biomedical Informatics, Blavatnik Institute, Broad Institute of MIT and Harvard, and Harvard Data Science Initiative. Dr. Zitnik is a computer scientist studying applied machine learning with a focus on challenges brought forward by data in science, medicine, and health. She has published extensively on the topics of representation learning, knowledge graphs, network science, and graph ML in top-tier AI venues (NeurIPS, JMLR, IEEE TPAMI, KDD, ICLR), top-tier bioinformatics venues (Bioinformatics, ISMB, RECOMB), and journals (Nature Methods, Nature Communications, PNAS). Some of her methods are used by major institutions, including Baylor College of Medicine, Karolinska Institute, Stanford Medical School, and Massachusetts General Hospital. Her work received several best paper, poster, and research awards from the International Society for Computational Biology. She has recently been named a Rising Star in EECS by MIT and also a Next Generation in Biomedicine by the Broad Institute, being the only young scientist who received such recognition in both EECS and Biomedicine.

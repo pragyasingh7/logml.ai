@@ -1,0 +1,32 @@
+---
+title: "Ruriko Yoshida"
+description: "Naval Postgraduate School, California"
+image: ruriko-yoshida.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: http://faculty.nps.edu/ryoshida
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Dr. Ruriko Yoshida is an Associate Professor of Operations Research at the Naval Postgraduate School. Her research topics cover a wide variety of areas: applications of algebraic combinatorics to statistical problems, such as goodness of fit tests, optimized camera placement in sensor networks, phylogenetics, and phylogenomics. Dr. Yoshida received her Ph.D. (2004) in Mathematics from the University of California, Davis. She then went to the University of California, Berkeley as a postdoctoral researcher, and then Duke University for her postdoctoral research from 2004 to 2006. She was at the University of Kentucky from 2006 to 2016 as an assistant and then as associate professor. In 2016, she joined the operations research department at the Naval Postgraduate School.
+

@@ -1,0 +1,31 @@
+---
+title: "Maks Ovsjanikov"
+description: "École Polytechnique"
+image: maks-ovsjanikov.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: http://www.lix.polytechnique.fr/~maks/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Joan Bruna</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Maks Ovsjanikov is a professor of computer science at Ecole Polytechnique. Prior to this, he worked for Google in their Image Search team in Mountain View. In 2011, he graduated from Stanford University with a Ph.D. in Computational Mathematics (from the ICME department), having done work on shape analysis in the geometric computing lab headed by Prof. Leonidas Guibas. His research interests are in geometric data analysis, and especially in the analysis and processing of deformable 3D shapes, with an emphasis on Deep Learning for non-rigid shape comparison and processing. Over the course of his career, Prof. Ovjsanikov introduced several key concepts in shape analysis, including the Heat Kernel Signature (cited over 1400 times, led to a Wikipedia article), algorithms for isometric shape matching, and Functional Maps. His research is the object of several international patents widely adopted in the industry. He received the Eurographics Young Researcher Award in 2014, and a Bronze medal from the CNRS in 2018.
