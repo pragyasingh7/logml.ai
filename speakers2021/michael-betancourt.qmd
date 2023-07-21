@@ -19,7 +19,7 @@ about:
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
     <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Joan Bruna</li>
+    <li class="breadcrumb-item active">Michael Betancourt</li>
 
   </ol>
 </nav>
