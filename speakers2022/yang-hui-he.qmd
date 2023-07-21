@@ -1,0 +1,35 @@
+---
+title: "Yang-Hui He"
+description: "City, University of London"
+image: yang-hui-he.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.city.ac.uk/about/people/academics/yang-hui-he
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Yang-Hui He</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Yang-Hui He is a Fellow at the London Institute for Mathematical Sciences,, Professor of mathematics at City, University of London, Lecturer at Merton College, University of Oxford and Chang-Jiang Chair of physics at NanKai University. He studied at Princeton, Cambridge and MIT and works at the interface between string theory, algebraic geometry and machine learning.
+
+
+
+

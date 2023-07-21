@@ -1,0 +1,35 @@
+---
+title: "Taco Cohen"
+description: "Qualcomm"
+image: taco-cohen.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://tacocohen.wordpress.com/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Taco Cohen</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Taco Cohen is a machine learning research scientist at Qualcomm AI Research in Amsterdam. He obtained his PhD at the University of Amsterdam, supervised by prof. Max Welling. He was a co-founder of Scyfer, a company focussed on active deep learning, acquired by Qualcomm in 2017. He holds a BSc in theoretical computer science from Utrecht University and a MSc in artificial intelligence from the University of Amsterdam (both cum laude). His research is focussed on understanding and improving deep representation learning, in particular learning of equivariant and disentangled representations, data-efficient deep learning, learning on non-Euclidean domains, and applications of group representation theory and non-commutative harmonic analysis, as well as deep learning based source compression. He has done internships at Google Deepmind (working with Geoff Hinton) and OpenAI. He received the 2014 University of Amsterdam thesis prize, a Google PhD Fellowship, ICLR 2018 best paper award for “Spherical CNNs”, and was named one of 35 innovators under 35 in Europe by MIT in 2018.
+
+
+
+

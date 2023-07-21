@@ -1,0 +1,31 @@
+---
+title: "Justin Solomon"
+description: "MIT"
+image: justin-solomon.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://people.csail.mit.edu/jsolomon/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Justin Solomon</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Justin Solomon is an associate professor of Electrical Engineering and Computer Science at MIT.  He leads the Geometric Data Processing Group in the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL), which studies problems at the intersection of geometry, optimization, and applications.

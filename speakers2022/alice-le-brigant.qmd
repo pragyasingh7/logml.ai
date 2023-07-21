@@ -1,0 +1,33 @@
+---
+title: "Alice Le Brigant"
+description: "University Paris 1 Pantheon Sorbonne"
+image: alice-le-brigant.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://sites.google.com/view/alice-le-brigant/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Alice Le Brigant</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Alice Le Brigant is an Assistant Professor in the Applied Mathematics team SAMM at University Paris 1 Pantheon Sorbonne. Previously, she was a Postdoctoral Fellow at the French Civil Aviation School, in collaboration with the Toulouse Mathematics Institute. She obtained her PhD in Applied Mathematics from the University of Bordeaux in 2017. Her research interests are at the interface of statistics and applied Riemannian geometry.
+
+
