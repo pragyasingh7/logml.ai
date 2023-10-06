@@ -2,7 +2,7 @@
 title: "Daniel Platt"
 sidebar: false
 sortby: "Daniel Platt"
-description: "King's College London"
+description: "Imperial College London"
 image: daniel.png
 toc: false
 about:
@@ -15,4 +15,4 @@ about:
 ---
 
 
-Daniel is a postdoc at King's College London working on differential geometry. He obtained my PhD from Imperial College London for his thesis on gauge theory in dimension 7 on problems that are motivated by string theory. Because of this, he is interested in big datasets of Calabi-Yau manifolds. Apart from this, Lie groups and  group actions are important for the kind of geometry that he studies and he is also interested in applications of differential geometry to group invariant machine learning.
+Daniel is a Chapman-Schmidt fellow at Imperial College London working on differential geometry and machine learning. He obtained my PhD from Imperial College London for his thesis on gauge theory in dimension 7 on problems that are motivated by string theory. Because of this, he is interested in big datasets of Calabi-Yau manifolds. Apart from this, Lie groups and  group actions are important for the kind of geometry that he studies and he is also interested in applications of differential geometry to group invariant machine learning.
