@@ -1,0 +1,31 @@
+---
+title: "Self-supervised non-rigid correspondence by geodesic distortion minimization using the deformation field"
+author: "Søren Hauberg"
+categories: [Graphs, ML, GDL]
+image: soren.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: http://www2.compute.dtu.dk/~sohau/
+---
+## Søren Hauberg
+Søren Hauberg is a professor in the Section for Cognitive Systems at the Technical University of Denmark. He received his PhD in computer science from the University of Copenhagen in 2011. Prior to pursuing a PhD he worked as a "digital lumberjack" in the startup Dralle A/S. He was a post doc for two years at Perceiving Systems at the Max Planck Institute
+for Intelligent Systems working with Michael Black. In 2013, he was the sole computer science recipient of the Sapere Aude Research Talent award from the Danish Council for Independent Research, and in 2016 he was the sole computer science Villum Young Investigator. In 2017 he was further awarded a starting grant from the European Research Council. In 2018, he joined the Young Scientists community under the World Economic Forum, and was in the process named one of "10 of the most exciting young scientists working in the world today."
+
+His research interest lie in the span of geometry and statistics. He develops machine learning techniques using geometric constructions, and works on the related numerical challenges. He is particularly interested in random geometries as they naturally appear in learning.
+
+## Project
+Latent variable models, such as the variational autoencoder, suffer from the identifiability problem: there is no unique configuration of the latent variables. This is problematic as latent variables are often inspected, e.g. through visualization, to gain insights into the data generating process. The lack of identifiability then raise the risk of
+misinterpreting the data as conclusions may be drawn from arbitrary latent instantiations.
+
+In this project you will investigate a geometric solution to the
+identifiability problem that amounts to endowing the latent space with a particular Riemannian metric. You will learn latent representations and compute geodesics accordingly.
+
+References:
+(*) Latent Space Oddity: on the Curvature of Deep Generative Models Georgios Arvanitidis, Lars Kai Hansen and Søren Hauberg. In International Conference on Learning Representations (ICLR), 2018.
+(*) Only Bayes should learn a manifold (on the estimation of
+differential geometric structure from data)
+Søren Hauberg.

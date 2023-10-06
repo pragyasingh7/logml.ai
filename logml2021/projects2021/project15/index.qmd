@@ -1,0 +1,32 @@
+---
+title: "Improved expressive power for message-passing networks via subgraph aggregation"
+author: "Haggai Maron"
+categories: [Graphs, ML, GDL]
+image: haggai.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://haggaim.github.io/
+---
+## Haggai Maron
+Haggai is a Research Scientist at NVIDIA Research. His main fields of interest are machine learning, optimization and shape analysis. More specifically, he is working on applying deep learning to irregular domains (e.g., graphs, point clouds, and surfaces) and graph/shape matching problems. He completed his Ph.D. in 2019 at the Weizmann Institute of Science under the supervision of Prof. Yaron Lipman.
+
+## Project
+Owing to their scalability and simplicity, message-passing neural networks (MPNNS) are currently the leading architecture for deep learning on graph-structured data. However,  [1,2] recently showed that these architectures have limited expressive power. The most famous example is that MPNNs cannot distinguish a graph that consists of two triangles and a graph that consists of a single cycle of length 6 (see attached figure). This limitation raises a fundamental question: is it possible to make MPNNs more expressive? Several recent works  [3,4,5] suggested architectures that aim to address this problem.
+
+In this project, we will develop a novel approach that tackles this problem. The key to our solution is the observation that while two graphs may not be distinguishable by an MPNN, it might be easy to find distinguishable subgraphs. Following that observation, we suggest treating each graph as a set of subgraphs generated according to some predefined rule, e.g., all graphs that can be obtained by removing one edge from the original graph. We propose to process this set using the DSS framework [6], which allows processing sets of symmetric elements. To deal with the possible computational burden, we will also consider efficient random sampling schemes to improve time complexity. We will study this new model’s theoretical properties, e.g., is it provably more expressive than other MPNNS? and evaluate its practical performance.
+
+[1] Morris, Christopher, et al. "Weisfeiler and leman go neural: Higher-order graph neural networks." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 33. No. 01. 2019.
+
+[2] Xu, Keyulu, et al. "How powerful are graph neural networks?." arXiv preprint arXiv:1810.00826 (2018).
+
+[3] Abboud, Ralph, et al. "The Surprising Power of Graph Neural Networks with Random Node Initialization." arXiv preprint arXiv:2010.01179 (2020).
+
+[4] Vignac, Clément, Andreas Loukas, and Pascal Frossard. "Building powerful and equivariant graph neural networks with structural message-passing." arXiv e-prints (2020): arXiv-2006.
+
+[5] Bouritsas, Giorgos, et al. "Improving graph neural network expressivity via subgraph isomorphism counting." arXiv preprint arXiv:2006.09252 (2020).
+
+[6] Maron, Haggai, et al. "On learning sets of symmetric elements." International Conference on Machine Learning. PMLR, 2020.

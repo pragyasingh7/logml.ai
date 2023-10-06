@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -147,10 +147,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./people.html" rel="" target="" aria-current="page">
  <span class="menu-text">People</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Program</span>
@@ -167,11 +163,11 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./faq.qmd" rel="" target="">
- <span class="menu-text">FAQ</span></a>
+    <a class="nav-link" href="./policies.html" rel="" target="">
+ <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./logml2022/people.html" rel="" target="">
+    <a class="nav-link" href="./logml2022/speaker.html" rel="" target="">
  <span class="menu-text">Archives</span></a>
   </li>  
 </ul>
@@ -227,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="organising-committee">Organising Committee</h2>
 <div id="listing-team" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1682604612439" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696595078558" data-listing-reading-time-sort="1">
 <a href="./people/team/daniel.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -244,7 +240,7 @@ King’s College London
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1682605059441" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696595131278" data-listing-reading-time-sort="1">
 <a href="./people/team/george.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -261,7 +257,7 @@ Harvard University
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1682606604697" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696595250810" data-listing-reading-time-sort="1">
 <a href="./people/team/guada.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -278,7 +274,7 @@ Prescient Design, Roche
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1682603880876" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1696595228117" data-listing-reading-time-sort="1">
 <a href="./people/team/josh.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -295,7 +291,7 @@ Imperial College London
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1682602785106" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1696551424316" data-listing-reading-time-sort="1">
 <a href="./people/team/kate.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -312,7 +308,7 @@ University of Oxford
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1682601883823" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1696551427540" data-listing-reading-time-sort="1">
 <a href="./people/team/konstantinos.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -329,7 +325,7 @@ Imperial College London
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1682590135630" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1696596022769" data-listing-reading-time-sort="1">
 <a href="./people/team/michele.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -346,7 +342,7 @@ Harvard University
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1682590042005" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1696551825278" data-listing-reading-time-sort="1">
 <a href="./people/team/valentina.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -363,6 +359,23 @@ Imperial College London
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1696550973034" data-listing-reading-time-sort="1">
+<a href="./people/team/van.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/team/van.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Van Truong
+</h5>
+<div class="card-text listing-description">
+University of Pennsylvanian
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -373,7 +386,142 @@ No matching items
 <h2 class="anchored" data-anchor-id="scientific-advisory-committee">Scientific Advisory Committee</h2>
 <div id="listing-advisors" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696597012622" data-listing-reading-time-sort="1">
+<a href="./people/advisors/bastian.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/bastian.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bastian Rieck
+</h5>
+<div class="card-text listing-description">
+Helmholtz Munich
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696597705415" data-listing-reading-time-sort="1">
+<a href="./people/advisors/heather.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/heather.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Heather Harrington
+</h5>
+<div class="card-text listing-description">
+Helmholtz Munich
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696597454704" data-listing-reading-time-sort="1">
+<a href="./people/advisors/solomon.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/solomon.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Justin Solomon
+</h5>
+<div class="card-text listing-description">
+MIT
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1696597494579" data-listing-reading-time-sort="3">
+<a href="./people/advisors/marinka.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/marinka.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Marinka Zitnik
+</h5>
+<div class="card-text listing-description">
+Harvard University
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1696596831136" data-listing-reading-time-sort="2">
+<a href="./people/advisors/bronstein.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/bronstein.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Michael Bronstein
+</h5>
+<div class="card-text listing-description">
+University of Oxford, Twitter
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1696597287484" data-listing-reading-time-sort="1">
+<a href="./people/advisors/thomas.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/thomas.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Thomas Kipf
+</h5>
+<div class="card-text listing-description">
+Google Deepmind
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1696597712353" data-listing-reading-time-sort="1">
+<a href="./people/advisors/ulrike.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/ulrike.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ulrike Tillmann
+</h5>
+<div class="card-text listing-description">
+University of Oxford
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1696597510433" data-listing-reading-time-sort="2">
+<a href="./people/advisors/xavier.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./people/advisors/xavier.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Xavier Bresson
+</h5>
+<div class="card-text listing-description">
+National University of Singapore
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

@@ -1,5 +1,6 @@
 ---
 title: Schedule
+sidebar: false
 ---
 
 The schedule of the events will be available in the following calendar. The timezone is GMT+00:00.

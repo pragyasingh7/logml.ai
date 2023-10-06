@@ -1,0 +1,20 @@
+---
+title: "Morphing of manifold-valued images"
+author: "Marie-Julie Rakotosaona"
+categories: [Graphs, ML, GDL]
+image: marie.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/
+---
+## Marie-Julie Rakotosaona
+Marie-Julie Rakotosaona is a PhD candidate at Ecole Polytechnique in the GeoVic team where she is advised by Maks Ovsjanikov. Her research focuses on 3D shape analysis and processing. She is working on finding well suited deep learning methods and representations for processing, understanding, and creating 3D shapes.
+
+## Project
+Existing learning-based methods for mesh reconstruction from fixed point clouds mostly generate triangles individually, making it hard to create consistent manifold meshes. In this project, we will build a novel method aimed at estimating local surfaces from point clouds and constructing high quality meshes. We are interested in leveraging the properties of 2D Delaunay triangulations to construct a mesh from small manifold surface elements. The method first learns local logarithmic maps around estimated geodesic neighborhoods centered at each point, from which we can compute manifold Delaunay triangulation. The local 2D projections are then synchronized to maximize the manifoldness of the global reconstructed mesh.
+
+During this week, we will first build a robust learning-based pipeline to mesh point clouds. Throughout this process, you will gain significant familiarity with or get a deeper understanding of basic concepts in geometry for representing 3D shapes as well as existing tools for machine learning on point clouds such as PointNet or FoldingNet. In the second stage of this project, we will explore novel directions to improve the proposed method and build tools for both meshing and analysis of 3D surfaces.

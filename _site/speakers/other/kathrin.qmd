@@ -1,0 +1,32 @@
+---
+title: "Kathryn Hess"
+sidebar: false
+description: "EPFL"
+image: kathrin.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://sites.google.com/view/antheamonod/home
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Kathryn Hess</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Kathryn Hess received her PhD in algebraic topology from MIT and held positions at the universities of Stockholm, Nice, and Toronto before moving to the EPFL, where she is now full professor of mathematics and life sciences. Her research focuses on algebraic topology and its applications, primarily in the life sciences, but also in materials science.  In her work in applied topology, she has elaborated methods based on topological data analysis for high-throughput screening of nanoporous crystalline materials, classification and synthesis of neuron morphologies, and classification of neuronal network dynamics.  She has also developed and applied innovative topological approaches to network theory.

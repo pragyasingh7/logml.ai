@@ -1,0 +1,28 @@
+---
+title: "Manifold optimization and recent applications"
+author: "Bamdev Mishra"
+categories: [Graphs, ML, GDL]
+image: bamdev.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://bamdevmishra.in/
+---
+## Bamdev Mishra
+Bamdev Mishra is Senior Applied Scientist at Microsoft India in the Office India Intelligence team. He develops machine learning (ML) solutions for Kaizala, Office Lens, Operations, and Information Protection for Office365, to name a few. Prior to this, he worked on various ML problems in the retail domain including competitive price prediction, review abuse detection, and style recommendations.
+
+Bamdev looks into problem domains that allow to use and build ML solutions for industrial applications. On the research side, his primary research interests include nonlinear optimization, stochastic learning, and matrix and tensor learning methods. He has published many technical papers in ML, NLP, and numerical optimization.
+
+Bamdev received the BTech and MTech degrees in Electrical Engineering from the Indian Institute of Technology Bombay, India, in 2010, and the Ph.D. degree from the University of Liège, Belgium, in 2014. He was a Postdoctoral Researcher at the University of Liège and a Visiting Research Associate at the University of Cambridge from 2014 to 2015.
+
+## Project
+Optimization over smooth manifolds or manifold optimization involves minimizing an objective function over a smooth constrained set. Many such sets have usually a manifold structure. Some particularly useful manifolds include the set of orthogonal matrices, the set of symmetric positive definite matrices, the set of subspaces, the set of fixed-rank matrices/tensors, and the set of doubly stochastic matrices (optimal transport plans), to name a few [1]. Consequently, there has been a development of a number of manifold optimization toolboxes [2].
+
+In this project, we make use of these wonderful tools to solve a few machine learning problems with manifold optimization. The aim would be to get a hands-on experience of manifold optimization.
+
+[1] Boumal, N., 2020. An introduction to optimization on smooth manifolds. Web: http://sma.epfl.ch/~nboumal/book/index.html.
+
+[2] Manopt, pymanopt, Manopt.jl, McTorch, Geomstats, ROPTLIB, and so on. The links to many of these toolboxes are available on https://www.manopt.org/about.html.

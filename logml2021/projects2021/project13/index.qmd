@@ -1,0 +1,18 @@
+---
+title: "Morphing of manifold-valued images"
+author: "Sebastian Neumayer"
+categories: [Graphs, ML, GDL]
+image: sebastian.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/angewandte_mathematik/v_menue/team/sebastian_neumayer/v_menue/sebastian_neumayer/
+---
+## Sebastian Neumayer
+Sebastian Neumayer is a researcher at TU Berlin in the final phase of his PhD under the supervision of Gabriele Steidl. Before coming to Berlin, he worked as a researcher at TU Kaiserslautern, where he also did his Bachelor and Master studies. His research interests are focused around image analysis with a special focus on motion models, manifold valued images and also inverse problems. Recently, he began to investigate the relation of such classical tasks with machine learning, which seems like a very promising direction of future research.
+
+## Project
+In this project, we deal with manifold-valued images, which occur, e.g., in DT-MRI (values are symmetric positive definite matrices) or material science (EBSD data describing grain orientation in materials). As the potential applications are becoming more and more, many classical imaging problems have also been investigated for the manifold setting. While some problems are easy to generalize, others require more attention. One specific issue popping up is that the values at each pixel are not rotation invariant anymore (rotating a point by 90 degrees changes nothing, rotating an arrow pointing in some direction by 90 degrees also changes its direction). Hence, some applications can not be tackled with the straight-forward extension of Euclidean transformation models. Originally, we have proposed a metamorphosis (or morphing) model for manifold-valued images which does note take this observation into account. Extending the model and deriving similar theoretical results as for the original one incorporating this observation will be the main goal of this project. Part of the project is devoted to the numerical implementation of the model. There is some Matlab Code available for the original version, but we can clearly also start from scratch in Python if you prefer. Being already a bit familiar with one of the available manifold toolboxes is definitely beneficial for the project.

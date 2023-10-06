@@ -1,5 +1,6 @@
 ---
 title: Projects
+sidebar: false
 listing:
   categories: true
   fields: [author, image, title, categories]

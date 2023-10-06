@@ -1,5 +1,6 @@
 ---
 title: "Valentina Giunchiglia"
+sidebar: false
 sortby: "Valentina, Giunchiglia"
 description: "Imperial College London"
 image: valentina.png
@@ -10,7 +11,7 @@ about:
   links:
     - icon: twitter
       text: twitter
-      href: https://michellemli.com/
+      href: https://twitter.com/valegiunca
 ---
 
 ```{=html}
@@ -24,4 +25,6 @@ about:
 </nav>
 ```
 
-Valentina Giunchiglia is a PhD student at Imperial College London. Her research lies at the intersection of machine learning, biomedical research and computational modelling, applied specifically to the study of cognition and neurodegenerative diseases. In particular, she is interested in the application of graph neural networks and explainable AI to understand how the brain functions. She has previously organised a range of different events. For instance, she was an organiser of TEDx-UniHeidelberg, of a networking event for postgraduate students at Imperial and of a data science year long activity at Imperial called DS Helper Team that consisted of different data science workshops and lectures.
+Valentina Giunchiglia is a first year PhD student funded by the Medical Research Council, specialising in Artificial Intelligence and Computational Neuroscience.
+
+Her research interests focus on building top-down and bottom-up computational models of the brain to better understand and treat different neurodegenerative diseases (e.g. Multiple Sclerosis, Parkinson’s or Alzheimer’s). She is interested in working on research projects that cross the boundaries between artificial intelligence (AI) and the clinics, with the aim of making AI actually applicable in clinical practice. She works on data-centric and explainable AI, with a special interest towards graph machine learning.

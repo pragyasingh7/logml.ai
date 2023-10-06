@@ -1,0 +1,26 @@
+---
+title: "Investigating Differentiable Graph Module"
+author: "Anees Kazi"
+categories: [Graphs, ML, GDL]
+image: anees.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: http://campar.in.tum.de/Main/AneesKazi
+---
+## Anees Kazi
+Anees is currently a PhD student at the chair of Computer Aided Medical Procedure and Augmented Reality @ the Technical University of Munich working with Prof. Nassir Navab.  Anees has worked on deep learning for medical applications with the main focus is on Geometric Deep Learning for Healthcare by providing solutions to brain-related disease diagnosis problems. She has worked towards solving technical challenges such a dealing with multiple graph scenario, graph structure heterogeneity. In 2019, Anees was awarded TUM-ICL incentive funding to collaborate with Prof. Michael Bronstein at Imperial College London.  In this project, the team focused on the challenging problem of graph structure learning.
+
+His research interest lie in the span of geometry and statistics. He develops machine learning techniques using geometric constructions, and works on the related numerical challenges. He is particularly interested in random geometries as they naturally appear in learning.
+
+## Project
+Graph deep learning has recently emerged as a powerful technique especially in the medical domain. Graph-based methods have shown promising results on a broad spectrum of applications ranging from social science, biomedicine, and particle physics to computer vision, graphics, and chemistry. One of the current problems with most of the GCN based methods is the requirement of a pre-computed graph. However, in many scenarios, especially in the medical and healthcare domain, the graph may not be given. 
+
+In this project, we will explore how such a graph can be learned mainly for medical applications. Given the population of individuals, we focus on predicting the age and gender of each based on brain MRI features. The method is inspired by our recent work on the differentiable graph module [1, 2] which can be further extended to any problem where the graph is unknown and can be inferred from the input features. With this project, you get to learn how to define a graph learning problem in the non-/ medical domain and further collaboration with a brain mesh analysis project.
+
+[1] Kazi, A., Cosmo, L., Navab, N. and Bronstein, M., 2020. Differentiable graph module (dgm) graph convolutional networks. arXiv preprint arXiv:2002.04999.
+
+[2] Cosmo, L., Kazi, A., Ahmadi, S.A., Navab, N. and Bronstein, M., 2020, October. Latent-Graph Learning for Disease Prediction. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 643-653). Springer, Cham.

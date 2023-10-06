@@ -1,5 +1,6 @@
 ---
 title: "Josh Southern"
+sidebar: false
 sortby: "Josh Southern"
 description: "Imperial College London"
 image: josh.jpg
@@ -10,8 +11,10 @@ about:
   links:
     - icon: twitter
       text: twitter
-      href: https://michellemli.com/
+      href: https://jks17.github.io/
 ---
 
 
-Josh is a second-year PhD candidate at Imperial College London,  supervised by Prof. Michael Bronstein and Dr. Kirill Veselkov. His  research explores graph generative models and their applications to  healthcare such as the design of drugs, proteins and hyperfood recipes.
+Josh is currently a PhD student at Imperial College London, supervised by Prof. Michael Bronstein and Dr. Kirill Veselkov and part of the AI4Health CDT. He id interested in geometric deep learning, generative models and their applications (particularly in biology, healthcare and sport). He enjoys working on interdisciplinary projects and he is currently collaborating with Bruno Correia's lab at EPFL on protein design, as well as on a metabolomics + hyperfoods project with a team at Imperial.
+
+Prior to the PhD, he did his Masters degree in Applied Mathematics, also at Imperial College London, and then spent two years as a Machine Learning Researcher at a Health Tech startup working with wearable device data, trying to benefit the mental health space. Outside of academia, he is obsessed with sport (particularly tennis), pubs and jazz. 

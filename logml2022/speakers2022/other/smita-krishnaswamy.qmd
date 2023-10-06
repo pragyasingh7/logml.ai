@@ -1,0 +1,39 @@
+---
+title: "Smita Krishnaswamy"
+description: "Yale University"
+image: smita-krishnaswamy.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://medicine.yale.edu/profile/smita_krishnaswamy/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Smita Krishnaswamy</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Smita Krishnaswamy is an Associate Professor in the departments of Computer Science (SEAS) and Genetics (YSM). She is part of the programs in  Applied Mathematics, Computational Biology & Bioinformatics and Interdisciplinary Neuroscience. She is also affiliated with the Yale Center for Biomedical Data Science, Yale Cancer Center, Wu-Tsai Institute. Smita’s lab works at the intersection of computer science, applied math, computational biology, and signal processing to develop representation-learning and deep learning methods that enable exploratory analysis, scientific inference and prediction from big biomedical datasets. She has applied her methods on datasets generated from single-cell sequencing, structural biology, biomedical imaging, brain activity recording, electronic health records on a wide variety of biological, cellular, and disease systems.  Her  techniques generally incorporate mathematical priors from graph spectral theory, manifold learning, signal processing, and topology into machine learning and deep learning frameworks, in order to denoise and model the underlying systems faithfully for predictive insight. Currently her methods are being widely used for data denoising, visualization, generative modeling, dynamics. modeling, comparative analysis and domain transfer.
+
+
+
+Smita teaches several courses including: Deep Learning Theory and Applications, Unsupervised learning, and Geometric and Topological Methods in Machine Learning.  Prior to joining Yale, Smita completed her postdoctoral training at Columbia University in the systems biology department where she focused on learning computational models of cellular signaling from single-cell mass cytometry data. She obtained her Ph.D. from EECS department at University of Michigan where her research focused on algorithms for automated synthesis and probabilistic verification of nanoscale logic circuits. Following her time in Michigan, Smita spent 2 years at IBM’s TJ Watson Research  Center as a researcher in the systems division where she worked on automated bug finding and error correction in logic. Smita’s work over the years has won several awards including the NSF CAREER Award, Sloan Faculty Fellowship, and Blavatnik fund for Innovation.
+
+
+
+

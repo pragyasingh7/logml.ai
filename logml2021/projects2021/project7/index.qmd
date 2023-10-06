@@ -1,0 +1,29 @@
+---
+title: "Efficient Fully Fourier Spherical Convolutional Networks"
+author: "Shubhendu Trivedi"
+categories: [Graphs, ML, GDL]
+image: Shubhendu.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: http://people.csail.mit.edu/shubhendu/
+---
+## Shubhendu Trivedi
+I am a machine learning researcher at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL), where I work with Professors Regina Barzilay and Tommi Jaakkola as part of the MIT Machine Learning for Pharmaceutical Discovery and Synthesis Consortium (MLPDS). Before this, between 2018-19, I was the NSF sponsored Institute Fellow at Brown University's mathematics institute. I received my PhD in August 2018 for work on group-covariant neural networks, similarity learning and metric estimation.
+
+
+
+## Project
+A particularly successful and instructive special case of group equivariant neural networks is when the input consists of images painted on a sphere and the transformation to which we desire invariance are 3D rotations, leading to work on spherical CNNs. Approaches to the design of spherical CNNs include combined real and harmonic space methods (such as [1] and [2]) and fully Fourier space approaches (such as [3]). The former exploit efficient sampling theorems which ensure that the underlying 3D rotational symmetry is captured properly. However, they also lead to a somewhat unconventional architecture composed of repeated forward and backward Fourier transforms since the non-linearity is still applied pointwise in "real space". However applications of the non-linearity in this manner also lead to errors which break strict rotational equivariance. On the other hand, fully Fourier approaches, which maintain a harmonic space representation of the input to the end, afford strict rotational equivariance, but are prohibitively expensive. In this project we will explore methods for speeding up such a harmonic space approach while still maintaining exact rotational equivariance. In particular, we will examine the channel structure of the approach of [3] building further off the approach of [4] to produce more efficient implementations.
+
+[1] Taco Cohen, Mario Geiger, Jonas Kohler, and Max Welling. Spherical CNNs. International Conference on Learning Representations, 2018.
+
+[2] Carlos Esteves, Christine Allen-Blanchette, Ameesh Makadia, and Kostas Daniilidis. Learning SO(3) Equivariant Representations with Spherical CNNs. European Conference on Computer Vision, 2018.
+
+[3] Risi Kondor, Zhen Lin and Shubhendu Trivedi, Clebsch-Gordan Nets: A Fully Fourier Space Spherical Convolutional Neural Network. IAdvances in Neural Information Processing Systems, 2018.
+
+[4] Oliver J. Cobb, Christopher G. R. Wallis, Augustine N. Mavor-Parker, Augustin Marignier, Matthew A. Price, Mayeul d'Avezac, Jason D. McEwen, Efficient Generalized Spherical CNNs, International Conference on Learning Representations, 2021.
+

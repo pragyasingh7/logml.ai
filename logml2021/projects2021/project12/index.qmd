@@ -1,0 +1,25 @@
+---
+title: "Implicit Node and Edge Features for More Expressive Graph Neural Networks"
+author: "Octavian-Eugen Ganea"
+categories: [Graphs, ML, GDL]
+image: octavian.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://people.csail.mit.edu/oct/
+---
+## Octavian-Eugen Ganea
+Octabian is broadly interested in representation learning for unstructured data (graphs), 3D objects (e.g. molecules), text or images through statistical or geometric models that could be devised and understood in a mathematically principled and elegant manner. In particular, he explored non-Euclidean geometries in Machine Learning to overcome some of the current difficulties in graph representation learning and generation, e.g. finding and learning latent hierarchical structures in data via hyperbolic geometry, as well as combining optimal transport and graph neural networks for better models that deal with graphs. He is currently applying my models to problems related to computational chemistry such as drug discovery
+
+## Project
+Graph Neural Networks (GNN) have been achieving state-of-the-art performance in various graph related tasks, being the first adopted solution especially when graphs have node and edge features.  However, GNNs have several difficulties [4], such as capturing long-range graph interactions (due to the oversquashing effect) or differentiating locally isomorphic nodes [5] (e.g. based on the WL test). Moreover, GNNs haven't yet been reconciled or combined with positional independent node embedding (PINE) approaches such as Node2Vec [1] or distortion based embeddings (e.g. Poincare embeddings [2]). The latter are known to capture well long-range graph interactions, can be trained fully unsupervised, but are not uniquely defined as they can be arbitrarily transformed with a shared invertible matrix while keeping the loss value unchanged. In this project, we propose to explore combining GNNs and PINEs in a joint end-to-end supervised trainable method by leveraging the power of implicit differentiation (ID) [3] traditionally used in meta-learning approaches. Given an input graph, we will create an implicit layer that learns PINEs based on an unsupervised objective (e.g. distortion loss), and these will in turn become node features that will be the input of a GNN. Importantly, using ID, we can backpropagate through the PINE training procedure and, thus, obtain meaningful PINE features for the downstream task at hand.  This would allow us to obtain globally (at graph level) correlated node features for GNNs, to differentiate non-isomorphic graphs otherwise indistinguishable by the WL test, and to reflect on other (unsupervised) inductive biases useful for specific downstream graph problems.
+
+
+[1] Node2Vec: https://snap.stanford.edu/node2vec/
+[2] Poincare Embeddings: https://arxiv.org/pdf/1705.08039.pdf
+[3] ID Neurips 2020 tutorial: https://www.youtube.com/watch?v=MX1RJELWONc
+[4] GNN difficulties: https://arxiv.org/pdf/2006.05205.pdf , https://arxiv.org/abs/2006.13318, rb.gy/quo3n6
+[5] https://www.mit.edu/~vgarg/GNNs_FinalVersion.pdf

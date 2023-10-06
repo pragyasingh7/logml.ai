@@ -1,0 +1,18 @@
+---
+title: "Platonic CNNs"
+author: "Taco Cohen"
+categories: [Graphs, ML, GDL]
+image: taco.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://tacocohen.wordpress.com/
+---
+## Taco Cohen
+Taco Cohen is a machine learning research scientist at Qualcomm AI Research in Amsterdam and a PhD student at the University of Amsterdam, supervised by prof. Max Welling. He was a co-founder of Scyfer, a company focussed on active deep learning, acquired by Qualcomm in 2017. He holds a BSc in theoretical computer science from Utrecht University and a MSc in artificial intelligence from the University of Amsterdam (both cum laude). His research is focussed on understanding and improving deep representation learning, in particular learning of equivariant and disentangled representations, data-efficient deep learning, learning on non-Euclidean domains, and applications of group representation theory and non-commutative harmonic analysis, as well as deep learning based source compression. He has done internships at Google Deepmind (working with Geoff Hinton) and OpenAI. He received the 2014 University of Amsterdam thesis prize, a Google PhD Fellowship, ICLR 2018 best paper award for “Spherical CNNs”, and was named one of 35 innovators under 35 in Europe by MIT in 2018.
+
+## Project
+Omnidirectional signals occur in a wide variety of domains, from climate and weather science to astronomy and omnidirectional computer vision. Neural networks for omnidirectional data should respect the topological and geometric structure and symmetries of the signal domains (typically a sphere-like manifold). Many kinds of spherical CNNs have been developed, but typically these involve non-standard and costly operations that may be hard to implement. By contrast, the gauge equivariant Icosahedral CNN (1) is implemented by performing a standard conv2d over a collection of local charts concatenated into a feature map. One downside of the method is that it requires projecting the spherical signal to the icosahedron. On the other hand, the method is very efficient, and exactly equivariant to the rotational symmetries of the icosahedron.

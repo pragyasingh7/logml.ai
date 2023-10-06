@@ -1,0 +1,34 @@
+---
+title: Sponsors
+page-layout: full
+---
+
+::: {layout="[[1,1, 1], [1, 1, 1]]"}
+
+![](sponsors2021/arabesque-black.png)
+
+![](sponsors2021/autodesk.png)
+
+![](sponsors2021/bosch-2.png)
+
+![](sponsors2021/eigen-tech.png)
+
+![](sponsors2021/gather.jpg)
+
+![](sponsors2021/google.png)
+
+![](sponsors2021/compositio-mathematica.png)
+
+![](sponsors2021/imperial-siam.png)
+
+![](sponsors2021/institute-mathematics.png)
+
+![](sponsors2021/LSGNT_Logo_2015.png)
+
+![](sponsors2021/relation.png)
+
+![](sponsors2021/speechmatics-bw.png)
+
+![](sponsors2021/xtx-markets.png)
+
+:::

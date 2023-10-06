@@ -1,5 +1,6 @@
 ---
 title: "Michele Li"
+sidebar: false
 sortby: "Michele Li"
 description: "Harvard University"
 image: MichelleLi.jpeg

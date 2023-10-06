@@ -1,0 +1,23 @@
+---
+title: "Stability or Collapse: Topological Properties of Deep Autoencoders"
+author: "Kelly Spendlove"
+categories: [Graphs, ML, GDL]
+image: kelly.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://www.maths.ox.ac.uk/people/kelly.spendlove
+---
+## Kelly Spendlove
+Kelly Spendlove is a postdoctoral researcher at the University of Oxford in the Centre for Topological Data Analysis. His research primarily concerns applied algebraic topological approaches to dynamical systems. He completed his PhD at Rutgers University under Konstantin Mischaikow, with the support of a NSF Graduate Fellowship, while spending time as a long term visitor at VU Amsterdam, Ohio State University, and Kyoto University.
+
+## Project
+Recent ideas [1,2] have considered how the behavior of different activation functions may depend upon their 'topological' properties, e.g., homeomorphism vs continuity. The work of Naitzat et al [1] seems to suggest that ReLU activations exhibit a stronger effect upon the topology, collapsing it in earlier layers and more quickly than homeomorphic activations such as Tanh or Leaky ReLU.
+
+On the other hand, auto-encoders are neural networks which minimize the distance between a reconstruction and the original data, producing both an 'encoder' and 'decoder'.  The stability theorem of persistent homology suggests that if an autoencoder is trained to reconstruct the data within epsilon, the resulting persistence diagrams (a proxy for the topology) are also within distance epsilon.  This would seem to suggest that the topology cannot be changed by much, even with the use of ReLU and a deep autoencoder.  The goal of this project is to investigate and understand how these two observations can be reconciled; and once properly understood, to determine whether these observations can be used to design topologically-faithful dimensionality reduction techniques.  
+
+[1] Naitzat, G., Zhitnikov, A., & Lim, L. H. (2020). Topology of deep neural networks. Journal of Machine Learning Research, 21(184), 1-40.
+[2] C.  Olah.   Neural  networks,  manifolds,  and  topology.http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/, 2014.

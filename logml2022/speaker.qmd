@@ -1,29 +1,36 @@
 ---
-title: "Speakers"
+title: Speakers
+titpagetitle: "Speakers | LOGML"
+listing:
+  - id: keynote
+    contents: "speakers2022/keynote/*.qmd"
+    type: grid
+    sort: title
+    image-height: 225px
+    grid-columns: 3
+    page-size: 999
+    fields: [title, description, image]
+    grid-item-align: left
+  - id: speaker
+    contents: "speakers2022/other/*.qmd"
+    type: grid
+    sort: title
+    image-height: 225px
+    grid-columns: 3
+    page-size: 999
+    fields: [title, description, image]
+    grid-item-align: left
+page-layout: full
+comments: false
 ---
 
-<br>
 
-::: {.grid}
+# Keynote speakers
 
-::: {.g-col-12 .g-col-md-5}
-[![](../speakers/joan.jpeg)](speakers/joan.qmd)
-:::
-::: {.g-col-15 .g-col-md-7}
-# Joan Bruna
-### Title: Theoretical graph
-#### Description of the talk to be determined
-
+:::{#keynote}
 :::
 
+# Speakers
 
-::: {.g-col-12 .g-col-md-5}
-[![](../speakers/joan.jpeg)](https://arxiv.org/abs/2211.16731)
-:::
-::: {.g-col-12 .g-col-md-7}
-# Pietro Lio
-### Title: Theoretical graph
-#### Description of the talk to be determined
-:::
-
+:::{#speaker}
 :::

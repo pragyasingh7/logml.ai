@@ -1,0 +1,24 @@
+---
+title: "Navigating text adventures with algorithmic reasoners"
+author: "Petar Veličković"
+categories: [Graphs, ML, GDL]
+image: peter.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://petar-v.com/
+---
+## Petar Veličković
+Petar Veličković is a Senior Research Scientist at DeepMind. He holds a PhD in Computer Science from the University of Cambridge (Trinity College), obtained under the supervision of Pietro Liò. His research interests involve devising neural network architectures that operate on nontrivially structured data (such as graphs), and their applications in algorithmic reasoning and computational biology. He has published relevant research in these areas at both machine learning venues (NeurIPS, ICLR, ICML-W) and biomedical venues and journals (Bioinformatics, PLOS One, JCB, PervasiveHealth). In particular, he is the first author of Graph Attention Networks—a popular convolutional layer for graphs—and Deep Graph Infomax—a scalable local/global unsupervised learning pipeline for graphs (featured in ZDNet). Further, his research has been used in substantially improving the travel-time predictions in Google Maps (covered by outlets including the CNBC, Endgadget, VentureBeat, CNET, the Verge and ZDNet).
+
+## Project
+Text-based adventure games, such as Zork, use natural language to describe their setup, receive actions from the player, and describe the effects of such actions. However, they typically also have a clear underlying geometric structure, which links different states ("rooms") with each other as a result of taking actions (e.g. "moving"). This also endows them with a set of symmetries (e.g. it is often the case that going west, then going east, has the outcome of not changing the state). Hence, text adventures represent a fantastic test-bed for benchmarking agents on real-world noisy language data, while still grounding that data in a simplified underlying "world model".
+
+Neural algorithmic reasoning (see Cappart et al., IJCAI'21; Section 3.3.) represents an emerging area of (graph) representation learning that seeks to emulate operations of classical algorithms and data structures within a high-dimensional latent space---allowing us to more directly execute classical algorithms over noisy data. A classical collection of algorithms shown to be efficiently learnable in this way are path-finding routines (such as the Bellman-Ford algorithm). Quickly solving text adventures typically involves (implicitly) constructing a map of the environment, determining the current and goal states in this map, then searching for a (shortest) path from the current state to the goal.
+
+All of these components are tricky to do in a generic text adventure setting. To simplify, we will assume that the map is given to us. It is still non-trivial to map current and previous state descriptions to a particular current and goal state, and through the use of neural algorithmic reasoning, we will attempt to directly feed such natural language descriptions to an algorithm, and then use the output representations of that algorithm to find shortest paths to the required goal state.
+
+The work will be based on the TextWorld environment, specifically the subset of coin-collecting environments proposed by Yuan, Côté et al. (EWRL'18), for which code and example agents are already available. While our focus will not necessarily be reinforcement learning, I anticipate that this will provide an excellent starting point. Neural path-finders will be trained by using the methodology proposed by Veličković et al. (ICLR'20) and deployed in the style of XLVIN (Deac et al., NeurIPS DeepRL'20).

@@ -1,0 +1,30 @@
+---
+title: "Coarsening disassortative graphs"
+author: "Daniele Grattarola"
+categories: [Graphs, ML, GDL]
+image: daniele.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://andreeadeac22.github.io/
+---
+## Daniele Grattarola
+Daniele is a Ph.D. student at the University of Lugano (CH) in the Graph Machine Learning Group.
+He holds a MSc in Computer Science and Engineering from Politecnico di Milano. His research is on graph neural networks and their applications to systems that change over time. He is also the main developer of Spektral, a library for graph deep learning in TensorFlow/Keras.
+
+Daniele is the co-host and manager of Smarter Podcast, a live streaming podcast in Italian that invites AI researchers from academia and industry to talk about their work and experience.
+
+## Project
+Many real-world applications require us to study large-scale graphs which are computationally expensive to process and difficult to understand intuitively.
+
+To solve this issue, graph coarsening (or, sometimes, "pooling") techniques allow us to reduce the size of a graph while preserving its overall characteristics. Many works have been proposed recently to tackle this problem, especially in the field of graph neural networks, but it remains a challenging and open research direction.
+
+Most techniques for graph coarsening assume that the input graph is assortative, that is, a graph in which neighboring nodes are likely to be similar. Conversely, many real-world graphs are disassortative graphs in which connections are heterophilous.
+For example, scale-free graphs (in which nodes with small degree are likely to be connected to nodes with a high degree) are very frequent in nature and technology.
+
+In this project, we will attempt to develop a coarsening algorithm for strongly disassortative graphs. This will require us to discard many assumptions that are usually exploited in the design of coarsening algorithms, and chiefly the assumption that clusters of nodes can be identified in densely connected communities.
+
+First, we will study the effect of typical coarsening algorithms when applied to disassortative graphs. Then, we will formulate our coarsening problem as an optimization to obtain a desired degree of disassortativity in the coarse graph. Finally, we will identify one or more solutions to the problem, either through procedural techniques or end-to-end learning

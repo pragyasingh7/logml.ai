@@ -3,7 +3,7 @@ title: Projects
 listing:
   categories: true
   fields: [author, image, title, categories]
-  contents: logml2022/projects2022
+  contents: projects2022
   sort-ui: false
   filter-ui: false
 page-layout: full

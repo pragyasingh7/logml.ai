@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -57,7 +59,66 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-keynote .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-keynote'] = new List('listing-keynote', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-speaker .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-speaker'] = new List('listing-speaker', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -86,10 +147,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./people.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Program</span>
@@ -106,11 +163,11 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./faq.qmd" rel="" target="">
- <span class="menu-text">FAQ</span></a>
+    <a class="nav-link" href="./policies.html" rel="" target="">
+ <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./logml2022/people.html" rel="" target="">
+    <a class="nav-link" href="./logml2022/speaker.html" rel="" target="">
  <span class="menu-text">Archives</span></a>
   </li>  
 </ul>
@@ -138,14 +195,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#keynote-speakers" id="toc-keynote-speakers" class="nav-link active" data-scroll-target="#keynote-speakers">Keynote speakers</a></li>
+  <li><a href="#speakers" id="toc-speakers" class="nav-link" data-scroll-target="#speakers">Speakers</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -164,43 +228,114 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><br></p>
-<div class="grid">
-<div class="g-col-12 g-col-md-5">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./speakers/joan.html"><img src="speakers/joan.jpeg" class="img-fluid figure-img"></a></p>
-</figure>
+<section id="keynote-speakers" class="level1">
+<h1>Keynote speakers</h1>
+<div id="listing-keynote" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696534410889" data-listing-reading-time-sort="2">
+<a href="./speakers/keynote/pietro.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./speakers/keynote/pietro.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="keynote-speakers">
+Pietro Liò
+</h5>
+<div class="card-text listing-description">
+University of Cambridge
 </div>
 </div>
-<section id="joan-bruna" class="level1 g-col-15 g-col-md-7">
-<h1>Joan Bruna</h1>
-<section id="title-theoretical-graph" class="level3">
-<h3 class="anchored" data-anchor-id="title-theoretical-graph">Title: Theoretical graph</h3>
-<section id="description-of-the-talk-to-be-determined" class="level4">
-<h4 class="anchored" data-anchor-id="description-of-the-talk-to-be-determined">Description of the talk to be determined</h4>
-</section>
-</section>
-</section>
-<div class="g-col-12 g-col-md-5">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://arxiv.org/abs/2211.16731"><img src="speakers/joan.jpeg" class="img-fluid figure-img"></a></p>
-</figure>
+</div>
+</a>
 </div>
 </div>
-<section id="pietro-lio" class="level1 g-col-12 g-col-md-7">
-<h1>Pietro Lio</h1>
-<section id="title-theoretical-graph-1" class="level3">
-<h3 class="anchored" data-anchor-id="title-theoretical-graph-1">Title: Theoretical graph</h3>
-<section id="description-of-the-talk-to-be-determined-1" class="level4">
-<h4 class="anchored" data-anchor-id="description-of-the-talk-to-be-determined-1">Description of the talk to be determined</h4>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-</section>
-</section>
+<section id="speakers" class="level1">
+<h1>Speakers</h1>
+<div id="listing-speaker" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696534396629" data-listing-reading-time-sort="1">
+<a href="./speakers/other/anthea.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./speakers/other/anthea.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="speakers">
+Anthea Monod
+</h5>
+<div class="card-text listing-description">
+Imperial College London
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696534803601" data-listing-reading-time-sort="1">
+<a href="./speakers/other/islem.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./speakers/other/islem.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Islem Rekik
+</h5>
+<div class="card-text listing-description">
+Imperial College London
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696534672137" data-listing-reading-time-sort="1">
+<a href="./speakers/other/joan.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./speakers/other/joan.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Joan Bruna
+</h5>
+<div class="card-text listing-description">
+New York University
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1696596505926" data-listing-reading-time-sort="1">
+<a href="./speakers/other/kathrin.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./speakers/other/kathrin.png" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kathryn Hess
+</h5>
+<div class="card-text listing-description">
+EPFL
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

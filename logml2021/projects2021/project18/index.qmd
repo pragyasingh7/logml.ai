@@ -1,0 +1,22 @@
+---
+title: "Uncovering and correcting biases in neuroimaging studies"
+author: "Ira Ktena"
+categories: [Graphs, ML, GDL]
+image: ira.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://biomedia.doc.ic.ac.uk/person/ira-ktena/
+---
+## Ira Ktena
+Ira is currently a Research Engineer at DeepMind working on Incubation of cutting edge research. Previously, she was a Senior Machine Learning Researcher at Twitter, focusing on real-time personalisation and causal analysis for recommendations. She completed a Doctoral degree in Medical Image Computing at Imperial College London. Her research focused on developing methods for modelling and analysing graph-structured neuroimaging data at an individual or population level using traditional graph theoretical approaches and geometric deep learning. During her PhD, she spent some time at the Massachusetts General Hospital, Harvard Medical School, where she worked on outcome prediction for ischemic stroke patients.
+
+## Project
+Recent work [1] on neuroimaging has demonstrated significant benefits of using population graphs to capture non-imaging information in the prediction of neurodegenerative and neurodevelopmental disorders. These non-imaging attributes may contain demographic information about the individuals, e.g. age or sex, but also the acquisition site, as imaging protocols and hardware might significantly differ across sites in large-scale studies. The effect of the latter is particularly prevalent in functional connectomics studies, where it’s unclear how to sufficiently homogenise fMRI signals across the different sites. A recent study [2] has highlighted the need to investigate potential biases in the classifiers devised using large-scale datasets, which might be imbalanced in terms of one or more sensitive attributes (like gender and race). This can be exacerbated when employing these attributes in a population graph and lead to disparate predictive performance across sub-populations. This project aims to uncover any potential biases of a semi-supervised classifier that relies on a population graph and explores methods to mitigate such biases to produce fairer predictions across the population.
+
+[1] *Parisot, S., *Ktena, S. I., Ferrante, E., Lee, M., Moreno, R. G., Glocker, B., & Rueckert, D. Disease Prediction using Graph Convolutional Networks: Application to Autism Spectrum Disorder and Alzheimer’s Disease. Medical Image Analysis, 2018
+
+[2] Larrazabal, Agostina J., et al. "Gender imbalance in medical imaging datasets produces biased classifiers for computer-aided diagnosis." Proceedings of the National Academy of Sciences, 2020

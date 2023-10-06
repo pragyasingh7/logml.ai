@@ -12,17 +12,17 @@ website:
     left:
       - href: people.qmd
         text: People
-      - href: projects.qmd
-        text: Projects
+      #- href: projects.qmd
+      #  text: Projects
       - text: Program
         menu:
           - text: Schedule
             href: program.qmd
           - text: Speakers
             href: speaker.qmd
-      - href: faq.qmd
-        text: FAQ
-      - href: logml2022/people.qmd
+      - href: policies.qmd
+        text: Policies
+      - href: logml2022/speaker.qmd
         text: "Archives"
  
     right: 
@@ -33,16 +33,23 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/company/logml/
 
-    sidebar:
-      - title: "Archives"
-        style: "docked"
-        background: light
-        search: false
-        contents:
-          - logml2022/people.qmd
-          - logml2022/projects.qmd
-          - logml2022/speaker.qmd
-         
+  sidebar:
+    - title: "Archives"
+      style: "docked"
+      background: light
+      search: false
+      contents:
+        - section: "LOGML 2022"
+          contents:
+            - logml2022/speaker.qmd
+            - logml2022/projects.qmd
+            - logml2022/sponsors.qmd
+        - section: "LOGML 2021"
+          contents:
+            - logml2021/speaker.qmd
+            - logml2021/projects.qmd
+            - logml2021/sponsors.qmd
+        
               
   page-footer: 
     left: "Copyright © 2023, LOGML Team" 

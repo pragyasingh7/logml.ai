@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-author','listing-image','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -119,10 +119,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../people.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../projects.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Program</span>
@@ -139,11 +135,11 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../faq.qmd" rel="" target="">
- <span class="menu-text">FAQ</span></a>
+    <a class="nav-link" href="../policies.html" rel="" target="">
+ <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../logml2022/people.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../logml2022/speaker.html" rel="" target="" aria-current="page">
  <span class="menu-text">Archives</span></a>
   </li>  
 </ul>
@@ -174,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logml2022/projects.html">Projects</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logml2022/speaker.html">LOGML 2022</a></li><li class="breadcrumb-item"><a href="../logml2022/projects.html">Projects</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -202,24 +198,64 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Organisers</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/projects.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">LOGML 2022</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../logml2022/speaker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Speakers</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2022/projects.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Projects</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2022/sponsors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sponsors</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">LOGML 2021</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2021/speaker.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Speakers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2021/projects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2021/sponsors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sponsors</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -227,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="GDL">GDL <span class="quarto-category-count">(22)</span></div><div class="category" data-category="Graphs">Graphs <span class="quarto-category-count">(22)</span></div><div class="category" data-category="ML">ML <span class="quarto-category-count">(22)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
@@ -240,7 +276,754 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621224" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project19/index.html"> <img src="../logml2022/projects2022/project19/Ribeiro.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project19/index.html">
+<h3 class="no-anchor listing-title">
+Adaptive frame averaging for invariant and equivariant representations
+</h3>
+<div class="listing-subtitle">
 
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project19/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project19/index.html">
+<div class="listing-author">
+Prof Bruno Ribeiro
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621222" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project18/index.html"> <img src="../logml2022/projects2022/project18/Birdal.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project18/index.html">
+<h3 class="no-anchor listing-title">
+Characterizing generalization and adversarial robustness for set networks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project18/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project18/index.html">
+<div class="listing-author">
+Prof Tolga Birdal
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621228" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project7/index.html"> <img src="../logml2022/projects2022/project7/Weber.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project7/index.html">
+<h3 class="no-anchor listing-title">
+Contrastive learning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project7/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project7/index.html">
+<div class="listing-author">
+Dr Melanie Weber
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696537235169" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project12/index.html"> <img src="../logml2022/projects2022/project12/Cesa.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project12/index.html">
+<h3 class="no-anchor listing-title">
+DImplicit neural filters for steerable CNNs
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project12/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project12/index.html">
+<div class="listing-author">
+Gabriele Cesa
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696530959559" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project1/index.html"> <img src="../logml2022/projects2022/project1/Kaustubh.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project1/index.html">
+<h3 class="no-anchor listing-title">
+Data reductions for graph attention variants
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project1/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project1/index.html">
+<div class="listing-author">
+Kaustubh Dholé
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621215" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project10/index.html"> <img src="../logml2022/projects2022/project10/Sharma.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project10/index.html">
+<h3 class="no-anchor listing-title">
+Deep functional map
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project10/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project10/index.html">
+<div class="listing-author">
+Dr Abhishek Sharma
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621216" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project13/index.html"> <img src="../logml2022/projects2022/project13/Arvanitidis.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project13/index.html">
+<h3 class="no-anchor listing-title">
+Differential geometry for representation learning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project13/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project13/index.html">
+<div class="listing-author">
+Prof Georgios Arvanitidis
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621227" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project3/index.html"> <img src="../logml2022/projects2022/project3/Gasteiger.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project3/index.html">
+<h3 class="no-anchor listing-title">
+Distilling large GNNs for molecules
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project3/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project3/index.html">
+<div class="listing-author">
+Johannes Gasteiger
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621227" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project4/index.html"> <img src="../logml2022/projects2022/project4/Villar.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project4/index.html">
+<h3 class="no-anchor listing-title">
+Equivariant machine learning for vegetation dynamics
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project4/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project4/index.html">
+<div class="listing-author">
+Prof Soledad Villar
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621215" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project11/index.html"> <img src="../logml2022/projects2022/project11/Cangea.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project11/index.html">
+<h3 class="no-anchor listing-title">
+Exploiting domain structure for music ML tasks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project11/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project11/index.html">
+<div class="listing-author">
+Dr Cătălina Cangea
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621219" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project16/index.html"> <img src="../logml2022/projects2022/project16/Huang.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project16/index.html">
+<h3 class="no-anchor listing-title">
+Exploring network medicine principles encoded by graph neural networks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project16/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project16/index.html">
+<div class="listing-author">
+Kexin Huang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621226" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project20/index.html"> <img src="../logml2022/projects2022/project20/Maron.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project20/index.html">
+<h3 class="no-anchor listing-title">
+Generalized Laplacian positional encoding for graph learning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project20/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project20/index.html">
+<div class="listing-author">
+Dr Haggai Maron
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621220" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project17/index.html"> <img src="../logml2022/projects2022/project17/Lucas.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project17/index.html">
+<h3 class="no-anchor listing-title">
+Geometric tools for investigating loss landscapes of deep neural networks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project17/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project17/index.html">
+<div class="listing-author">
+Dr James Lucas
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621229" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project8/index.html"> <img src="../logml2022/projects2022/project8/Giovanni.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project8/index.html">
+<h3 class="no-anchor listing-title">
+Graph-rewiring for GNNs from a geometric perspective
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project8/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project8/index.html">
+<div class="listing-author">
+Dr Francesco di Giovanni
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621217" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project14/index.html"> <img src="../logml2022/projects2022/project14/Schonsheck.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project14/index.html">
+<h3 class="no-anchor listing-title">
+Helmhotlz-Hodge Laplacians: edge flows and simplicial learning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project14/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project14/index.html">
+<div class="listing-author">
+Prof Stefan Schonsheck
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621226" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project22/index.html"> <img src="../logml2022/projects2022/project22/Zhang.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project22/index.html">
+<h3 class="no-anchor listing-title">
+Latent graph learning for multivariate time series
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project22/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project22/index.html">
+<div class="listing-author">
+Dr Xiang Zhang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621228" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project6/index.html"> <img src="../logml2022/projects2022/project6/Meirom.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project6/index.html">
+<h3 class="no-anchor listing-title">
+Learning graph rewiring using RL
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project6/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project6/index.html">
+<div class="listing-author">
+Dr Eli Meirom
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621218" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project15/index.html"> <img src="../logml2022/projects2022/project15/Miolane.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project15/index.html">
+<h3 class="no-anchor listing-title">
+Learning non-geodesic submanifolds
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project15/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project15/index.html">
+<div class="listing-author">
+Prof Nina Miolane
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621229" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project9/index.html"> <img src="../logml2022/projects2022/project9/Constantin.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project9/index.html">
+<h3 class="no-anchor listing-title">
+Line bundle cohomology formulae on Calabi-Yau threefolds
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project9/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project9/index.html">
+<div class="listing-author">
+Dr Andrei Constantin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621225" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project2/project2.html"> <img src="../logml2022/projects2022/project2/Kasprzykjpg.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project2/project2.html">
+<h3 class="no-anchor listing-title">
+Machine learning the fine interior
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project2/project2.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project2/project2.html">
+<div class="listing-author">
+Prof Alexander Kasprzyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621226" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project21/index.html"> <img src="../logml2022/projects2022/project21/Bodnar.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project21/index.html">
+<h3 class="no-anchor listing-title">
+PDE-inspired sheaf neural networks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project21/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project21/index.html">
+<div class="listing-author">
+Cristian Bodnar
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="Graphs,ML,GDL" data-listing-file-modified-sort="1696528621227" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="../logml2022/projects2022/project5/index.html"> <img src="../logml2022/projects2022/project5/Agarwal.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../logml2022/projects2022/project5/index.html">
+<h3 class="no-anchor listing-title">
+Towards training GNNs using explanation feedbacks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Graphs'); return false;">
+Graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GDL'); return false;">
+GDL
+</div>
+</div>
+<a href="../logml2022/projects2022/project5/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="../logml2022/projects2022/project5/index.html">
+<div class="listing-author">
+Dr Chirag Agarwal
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

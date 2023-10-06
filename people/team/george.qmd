@@ -1,5 +1,6 @@
 ---
 title: "George Dasoulas"
+sidebar: false
 sortby: "George Dasoulas"
 description: "Harvard University"
 image: george.jpg
@@ -10,7 +11,7 @@ about:
   links:
     - icon: twitter
       text: twitter
-      href: https://michellemli.com/
+      href: https://gdasoulas.github.io/
 ---
 
 

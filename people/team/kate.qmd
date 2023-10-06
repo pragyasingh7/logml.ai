@@ -1,5 +1,6 @@
 ---
 title: "Kate Benjamin"
+sidebar: false
 sortby: "Kate Benjamin"
 description: "University of Oxford"
 image: kate.jpg

@@ -1,5 +1,6 @@
 ---
 title: "Daniel Platt"
+sidebar: false
 sortby: "Daniel Platt"
 description: "King's College London"
 image: daniel.png
@@ -10,7 +11,7 @@ about:
   links:
     - icon: link
       text: website
-      href: https://michellemli.com/
+      href: https://danielplatt.github.io/
 ---
 
 

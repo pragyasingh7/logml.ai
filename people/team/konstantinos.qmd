@@ -1,5 +1,6 @@
 ---
 title: "Konstantinos Barmpas"
+sidebar: false
 sortby: "Konstantinos Barmpas"
 description: "Imperial College London"
 image: konstantinos.jpg

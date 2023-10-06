@@ -1,0 +1,40 @@
+---
+title: "Geometric Learning on Shapes and Distributions with Optimal Transport"
+author: "Jean Feydy"
+categories: [Graphs, ML, GDL]
+image: jean.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: http://www.jeanfeydy.com/
+---
+## Jean Feydy
+Jean Feydy graduated from the ENS Paris in 2016, writing his master’s
+thesis on the denoising of CT images at Siemens Healthcare (Princeton,
+NJ). He then pursued a PhD under the supervision of Alain Trouvé (ENS
+Paris-Saclay) at the intersection between computational anatomy, optimal
+transport theory and geometric machine learning. He is currently doing a
+post-doc with Michael Bronstein (Imperial College London) and will soon
+take up a faculty position at INRIA Paris, working on building new
+bridges between medical imaging, computer vision and geometric statistics.
+
+His research focuses on flexible geometric methods for scalable data
+analysis. His most significant works are distributed through:
+- the KeOps library for fast geometric computations
+(www.kernel-operations.io),
+- the GeomLoss library for scalable optimal transport
+(www.kernel-operations.io/geomloss/),
+- his accessible textbook "Geometric data analysis, beyond convolutions"
+(www.jeanfeydy.com/geometric_data_analysis.pdf).
+
+
+
+## Project
+Optimal transport generalizes sorting to spaces of dimension D>1. It induces the Wasserstein metric (aka. Earth Mover’s Distance) between probability distributions, which allows us to work with unlabelled point clouds using a simple and intuitive particle-based model.
+
+In this project, we will build upon the fast numerical routines of the GeomLoss library (https://www.kernel-operations.io/geomloss/) to explore the use of the Wasserstein metric in geometric data analysis. We will first start with a short lecture on the definition and main properties of optimal transport. Then, we will rely on simple experiments with Wasserstein barycenters and gradient flows to get an intuitive understanding of the optimal transport distance. Finally, we will study the impact of this metric on several standard tasks, from 3D shape registration to the UMAP visualization of a dataset of histograms.
+
+This project will allow you to get a hands-on experience of optimal transport tools in realistic application scenarios. Notably, we will highlight both the strengths and the limitations of this theory in data sciences: by the end of the week, you should have a clear picture of what optimal transport can (and cannot) bring to your own research work.

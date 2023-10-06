@@ -1,0 +1,21 @@
+---
+title: "Geometry of HMC and Geometric Integration for Sampling and Optimization"
+author: "Alessandro Barp"
+categories: [Graphs, ML, GDL]
+image: alessandro.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: http://www.eng.cam.ac.uk/profiles/ab2286
+---
+## Alessandro Barp
+Alessandro is a Research Associate in the Engineering Department at the University of Cambridge and a visiting researcher at the Alan Turing Institute. His research focuses on the empowerment of measures via the geometrisation of statistical methods, such as Hamiltonian Monte Carlo and kernel algorithms built with Stein operators. After having completed the MMathPhys of the University of Warwick and Part III of the Mathematical Tripos at Cambridge, he received his PhD from Imperial College London.
+
+## Project
+Geometric integration plays a central role in many applications. In this project, we will discuss its applications to sampling and optimisation.
+For sampling, we will uncover the canonical geometry of measures and apply it construct diffusions and dynamics preserving measures, symmetries and constraints. We will then discuss general strategies to construct Hamiltonian-based geometric integrators maintaining some critical properties, in particular volume preservation and conservation of a shadow energy, and hence obtain the family of Hamiltonian Monte Carlo samplers on vector spaces and manifolds. 
+
+We will then apply similar techniques to optimization in order to obtain rate-matching integrators that preserve the decay rate of dissipative dynamics.

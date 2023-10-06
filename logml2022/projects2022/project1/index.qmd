@@ -1,7 +1,7 @@
 ---
 title: "Data reductions for graph attention variants"
-author: "Zeki Akyol"
-categories: [R, Missing Values, Regression]
+author: "Kaustubh Dholé"
+categories: [Graphs, ML, GDL]
 image: Kaustubh.png
 about:
   id: project-profile
@@ -16,5 +16,3 @@ Kaustubh is a researcher at Emory University working in Natural Language Process
 
 ## Project
 There are a lot of data reduction techniques that have been applied over general transformers like Linformer (JL-Lemma), Reformer (using LSH), Nymstromformer (using Nymstrom method), etc. However, many of these approaches which have sped up attention computation have not been explored for speeding up graph attention variants. I am vouching for performing a baseline set of experiments to test some of these data reduction approaches to approximate GAT/GATv2's attention and measure how much drop on some downstream task is seen.
-
-Kaustubh is a researcher at Emory University working in Natural Language Processing & Graph Neural Networks. He has a varied set of interests spanning efficient deep learning architectures, graph neural networks and dialog systems. He has been co-organizer of the GEM (Generation, Evaluation, Metrics) workshops for the past 2 years and the co-creator of the wisdom-of-researchers effort of NL-Augmenter last year. For 7 years, he led the R&D team of Amelia (IPsoft) designing the natural language capabilities for their conversation agent Amelia.

@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -57,7 +59,66 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-keynote .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-keynote'] = new List('listing-keynote', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-speaker .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-speaker'] = new List('listing-speaker', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -86,10 +147,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../people.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../projects.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Program</span>
@@ -106,11 +163,11 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../faq.qmd" rel="" target="">
- <span class="menu-text">FAQ</span></a>
+    <a class="nav-link" href="../policies.html" rel="" target="">
+ <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../logml2022/people.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../logml2022/speaker.html" rel="" target="" aria-current="page">
  <span class="menu-text">Archives</span></a>
   </li>  
 </ul>
@@ -141,46 +198,93 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logml2022/speaker.html">Speakers</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logml2022/speaker.html">LOGML 2022</a></li><li class="breadcrumb-item"><a href="../logml2022/speaker.html">Speakers</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Organisers</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/projects.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">LOGML 2022</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../logml2022/speaker.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Speakers</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2022/projects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2022/sponsors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sponsors</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">LOGML 2021</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2021/speaker.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Speakers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2021/projects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logml2021/sponsors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sponsors</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#keynote-speakers" id="toc-keynote-speakers" class="nav-link active" data-scroll-target="#keynote-speakers">Keynote speakers</a></li>
+  <li><a href="#speakers" id="toc-speakers" class="nav-link" data-scroll-target="#speakers">Speakers</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -199,43 +303,148 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><br></p>
-<div class="grid">
-<div class="g-col-12 g-col-md-5">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="speakers/joan.qmd"><img src="../speakers/joan.jpeg" class="img-fluid figure-img"></a></p>
-</figure>
+<section id="keynote-speakers" class="level1">
+<h1>Keynote speakers</h1>
+<div id="listing-keynote" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696528621236" data-listing-reading-time-sort="1">
+<a href="../logml2022/speakers2022/keynote/heather-harrington.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../logml2022/speakers2022/keynote/heather-harrington.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="keynote-speakers">
+Heather Harrington
+</h5>
+<div class="card-text listing-description">
+University of Oxford
 </div>
 </div>
-<section id="joan-bruna" class="level1 g-col-15 g-col-md-7">
-<h1>Joan Bruna</h1>
-<section id="title-theoretical-graph" class="level3">
-<h3 class="anchored" data-anchor-id="title-theoretical-graph">Title: Theoretical graph</h3>
-<section id="description-of-the-talk-to-be-determined" class="level4">
-<h4 class="anchored" data-anchor-id="description-of-the-talk-to-be-determined">Description of the talk to be determined</h4>
-</section>
-</section>
-</section>
-<div class="g-col-12 g-col-md-5">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://arxiv.org/abs/2211.16731"><img src="../speakers/joan.jpeg" class="img-fluid figure-img"></a></p>
-</figure>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696528621236" data-listing-reading-time-sort="1">
+<a href="../logml2022/speakers2022/keynote/justin-solomon.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../logml2022/speakers2022/keynote/justin-solomon.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Justin Solomon
+</h5>
+<div class="card-text listing-description">
+MIT
 </div>
 </div>
-<section id="pietro-lio" class="level1 g-col-12 g-col-md-7">
-<h1>Pietro Lio</h1>
-<section id="title-theoretical-graph-1" class="level3">
-<h3 class="anchored" data-anchor-id="title-theoretical-graph-1">Title: Theoretical graph</h3>
-<section id="description-of-the-talk-to-be-determined-1" class="level4">
-<h4 class="anchored" data-anchor-id="description-of-the-talk-to-be-determined-1">Description of the talk to be determined</h4>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-</section>
-</section>
+<section id="speakers" class="level1">
+<h1>Speakers</h1>
+<div id="listing-speaker" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696528621236" data-listing-reading-time-sort="1">
+<a href="../logml2022/speakers2022/other/alice-le-brigant.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../logml2022/speakers2022/other/alice-le-brigant.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="speakers">
+Alice Le Brigant
+</h5>
+<div class="card-text listing-description">
+University Paris 1 Pantheon Sorbonne
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696528621237" data-listing-reading-time-sort="1">
+<a href="../logml2022/speakers2022/other/petar-velickovic.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../logml2022/speakers2022/other/petar-velickovic.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Petar Veličković
+</h5>
+<div class="card-text listing-description">
+DeepMind
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696551206602" data-listing-reading-time-sort="2">
+<a href="../logml2022/speakers2022/other/smita-krishnaswamy.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../logml2022/speakers2022/other/smita-krishnaswamy.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Smita Krishnaswamy
+</h5>
+<div class="card-text listing-description">
+Yale University
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1696528621238" data-listing-reading-time-sort="1">
+<a href="../logml2022/speakers2022/other/taco-cohen.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../logml2022/speakers2022/other/taco-cohen.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Taco Cohen
+</h5>
+<div class="card-text listing-description">
+Qualcomm
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1696528621238" data-listing-reading-time-sort="1">
+<a href="../logml2022/speakers2022/other/yang-hui-he.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../logml2022/speakers2022/other/yang-hui-he.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yang-Hui He
+</h5>
+<div class="card-text listing-description">
+City, University of London
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

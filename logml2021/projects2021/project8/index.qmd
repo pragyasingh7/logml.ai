@@ -1,0 +1,34 @@
+---
+title: "Self-supervised non-rigid correspondence by geodesic distortion minimization using the deformation field"
+author: "Oshri Halimi"
+categories: [Graphs, ML, GDL]
+image: oshri.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://www.linkedin.com/in/oshri-halimi-a160772b/?originalSubdomain=il
+---
+## Oshri Halimi
+Oshri Halimi is a Ph.D. student in the electrical engineering faculty at Technion - Israel Institute of Technology, supervised by Prof. Ron Kimmel.
+
+Her research investigates geometric invariants and their application in computer vision and shapes analysis. In particular, she is interested in the interface between geometry and deep learning.
+
+She published in top-tier conferences for computer vision (CVPR, ECCV) and organized workshops in the field: "iGDL 2020: Israeli Geometric Deep Learning Workshop" and "Learning and Processing of Geometric Visual Structures," SIAM Conference on Imaging Science (SIAM-IS20). She was awarded the Israel Ministry of Science Jabotinsky Fellowship for Doctoral Students.
+
+She holds B.Sc in physics and electrical engineering from Technion, which she graduated cum laude. She is an alumna of the Technion Excellence Program, the Archimedes Program in Technion Faculty of Chemistry, and a bronze medalist in the IChO. She served in Unit 8200.
+
+## Project
+Geodesic distortion minimization has been demonstrated as an effective approach for self-supervised non-rigid correspondence; see "Unsupervised learning of dense shape correspondence‏" (CVPR 2019).
+
+There, shape descriptors were represented by a deep network, and the network was optimized to minimize the geodesic distortion criteria of the correspondence, resulting through the Functional Maps pipeline.
+
+A novel method to differentiate the geodesic distortion with respect to the deformation field was introduced later in the paper "Limp: Learning latent shape representations with metric preservation priors" (ECCV 2020).
+
+The proposed project aims at combining the observations in both mentioned publications. The goal is to represent the deformation field using a deep network and to optimize it to admit the following requirements:
+
+1) Geodesic distance preservation of the deformation field 
+
+2) Overlapping between the deformed source shape and the target shape.

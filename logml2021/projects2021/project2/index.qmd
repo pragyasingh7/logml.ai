@@ -1,0 +1,35 @@
+---
+title: "Characterising Universes in String Theory using Geometric Learning"
+author: "Challenger Mishra"
+categories: [Graphs, ML, GDL]
+image: mishra.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://oatml.cs.ox.ac.uk/members/challenger_mishra/
+---
+## Challenger Mishra
+Challenger Mishra is a Departmental Eary Career Academic Fellow at the Computer Lab, University of Cambridge, and a Stipendiary Lecturer of Applied Mathematics at Lady Margaret Hall, University of Oxford. His research interests include Machine Learning, Calabi-Yau manifolds in String theory, String compactifications, and their interplay. Prior to this, he did a doctorate as a Rhodes Scholar in String theory at the Rudolf Peierls Center for Theoretical Physics, University of Oxford. Challenger completed his undergraduate work in Physics from the Indian Institute of Science Education and Research, Kolkata. 
+
+## Project
+One of the holy grails of modern theoretical physics is the unification of Quantum Mechanics with Einstein’s relativity. String theory is the only known consistent theory of quantum gravity, and arguably the most promising candidate for a unified theory of physics. Since its inception in the late 1960s, it has provided tremendous insights into our understanding of the physical world, and has overseen many interesting developments in various branches of pure mathematics and theoretical physics. Despite string theory’s many successes, a string model that explains all observed data from cosmology and particle physics experiments, has eluded discovery. This is owing to the particularly large landscape of valid string theory solutions, estimated to be of the size 10^{270,000}. Most of these solutions are thought to lead to descriptions of universes that do not resemble ours in detail. 
+
+String theory posits extra-dimensions of space. These are often described by complex geometries called Calabi—Yau manifolds. A class of string theory solutions (or vacua) is characterised by Complete Intersection Calabi--Yau manifolds, and bundles over them. The data corresponding to these are encoded as bipartite graphs and integer matrices, whose size is governed by the (topological) properties of the bundles and Calabi--Yau geometries. The resulting dataset is of size tens of thousands. The objective of this project is to characterise these different solutions (Universes) using Machine Learning. More concretely, the aim is to obtain a suitable metric on this space of solutions that 'scores' stringy solutions based on their closeness to reality, i.e., observations from particle accelerators like the LHC. Such a metric could be approximated by a sufficiently deep neural network. Insights from such a metric will allow the construction of even more realistic string solutions, ESP on geometries that have been out of current computational reach. 
+
+The project will allow the participant(s) to delve into fundamentals of complex geometry, learn about effective representations of geometric data in Machine Learning, and develop an empirical understanding of the ML tools that are effective in such geometric problems.
+
+
+
+
+
+References:
+[1] Calabi-Yau Spaces in the String Landscape -- Yang-Hui He, https://arxiv.org/abs/2006.16623
+
+[2] Calabi-Yau manifolds, Discrete Symmetries, and String theory -- Challenger Misha, https://ora.ox.ac.uk/objects/uuid:4a174981-085e-4e81-8f27-b48533f08315
+
+[3] Heterotic Line Bundle Standard Models -- Lara B. Anderson, James Gray, Andre Lukas, Eran Palti
+
+https://arxiv.org/abs/1202.1757

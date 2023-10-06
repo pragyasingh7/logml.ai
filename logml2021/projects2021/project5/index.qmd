@@ -1,0 +1,26 @@
+---
+title: "Implicit planner GNNs for continuous control"
+author: "Andreea Deac"
+categories: [Graphs, ML, GDL]
+image: andrea.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: https://andreeadeac22.github.io/
+---
+## Andreea Deac
+Andreea is a second year PhD student at Mila/University of Montreal with Prof Jian Tang. She is broadly interested in how learning can be improved through the use of graph representations, in particular in the context of reinforcement learning. She has previously worked on algorithmic alignment for implicit planning, as well as applications of graph representation learning to biotechnology, such as drug discovery and drug combinations.
+
+## Project
+Real-world applications often require sequential decision making, and, in order to reason over longer time horizons, planning. One way of doing planning is by estimating the effects of actions and the values of the states. Then a plan can be constructed consisting of the actions which lead to overall highest possible value.
+
+Fortunately, there is a known dynamic programming algorithm, Value Iteration (VI), which can find the optimal value function of a known Markov Decision Process (MDP). Even more, we know that the VI update is taking an expectation over the neighbouring states’ values, which is something a CNN can do in a grid, or, more generally, a graph neural network (GNN) in a graph. The GNN can then be used as part of the policy network. This has been directly validated in recent work, where GNNs have been successfully used to execute dynamic programming algorithms.
+
+In this project, we will focus on the recently proposed eXecuted Latent Value Iteration Network (XLVIN) model [1], which provides us with one way to apply VI-style reasoning even if the underlying state graph is not known. While the XLVIN agent holds promise, it leaves several design decisions which have not been fully explored—perhaps the most interesting of which is generalising beyond discrete action spaces. By using a simple continuous control environment (such as LunarLander), we will first construct an XLVIN agent relying on simple MLP-based encoders. Then, we will take it one step further and bin the environment’s continuous action space, allowing for more fine-grained control.
+
+Eventually, the number of bins may expand the computational budget of our planner (which normally applies an exhaustive breadth-first search strategy), so we will attempt various forms of exploratory planning. Ultimately, this can lead us to fully continuous action spaces, specified using, for example, a Gaussian distribution over various torque actions.
+
+[1] Deac A., Velickovic P., Milinkovic O., Bacon P., Tang J. et. al. 2020. “XLVIN: EXecuted Latent Value Iteration Nets.” http://arxiv.org/abs/2010.13146

@@ -1,0 +1,22 @@
+---
+title: Sponsors
+page-layout: full
+---
+
+::: {layout="[[1,1, 1], [1, 1, 1]]"}
+
+![](sponsors2022/twitter.png){height=2in}
+
+![](sponsors2022/relation.png){height=2in}
+
+![](sponsors2022/Adobe-logo.png){height=2in}
+
+![](sponsors2022/qualcom.webp)
+
+![](sponsors2022/grese.webp){height=2in}
+
+![](sponsors2022/zaiku.webp){height=2in}
+
+![](sponsors2022/heilborn.png)
+
+:::

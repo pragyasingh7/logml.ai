@@ -1,5 +1,6 @@
 ---
 titpagetitle: "People | LOGML"
+sidebar: false
 listing:
   - id: team
     contents: "people/team/*.qmd"
@@ -39,4 +40,3 @@ comments: false
 
 :::{#advisors}
 :::
-

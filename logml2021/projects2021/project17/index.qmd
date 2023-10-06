@@ -1,0 +1,18 @@
+---
+title: "Pretraining graph neural networks with ELECTRA"
+author: "Wengong Jin"
+categories: [Graphs, ML, GDL]
+image: jin.webp
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: link
+      text: website
+      href: http://people.csail.mit.edu/wengong/
+---
+## Wengong Jin
+Wengong Jin is a Ph.D. student in MIT CSAIL advised by Regina Barzilay and Tommi Jaakkola. His research seeks to develop novel machine learning algorithms for structured data and utilize them to automate molecular science such as drug discovery, material design, and chemistry. He is particularly interested in deep generative models and graph neural networks. His work has been published in top ML venues like ICML, NeurIPS, ICLR, as well as top biology journals like Cell.
+
+## Project
+Molecular property prediction is an important task in cheminformatics. Current property prediction methods are based on graph neural networks and require a large amount of training data to achieve state-of-the-art performance. Unfortunately, most datasets in cheminformatic domains are small (e.g., less than 1000). On the other hand, pretraining methods have achieved great success in computer vision and natural language processing. In this project, we seek to investigate how to pretrain graph neural networks on a large collection of unlabeled molecules using ELECTRA (Clark et al., 2020). The goal is to learn a masked language model to generate corrupted molecules and train a discriminator to distinguish the real molecules from the fake molecules. The method will be evaluated on MoleculeNet benchmark (Wu et al., 2017) to test its empirical performance.

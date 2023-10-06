@@ -1,5 +1,6 @@
 ---
 title: "Guadalupe Gozalez"
+sidebar: false
 sortby: "Guadalupe Gonzalez"
 description: "Prescient Design, Roche"
 image: guada.jpg
@@ -10,8 +11,8 @@ about:
   links:
     - icon: link
       text: website
-      href: https://michellemli.com/
+      href: https://www.guadalupegonzalez.io/
 ---
 
 
-Guadalupe is a third-year PhD candidate at Imperial College London, supervised by Prof. Michael Bronstein and Dr. Kirill Veselkov. Her research lies on the intersection of graph machine learning and biomedical research, with a special emphasis on drug repositioning, combinatorial therapeutics and hyperfoods (i.e. molecules in foods with disease-beating properties) prediction.
+Guadalupe is a machine learning scientist at Roche, in the Prescient Design team. She focuses on developing deep learning methods for a range of tasks within the drug discovery pipeline. She has previous experience on target discovery, and disease characterization. At Prescient, her focus is primarily on developing general deep learning methods for various tasks including molecule design, mode-of-action prediction, and structure elucidation from mass spectrometry data.
