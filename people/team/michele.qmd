@@ -1,7 +1,7 @@
 ---
-title: "Michele Li"
+title: "Michelle Li"
 sidebar: false
-sortby: "Michele Li"
+sortby: "Michelle Li"
 description: "Harvard University"
 image: MichelleLi.jpeg
 toc: false
