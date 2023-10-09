@@ -1,7 +1,7 @@
 ---
 title: "Heather Harrington"
 sidebar: false
-description: "Helmholtz Munich"
+description: "MPI-CBG Dresden"
 image: heather.webp
 toc: false
 about:
