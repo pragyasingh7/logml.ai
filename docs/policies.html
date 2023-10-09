@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>LOGML - Policies</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">LOGML</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html" rel="" target="">
+ <span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Program</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-program">    
+        <li>
+    <a class="dropdown-item" href="./program.html" rel="" target="">
+ <span class="dropdown-text">Schedule</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./speaker.html" rel="" target="">
+ <span class="dropdown-text">Speakers</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./policies.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Policies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./logml2022/speaker.html" rel="" target="">
+ <span class="menu-text">Archives</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/channel/UC7m0STJK9e4BbD-elwS4bNw" rel="" target=""><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/LogmlSchool" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/logml/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#diversity-and-inclusion-policy" id="toc-diversity-and-inclusion-policy" class="nav-link active" data-scroll-target="#diversity-and-inclusion-policy">Diversity and inclusion policy</a></li>
+  <li><a href="#speaker-and-mentors" id="toc-speaker-and-mentors" class="nav-link" data-scroll-target="#speaker-and-mentors">Speaker and mentors</a></li>
+  <li><a href="#disabilities" id="toc-disabilities" class="nav-link" data-scroll-target="#disabilities">Disabilities</a></li>
+  <li><a href="#caring-responsibilities" id="toc-caring-responsibilities" class="nav-link" data-scroll-target="#caring-responsibilities">Caring responsibilities</a></li>
+  <li><a href="#financial-support" id="toc-financial-support" class="nav-link" data-scroll-target="#financial-support">Financial support</a></li>
+  <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link" data-scroll-target="#code-of-conduct">Code of Conduct</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#code-of-conduct-1" id="toc-code-of-conduct-1" class="nav-link" data-scroll-target="#code-of-conduct-1">Code of Conduct</a></li>
+  </ul></li>
+  <li><a href="#incident-reporting-and-resolution" id="toc-incident-reporting-and-resolution" class="nav-link" data-scroll-target="#incident-reporting-and-resolution">Incident reporting and resolution</a></li>
+  <li><a href="#data-protection-statement" id="toc-data-protection-statement" class="nav-link" data-scroll-target="#data-protection-statement">Data Protection Statement</a></li>
+  <li><a href="#information-about-your-rights" id="toc-information-about-your-rights" class="nav-link" data-scroll-target="#information-about-your-rights">Information about your rights</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Policies</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="diversity-and-inclusion-policy" class="level2">
+<h2 class="anchored" data-anchor-id="diversity-and-inclusion-policy">Diversity and inclusion policy</h2>
+<p>The Organisers acknowledge that the workforce in STEM fields (including mathematics and computer science) does not reflect the diversity of the general population, and the importance of role models in encouraging talents to pursue careers in STEM regardless of their background. ​ This document outlines the steps the Organising Committee is taking in order to make the event accessible and welcoming to a diverse crowd, independently of ethnicity, gender, sexual orientation, religion, or disability.</p>
+<p>We encourage anyone with concerns regarding accessibility, diversity, or inclusion to contact the Organising Committee.</p>
+<p>Note: this document is not final and will be subject to changes by the time of the event.</p>
+</section>
+<section id="speaker-and-mentors" class="level2">
+<h2 class="anchored" data-anchor-id="speaker-and-mentors">Speaker and mentors</h2>
+<p>​ The Organisers are committed to inviting speakers and mentors representative of all people. This includes ensuring a diverse representation of research subjects and fields, gender, and ethnic backgrounds among our speakers and mentors.</p>
+<p>In particular, we attempt to counteract the underrepresentation of women in STEM by making sure that at least 20% of speakers and mentors are non-male. We also strongly encourage applications by non-men and minorities and will reserve 20% of the participant spots for underrepresented groups.</p>
+<p>The Organisers will, to the best of their abilities, ensure traditionally under-represented groups in AI and STEM are aware of the event and encouraged to apply, e.g., by reaching out to university and department diversity officers.</p>
+</section>
+<section id="disabilities" class="level2">
+<h2 class="anchored" data-anchor-id="disabilities">Disabilities</h2>
+<p>​ The Organisers are committed to making the event accessible to people with disabilities. We will strive to provide accessible versions of the content of the summer school (e.g.&nbsp;plain-text pages with links to the videoconference meetings). We also have funding available for individualised assistance.</p>
+<p>Please reach out to the organisers if you require help with accessibility.</p>
+</section>
+<section id="caring-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="caring-responsibilities">Caring responsibilities</h2>
+<p>​ Financial support will be available to relieve participants, mentors or speakers of caring responsibilities that might interfere with their participation in the Summer School. Applicants can state in the application form that they request financial assistance to cover caring expenses in order to attend the event. Attendance will also be provided for free to legal carers of participants if requested in the application form.</p>
+<p>Please reach out to the organisers if you require help with caring responsibilities.</p>
+</section>
+<section id="financial-support" class="level2">
+<h2 class="anchored" data-anchor-id="financial-support">Financial support</h2>
+<p>​ Limited financial support is available. Preference will be given to applicants who cannot obtain financial assistance by other means (e.g.&nbsp;from their university, department, or advisors). Applicants will have the possibility to apply for support in the application form. ​</p>
+</section>
+<section id="code-of-conduct" class="level2">
+<h2 class="anchored" data-anchor-id="code-of-conduct">Code of Conduct</h2>
+<p>This document states the Code of Conduct of the LOGML 2022 Workshop (hereafter referred to as “the Event”).</p>
+<p>Note: This document is not final and will be subject to changes by the time of the event.</p>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>​ The Organisers are committed to making this conference productive and enjoyable for everyone, regardless of sex, sexual orientation, disability, age, physical appearance, body size, ethnicity, nationality, or religion. For this reason, we will not tolerate harassment of participants in any form, and will implement policies to promote an inclusive environment and support vectors for attendees who require assistance to participate in the workshop.</p>
+<p>As part of the registration process, all attendees (i.e.&nbsp;all participants, mentors, speakers, any volunteer helpers, and any other person attending the event) are required to agree to adhere to this Code of Conduct. In particular, Sponsors are equally subject to this Code of Conduct, and may not use images, activities, or any other materials that are of sexual, racial, or otherwise offensive nature. This code applies both to official Sponsors as well as any organisation that uses the Workshop name, image, or identity as part of its activities at or around the Workshop.</p>
+</section>
+<section id="code-of-conduct-1" class="level3">
+<h3 class="anchored" data-anchor-id="code-of-conduct-1">Code of Conduct</h3>
+<p>​ Attendees are required to behave professionally. Harassment and sexist, racist, or exclusionary comments or jokes and any behaviour pertaining to bullying are not appropriate. Compliance with these principles and, in particular, with the present Code of Conduct is expected not just for virtual meetings, but also for interactions on social media.</p>
+<p>Harassment includes sustained disruption of talks or other events, sustained unwanted contact, sexual attention or innuendo, deliberate intimidation, pressuring, stalking, and photography or recording of an individual without consent. It also includes offensive or belittling comments related to gender, sexual orientation, disability, age, physical appearance, body size, ethnicity, or religion.</p>
+<p>All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery are not appropriate.</p>
+</section>
+</section>
+<section id="incident-reporting-and-resolution" class="level2">
+<h2 class="anchored" data-anchor-id="incident-reporting-and-resolution">Incident reporting and resolution</h2>
+<p>​ If you observe someone making you or anyone else feel unsafe or unwelcome, please tell them so, and remind them of the Code of Conduct. Non-confrontational alternatives can be to create a distraction, or to refer the person to an Organiser.</p>
+<p>Whether or not you addressed the person yourself, report incidents as soon as possible to a member of the Organising Committee - see contact information below. The Committee is committed to addressing and resolving the matter to the best of their abilities and within the best possible delay. We are prepared to help participants in contacting relevant help services, and to escort them to a safe location.</p>
+<p>Please use the following contact information, and explain what happened and who was involved so that we can investigate: <a href="mailto:logml.committee@gmail.com">logml.committee@gmail.com</a>.</p>
+<p>The phone number of the point of contact will be provided to all attendees as part of the electronic materials during the Event. ​ ## Sanctions ​ When someone is asked to stop any behaviour that violates the Code of Conduct, they are expected to comply immediately. In response to behaviour deemed inappropriate by the Organising Committee (e.g.&nbsp;sexual content, rudeness, unprofessional), the Organisers may take any action they deem appropriate, including warning the person in question, asking them to leave or banning them from the event, or removing them from a mailing list.</p>
+<p>Specific actions may include but are not limited to:</p>
+<ol type="1">
+<li><p>asking the person to cease the inappropriate behaviour, and warning them that any further reports will result in other sanctions</p></li>
+<li><p>requiring the person makes conciliatory efforts that may include an apology, informal mediation, or other steps intended to facilitate restoration of relationships</p></li>
+<li><p>requiring the person avoids any interaction with another person for the remainder of the event</p></li>
+<li><p>early termination of a talk that violates the policy</p></li>
+<li><p>not publishing the video or slides of a talk that violates the policy</p></li>
+<li><p>not allowing a speaker who violated the policy to give (further) talks at the event</p></li>
+<li><p>immediately ending any event responsibilities or privileges held</p></li>
+<li><p>requiring that the person immediately leave the event and not return</p></li>
+<li><p>blocking the person on social media platforms</p></li>
+<li><p>banning the person from future events</p></li>
+<li><p>publishing an anonymous account of the harassment</p></li>
+<li><p>reporting the incident to the person’s employer</p></li>
+<li><p>reporting the incident to competent authorities</p></li>
+</ol>
+<p>The Organisers reserve the right to remove participants who fail to comply with the Code of Conduct if the situation requires it. The Organisers may decline to refund any cost incurred with attendance (including, e.g., registration fee) to participants who have been expelled for breaching the Code of Conduct.</p>
+<p>Thank you for your participation in the LOGML community, and your efforts to keep our conference welcoming, respectful, and friendly for all participants!</p>
+</section>
+<section id="data-protection-statement" class="level2">
+<h2 class="anchored" data-anchor-id="data-protection-statement">Data Protection Statement</h2>
+<p><strong>Who is collecting your data?</strong></p>
+<p>The London Geometry and Machine Learning Organisation Committee (LOGML) is collecting your data. The individual members of our initiative are listed on the “Organisers” page. Submitted data are controlled by LOGML. Data is shared with third parties, if necessary, for the organisation of the workshop. In particular, contact data of successful applicants is shared with project mentors, and participants’ CVs are shared with sponsors if the participant has opted-in for this during the application process.</p>
+<p><strong>Why will we be using your personal data?</strong></p>
+<p>We are using your personal data to make admissions decision for the summer school and to communicate with you about the summer school, for example to share access information or schedule changes. We share your contact information with the mentor of the project you work on during the workshop in order to enable them to contact you about matters regarding the project you will participate in.</p>
+<p><strong>What are the categories of personal data concerned?</strong></p>
+<p>We only collect personal data when you share them directly with us through the application form, personally, via email. The categories of personal data concerned is the category of data that you are sharing directly with us.</p>
+<p><strong>What is the legal justification for processing your data?</strong></p>
+<p>We are providing a task in the public interest linked to the core purpose “Education”.</p>
+<p><strong>For how long will we keep your data?</strong></p>
+<p>We will keep data of both successful and unsuccessful applicants for six months after the workshop.</p>
+<p><strong>Who else might receive your data?</strong></p>
+<p>If you explicitly advise us to do this during the application process, we will share your CV with our sponsors who process your data according to their respective privacy policies. Our sponsors are listed on the “Sponsors” page of our website.</p>
+</section>
+<section id="information-about-your-rights" class="level2">
+<h2 class="anchored" data-anchor-id="information-about-your-rights">Information about your rights</h2>
+<p>Under certain circumstances, you may have the following rights in relation to your personal data:</p>
+<p><strong>Right 1:</strong> A right to access personal data held by us about you.</p>
+<p><strong>Right 2:</strong> A right to require us to rectify any inaccurate personal data held by us about you.</p>
+<p><strong>Right 3:</strong> A right to require us to erase personal data held by us about you. This right will only apply where, for example, we no longer need to use the personal data to achieve the purpose we collected it for; or where you withdraw your consent if we are using your personal data based on your consent; or where you object to the way we process your data (in line with Right 6 below).</p>
+<p><strong>Right 4:</strong> A right to restrict our processing of personal data held by us about you. This right will only apply where, for example, you dispute the accuracy of the personal data held by us; or where you would have the right to require us to erase the personal data but would prefer that our processing is restricted instead; or where we no longer need to use the personal data to achieve the purpose we collected it for, but we require the data for the purposes of dealing with legal claims.</p>
+<p><strong>Right 5:</strong> A right to receive personal data, which you have provided to us, in a structured, commonly used and machine readable format. You also have the right to require us to transfer this personal data to another organisation.</p>
+<p><strong>Right 6:</strong> A right to object to our processing of personal data held by us about you.</p>
+<p><strong>Right 7:</strong> A right to withdraw your consent, where we are relying on it to use your personal data.</p>
+<p><strong>Right 8:</strong> A right to ask us not to use information about you in a way that allows computers to make decisions about you and ask us to stop.</p>
+<p>If you want to exercise these rights, please contact us at <a href="mailto:logml.committee@gmail.com">logml.committee@gmail.com</a>.</p>
+<p>You can read more about your rights in the Guidance from the UK Information <a href="https://ico.org.uk/for-the-public">Commissioner’s Office (ICO)</a>. You also have the right to make a complaint to the ICO about how we use your personal data. You can do this by contacting the ICO via their <a href="https://ico.org.uk/concerns">website</a> or by calling 0303 123 1113.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright © 2023, LOGML Team</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/channel/UC7m0STJK9e4BbD-elwS4bNw">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/LogmlSchool">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/logml/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:logml@gmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

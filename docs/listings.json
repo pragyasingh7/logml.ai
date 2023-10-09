@@ -1,0 +1,119 @@
+[
+  {
+    "listing": "/logml2022/speaker.html",
+    "items": [
+      "/logml2022/speakers2022/keynote/heather-harrington.html",
+      "/logml2022/speakers2022/keynote/justin-solomon.html",
+      "/logml2022/speakers2022/other/alice-le-brigant.html",
+      "/logml2022/speakers2022/other/petar-velickovic.html",
+      "/logml2022/speakers2022/other/smita-krishnaswamy.html",
+      "/logml2022/speakers2022/other/taco-cohen.html",
+      "/logml2022/speakers2022/other/yang-hui-he.html"
+    ]
+  },
+  {
+    "listing": "/logml2022/projects.html",
+    "items": [
+      "/logml2022/projects2022/project19/index.html",
+      "/logml2022/projects2022/project18/index.html",
+      "/logml2022/projects2022/project7/index.html",
+      "/logml2022/projects2022/project12/index.html",
+      "/logml2022/projects2022/project1/index.html",
+      "/logml2022/projects2022/project10/index.html",
+      "/logml2022/projects2022/project13/index.html",
+      "/logml2022/projects2022/project3/index.html",
+      "/logml2022/projects2022/project4/index.html",
+      "/logml2022/projects2022/project11/index.html",
+      "/logml2022/projects2022/project16/index.html",
+      "/logml2022/projects2022/project20/index.html",
+      "/logml2022/projects2022/project17/index.html",
+      "/logml2022/projects2022/project8/index.html",
+      "/logml2022/projects2022/project14/index.html",
+      "/logml2022/projects2022/project22/index.html",
+      "/logml2022/projects2022/project6/index.html",
+      "/logml2022/projects2022/project15/index.html",
+      "/logml2022/projects2022/project9/index.html",
+      "/logml2022/projects2022/project2/project2.html",
+      "/logml2022/projects2022/project21/index.html",
+      "/logml2022/projects2022/project5/index.html"
+    ]
+  },
+  {
+    "listing": "/logml2021/speaker.html",
+    "items": [
+      "/logml2021/speakers2021/keynote/michael-bronstein.html",
+      "/logml2021/speakers2021/keynote/ulrike-tillmann.html",
+      "/logml2021/speakers2021/other/gabriele-steidl.html",
+      "/logml2021/speakers2021/other/maks-ovsjanikov.html",
+      "/logml2021/speakers2021/other/marinka-zitnik.html",
+      "/logml2021/speakers2021/other/martin-rumpf.html",
+      "/logml2021/speakers2021/other/maximilian-nickel.html",
+      "/logml2021/speakers2021/other/michael-betancourt.html",
+      "/logml2021/speakers2021/other/niloy-mitra.html",
+      "/logml2021/speakers2021/other/ruriko-yoshida.html",
+      "/logml2021/speakers2021/other/sanja-fidler.html",
+      "/logml2021/speakers2021/other/thomas-kipf.html"
+    ]
+  },
+  {
+    "listing": "/logml2021/projects.html",
+    "items": [
+      "/logml2021/projects2021/project2/index.html",
+      "/logml2021/projects2021/project6/index.html",
+      "/logml2021/projects2021/project7/index.html",
+      "/logml2021/projects2021/project10/index.html",
+      "/logml2021/projects2021/project19/index.html",
+      "/logml2021/projects2021/project12/index.html",
+      "/logml2021/projects2021/project5/index.html",
+      "/logml2021/projects2021/project15/index.html",
+      "/logml2021/projects2021/project11/index.html",
+      "/logml2021/projects2021/project16/index.html",
+      "/logml2021/projects2021/project13/index.html",
+      "/logml2021/projects2021/project14/index.html",
+      "/logml2021/projects2021/project3/index.html",
+      "/logml2021/projects2021/project20/index.html",
+      "/logml2021/projects2021/project17/index.html",
+      "/logml2021/projects2021/project9/index.html",
+      "/logml2021/projects2021/project8/index.html",
+      "/logml2021/projects2021/project1/index.html",
+      "/logml2021/projects2021/project4/index.html",
+      "/logml2021/projects2021/project18/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/team/daniel.html",
+      "/people/team/george.html",
+      "/people/team/guada.html",
+      "/people/team/josh.html",
+      "/people/team/kate.html",
+      "/people/team/konstantinos.html",
+      "/people/team/michele.html",
+      "/people/team/valentina.html",
+      "/people/team/van.html",
+      "/people/advisors/bastian.html",
+      "/people/advisors/heather.html",
+      "/people/advisors/solomon.html",
+      "/people/advisors/marinka.html",
+      "/people/advisors/bronstein.html",
+      "/people/advisors/thomas.html",
+      "/people/advisors/ulrike.html",
+      "/people/advisors/xavier.html"
+    ]
+  },
+  {
+    "listing": "/speaker.html",
+    "items": [
+      "/speakers/keynote/kathrin.html",
+      "/speakers/keynote/pietro.html",
+      "/speakers/other/anthea.html",
+      "/speakers/other/islem.html",
+      "/speakers/other/joan.html"
+    ]
+  }
+]
