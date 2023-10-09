@@ -39,21 +39,8 @@
     ]
   },
   {
-    "listing": "/logml2021/speaker.html",
-    "items": [
-      "/logml2021/speakers2021/keynote/michael-bronstein.html",
-      "/logml2021/speakers2021/keynote/ulrike-tillmann.html",
-      "/logml2021/speakers2021/other/gabriele-steidl.html",
-      "/logml2021/speakers2021/other/maks-ovsjanikov.html",
-      "/logml2021/speakers2021/other/marinka-zitnik.html",
-      "/logml2021/speakers2021/other/martin-rumpf.html",
-      "/logml2021/speakers2021/other/maximilian-nickel.html",
-      "/logml2021/speakers2021/other/michael-betancourt.html",
-      "/logml2021/speakers2021/other/niloy-mitra.html",
-      "/logml2021/speakers2021/other/ruriko-yoshida.html",
-      "/logml2021/speakers2021/other/sanja-fidler.html",
-      "/logml2021/speakers2021/other/thomas-kipf.html"
-    ]
+    "listing": "/projects.html",
+    "items": []
   },
   {
     "listing": "/logml2021/projects.html",
@@ -81,8 +68,21 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": []
+    "listing": "/logml2021/speaker.html",
+    "items": [
+      "/logml2021/speakers2021/keynote/michael-bronstein.html",
+      "/logml2021/speakers2021/keynote/ulrike-tillmann.html",
+      "/logml2021/speakers2021/other/gabriele-steidl.html",
+      "/logml2021/speakers2021/other/maks-ovsjanikov.html",
+      "/logml2021/speakers2021/other/marinka-zitnik.html",
+      "/logml2021/speakers2021/other/martin-rumpf.html",
+      "/logml2021/speakers2021/other/maximilian-nickel.html",
+      "/logml2021/speakers2021/other/michael-betancourt.html",
+      "/logml2021/speakers2021/other/niloy-mitra.html",
+      "/logml2021/speakers2021/other/ruriko-yoshida.html",
+      "/logml2021/speakers2021/other/sanja-fidler.html",
+      "/logml2021/speakers2021/other/thomas-kipf.html"
+    ]
   },
   {
     "listing": "/people.html",
