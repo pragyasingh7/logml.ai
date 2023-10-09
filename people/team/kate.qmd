@@ -12,6 +12,9 @@ about:
     - icon: twitter
       text: twitter
       href: https://twitter.com/kfbenjamin
+    - icon: link
+      text: website
+      href: https://people.maths.ox.ac.uk/benjamin/
 ---
 
 Katherine Benjamin is a DPhil student in the Mathematical Institute at the University of Oxford. As a member of the Centre for Topological Data Analysis, her research focuses on topological methods for analysis of biomedical data with spatial components. In particular, she is interested in geometric invariants of biomolecular structure, and topological summaries for spatial transcriptomics data.

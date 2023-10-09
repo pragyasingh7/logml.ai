@@ -15,12 +15,12 @@ website:
         text: People
       #- href: projects.qmd
       #  text: Projects
-      - text: Program
-        menu:
-          - text: Schedule
-            href: program.qmd
-          - text: Speakers
-            href: speaker.qmd
+      # - text: Program
+      #   menu:
+      #     - text: Schedule
+      #       href: program.qmd
+      - text: Speakers
+        href: speaker.qmd
       - href: policies.qmd
         text: Policies
       - href: logml2022/speaker.qmd
