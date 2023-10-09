@@ -343,11 +343,81 @@
     "text": "The schedule of the events will be available in the following calendar. The timezone is GMT+00:00.\nYou can add the events to your calendar via iCal or Google calendar."
   },
   {
-    "objectID": "logml2022.html",
-    "href": "logml2022.html",
-    "title": "Readings, lectures, and videos",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before watching the lecture."
+    "text": "About this site"
+  },
+  {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Policies",
+    "section": "",
+    "text": "The Organisers acknowledge that the workforce in STEM fields (including mathematics and computer science) does not reflect the diversity of the general population, and the importance of role models in encouraging talents to pursue careers in STEM regardless of their background. ​ This document outlines the steps the Organising Committee is taking in order to make the event accessible and welcoming to a diverse crowd, independently of ethnicity, gender, sexual orientation, religion, or disability.\nWe encourage anyone with concerns regarding accessibility, diversity, or inclusion to contact the Organising Committee.\nNote: this document is not final and will be subject to changes by the time of the event."
+  },
+  {
+    "objectID": "policies.html#diversity-and-inclusion-policy",
+    "href": "policies.html#diversity-and-inclusion-policy",
+    "title": "Policies",
+    "section": "",
+    "text": "The Organisers acknowledge that the workforce in STEM fields (including mathematics and computer science) does not reflect the diversity of the general population, and the importance of role models in encouraging talents to pursue careers in STEM regardless of their background. ​ This document outlines the steps the Organising Committee is taking in order to make the event accessible and welcoming to a diverse crowd, independently of ethnicity, gender, sexual orientation, religion, or disability.\nWe encourage anyone with concerns regarding accessibility, diversity, or inclusion to contact the Organising Committee.\nNote: this document is not final and will be subject to changes by the time of the event."
+  },
+  {
+    "objectID": "policies.html#speaker-and-mentors",
+    "href": "policies.html#speaker-and-mentors",
+    "title": "Policies",
+    "section": "Speaker and mentors",
+    "text": "Speaker and mentors\n​ The Organisers are committed to inviting speakers and mentors representative of all people. This includes ensuring a diverse representation of research subjects and fields, gender, and ethnic backgrounds among our speakers and mentors.\nIn particular, we attempt to counteract the underrepresentation of women in STEM by making sure that at least 20% of speakers and mentors are non-male. We also strongly encourage applications by non-men and minorities and will reserve 20% of the participant spots for underrepresented groups.\nThe Organisers will, to the best of their abilities, ensure traditionally under-represented groups in AI and STEM are aware of the event and encouraged to apply, e.g., by reaching out to university and department diversity officers."
+  },
+  {
+    "objectID": "policies.html#disabilities",
+    "href": "policies.html#disabilities",
+    "title": "Policies",
+    "section": "Disabilities",
+    "text": "Disabilities\n​ The Organisers are committed to making the event accessible to people with disabilities. We will strive to provide accessible versions of the content of the summer school (e.g. plain-text pages with links to the videoconference meetings). We also have funding available for individualised assistance.\nPlease reach out to the organisers if you require help with accessibility."
+  },
+  {
+    "objectID": "policies.html#caring-responsibilities",
+    "href": "policies.html#caring-responsibilities",
+    "title": "Policies",
+    "section": "Caring responsibilities",
+    "text": "Caring responsibilities\n​ Financial support will be available to relieve participants, mentors or speakers of caring responsibilities that might interfere with their participation in the Summer School. Applicants can state in the application form that they request financial assistance to cover caring expenses in order to attend the event. Attendance will also be provided for free to legal carers of participants if requested in the application form.\nPlease reach out to the organisers if you require help with caring responsibilities."
+  },
+  {
+    "objectID": "policies.html#financial-support",
+    "href": "policies.html#financial-support",
+    "title": "Policies",
+    "section": "Financial support",
+    "text": "Financial support\n​ Limited financial support is available. Preference will be given to applicants who cannot obtain financial assistance by other means (e.g. from their university, department, or advisors). Applicants will have the possibility to apply for support in the application form. ​"
+  },
+  {
+    "objectID": "policies.html#code-of-conduct",
+    "href": "policies.html#code-of-conduct",
+    "title": "Policies",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nThis document states the Code of Conduct of the LOGML 2022 Workshop (hereafter referred to as “the Event”).\nNote: This document is not final and will be subject to changes by the time of the event.\n\nIntroduction\n​ The Organisers are committed to making this conference productive and enjoyable for everyone, regardless of sex, sexual orientation, disability, age, physical appearance, body size, ethnicity, nationality, or religion. For this reason, we will not tolerate harassment of participants in any form, and will implement policies to promote an inclusive environment and support vectors for attendees who require assistance to participate in the workshop.\nAs part of the registration process, all attendees (i.e. all participants, mentors, speakers, any volunteer helpers, and any other person attending the event) are required to agree to adhere to this Code of Conduct. In particular, Sponsors are equally subject to this Code of Conduct, and may not use images, activities, or any other materials that are of sexual, racial, or otherwise offensive nature. This code applies both to official Sponsors as well as any organisation that uses the Workshop name, image, or identity as part of its activities at or around the Workshop.\n\n\nCode of Conduct\n​ Attendees are required to behave professionally. Harassment and sexist, racist, or exclusionary comments or jokes and any behaviour pertaining to bullying are not appropriate. Compliance with these principles and, in particular, with the present Code of Conduct is expected not just for virtual meetings, but also for interactions on social media.\nHarassment includes sustained disruption of talks or other events, sustained unwanted contact, sexual attention or innuendo, deliberate intimidation, pressuring, stalking, and photography or recording of an individual without consent. It also includes offensive or belittling comments related to gender, sexual orientation, disability, age, physical appearance, body size, ethnicity, or religion.\nAll communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery are not appropriate."
+  },
+  {
+    "objectID": "policies.html#incident-reporting-and-resolution",
+    "href": "policies.html#incident-reporting-and-resolution",
+    "title": "Policies",
+    "section": "Incident reporting and resolution",
+    "text": "Incident reporting and resolution\n​ If you observe someone making you or anyone else feel unsafe or unwelcome, please tell them so, and remind them of the Code of Conduct. Non-confrontational alternatives can be to create a distraction, or to refer the person to an Organiser.\nWhether or not you addressed the person yourself, report incidents as soon as possible to a member of the Organising Committee - see contact information below. The Committee is committed to addressing and resolving the matter to the best of their abilities and within the best possible delay. We are prepared to help participants in contacting relevant help services, and to escort them to a safe location.\nPlease use the following contact information, and explain what happened and who was involved so that we can investigate: logml.committee@gmail.com.\nThe phone number of the point of contact will be provided to all attendees as part of the electronic materials during the Event. ​ ## Sanctions ​ When someone is asked to stop any behaviour that violates the Code of Conduct, they are expected to comply immediately. In response to behaviour deemed inappropriate by the Organising Committee (e.g. sexual content, rudeness, unprofessional), the Organisers may take any action they deem appropriate, including warning the person in question, asking them to leave or banning them from the event, or removing them from a mailing list.\nSpecific actions may include but are not limited to:\n\nasking the person to cease the inappropriate behaviour, and warning them that any further reports will result in other sanctions\nrequiring the person makes conciliatory efforts that may include an apology, informal mediation, or other steps intended to facilitate restoration of relationships\nrequiring the person avoids any interaction with another person for the remainder of the event\nearly termination of a talk that violates the policy\nnot publishing the video or slides of a talk that violates the policy\nnot allowing a speaker who violated the policy to give (further) talks at the event\nimmediately ending any event responsibilities or privileges held\nrequiring that the person immediately leave the event and not return\nblocking the person on social media platforms\nbanning the person from future events\npublishing an anonymous account of the harassment\nreporting the incident to the person’s employer\nreporting the incident to competent authorities\n\nThe Organisers reserve the right to remove participants who fail to comply with the Code of Conduct if the situation requires it. The Organisers may decline to refund any cost incurred with attendance (including, e.g., registration fee) to participants who have been expelled for breaching the Code of Conduct.\nThank you for your participation in the LOGML community, and your efforts to keep our conference welcoming, respectful, and friendly for all participants!"
+  },
+  {
+    "objectID": "policies.html#data-protection-statement",
+    "href": "policies.html#data-protection-statement",
+    "title": "Policies",
+    "section": "Data Protection Statement",
+    "text": "Data Protection Statement\nWho is collecting your data?\nThe London Geometry and Machine Learning Organisation Committee (LOGML) is collecting your data. The individual members of our initiative are listed on the “Organisers” page. Submitted data are controlled by LOGML. Data is shared with third parties, if necessary, for the organisation of the workshop. In particular, contact data of successful applicants is shared with project mentors, and participants’ CVs are shared with sponsors if the participant has opted-in for this during the application process.\nWhy will we be using your personal data?\nWe are using your personal data to make admissions decision for the summer school and to communicate with you about the summer school, for example to share access information or schedule changes. We share your contact information with the mentor of the project you work on during the workshop in order to enable them to contact you about matters regarding the project you will participate in.\nWhat are the categories of personal data concerned?\nWe only collect personal data when you share them directly with us through the application form, personally, via email. The categories of personal data concerned is the category of data that you are sharing directly with us.\nWhat is the legal justification for processing your data?\nWe are providing a task in the public interest linked to the core purpose “Education”.\nFor how long will we keep your data?\nWe will keep data of both successful and unsuccessful applicants for six months after the workshop.\nWho else might receive your data?\nIf you explicitly advise us to do this during the application process, we will share your CV with our sponsors who process your data according to their respective privacy policies. Our sponsors are listed on the “Sponsors” page of our website."
+  },
+  {
+    "objectID": "policies.html#information-about-your-rights",
+    "href": "policies.html#information-about-your-rights",
+    "title": "Policies",
+    "section": "Information about your rights",
+    "text": "Information about your rights\nUnder certain circumstances, you may have the following rights in relation to your personal data:\nRight 1: A right to access personal data held by us about you.\nRight 2: A right to require us to rectify any inaccurate personal data held by us about you.\nRight 3: A right to require us to erase personal data held by us about you. This right will only apply where, for example, we no longer need to use the personal data to achieve the purpose we collected it for; or where you withdraw your consent if we are using your personal data based on your consent; or where you object to the way we process your data (in line with Right 6 below).\nRight 4: A right to restrict our processing of personal data held by us about you. This right will only apply where, for example, you dispute the accuracy of the personal data held by us; or where you would have the right to require us to erase the personal data but would prefer that our processing is restricted instead; or where we no longer need to use the personal data to achieve the purpose we collected it for, but we require the data for the purposes of dealing with legal claims.\nRight 5: A right to receive personal data, which you have provided to us, in a structured, commonly used and machine readable format. You also have the right to require us to transfer this personal data to another organisation.\nRight 6: A right to object to our processing of personal data held by us about you.\nRight 7: A right to withdraw your consent, where we are relying on it to use your personal data.\nRight 8: A right to ask us not to use information about you in a way that allows computers to make decisions about you and ask us to stop.\nIf you want to exercise these rights, please contact us at logml.committee@gmail.com.\nYou can read more about your rights in the Guidance from the UK Information Commissioner’s Office (ICO). You also have the right to make a complaint to the ICO about how we use your personal data. You can do this by contacting the ICO via their website or by calling 0303 123 1113."
   },
   {
     "objectID": "logml2021/projects2021/project2/index.html",
@@ -910,81 +980,18 @@
     "text": "No matching items"
   },
   {
-    "objectID": "policies.html",
-    "href": "policies.html",
-    "title": "Policies",
+    "objectID": "logml2022.html",
+    "href": "logml2022.html",
+    "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "The Organisers acknowledge that the workforce in STEM fields (including mathematics and computer science) does not reflect the diversity of the general population, and the importance of role models in encouraging talents to pursue careers in STEM regardless of their background. ​ This document outlines the steps the Organising Committee is taking in order to make the event accessible and welcoming to a diverse crowd, independently of ethnicity, gender, sexual orientation, religion, or disability.\nWe encourage anyone with concerns regarding accessibility, diversity, or inclusion to contact the Organising Committee.\nNote: this document is not final and will be subject to changes by the time of the event."
+    "text": "Each class session has a set of required readings that you should complete before watching the lecture."
   },
   {
-    "objectID": "policies.html#diversity-and-inclusion-policy",
-    "href": "policies.html#diversity-and-inclusion-policy",
-    "title": "Policies",
+    "objectID": "index2.html",
+    "href": "index2.html",
+    "title": "\nLOGML Summer School 2024\n",
     "section": "",
-    "text": "The Organisers acknowledge that the workforce in STEM fields (including mathematics and computer science) does not reflect the diversity of the general population, and the importance of role models in encouraging talents to pursue careers in STEM regardless of their background. ​ This document outlines the steps the Organising Committee is taking in order to make the event accessible and welcoming to a diverse crowd, independently of ethnicity, gender, sexual orientation, religion, or disability.\nWe encourage anyone with concerns regarding accessibility, diversity, or inclusion to contact the Organising Committee.\nNote: this document is not final and will be subject to changes by the time of the event."
-  },
-  {
-    "objectID": "policies.html#speaker-and-mentors",
-    "href": "policies.html#speaker-and-mentors",
-    "title": "Policies",
-    "section": "Speaker and mentors",
-    "text": "Speaker and mentors\n​ The Organisers are committed to inviting speakers and mentors representative of all people. This includes ensuring a diverse representation of research subjects and fields, gender, and ethnic backgrounds among our speakers and mentors.\nIn particular, we attempt to counteract the underrepresentation of women in STEM by making sure that at least 20% of speakers and mentors are non-male. We also strongly encourage applications by non-men and minorities and will reserve 20% of the participant spots for underrepresented groups.\nThe Organisers will, to the best of their abilities, ensure traditionally under-represented groups in AI and STEM are aware of the event and encouraged to apply, e.g., by reaching out to university and department diversity officers."
-  },
-  {
-    "objectID": "policies.html#disabilities",
-    "href": "policies.html#disabilities",
-    "title": "Policies",
-    "section": "Disabilities",
-    "text": "Disabilities\n​ The Organisers are committed to making the event accessible to people with disabilities. We will strive to provide accessible versions of the content of the summer school (e.g. plain-text pages with links to the videoconference meetings). We also have funding available for individualised assistance.\nPlease reach out to the organisers if you require help with accessibility."
-  },
-  {
-    "objectID": "policies.html#caring-responsibilities",
-    "href": "policies.html#caring-responsibilities",
-    "title": "Policies",
-    "section": "Caring responsibilities",
-    "text": "Caring responsibilities\n​ Financial support will be available to relieve participants, mentors or speakers of caring responsibilities that might interfere with their participation in the Summer School. Applicants can state in the application form that they request financial assistance to cover caring expenses in order to attend the event. Attendance will also be provided for free to legal carers of participants if requested in the application form.\nPlease reach out to the organisers if you require help with caring responsibilities."
-  },
-  {
-    "objectID": "policies.html#financial-support",
-    "href": "policies.html#financial-support",
-    "title": "Policies",
-    "section": "Financial support",
-    "text": "Financial support\n​ Limited financial support is available. Preference will be given to applicants who cannot obtain financial assistance by other means (e.g. from their university, department, or advisors). Applicants will have the possibility to apply for support in the application form. ​"
-  },
-  {
-    "objectID": "policies.html#code-of-conduct",
-    "href": "policies.html#code-of-conduct",
-    "title": "Policies",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nThis document states the Code of Conduct of the LOGML 2022 Workshop (hereafter referred to as “the Event”).\nNote: This document is not final and will be subject to changes by the time of the event.\n\nIntroduction\n​ The Organisers are committed to making this conference productive and enjoyable for everyone, regardless of sex, sexual orientation, disability, age, physical appearance, body size, ethnicity, nationality, or religion. For this reason, we will not tolerate harassment of participants in any form, and will implement policies to promote an inclusive environment and support vectors for attendees who require assistance to participate in the workshop.\nAs part of the registration process, all attendees (i.e. all participants, mentors, speakers, any volunteer helpers, and any other person attending the event) are required to agree to adhere to this Code of Conduct. In particular, Sponsors are equally subject to this Code of Conduct, and may not use images, activities, or any other materials that are of sexual, racial, or otherwise offensive nature. This code applies both to official Sponsors as well as any organisation that uses the Workshop name, image, or identity as part of its activities at or around the Workshop.\n\n\nCode of Conduct\n​ Attendees are required to behave professionally. Harassment and sexist, racist, or exclusionary comments or jokes and any behaviour pertaining to bullying are not appropriate. Compliance with these principles and, in particular, with the present Code of Conduct is expected not just for virtual meetings, but also for interactions on social media.\nHarassment includes sustained disruption of talks or other events, sustained unwanted contact, sexual attention or innuendo, deliberate intimidation, pressuring, stalking, and photography or recording of an individual without consent. It also includes offensive or belittling comments related to gender, sexual orientation, disability, age, physical appearance, body size, ethnicity, or religion.\nAll communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery are not appropriate."
-  },
-  {
-    "objectID": "policies.html#incident-reporting-and-resolution",
-    "href": "policies.html#incident-reporting-and-resolution",
-    "title": "Policies",
-    "section": "Incident reporting and resolution",
-    "text": "Incident reporting and resolution\n​ If you observe someone making you or anyone else feel unsafe or unwelcome, please tell them so, and remind them of the Code of Conduct. Non-confrontational alternatives can be to create a distraction, or to refer the person to an Organiser.\nWhether or not you addressed the person yourself, report incidents as soon as possible to a member of the Organising Committee - see contact information below. The Committee is committed to addressing and resolving the matter to the best of their abilities and within the best possible delay. We are prepared to help participants in contacting relevant help services, and to escort them to a safe location.\nPlease use the following contact information, and explain what happened and who was involved so that we can investigate: logml.committee@gmail.com.\nThe phone number of the point of contact will be provided to all attendees as part of the electronic materials during the Event. ​ ## Sanctions ​ When someone is asked to stop any behaviour that violates the Code of Conduct, they are expected to comply immediately. In response to behaviour deemed inappropriate by the Organising Committee (e.g. sexual content, rudeness, unprofessional), the Organisers may take any action they deem appropriate, including warning the person in question, asking them to leave or banning them from the event, or removing them from a mailing list.\nSpecific actions may include but are not limited to:\n\nasking the person to cease the inappropriate behaviour, and warning them that any further reports will result in other sanctions\nrequiring the person makes conciliatory efforts that may include an apology, informal mediation, or other steps intended to facilitate restoration of relationships\nrequiring the person avoids any interaction with another person for the remainder of the event\nearly termination of a talk that violates the policy\nnot publishing the video or slides of a talk that violates the policy\nnot allowing a speaker who violated the policy to give (further) talks at the event\nimmediately ending any event responsibilities or privileges held\nrequiring that the person immediately leave the event and not return\nblocking the person on social media platforms\nbanning the person from future events\npublishing an anonymous account of the harassment\nreporting the incident to the person’s employer\nreporting the incident to competent authorities\n\nThe Organisers reserve the right to remove participants who fail to comply with the Code of Conduct if the situation requires it. The Organisers may decline to refund any cost incurred with attendance (including, e.g., registration fee) to participants who have been expelled for breaching the Code of Conduct.\nThank you for your participation in the LOGML community, and your efforts to keep our conference welcoming, respectful, and friendly for all participants!"
-  },
-  {
-    "objectID": "policies.html#data-protection-statement",
-    "href": "policies.html#data-protection-statement",
-    "title": "Policies",
-    "section": "Data Protection Statement",
-    "text": "Data Protection Statement\nWho is collecting your data?\nThe London Geometry and Machine Learning Organisation Committee (LOGML) is collecting your data. The individual members of our initiative are listed on the “Organisers” page. Submitted data are controlled by LOGML. Data is shared with third parties, if necessary, for the organisation of the workshop. In particular, contact data of successful applicants is shared with project mentors, and participants’ CVs are shared with sponsors if the participant has opted-in for this during the application process.\nWhy will we be using your personal data?\nWe are using your personal data to make admissions decision for the summer school and to communicate with you about the summer school, for example to share access information or schedule changes. We share your contact information with the mentor of the project you work on during the workshop in order to enable them to contact you about matters regarding the project you will participate in.\nWhat are the categories of personal data concerned?\nWe only collect personal data when you share them directly with us through the application form, personally, via email. The categories of personal data concerned is the category of data that you are sharing directly with us.\nWhat is the legal justification for processing your data?\nWe are providing a task in the public interest linked to the core purpose “Education”.\nFor how long will we keep your data?\nWe will keep data of both successful and unsuccessful applicants for six months after the workshop.\nWho else might receive your data?\nIf you explicitly advise us to do this during the application process, we will share your CV with our sponsors who process your data according to their respective privacy policies. Our sponsors are listed on the “Sponsors” page of our website."
-  },
-  {
-    "objectID": "policies.html#information-about-your-rights",
-    "href": "policies.html#information-about-your-rights",
-    "title": "Policies",
-    "section": "Information about your rights",
-    "text": "Information about your rights\nUnder certain circumstances, you may have the following rights in relation to your personal data:\nRight 1: A right to access personal data held by us about you.\nRight 2: A right to require us to rectify any inaccurate personal data held by us about you.\nRight 3: A right to require us to erase personal data held by us about you. This right will only apply where, for example, we no longer need to use the personal data to achieve the purpose we collected it for; or where you withdraw your consent if we are using your personal data based on your consent; or where you object to the way we process your data (in line with Right 6 below).\nRight 4: A right to restrict our processing of personal data held by us about you. This right will only apply where, for example, you dispute the accuracy of the personal data held by us; or where you would have the right to require us to erase the personal data but would prefer that our processing is restricted instead; or where we no longer need to use the personal data to achieve the purpose we collected it for, but we require the data for the purposes of dealing with legal claims.\nRight 5: A right to receive personal data, which you have provided to us, in a structured, commonly used and machine readable format. You also have the right to require us to transfer this personal data to another organisation.\nRight 6: A right to object to our processing of personal data held by us about you.\nRight 7: A right to withdraw your consent, where we are relying on it to use your personal data.\nRight 8: A right to ask us not to use information about you in a way that allows computers to make decisions about you and ask us to stop.\nIf you want to exercise these rights, please contact us at logml.committee@gmail.com.\nYou can read more about your rights in the Guidance from the UK Information Commissioner’s Office (ICO). You also have the right to make a complaint to the ICO about how we use your personal data. You can do this by contacting the ICO via their website or by calling 0303 123 1113."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "a\n\n\n\nLOGML Summer School 2024\n\n\nLondon, 8-12 July 2024\n\n\nLOGML (London Geometry and Machine Learning) aims to bring together geometers and machine learners to work together on a variety of problems. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night."
   },
   {
     "objectID": "people.html",

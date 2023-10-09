@@ -1,0 +1,36 @@
+---
+format: html
+sidebar: false
+---
+
+
+<style>
+  .header {
+  padding: 1px;
+  background: black url(img/header.jpg) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 300px;
+}
+  
+  .hero {
+  height: 800px;
+}
+</style>
+
+<div class="header">
+  a
+</div>
+
+<img src="img/logo.png" align="left" width="100px" style="margin-right: 30px" />
+
+<h1>LOGML Summer School 2024</h1>
+
+<h2 style="color: #73313a">London, 8-12 July 2024</h2>
+
+<p>LOGML (London Geometry and Machine Learning) aims to bring together geometers and machine learners to work together on a variety of problems. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
+
+
+
