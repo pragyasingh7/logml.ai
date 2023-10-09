@@ -9,9 +9,9 @@ about:
   id: person-profile
   template: trestles
   links:
-    - icon: twitter
-      text: twitter
-      href: https://michellemli.com/
+    - icon: link
+      text: website
+      href: https://www.barmpas.com
 ---
 
 
