@@ -2,7 +2,7 @@
 title: "Van Truong"
 sidebar: false
 sortby: "Van, Truong"
-description: "University of Pennsylvanian"
+description: "University of Pennsylvania"
 image: van.jpg
 toc: false
 about:
