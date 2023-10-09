@@ -20,10 +20,6 @@ height: 300px;
 }
 </style>
 
-<div class="header">
-  a
-</div>
-
 <img src="img/logo.png" align="left" width="100px" style="margin-right: 30px" />
 
 <h1>LOGML Summer School 2024</h1>
