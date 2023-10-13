@@ -1,5 +1,5 @@
 ---
-title: "Guadalupe Gozalez"
+title: "Guadalupe Gonzalez"
 sidebar: false
 sortby: "Guadalupe Gonzalez"
 description: "Prescient Design, Roche"
