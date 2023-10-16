@@ -13,7 +13,7 @@ page-layout: full
 
 ![](sponsors2021/eigen-tech.png)
 
-![](sponsors2021/gather.jpg)
+![](sponsors2021/gather.png)
 
 ![](sponsors2021/google.png)
 

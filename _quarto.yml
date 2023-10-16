@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "LOGML"
+  title: "LOGML 2024"
+  favicon: favicon.ico
   navbar:
     pinned: true
     logo: "logo.png"
