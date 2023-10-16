@@ -5,6 +5,12 @@ project:
 website:
   title: "LOGML 2024"
   favicon: favicon.ico
+  twitter-card:
+    title: "LOGML 2024"
+    description: "London Geometry and Machine Learning Summer School"
+    image: img/logo.png
+    card-style: summary
+    site: "@LogmlSchool"
   navbar:
     pinned: true
     logo: "logo.png"
