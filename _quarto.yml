@@ -7,8 +7,8 @@ website:
   favicon: favicon.ico
   twitter-card:
     title: "LOGML 2024"
-    description: "London Geometry and Machine Learning Summer School"
-    image: img/logo.png
+    description: "London Geometry and Machine Learning Summer School, July 8-12 2024"
+    image: "https://www.logml.ai/img/logo.png"
     card-style: summary
     site: "@LogmlSchool"
   navbar:
