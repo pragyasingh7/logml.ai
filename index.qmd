@@ -26,8 +26,14 @@ height: 300px;
 
 <h2 style="color: #73313a">London, 8-12 July 2024</h2>
 
-<p>LOGML (London Geometry and Machine Learning) aims to bring together geometers and machine learners to work together on a variety of problems. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
+<p>LOGML (London Geometry and Machine Learning) aims to bring together mathematicians and computer scientists to work together on a variety of problems at the intersection of geometry and machine learning. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
 
-<p>Applications for mentors will open soon, and the link will be posted here.</p>
+::: {.callout-note}
+## Mentor Applications
+Applications for group project mentors are now open! Mentors guide a small group of passionate early career researchers on a week-long project of their choosing at the intersection of geometry and machine learning.
 
-<p>You can find a list of projects and speakers under "Archives" above.</p>
+Applications close November 17. [Apply now.](https://forms.gle/gVMsHjAmGekbekf58)
+:::
+
+
+<p>You can find a list of previous years' projects and speakers under "Archives" above.</p>
