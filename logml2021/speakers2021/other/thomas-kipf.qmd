@@ -1,7 +1,7 @@
 ---
 title: "Thomas Kipf"
 description: "Google Brain"
-image: marinka-zitnik.jpeg
+image: thomas-kipf.jpeg
 toc: false
 about:
   id: person-profile
