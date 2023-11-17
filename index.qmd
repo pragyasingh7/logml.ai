@@ -32,7 +32,7 @@ height: 300px;
 ## Mentor Applications
 Applications for group project mentors are now open! Mentors guide a small group of passionate early career researchers on a week-long project of their choosing at the intersection of geometry and machine learning.
 
-Applications close November 17. [Apply now.](https://forms.gle/gVMsHjAmGekbekf58)
+Applications close December 1st. [Apply now.](https://forms.gle/gVMsHjAmGekbekf58)
 :::
 
 
