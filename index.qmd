@@ -42,7 +42,8 @@ LOGML is not merely a summer school; it's an incubator for innovation at the int
 * [Generalized Laplacian Positional Encoding for Graph Representation Learning  (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=BNhhZwAlVNC)
 * [Surfing on the Neural Sheaf (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=xOXFkyRzTlu)
 * [Accelerating Molecular Graph Neural Networks via Knowledge Distillation (Synergy of Scientific and Machine Learning Modeling workshop, ICML, 2023)](https://syns-ml.github.io/2023/assets/papers/67.pdf)
-* [Implicit Convolutional Kernels for Steerable CNNs](NeurIPS, 2023 )(https://arxiv.org/abs/2212.06096)
+* [Implicit Convolutional Kernels for Steerable CNNs (NeurIPS, 2023 )](https://arxiv.org/abs/2212.06096)
+
 Here's what you can anticipate:
 
 * <strong>Deep dive into collaborative research:</strong> You'll steer a group of typically five early-career researchers, working closely on a well-defined project. While 15 hours of the week are earmarked for project working time, the energy and enthusiasm often see groups dedicating more.
