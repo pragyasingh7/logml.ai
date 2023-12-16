@@ -1,0 +1,34 @@
+---
+title: "Vishnu Jejjala"
+sidebar: false
+description: "University of the Witwatersrand: Johannesburg"
+image: vishnu.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.wits.ac.za/people/academic-a-z-listing/j/vjejjalawitsacza/
+---
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Vishnu Jejjala</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Early in his scientific career, Vishnu Jejjala switched from vertebrate paleontology to astronomy. He was seven years old at the time. His interest in explicating the origin of the Universe and playing with cool mathematics led him to string theory. He completed a Ph.D. in Physics at the University of Illinois at Urbana-Champaign in 2002 and subsequently held postdoctoral research appointments at Virginia Tech (2002–2004), Durham University (2004–2007), the Institut des Hautes Études Scientifiques (2007–2009), and Queen Mary, University of London (2009–2011). Since October 2011, Vishnu is the South African Research Chair in Theoretical Particle Cosmology at the University of the Witwatersrand in Johannesburg. He is also a Professor in the School of Physics.
+
+Vishnu's research interests are broad, but focus on exploring quantum gravity and the structure of quantum field theories with the goal of bringing string theory into contact with the real world. Black holes are one theoretical laboratory for investigating these issues. Another is string compactification on Calabi–Yau spaces. Vishnu has recently been applying techniques from machine learning to study large data sets in string theory and mathematics.
