@@ -1,0 +1,19 @@
+---
+title: "Powerful Graph Neural Networks for Relational Data"
+author: "Joshua Robinson"
+categories: []
+image: Joshua-Robinson.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://joshrobinson.mit.edu/
+---
+## Joshua Robinson
+
+
+
+## Project
+Much of the worlds data is stored in relational databases, which contain multiple tables whose rows are connected via primary-foreign key relations. Consequently, many interesting forecasting problems can be thought of as predictions on relational data (Who will win next weekends F1? Will patient A respond to treatment X?). Crucially, relational databases can be viewed as “relational graphs”, with one node per table row, and edges given by primary-foreign key relations. However, relational graphs are not arbitrary graphs. They are k-partite, and some of the node partitions have a fixed number of in- and out-edges per node. This suggests a need for specialized GNN architectures suited this graph data.  The aim of this project will be an initial scoping of the (in)suitability of existing GNNs for processing relational graphs. Depending on student interest, this project’s scope is both a) empirical: evaluating the performance of existing GNN models on a comprehensive benchmark suite we are preparing along with starter code for GNN training, or b) theoretical: finding examples of relational data structures that existing GNNs cannot distinguish. In both cases, this lays the groundwork for designing more powerful graph networks for relational data.

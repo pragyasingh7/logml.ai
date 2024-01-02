@@ -1,4 +1,5 @@
 ---
+titpagetitle: "Projects | LOGML"
 title: Projects
 sidebar: false
 listing:

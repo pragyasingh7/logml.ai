@@ -82,7 +82,24 @@
   },
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/Yidi-Qi.html",
+      "/projects/Lorenzo-Giusti.html",
+      "/projects/Elli-Heyes.html",
+      "/projects/Dolores-Garcia.html",
+      "/projects/Zhengang-Zhong.html",
+      "/projects/George-Panagopoulos.html",
+      "/projects/Sara-Veneziale.html",
+      "/projects/Sahil-Manchanda.html",
+      "/projects/Abhishek-Sharma.html",
+      "/projects/Anna-Calissano.html",
+      "/projects/Rishi-Sonthalia.html",
+      "/projects/Michail-Chatzianastasis.html",
+      "/projects/Marco-Fumero.html",
+      "/projects/Joshua-Robinson.html",
+      "/projects/Claudio-Battiloro.html",
+      "/projects/Rahul-Singh.html"
+    ]
   },
   {
     "listing": "/people.html",

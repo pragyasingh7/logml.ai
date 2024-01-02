@@ -364,6 +364,132 @@
     "text": "LOGML Summer School 2024\n\n\nLondon, 8-12 July 2024\n\n\nLOGML (London Geometry and Machine Learning) aims to bring together mathematicians and computer scientists to work together on a variety of problems at the intersection of geometry and machine learning. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.\n\n\n\n\n\n\n\nMentor Applications (applications now closed)\n\n\n\nApplications for group project mentors are now open! Mentors guide a small group of passionate early career researchers on a week-long project of their choosing at the intersection of geometry and machine learning.\nLOGML is not merely a summer school; it’s an incubator for innovation at the intersection of geometry and machine learning. Several working groups that started at LOGML went on to form longer-term collaborations leading to publications in notable conferences and journals, including:\n\nEqivariant Subgraph Aggregation Networks (ICLR 2022, Spotlight)\nTowards Training GNNs Using Explanation Directed Message Passing (LOG conference, 2022)\nUnsupervised Network Embedding Beyond Homophily (TMLR, 2022)\nEquivariant Mesh Attention Networks (TMLR, 2022)\nGeneralized Laplacian Positional Encoding for Graph Representation Learning  (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)\nSurfing on the Neural Sheaf (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)\nAccelerating Molecular Graph Neural Networks via Knowledge Distillation (Synergy of Scientific and Machine Learning Modeling workshop, ICML, 2023)\nImplicit Convolutional Kernels for Steerable CNNs (NeurIPS, 2023 )\n\nHere’s what you can anticipate:\n\nDeep dive into collaborative research: You’ll steer a group of typically five early-career researchers, working closely on a well-defined project. While 15 hours of the week are earmarked for project working time, the energy and enthusiasm often see groups dedicating more.\nDrive tangible outcomes: The LOGML experience is intensive, yet the time frame is concise. With only one week available, it’s essential to zero in on achievable milestones. In the past, mentors have found success in adapting existing algorithms to fresh datasets, implementing a pilot for a theoretical ideal, or laying the theoretical foundations for a longer-term project.\nEngage & enlighten: Apart from the project work, the week will be filled with lectures by leading figures in the field, and a company and networking night.\n\nApplications closed on December 1st.\n\n\n\nYou can find a list of previous years’ projects and speakers under “Archives” above."
   },
   {
+    "objectID": "projects/Anna-Calissano.html",
+    "href": "projects/Anna-Calissano.html",
+    "title": "Matching graphs with spatial constrains",
+    "section": "",
+    "text": "Anna Calissano is a Chapman Fellow at the Department of Mathematics at Imperial College London. She conducts research on defining suitable geometrical embeddings and novel statistical tools for the analysis of set of graphs and networks. She works at the intersection of geometry, statistics, and computing. Her main applicational areas are urban planning and medical imaging. Anna received a PhD in Mathematics from Politecnico di Milano in 2021, under the supervision of Prof. Simone Vantini and Prof. Aasa Feragen (DTU). She worked as a postdoctoral researcher at INRIA (France) within the ERC Project Geometric Statistics leaded by Xavier Pennec."
+  },
+  {
+    "objectID": "projects/Anna-Calissano.html#anna-calissano",
+    "href": "projects/Anna-Calissano.html#anna-calissano",
+    "title": "Matching graphs with spatial constrains",
+    "section": "",
+    "text": "Anna Calissano is a Chapman Fellow at the Department of Mathematics at Imperial College London. She conducts research on defining suitable geometrical embeddings and novel statistical tools for the analysis of set of graphs and networks. She works at the intersection of geometry, statistics, and computing. Her main applicational areas are urban planning and medical imaging. Anna received a PhD in Mathematics from Politecnico di Milano in 2021, under the supervision of Prof. Simone Vantini and Prof. Aasa Feragen (DTU). She worked as a postdoctoral researcher at INRIA (France) within the ERC Project Geometric Statistics leaded by Xavier Pennec."
+  },
+  {
+    "objectID": "projects/Anna-Calissano.html#project",
+    "href": "projects/Anna-Calissano.html#project",
+    "title": "Matching graphs with spatial constrains",
+    "section": "Project",
+    "text": "Project\nProblem Statement: Given two graphs, finding a correspondence between the two sets of nodes has been broadly studied in the literature as graph matching. In many real-world applications, the matching is constrained: not every node can be assigned to every other node. Consider for example the brain structural connectivity of different subjects, a misalignment between brain parcels (i.e. nodes) can occur during the signal preprocessing. However, the only reasonable alignments are between neighboring parcels [1]. The goal of the project is to define a graph matching procedure with spatial constrains (e.g. the spatial distance on the cortex between parcels) on a set of structural connectivity matrices of healthy subjects from the Human Connectome Project.\nSolutions to explore: The problem can be addressed in different ways: (1) by adding a penalization term in the optimization procedure which depends on the spatial distance of the nodes (e.g. Rigid Graph Matching [2]); (2) by defining an optimization problem using the generators of the permutation group ([3]).\n[1] Calissano, A., Papadopoulo, T., Pennec, X., & Deslauriers-Gauthier, S. (2022). Graph Alignment Exploiting the Spatial Organisation Improves the Similarity of Brain Networks. In Human Brain Mapping (to appear)\n[2] Ravindra, V., Nassar, H., Gleich, D. F., & Grama, A. (2020). Rigid graph alignment. In Complex Networks and Their Applications VIII: Volume 1 Proceedings of the Eighth International Conference on Complex Networks and Their Applications COMPLEX NETWORKS 2019 8 (pp. 621-632). Springer International Publishing.\n[3] Coxeter, H. S., & Moser, W. O. (2013). Generators and relations for discrete groups (Vol. 14). Springer Science & Business Media."
+  },
+  {
+    "objectID": "projects/Lorenzo-Giusti.html",
+    "href": "projects/Lorenzo-Giusti.html",
+    "title": "Exploiting Graph Neural Networks for Prescriptive maintenance of CERN’s technical infrastructure",
+    "section": "",
+    "text": "Lorenzo Giusti is currently a senior research scientist at CERN working on geometric and topological deep learning for particle physics in the cryogenics group. Lorenzo holds a PhD in Data Science at La Sapienza, University of Rome, specialized in topological neural networks. His research includes a period of visiting at the University of Cambridge and as a research scientist intern at NASA’s Jet Propulsion Laboratory, where he led a project on Martian terrain modeling using spacecraft imagery and Neural Radiance Fields."
+  },
+  {
+    "objectID": "projects/Lorenzo-Giusti.html#lorenzo-giusti",
+    "href": "projects/Lorenzo-Giusti.html#lorenzo-giusti",
+    "title": "Exploiting Graph Neural Networks for Prescriptive maintenance of CERN’s technical infrastructure",
+    "section": "",
+    "text": "Lorenzo Giusti is currently a senior research scientist at CERN working on geometric and topological deep learning for particle physics in the cryogenics group. Lorenzo holds a PhD in Data Science at La Sapienza, University of Rome, specialized in topological neural networks. His research includes a period of visiting at the University of Cambridge and as a research scientist intern at NASA’s Jet Propulsion Laboratory, where he led a project on Martian terrain modeling using spacecraft imagery and Neural Radiance Fields."
+  },
+  {
+    "objectID": "projects/Lorenzo-Giusti.html#project",
+    "href": "projects/Lorenzo-Giusti.html#project",
+    "title": "Exploiting Graph Neural Networks for Prescriptive maintenance of CERN’s technical infrastructure",
+    "section": "Project",
+    "text": "Project\nCERN, the European Organization for Nuclear Research, is the largest centre for scientific research in particle physics, and it is known for its complex system of systems comprising advanced particle accelerators and detectors. To fulfill the physics program and deliver the required luminosity for the experiments, advanced tools are required to operate, maintain, and guide device consolidation. It is, therefore, critical to monitor the activities objectively and guide the implementation of strategies to improve performance, optimize costs and highlight key areas needing prioritization. Moreover, the availability of reliable, cost-effective, and energy-efficient sensors entails growing data that captures the underlying phenomena happening within the CERN’s technical infrastructure. To identify failures early and perform prescriptive maintenance of such a complex system of systems, this project aims to reveal hidden dependencies and approach the maintenance operations within the technical infrastructure of the largest particle accelerator complex of the world using graph neural networks."
+  },
+  {
+    "objectID": "projects/Joshua-Robinson.html#project",
+    "href": "projects/Joshua-Robinson.html#project",
+    "title": "Powerful Graph Neural Networks for Relational Data",
+    "section": "Project",
+    "text": "Project\nMuch of the worlds data is stored in relational databases, which contain multiple tables whose rows are connected via primary-foreign key relations. Consequently, many interesting forecasting problems can be thought of as predictions on relational data (Who will win next weekends F1? Will patient A respond to treatment X?). Crucially, relational databases can be viewed as “relational graphs”, with one node per table row, and edges given by primary-foreign key relations. However, relational graphs are not arbitrary graphs. They are k-partite, and some of the node partitions have a fixed number of in- and out-edges per node. This suggests a need for specialized GNN architectures suited this graph data. The aim of this project will be an initial scoping of the (in)suitability of existing GNNs for processing relational graphs. Depending on student interest, this project’s scope is both a) empirical: evaluating the performance of existing GNN models on a comprehensive benchmark suite we are preparing along with starter code for GNN training, or b) theoretical: finding examples of relational data structures that existing GNNs cannot distinguish. In both cases, this lays the groundwork for designing more powerful graph networks for relational data."
+  },
+  {
+    "objectID": "projects/Sara-Veneziale.html",
+    "href": "projects/Sara-Veneziale.html",
+    "title": "Invariantly learning terminal singularities",
+    "section": "",
+    "text": "Sara Veneziale is a final year PhD student in the Department of Mathematics at Imperial College London, as part of the London School of Geometry and Number Theory. Her research is focused on applying machine learning and data analysis methods to problems arising from pure mathematics, with the aim of helping conjecture formulation. Before starting her PhD she studied Mathematics at the University of Warwick, where she completed her integrated masters in 2020."
+  },
+  {
+    "objectID": "projects/Sara-Veneziale.html#sara-veneziale",
+    "href": "projects/Sara-Veneziale.html#sara-veneziale",
+    "title": "Invariantly learning terminal singularities",
+    "section": "",
+    "text": "Sara Veneziale is a final year PhD student in the Department of Mathematics at Imperial College London, as part of the London School of Geometry and Number Theory. Her research is focused on applying machine learning and data analysis methods to problems arising from pure mathematics, with the aim of helping conjecture formulation. Before starting her PhD she studied Mathematics at the University of Warwick, where she completed her integrated masters in 2020."
+  },
+  {
+    "objectID": "projects/Sara-Veneziale.html#project",
+    "href": "projects/Sara-Veneziale.html#project",
+    "title": "Invariantly learning terminal singularities",
+    "section": "Project",
+    "text": "Project\nRecent work [1] uses a neural network to predict an important, but hard to track, property of geometrical shapes: that of having at worst terminal singularities. The network is later used to generate a lot of data, by replacing a computationally expensive routine with the neural network, to start sketching the landscape of a certain class of geometrical shapes.\nThe experiment in the paper is carried out on a special class of geometrical shapes, called toric varieties. These are highly symmetrical objects and their geometric information is summarised in a weight matrix. However, the space of weight matrices is subject to two group actions: one of the symmetric group shuffling the columns and one of GL_2(Z) acting on the left by multiplication. These two actions change the weight matrix but leave the actual geometrical object unchanged. In the paper, we identify a special form of a weight matrix (which we call the standard form) which precisely identifies one specific representative of each group orbit. Before training and testing, each weight matrix is transformed into the corresponding standard form, which allows us to avoid any symmetry problem in the design of the architecture of the model.\nThe aim of this project is to survey currently available invariant machine learning methods and apply them to this problem. The aim is to compare accuracy, training time, and training sample size with the results obtained by using the standard form. This is a very important analysis to perform. In fact, the results in the paper were carried out only for dimension eight and rank two geometrical objects (toric varieties) and the training of the model required more data than one might like, since it is relatively expensive to calculate. Finding that different methods and architectures perform better with less training data would greatly aid in replicating this result in different dimensions and ranks.\n[1] T. Coates, A. M. Kasprzyk, S. Veneziale. Machine learning detects terminal singularities. Thirty-seventh Conference on Neural Information Processing Systems (2023)."
+  },
+  {
+    "objectID": "projects/Dolores-Garcia.html",
+    "href": "projects/Dolores-Garcia.html",
+    "title": "Geometric GNNs for particle level reconstruction",
+    "section": "",
+    "text": "Dolores Garcia is a Senior Fellow in the Experimental Physical Department at CERN. She received her MSc in Theoretical Physics from Imperial College London, and her PhD in Telecommunications Engineering from University of Carlos III supervised by Joerg Widmer. Her research interests include equivariant machine learning, graph neural networks and the application of these to high energy physics."
+  },
+  {
+    "objectID": "projects/Dolores-Garcia.html#dolores-garcia",
+    "href": "projects/Dolores-Garcia.html#dolores-garcia",
+    "title": "Geometric GNNs for particle level reconstruction",
+    "section": "",
+    "text": "Dolores Garcia is a Senior Fellow in the Experimental Physical Department at CERN. She received her MSc in Theoretical Physics from Imperial College London, and her PhD in Telecommunications Engineering from University of Carlos III supervised by Joerg Widmer. Her research interests include equivariant machine learning, graph neural networks and the application of these to high energy physics."
+  },
+  {
+    "objectID": "projects/Dolores-Garcia.html#project",
+    "href": "projects/Dolores-Garcia.html#project",
+    "title": "Geometric GNNs for particle level reconstruction",
+    "section": "Project",
+    "text": "Project\nThe particle flow algorithm enables the reconstruction of the particle-level view of an event by integrating information from the entire detector, spanning from the tracker to the calorimeters. Machine learning (ML) holds promise in enhancing the quality of reconstruction by leveraging raw data and acquiring the ability to untangle complex events. In this project, the students will explore a geometric graph neural network approach for particle-level reconstruction, focusing on the simplified scenario of e+e- collisions. The primary objective is to investigate architectures capable of extracting complex geometric structures, particle showers, from geometric graphs generated through simulations. Specifically, the team will delve into understanding the significance of equivariance and locality for this problem. The project will involve crafting a representation, managing large graphs in a distributed manner, and assessing the physics outputs."
+  },
+  {
+    "objectID": "projects/Sahil-Manchanda.html#project",
+    "href": "projects/Sahil-Manchanda.html#project",
+    "title": "Learning to predict optimal solution value for NP-Hard Combinatorial problems",
+    "section": "Project",
+    "text": "Project\nRecently, lot of interest has been shown in the ML community to learn to solve NP- Hard combinatorial problems. The prime reason being (1) Deep Learning models offer the advantage of speed-up(with good quality) due to GPU based acceleration which is expected to further enhance as GPU hardware improves, (2) Heuristics can be learned/distilled directly from the data distribution, thus minimizing or eliminating the need for manually crafted designs.\nIn this project we take a different approach and aim to learn to predict the optimal values of NP-Hard Combinatorial problems.\nCombinatorial optimization solvers like CPLEX/SCIP can be augmented with machine learning-based optimal solution value predictors to reduce the search space during the quest for precise and high-quality solutions.\nRecently, one work[1] attempts to learn to predict optimal values for TSP and job-scheduling problems using a Graph Transformer. The paper has interesting results giving hope that with further enhancements and better modelling it might be possible to learn to predict the optimal value more accurately.\nHowever, to understand its applicability in practical scenarios, results on crucial aspects such as inference time, percentage errors against optimal solutions and scalability to large CO problems are absent. Further, how does the cost-accuracy tradeoff varies as the model capacity changes especially w.r.t to Transformer layers which generally is critical in running time vs accuracy.\nGoal of project:\nThe goal of this project will be to implement the paper[1] and find out the cost(running time) and accuracy trade off with different model capacities. Further, if time permits analyze how does the method scale for larger instances of CO problems such as TSP 100 and TSP 200.\nExecution Plan:\n\nThe paper mentions that it uses GraphGPS Transformer from PyTorch Geometric. It is easy to integrate that( I already have experience with it on different problems) .\nI will generate instances for CO problems(TSP for different sizes) and their optimal values and provide it to students.\nThe students will write code to train the parameters of the Graph Transformer.\nAnalyze results w.r.t cost vs prediction accuracy(mse) trade off.\nIf time permits understand generalization w.r.t problem size.\n\n[1] Wang, Tianze, Amir H. Payberah, and Vladimir Vlassov. ““Graph Representation Learning with Graph Transformers in Neural Combinatorial Optimization.””"
+  },
+  {
+    "objectID": "projects/Zhengang-Zhong.html#project",
+    "href": "projects/Zhengang-Zhong.html#project",
+    "title": "Geometry for Distribution Learning",
+    "section": "Project",
+    "text": "Project\nInformation and optimal transport geometry provide powerful tools for analyzing and understanding the characteristics of complex probability distributions, thereby fostering the development of fast and scalable methods for approximating these distributions. For example, with the help of optimal transport geometry, sampling problems can be viewed as a gradient flow with respect to the Wasserstein geometry [1].\nIn the project, we will conduct an experiment similar to section 5 in [2] and section 6 in [3]: we will solve Bayesian inference problems based on optimal transport geometry. Then we will compare the performance of Wasserstein variational inference with the methods using different metrics on the space of probability measures and classic MCMC methods based on various information geometries.\n[1] Garcia Trillos, N., B. Hosseini, and D. Sanz-Alonso. ““From Optimization to Sampling Through Gradient Flows.”” arXiv e-prints (2023): arXiv-2302.\n[2] Lambert, Marc, et al. ““Variational inference via Wasserstein gradient flows.”” Advances in Neural Information Processing Systems 35 (2022): 14434-14447.\n[3] Ambrogioni, Luca, et al. ““Wasserstein variational inference.”” Advances in Neural Information Processing Systems 31 (2018)."
+  },
+  {
+    "objectID": "projects/Yidi-Qi.html",
+    "href": "projects/Yidi-Qi.html",
+    "title": "Calabi-Yau Metrics with U(1)-invariant Neural Network",
+    "section": "",
+    "text": "Yidi Qi is a PhD student in the Department of Physics at Northeastern University, under the supervision of Fabian Ruehle. His research focuses on applying machine learning techniques to string theory and mathematics. He is also a junior investigator at the NSF AI Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)."
+  },
+  {
+    "objectID": "projects/Yidi-Qi.html#yidi-qi",
+    "href": "projects/Yidi-Qi.html#yidi-qi",
+    "title": "Calabi-Yau Metrics with U(1)-invariant Neural Network",
+    "section": "",
+    "text": "Yidi Qi is a PhD student in the Department of Physics at Northeastern University, under the supervision of Fabian Ruehle. His research focuses on applying machine learning techniques to string theory and mathematics. He is also a junior investigator at the NSF AI Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)."
+  },
+  {
+    "objectID": "projects/Yidi-Qi.html#project",
+    "href": "projects/Yidi-Qi.html#project",
+    "title": "Calabi-Yau Metrics with U(1)-invariant Neural Network",
+    "section": "Project",
+    "text": "Project\nCalabi-Yau manifolds are compact Kähler manifolds which admit a Ricci-flat metric. They play important roles in modern physics, notably as the extra dimensions in string theory. Knowing the explicit Ricci-flat metrics on Calabi-Yau manifolds is essential for constructing realistic models that describe our four-dimensional universe. However, finding such metrics requires solving the complex Monge-Ampère equation and it is generally believed that an analytical solution does not exist. Even solving it numerically has been proved to be challenging. Recent progress shows that specially designed physics-informed neural networks can help obtain numerical Calabi-Yau metrics much more efficiently. These networks must be invariant under a certain U(1)-action (which is the same as an SO(2)-action), and so far only one special architecture of invariant networks has been implemented. In this project, we will implement other architectures which are invariant under this U(1) group action. Because this gives much more flexibility, there is a chance that this can improve the performance of the physics-informed neural networks, therefore leading to better approximations for Calabi-Yau metrics."
+  },
+  {
     "objectID": "logml2021/projects2021/project2/index.html",
     "href": "logml2021/projects2021/project2/index.html",
     "title": "Characterising Universes in String Theory using Geometric Learning",
@@ -924,11 +1050,151 @@
     "text": "Project\nReal-world applications often require sequential decision making, and, in order to reason over longer time horizons, planning. One way of doing planning is by estimating the effects of actions and the values of the states. Then a plan can be constructed consisting of the actions which lead to overall highest possible value.\nFortunately, there is a known dynamic programming algorithm, Value Iteration (VI), which can find the optimal value function of a known Markov Decision Process (MDP). Even more, we know that the VI update is taking an expectation over the neighbouring states’ values, which is something a CNN can do in a grid, or, more generally, a graph neural network (GNN) in a graph. The GNN can then be used as part of the policy network. This has been directly validated in recent work, where GNNs have been successfully used to execute dynamic programming algorithms.\nIn this project, we will focus on the recently proposed eXecuted Latent Value Iteration Network (XLVIN) model [1], which provides us with one way to apply VI-style reasoning even if the underlying state graph is not known. While the XLVIN agent holds promise, it leaves several design decisions which have not been fully explored—perhaps the most interesting of which is generalising beyond discrete action spaces. By using a simple continuous control environment (such as LunarLander), we will first construct an XLVIN agent relying on simple MLP-based encoders. Then, we will take it one step further and bin the environment’s continuous action space, allowing for more fine-grained control.\nEventually, the number of bins may expand the computational budget of our planner (which normally applies an exhaustive breadth-first search strategy), so we will attempt various forms of exploratory planning. Ultimately, this can lead us to fully continuous action spaces, specified using, for example, a Gaussian distribution over various torque actions.\n[1] Deac A., Velickovic P., Milinkovic O., Bacon P., Tang J. et. al. 2020. “XLVIN: EXecuted Latent Value Iteration Nets.” http://arxiv.org/abs/2010.13146"
   },
   {
+    "objectID": "projects/Rahul-Singh.html",
+    "href": "projects/Rahul-Singh.html",
+    "title": "Spectral Signed GNNs for fMRI Connectomes",
+    "section": "",
+    "text": "Rahul is a Wu Tsai postdoctoral fellow at Yale University where he is mentored by Smita Krishnaswamy and Joy Hirsch. He received his PhD in Machine Learning in under the mentorship of Yongxin Chen from the Georgia Institute of Technology. His research interests are in the areas of signal processing, graph neural networks, and machine learning applications in bioinformatics and neuroscience. One of his current research focuses is to explore the neural complexes of brain-to-brain communication when two humans interact."
+  },
+  {
+    "objectID": "projects/Rahul-Singh.html#rahul-singh",
+    "href": "projects/Rahul-Singh.html#rahul-singh",
+    "title": "Spectral Signed GNNs for fMRI Connectomes",
+    "section": "",
+    "text": "Rahul is a Wu Tsai postdoctoral fellow at Yale University where he is mentored by Smita Krishnaswamy and Joy Hirsch. He received his PhD in Machine Learning in under the mentorship of Yongxin Chen from the Georgia Institute of Technology. His research interests are in the areas of signal processing, graph neural networks, and machine learning applications in bioinformatics and neuroscience. One of his current research focuses is to explore the neural complexes of brain-to-brain communication when two humans interact."
+  },
+  {
+    "objectID": "projects/Rahul-Singh.html#project",
+    "href": "projects/Rahul-Singh.html#project",
+    "title": "Spectral Signed GNNs for fMRI Connectomes",
+    "section": "Project",
+    "text": "Project\n“The existing GNN architectures have focused almost exclusively on graphs with nonnegative edges, which encode some kind of similarity relation between the incident nodes. In contrast, negative edges are often useful to model dissimilarity relations: for instance, in social networks, users may have common/opposite political views or like/dislike each other. Such negative correlations also arise in functional magnetic resonance imaging (fMRI)-derived brain networks or connectomes [1]. These dissimilarity relations are modeled using signed graphs allowing the edges to take both positive or negative values.\nWe will build upon the recently proposed spectral signed graph neural network (GNN) architechtures [2] that can handle (directed) signed graphs and provide interpretable models backed by frequency analysis of signed graphs. Existing representation learning based methods such as BrainGNN [3] for fMRI data do not take these negative correlations into account. The focus of the project will be to utilize interpretable spectral signed GNNs to understand the neurobiological information of negative edges in fMRI connectomes. We will use open-source fMRI datasets human connectome project (HCP) and autism brain imaging data exchange (ABIDE) for our analysis. The brain will be modeled as a signed graph with nodes representing brain regions of interest (ROIs) and edges representing the functional connectivity between those ROIs computed as the pairwise (positive as well as negative) correlations of fMRI time series. The goal will be to identify and explain the effect of negative correlations between different brain regions on learned representations over fMRI connectomes.\n[1] Liang Zhan et al. The significance of negative correlations in brain connectivity, Journal of Comparative Neurology 2017.\n[2] Rahul Singh and Yongxin Chen, Signed graph neural networks: A frequency perspective, Transactions on Machine Learning Research 2023.\n[3] Xiaoxiao Li et al. BrainGNN: Interpretable brain graph neural network for fMRI analysis, Medical Image Analysis 2021.”"
+  },
+  {
+    "objectID": "projects/Claudio-Battiloro.html",
+    "href": "projects/Claudio-Battiloro.html",
+    "title": "Self-supervised learning for Topological Neural Networks",
+    "section": "",
+    "text": "Claudio Battiloro is a PhD candidate in ICT at Sapienza University of Rome, a Visiting Scholar at Harvard SPH, and a former Visiting Associate at the SEAS of University of Pennsylvania. He is a prospective co-appointed postdoctoral fellow at Harvard University and University of Pennsylvania. Claudio’s research interests include theory and methods for topological and algebraic signal processing, topological deep learning, and distributed optimization. He has several publications in top-tier journals and conferences. Claudio received different awards such as the IEEE SPS Italian Chapter Best M.Sc. Thesis Award (2020). In 2020, he graduated with distinction in the M.Sc. in Data Science with a (university-overall) Top 400 Students award at Sapienza University."
+  },
+  {
+    "objectID": "projects/Claudio-Battiloro.html#claudio-battiloro",
+    "href": "projects/Claudio-Battiloro.html#claudio-battiloro",
+    "title": "Self-supervised learning for Topological Neural Networks",
+    "section": "",
+    "text": "Claudio Battiloro is a PhD candidate in ICT at Sapienza University of Rome, a Visiting Scholar at Harvard SPH, and a former Visiting Associate at the SEAS of University of Pennsylvania. He is a prospective co-appointed postdoctoral fellow at Harvard University and University of Pennsylvania. Claudio’s research interests include theory and methods for topological and algebraic signal processing, topological deep learning, and distributed optimization. He has several publications in top-tier journals and conferences. Claudio received different awards such as the IEEE SPS Italian Chapter Best M.Sc. Thesis Award (2020). In 2020, he graduated with distinction in the M.Sc. in Data Science with a (university-overall) Top 400 Students award at Sapienza University."
+  },
+  {
+    "objectID": "projects/Claudio-Battiloro.html#project",
+    "href": "projects/Claudio-Battiloro.html#project",
+    "title": "Self-supervised learning for Topological Neural Networks",
+    "section": "Project",
+    "text": "Project\nSelf-supervised methods can be broadly categorized into contrastive approaches and predictive approaches. In the context of GNNs, self-supervision is particularly useful for learning graph encoders by utilizing information from the distribution of unlabeled graphs and minimizing a self-supervised loss. However, literature about self-supervised techniques for Topological Deep Learning is extremely sparse, and only a couple of works for simplicial complexes have been presented. For this reason, I propose to design novel self-predictive and contrastive objectives for training TDL architectures.\nIn particular, I will mentor the attendants with the aim of investigating generative objectives based on the predictive approach for architectures defined over regular cell complexes. We will explore cell complex-based reconstruction tasks that can properly generalize the well-studied node property prediction and attribute denoising tasks in the space of attributed graphs.\nWe will go through the actual SoA to design novel techniques able to combine my personal signal processing-grounded approach with cutting edge ML research on Topological and Geometric DL."
+  },
+  {
+    "objectID": "projects/Elli-Heyes.html",
+    "href": "projects/Elli-Heyes.html",
+    "title": "Generating Calabi-Yau Manifolds with Machine Learning",
+    "section": "",
+    "text": "I am final year PhD student at City, University of London and soon to be postdoctoral researcher at Imperial College London. Broadly speaking my research involves using techniques from data science and machine learning to study compactification spaces in string theory, namely Calabi-Yau manifolds and G2 manifolds. I attended LOGML just before I started my PhD and learnt a lot, so I look forward to being part of LOGML once again this time as a mentor."
+  },
+  {
+    "objectID": "projects/Elli-Heyes.html#elli-heyes",
+    "href": "projects/Elli-Heyes.html#elli-heyes",
+    "title": "Generating Calabi-Yau Manifolds with Machine Learning",
+    "section": "",
+    "text": "I am final year PhD student at City, University of London and soon to be postdoctoral researcher at Imperial College London. Broadly speaking my research involves using techniques from data science and machine learning to study compactification spaces in string theory, namely Calabi-Yau manifolds and G2 manifolds. I attended LOGML just before I started my PhD and learnt a lot, so I look forward to being part of LOGML once again this time as a mentor."
+  },
+  {
+    "objectID": "projects/Elli-Heyes.html#project",
+    "href": "projects/Elli-Heyes.html#project",
+    "title": "Generating Calabi-Yau Manifolds with Machine Learning",
+    "section": "Project",
+    "text": "Project\nCalabi-Yau manifolds are of interest in string theory as they describe the shape of the extra dimensions that arise in the theory. In this project we will use genetic algorithms to generate Calabi-Yau manifolds arising from the construction of hypersurfaces in toric varieties. By modifying the fitness function we will search for Calabi-Yau manifolds with a given set of properties that are required in order to give rise to physics that obeys the Standard Model."
+  },
+  {
+    "objectID": "projects/Marco-Fumero.html#project",
+    "href": "projects/Marco-Fumero.html#project",
+    "title": "On the Geometry of Relative Representations",
+    "section": "Project",
+    "text": "Project\nNeural networks embed the geometric structure of a data manifold lying in a high-dimensional space into latent representations. Ideally, the distribution of the data points in the latent space should depend only on the task, the data, the loss, and other architecture-specific constraints. However, factors such as the random weights initialization, training hyperparameters, or other sources of randomness in the training phase may induce incoherent latent spaces that hinder any form of reuse. In a recent work [1] , it has been empirically observed that, under the same data and modeling choices, the angles between the encodings within distinct latent spaces do not change.To exploit this observation,we can compute a representation based on the latent similarity between each sample and a fixed set of training points, denoted as anchors. Given a specific choice of anchors and similarity function, the representation will retain different properties: choosing cosine similarity in the latent spaces enforces the desired invariance to angle preserving transformation of the latent space, without any additional training procedures. Neural architectures can leverage these relative representations to guarantee, in practice, invariance to latent isometries and rescalings, effectively enabling latent space communication: from zero-shot model stitching to latent space comparison between diverse settings, on different datasets, spanning various modalities (images, text, graphs), tasks (e.g., classification, reconstruction) and architectures (e.g., CNNs, GCNs, transformers).\nThe choice of similarity function should not be limited to capture invariances to angle preserving transformations. As shown in [2], other choices are good as well, and there’s not a clear best choice for capturing transformation across distinct latent spaces, depending on the setting and nuisance factors that affect the representations and cause the spaces to differ.\nIn this project the objective is to follow this direction by extending the notion of similarity function in two different ways aiming at enhancing the expressivity of this framework using differential geometry and topological analysis tools.\nHigher Order Relative Representations: The first direction aims to enhance the scope of the relative representation function by considering a similarity function that takes three or more arguments in input, switching from considering binary relations between data points to n-way relations. From a geometrical perspective, the standard relative representation corresponds to constructing a bipartite graph between anchors and sample: considering n-way relations is analogous to constructing a simplicial complex in the latent space. For instance, three-way relationships correspond to triangles, four-way to tetrahedra, and so on. The objective here is to assess whether this extension enriches the framework’s expressiveness from both practical and theoretical standpoints.\nRelative Geodesic Representations: Our second area of exploration involves utilizing geodesic distance as a similarity function, calculated within latent spaces, as a metric for relative representation. This approach ensures that the relative space remains invariant to the isometries of the data’s manifold, defined by geodesic distance. The primary objective of this project is to experimentally determine whether this set of transformations results in a more expressive and efficient relative space, one that more accurately encapsulates the relationships and transformations across different latent spaces. A secondary goal is to devise effective approximation techniques for computing geodesics, thereby enhancing the practical efficiency of the method.\n[1] Moschella, L., Maiorca, V., Fumero, M., Norelli, A., Locatello, F., & Rodola, E. (2022). Relative representations enable zero-shot latent space communication.ICLR 2023\n[2] Cannistraci, I., Moschella, L., Fumero, M., Maiorca, V., & Rodolà, E. (2023). From Bricks to Bridges: Product of Invariances to Enhance Latent Space Communication. arXiv\n[3] Shao, H., Kumar, A., & Thomas Fletcher, P. (2018). The Riemannian geometry of deep generative models. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (pp. 315-323)."
+  },
+  {
+    "objectID": "projects/George-Panagopoulos.html",
+    "href": "projects/George-Panagopoulos.html",
+    "title": "Graph Learning for Uplift Modeling",
+    "section": "",
+    "text": "George Panagopoulos is a postdoctoral scientist at the University of Luxembourg, researching graph neural networks and causal inference for biomedical applications. Before that, he was working on machine learning for operations research as an applied scientist in the Algorithms and Optimization lab of Amazon Transportation Services in Luxembourg. He received his PhD in machine learning from the Data Science and Mining Team of the École Polytechnique, specializing in graph learning for forecasting and combinatorial optimization. Previously, he was a research assistant and obtained his M.Sc. in computer science with a focus on digital signal processing for neural/physiological data from the University of Houston."
+  },
+  {
+    "objectID": "projects/George-Panagopoulos.html#george-panagopoulos",
+    "href": "projects/George-Panagopoulos.html#george-panagopoulos",
+    "title": "Graph Learning for Uplift Modeling",
+    "section": "",
+    "text": "George Panagopoulos is a postdoctoral scientist at the University of Luxembourg, researching graph neural networks and causal inference for biomedical applications. Before that, he was working on machine learning for operations research as an applied scientist in the Algorithms and Optimization lab of Amazon Transportation Services in Luxembourg. He received his PhD in machine learning from the Data Science and Mining Team of the École Polytechnique, specializing in graph learning for forecasting and combinatorial optimization. Previously, he was a research assistant and obtained his M.Sc. in computer science with a focus on digital signal processing for neural/physiological data from the University of Houston."
+  },
+  {
+    "objectID": "projects/George-Panagopoulos.html#project",
+    "href": "projects/George-Panagopoulos.html#project",
+    "title": "Graph Learning for Uplift Modeling",
+    "section": "Project",
+    "text": "Project\nDuring a marketing campaign, promotional codes are distributed in an effort to increase user activity. Given a specific promotional budget, the campaign should minimize the outreach to users who will not respond, or even worse respond negatively. Hence we want to build a model to predict which users will respond positively, a methodology called uplift modelling. In uplift modeling, we test the codes to a representative subset of the users and then train a model to predict the response of the rest of the user base. In this project, we will tackle uplift modeling using graph learning on an ecommerce system. We can also examine related causal inference problems in other contexts e.g. in social or biomedical experiments."
+  },
+  {
+    "objectID": "projects/Abhishek-Sharma.html",
+    "href": "projects/Abhishek-Sharma.html",
+    "title": "ML for Science",
+    "section": "",
+    "text": "Abhishek is an incoming DL Research Scientist at Illumina AI lab Cambridge and before that, did his Ph.D. in the Shape Analysis Group at Ecole Polytechnique. His Ph.D. thesis is about Deep Functional Maps for 3D shape analysis. He is very interested in alignment problems in general and their applications in molecular biology."
+  },
+  {
+    "objectID": "projects/Abhishek-Sharma.html#abhishek-sharma",
+    "href": "projects/Abhishek-Sharma.html#abhishek-sharma",
+    "title": "ML for Science",
+    "section": "",
+    "text": "Abhishek is an incoming DL Research Scientist at Illumina AI lab Cambridge and before that, did his Ph.D. in the Shape Analysis Group at Ecole Polytechnique. His Ph.D. thesis is about Deep Functional Maps for 3D shape analysis. He is very interested in alignment problems in general and their applications in molecular biology."
+  },
+  {
+    "objectID": "projects/Abhishek-Sharma.html#project",
+    "href": "projects/Abhishek-Sharma.html#project",
+    "title": "ML for Science",
+    "section": "Project",
+    "text": "Project\n3D Shape matching is a fundamental problem in computer vision and graphics with significant applications on biological data. In this project, we will take a closer look at Deep Functional Map (DFM) [1,2] paradigm for 3D shape matching. You will become familiar with unsupervised DFM frameworks [2] and investigate a couple of directions less explored in the DFM literature. First, most DFM literature strongly relies on precomputed Laplacian Beltrami (LB) eigenbasis. There have been some recent attempts that learn an embedding [3,4] instead. However, it is not entirely clear in which circumstances learned embedding is more robust and useful than LB eigenbasis. Secondly, we will investigate cycle consistency constraints in DFM that provides a strong regularization by jointly optimizing the maps over a collection of shapes. By the end of the project, you should better understand these topics from both theoretical and practical perspectives.\nReferences:\n\nLitany et al. Deep Functional Map: Structure prediction for dense shape correspondence, ICCV 2017\nRoufosse et al. Unsupervised Deep Learning for 3D shape Matching, ICCV 2019\nMarin et al. Correspondence Learning via Linearly Invariant Embedding, Neurips 2020\nSharma & Ovsjanikov Joint Symmetry Detection and Shape Matching for Non-rigid Point Cloud, Arxiv"
+  },
+  {
+    "objectID": "projects/Michail-Chatzianastasis.html",
+    "href": "projects/Michail-Chatzianastasis.html",
+    "title": "Multimodal Protein Representation Learning",
+    "section": "",
+    "text": "Michail Chatzianastasis is a PhD student at École Polytechnique in Paris, under the supervision of Prof. Michalis Vazirgiannis. He has a keen interest in machine learning on graph-structured data, focusing on developing neural network architectures for solving real-world problems in biology. His current research focuses on multimodal generative models for protein representation learning, combining both graph and text modalities using Graph Neural Networks and Large Language Models. Previously, he interned at Flatiron Institute of Simons Foundation in New York, working on graph neural networks for cancer gene prediction under the guidance of Prof. Zijun Frank Zhang."
+  },
+  {
+    "objectID": "projects/Michail-Chatzianastasis.html#michail-chatzianastasis",
+    "href": "projects/Michail-Chatzianastasis.html#michail-chatzianastasis",
+    "title": "Multimodal Protein Representation Learning",
+    "section": "",
+    "text": "Michail Chatzianastasis is a PhD student at École Polytechnique in Paris, under the supervision of Prof. Michalis Vazirgiannis. He has a keen interest in machine learning on graph-structured data, focusing on developing neural network architectures for solving real-world problems in biology. His current research focuses on multimodal generative models for protein representation learning, combining both graph and text modalities using Graph Neural Networks and Large Language Models. Previously, he interned at Flatiron Institute of Simons Foundation in New York, working on graph neural networks for cancer gene prediction under the guidance of Prof. Zijun Frank Zhang."
+  },
+  {
+    "objectID": "projects/Michail-Chatzianastasis.html#project",
+    "href": "projects/Michail-Chatzianastasis.html#project",
+    "title": "Multimodal Protein Representation Learning",
+    "section": "Project",
+    "text": "Project\nProteins are fundamental building blocks of life, playing crucial roles in various biological processes. Representing proteins is a multifaceted challenge due to their complex structural and functional characteristics. Traditionally, proteins have been represented in various ways, including as amino acid sequences, 2D graphs, and 3D graphs, each capturing different aspects of protein structure and function. However, these diverse representations often provide limited insight when considered in isolation. In this project, we aim to address this challenge by exploring multimodal protein representation learning methods[1,2], with the goal of discovering the most effective way to represent proteins or fusing these modalities to enhance downstream tasks. The primary goal of this project is to develop techniques that can effectively unify and harness the information contained in different modalities of protein representation. This involves understanding the complementary aspects of amino acid sequences, 2D graphs (e.g., contact maps), and 3D graphs (e.g., protein structures) and finding a way to merge and learn useful representations from them. By improving the representation learning process, we aim to boost the performance of downstream protein-related tasks such as function property prediction, and protein-protein interaction prediction. Our efforts will result in more accurate models that can have a profound impact on bioinformatics and drug discovery.\n[1] Xu, Minghao, et al. “Protst: Multi-modality learning of protein sequences and biomedical texts.”\n[2] Abdine, Hadi, et al. “Prot2Text: Multimodal Protein’s Function Generation with GNNs and Transformers.”"
+  },
+  {
+    "objectID": "projects/Rishi-Sonthalia.html#project",
+    "href": "projects/Rishi-Sonthalia.html#project",
+    "title": "Mixed Curvature Graph Neural Networks",
+    "section": "Project",
+    "text": "Project\nRecent work has shown that hyperbolic geometry can be very useful in improving the performance of neural networks, including graph neural networks. There has also been recent work suggesting that using the correct geometry (based on curvature) can be used to alleviate oversquashing in GNNs. Hence it is currently of relevance to understand the performance of GNNs that use mix curvature geometries. For this a variety of different models have been proposed - product manifolds (Gu et al. 2019), hierarchical hyperbolic spaces (Sonthalia et al. 2022), the space of positive definite matrices (Lopez et al. 2021), as well neural networks that intertwine standard Euclidean and hyperbolic layers (Cui at al. 2022)."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "No matching items"
+    "text": "Calabi-Yau Metrics with U(1)-invariant Neural Network\n\n\n\n\n\n\n\n\n \n\n\n\n\nYidi Qi\n\n\n\n\n\n\n  \n\n\n\n\nExploiting Graph Neural Networks for Prescriptive maintenance of CERN’s technical infrastructure\n\n\n\n\n\n\n\n\n \n\n\n\n\nLorenzo Giusti\n\n\n\n\n\n\n  \n\n\n\n\nGenerating Calabi-Yau Manifolds with Machine Learning\n\n\n\n\n\n\n\n\n \n\n\n\n\nElli Heyes\n\n\n\n\n\n\n  \n\n\n\n\nGeometric GNNs for particle level reconstruction\n\n\n\n\n\n\n\n\n \n\n\n\n\nDolores Garcia\n\n\n\n\n\n\n  \n\n\n\n\nGeometry for Distribution Learning\n\n\n\n\n\n\n\n\n \n\n\n\n\nZhengang Zhong\n\n\n\n\n\n\n  \n\n\n\n\nGraph Learning for Uplift Modeling\n\n\n\n\n\n\n\n\n \n\n\n\n\nGeorge Panagopoulos\n\n\n\n\n\n\n  \n\n\n\n\nInvariantly learning terminal singularities\n\n\n\n\n\n\n\n\n \n\n\n\n\nSara Veneziale\n\n\n\n\n\n\n  \n\n\n\n\nLearning to predict optimal solution value for NP-Hard Combinatorial problems\n\n\n\n\n\n\n\n\n \n\n\n\n\nSahil Manchanda\n\n\n\n\n\n\n  \n\n\n\n\nML for Science\n\n\n\n\n\n\n\n\n \n\n\n\n\nAbhishek Sharma\n\n\n\n\n\n\n  \n\n\n\n\nMatching graphs with spatial constrains\n\n\n\n\n\n\n\n\n \n\n\n\n\nAnna Calissano\n\n\n\n\n\n\n  \n\n\n\n\nMixed Curvature Graph Neural Networks\n\n\n\n\n\n\n\n\n \n\n\n\n\nRishi Sonthalia\n\n\n\n\n\n\n  \n\n\n\n\nMultimodal Protein Representation Learning\n\n\n\n\n\n\n\n\n \n\n\n\n\nMichail Chatzianastasis\n\n\n\n\n\n\n  \n\n\n\n\nOn the Geometry of Relative Representations\n\n\n\n\n\n\n\n\n \n\n\n\n\nMarco Fumero\n\n\n\n\n\n\n  \n\n\n\n\nPowerful Graph Neural Networks for Relational Data\n\n\n\n\n\n\n\n\n \n\n\n\n\nJoshua Robinson\n\n\n\n\n\n\n  \n\n\n\n\nSelf-supervised learning for Topological Neural Networks\n\n\n\n\n\n\n\n\n \n\n\n\n\nClaudio Battiloro\n\n\n\n\n\n\n  \n\n\n\n\nSpectral Signed GNNs for fMRI Connectomes\n\n\n\n\n\n\n\n\n \n\n\n\n\nRahul Singh\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "policies.html",

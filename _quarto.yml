@@ -28,6 +28,8 @@ website:
       #       href: program.qmd
       - text: Speakers
         href: speaker.qmd
+      #- text: Projects&Mentors
+      #  href: projects.qmd
       - href: policies.qmd
         text: Policies
       - href: logml2022/speaker.qmd

@@ -1,0 +1,27 @@
+---
+title: "Geometry for Distribution Learning"
+author: "Zhengang Zhong"
+categories: []
+image: Zhengang-Zhong.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?user=T_kZk3oAAAAJ&hl=en&authuser=1
+---
+## Zhengang Zhong
+
+
+
+## Project
+Information and optimal transport geometry provide powerful tools for analyzing and understanding the characteristics of complex probability distributions, thereby fostering the development of fast and scalable methods for approximating these distributions. For example, with the help of optimal transport geometry, sampling problems can be viewed as a gradient flow with respect to the Wasserstein geometry [1].
+
+In the project, we will conduct an experiment similar to section 5 in [2] and section 6 in [3]: we will solve Bayesian inference problems based on optimal transport geometry. Then we will compare the performance of Wasserstein variational inference with the methods using different metrics on the space of probability measures and classic MCMC methods based on various information geometries.
+
+[1] Garcia Trillos, N., B. Hosseini, and D. Sanz-Alonso. ""From Optimization to Sampling Through Gradient Flows."" arXiv e-prints (2023): arXiv-2302.
+
+[2] Lambert, Marc, et al. ""Variational inference via Wasserstein gradient flows."" Advances in Neural Information Processing Systems 35 (2022): 14434-14447.
+
+[3] Ambrogioni, Luca, et al. ""Wasserstein variational inference."" Advances in Neural Information Processing Systems 31 (2018).

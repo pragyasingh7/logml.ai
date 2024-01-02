@@ -1,0 +1,18 @@
+---
+title: "Generating Calabi-Yau Manifolds with Machine Learning"
+author: "Elli Heyes"
+categories: []
+image: Elli-Heyes.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.co.uk/citations?hl=en&user=xl8s55QAAAAJ
+---
+## Elli Heyes
+I am final year PhD student at City, University of London and soon to be postdoctoral researcher at Imperial College London. Broadly speaking my research involves using techniques from data science and machine learning to study compactification spaces in string theory, namely Calabi-Yau manifolds and G2 manifolds. I attended LOGML just before I started my PhD and learnt a lot, so I look forward to being part of LOGML once again this time as a mentor.
+
+## Project
+Calabi-Yau manifolds are of interest in string theory as they describe the shape of the extra dimensions that arise in the theory. In this project we will use genetic algorithms to generate Calabi-Yau manifolds arising from the construction of hypersurfaces in toric varieties. By modifying the fitness function we will search for Calabi-Yau manifolds with a given set of properties that are required in order to give rise to physics that obeys the Standard Model.

@@ -1,0 +1,21 @@
+---
+title: "Geometric GNNs for particle level reconstruction"
+author: "Dolores Garcia"
+categories: []
+image: Dolores-Garcia.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://doloresgarcia.web.cern.ch/
+---
+## Dolores Garcia
+Dolores Garcia is a Senior Fellow in the Experimental Physical Department at CERN. She received her MSc in Theoretical Physics from Imperial College London, and her PhD in Telecommunications Engineering from University of Carlos III supervised by Joerg Widmer.
+Her research interests include equivariant machine learning, graph neural networks and the application of these to high energy physics.
+
+
+
+## Project
+The particle flow algorithm enables the reconstruction of the particle-level view of an event by integrating information from the entire detector, spanning from the tracker to the calorimeters. Machine learning (ML) holds promise in enhancing the quality of reconstruction by leveraging raw data and acquiring the ability to untangle complex events. In this project, the students will explore a geometric graph neural network approach for particle-level reconstruction, focusing on the simplified scenario of e+e- collisions. The primary objective is to investigate architectures capable of extracting complex geometric structures, particle showers, from geometric graphs generated through simulations. Specifically, the team will delve into understanding the significance of equivariance and locality for this problem. The project will involve crafting a representation, managing large graphs in a distributed manner, and assessing the physics outputs.

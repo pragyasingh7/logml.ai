@@ -1,0 +1,20 @@
+---
+title: "Calabi-Yau Metrics with U(1)-invariant Neural Network"
+author: "Yidi Qi"
+categories: []
+image: Yidi-Qi.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?user=5BI1iDQAAAAJ&hl=en
+---
+## Yidi Qi
+Yidi Qi is a PhD student in the Department of Physics at Northeastern University, under the supervision of Fabian Ruehle. His research focuses on applying machine learning techniques to string theory and mathematics. He is also a junior investigator at the NSF AI Institute for Artificial Intelligence and Fundamental Interactions (IAIFI).
+
+
+
+## Project
+Calabi-Yau manifolds are compact Kähler manifolds which admit a Ricci-flat metric. They play important roles in modern physics, notably as the extra dimensions in string theory. Knowing the explicit Ricci-flat metrics on Calabi-Yau manifolds is essential for constructing realistic models that describe our four-dimensional universe. However, finding such metrics requires solving the complex Monge-Ampère equation and it is generally believed that an analytical solution does not exist. Even solving it numerically has been proved to be challenging. Recent progress shows that specially designed physics-informed neural networks can help obtain numerical Calabi-Yau metrics much more efficiently. These networks must be invariant under a certain U(1)-action (which is the same as an SO(2)-action), and so far only one special architecture of invariant networks has been implemented. In this project, we will implement other architectures which are invariant under this U(1) group action. Because this gives much more flexibility, there is a chance that this can improve the performance of the physics-informed neural networks, therefore leading to better approximations for Calabi-Yau metrics.

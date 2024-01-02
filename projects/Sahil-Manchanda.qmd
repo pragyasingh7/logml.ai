@@ -1,0 +1,49 @@
+---
+title: "Learning to predict optimal solution value for NP-Hard Combinatorial problems"
+author: "Sahil Manchanda"
+categories: []
+image: Sahil-Manchanda.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: cse.iitd.ac.in/~sahilm
+---
+## Sahil Manchanda
+
+
+## Project
+Recently, lot of interest has been shown in the ML community to learn to solve NP- Hard combinatorial problems. The prime reason being (1) Deep Learning models offer the advantage of speed-up(with good quality) due to GPU based acceleration which is expected to further enhance as GPU hardware improves, (2) Heuristics can be learned/distilled directly from the data distribution, thus minimizing or eliminating the need for manually crafted designs.
+
+In this project we take a different approach and aim to learn to predict the optimal values of NP-Hard Combinatorial problems.
+
+Combinatorial optimization solvers like CPLEX/SCIP can be augmented with machine learning-based optimal solution value predictors to reduce the search space during the quest for precise and high-quality solutions.
+
+Recently, one work[1] attempts to learn to predict optimal values for TSP and job-scheduling problems using a Graph Transformer. The paper has interesting results giving hope that with further enhancements and better modelling it might be possible to learn to predict the optimal value more accurately.
+
+However, to understand its applicability in practical scenarios, results on crucial aspects such as inference time,  percentage errors against optimal solutions and scalability to large CO problems are absent. Further, how does the cost-accuracy tradeoff varies as the model capacity changes especially w.r.t to Transformer layers which generally is critical in running time vs accuracy.
+
+
+
+Goal of project:
+
+The goal of this project will be to implement the paper[1] and find out the cost(running time) and accuracy trade off with different model capacities. Further, if time permits analyze how does the method scale for larger instances of CO problems such as TSP 100 and TSP 200.
+
+Execution Plan:
+
+1. The paper mentions that it uses GraphGPS Transformer from PyTorch Geometric. It is easy to integrate that( I already have experience with it on different problems) .
+
+2. I will generate instances for CO problems(TSP for different sizes)  and their optimal values and provide it to students.
+
+3. The students will write code to train the parameters of the Graph Transformer.
+
+4. Analyze results w.r.t cost vs prediction accuracy(mse) trade off.
+
+5. If time permits understand generalization w.r.t problem size.
+
+
+
+
+[1] Wang, Tianze, Amir H. Payberah, and Vladimir Vlassov. ""Graph Representation Learning with Graph Transformers in Neural Combinatorial Optimization.""

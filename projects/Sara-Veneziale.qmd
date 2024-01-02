@@ -1,0 +1,26 @@
+---
+title: "Invariantly learning terminal singularities"
+author: "Sara Veneziale"
+categories: []
+image: Sara-Veneziale.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://sites.google.com/view/saraveneziale/
+---
+## Sara Veneziale
+Sara Veneziale is a final year PhD student in the Department of Mathematics at Imperial College London, as part of the London School of Geometry and Number Theory. Her research is focused on applying machine learning and data analysis methods to problems arising from pure mathematics, with the aim of helping conjecture formulation. Before starting her PhD she studied Mathematics at the University of Warwick, where she completed her integrated masters in 2020.
+
+
+
+## Project
+Recent work [1] uses a neural network to predict an important, but hard to track, property of geometrical shapes: that of having at worst terminal singularities. The network is later used to generate a lot of data, by replacing a computationally expensive routine with the neural network, to start sketching the landscape of a certain class of geometrical shapes.
+
+The experiment in the paper is carried out on a special class of geometrical shapes, called toric varieties. These are highly symmetrical objects and their geometric information is summarised in a weight matrix. However, the space of weight matrices is subject to two group actions: one of the symmetric group shuffling the columns and one of GL_2(Z) acting on the left by multiplication. These two actions change the weight matrix but leave the actual geometrical object unchanged. In the paper, we identify a special form of a weight matrix (which we call the standard form) which precisely identifies one specific representative of each group orbit. Before training and testing, each weight matrix is transformed into the corresponding standard form, which allows us to avoid any symmetry problem in the design of the architecture of the model.
+
+The aim of this project is to survey currently available invariant machine learning methods and apply them to this problem. The aim is to compare accuracy, training time, and training sample size with the results obtained by using the standard form. This is a very important analysis to perform. In fact, the results in the paper were carried out only for dimension eight and rank two geometrical objects (toric varieties) and the training of the model required more data than one might like, since it is relatively expensive to calculate. Finding that different methods and architectures perform better with less training data would greatly aid in replicating this result in different dimensions and ranks.
+
+[1] T. Coates, A. M. Kasprzyk, S. Veneziale. Machine learning detects terminal singularities. Thirty-seventh Conference on Neural Information Processing Systems (2023).

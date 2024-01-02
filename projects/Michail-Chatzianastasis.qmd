@@ -1,0 +1,24 @@
+---
+title: "Multimodal Protein Representation Learning"
+author: "Michail Chatzianastasis"
+categories: []
+image: Michail-Chatzianastasis.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://michailchatzianastasis.github.io/
+---
+## Michail Chatzianastasis
+Michail Chatzianastasis is a PhD student at École Polytechnique in Paris, under the supervision of Prof. Michalis Vazirgiannis. He has a keen interest in machine learning on graph-structured data, focusing on developing neural network architectures for solving real-world problems in biology. His current research focuses on multimodal generative models for protein representation learning, combining both graph and text modalities using Graph Neural Networks and Large Language Models. Previously, he interned at Flatiron Institute of Simons Foundation in New York, working on graph neural networks for cancer gene prediction under the guidance of Prof. Zijun Frank Zhang.
+
+
+## Project
+Proteins are fundamental building blocks of life, playing crucial roles in various biological processes. Representing proteins is a multifaceted challenge due to their complex structural and functional characteristics. Traditionally, proteins have been represented in various ways, including as amino acid sequences, 2D graphs, and 3D graphs, each capturing different aspects of protein structure and function. However, these diverse representations often provide limited insight when considered in isolation. In this project, we aim to address this challenge by exploring multimodal protein representation learning methods[1,2], with the goal of discovering the most effective way to represent proteins or fusing these modalities to enhance downstream tasks.
+The primary goal of this project is to develop techniques that can effectively unify and harness the information contained in different modalities of protein representation. This involves understanding the complementary aspects of amino acid sequences, 2D graphs (e.g., contact maps), and 3D graphs (e.g., protein structures) and finding a way to merge and learn useful representations from them. By improving the representation learning process, we aim to boost the performance of downstream protein-related tasks such as function property prediction, and protein-protein interaction prediction. Our efforts will result in more accurate models that can have a profound impact on bioinformatics and drug discovery.
+
+[1] Xu, Minghao, et al. "Protst: Multi-modality learning of protein sequences and biomedical texts."
+
+[2] Abdine, Hadi, et al. "Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers."
