@@ -1,5 +1,6 @@
 ---
 title: "Powerful Graph Neural Networks for Relational Data"
+sidebar: false
 author: "Joshua Robinson"
 categories: []
 image: Joshua-Robinson.png
