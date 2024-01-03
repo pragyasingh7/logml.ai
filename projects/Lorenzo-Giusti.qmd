@@ -9,7 +9,7 @@ about:
   links:
     - icon: website
       text: website
-      href: www.giusti.ai
+      href: https://scholar.google.com/citations?user=WLYASw8AAAAJ&hl=en
 ---
 ## Lorenzo Giusti
 Lorenzo Giusti is currently a senior research scientist at CERN working on geometric and topological deep learning for particle physics in the cryogenics group. Lorenzo holds a PhD in Data Science at La Sapienza, University of Rome, specialized in topological neural networks. His research  includes a period of visiting at the University of Cambridge and as a research scientist intern at NASA's Jet Propulsion Laboratory, where he led a project on Martian terrain modeling using spacecraft imagery and Neural Radiance Fields.
