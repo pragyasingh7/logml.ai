@@ -1,5 +1,6 @@
 ---
 title: "Geometry for Distribution Learning"
+sidebar: false
 author: "Zhengang Zhong"
 categories: []
 image: Zhengang-Zhong.png
