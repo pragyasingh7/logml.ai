@@ -1,5 +1,6 @@
 ---
 title: "Mixed Curvature Graph Neural Networks"
+sidebar: false
 author: "Rishi Sonthalia"
 categories: []
 image: Rishi-Sonthalia.png
