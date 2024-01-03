@@ -1,5 +1,6 @@
 ---
 title: "ML for Science"
+sidebar: false
 author: "Abhishek Sharma"
 categories: []
 image: Abhishek-Sharma.jpg
