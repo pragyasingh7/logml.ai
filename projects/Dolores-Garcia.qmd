@@ -1,6 +1,7 @@
 ---
 title: "Geometric GNNs for particle level reconstruction"
 author: "Dolores Garcia"
+sidebar: false
 categories: []
 image: Dolores-Garcia.jpg
 about:
