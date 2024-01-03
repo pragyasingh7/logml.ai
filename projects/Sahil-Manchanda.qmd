@@ -1,5 +1,6 @@
 ---
 title: "Learning to predict optimal solution value for NP-Hard Combinatorial problems"
+sidebar: false
 author: "Sahil Manchanda"
 categories: []
 image: Sahil-Manchanda.png
