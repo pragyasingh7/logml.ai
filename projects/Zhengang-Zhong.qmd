@@ -12,7 +12,7 @@ about:
       href: https://scholar.google.com/citations?user=T_kZk3oAAAAJ&hl=en&authuser=1
 ---
 ## Zhengang Zhong
-
+Zhengang Zhong is a third-year PhD student at Imperial College London. His research focuses on shape optimisation and data-driven stochastic optimal control. A particular emphasis has been placed on data-driven distributionally robust control, which encodes the knowledge about the uncertainty of the controlled system into safe control actions with the help of the information and optimal transport geometry. Before his PhD, Zhengang received his Diplom Ingenieur degree in Mechatronics at the Technical University of Dresden, Germany.
 
 
 ## Project

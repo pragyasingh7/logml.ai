@@ -462,6 +462,20 @@
     "text": "Project\nRecently, lot of interest has been shown in the ML community to learn to solve NP- Hard combinatorial problems. The prime reason being (1) Deep Learning models offer the advantage of speed-up(with good quality) due to GPU based acceleration which is expected to further enhance as GPU hardware improves, (2) Heuristics can be learned/distilled directly from the data distribution, thus minimizing or eliminating the need for manually crafted designs.\nIn this project we take a different approach and aim to learn to predict the optimal values of NP-Hard Combinatorial problems.\nCombinatorial optimization solvers like CPLEX/SCIP can be augmented with machine learning-based optimal solution value predictors to reduce the search space during the quest for precise and high-quality solutions.\nRecently, one work[1] attempts to learn to predict optimal values for TSP and job-scheduling problems using a Graph Transformer. The paper has interesting results giving hope that with further enhancements and better modelling it might be possible to learn to predict the optimal value more accurately.\nHowever, to understand its applicability in practical scenarios, results on crucial aspects such as inference time, percentage errors against optimal solutions and scalability to large CO problems are absent. Further, how does the cost-accuracy tradeoff varies as the model capacity changes especially w.r.t to Transformer layers which generally is critical in running time vs accuracy.\nGoal of project:\nThe goal of this project will be to implement the paper[1] and find out the cost(running time) and accuracy trade off with different model capacities. Further, if time permits analyze how does the method scale for larger instances of CO problems such as TSP 100 and TSP 200.\nExecution Plan:\n\nThe paper mentions that it uses GraphGPS Transformer from PyTorch Geometric. It is easy to integrate that( I already have experience with it on different problems) .\nI will generate instances for CO problems(TSP for different sizes) and their optimal values and provide it to students.\nThe students will write code to train the parameters of the Graph Transformer.\nAnalyze results w.r.t cost vs prediction accuracy(mse) trade off.\nIf time permits understand generalization w.r.t problem size.\n\n[1] Wang, Tianze, Amir H. Payberah, and Vladimir Vlassov. ““Graph Representation Learning with Graph Transformers in Neural Combinatorial Optimization.””"
   },
   {
+    "objectID": "projects/Zhengang-Zhong.html",
+    "href": "projects/Zhengang-Zhong.html",
+    "title": "Geometry for Distribution Learning",
+    "section": "",
+    "text": "Zhengang Zhong is a third-year PhD student at Imperial College London. His research focuses on shape optimisation and data-driven stochastic optimal control. A particular emphasis has been placed on data-driven distributionally robust control, which encodes the knowledge about the uncertainty of the controlled system into safe control actions with the help of the information and optimal transport geometry. Before his PhD, Zhengang received his Diplom Ingenieur degree in Mechatronics at the Technical University of Dresden, Germany."
+  },
+  {
+    "objectID": "projects/Zhengang-Zhong.html#zhengang-zhong",
+    "href": "projects/Zhengang-Zhong.html#zhengang-zhong",
+    "title": "Geometry for Distribution Learning",
+    "section": "",
+    "text": "Zhengang Zhong is a third-year PhD student at Imperial College London. His research focuses on shape optimisation and data-driven stochastic optimal control. A particular emphasis has been placed on data-driven distributionally robust control, which encodes the knowledge about the uncertainty of the controlled system into safe control actions with the help of the information and optimal transport geometry. Before his PhD, Zhengang received his Diplom Ingenieur degree in Mechatronics at the Technical University of Dresden, Germany."
+  },
+  {
     "objectID": "projects/Zhengang-Zhong.html#project",
     "href": "projects/Zhengang-Zhong.html#project",
     "title": "Geometry for Distribution Learning",
