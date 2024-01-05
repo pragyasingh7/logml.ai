@@ -1,5 +1,6 @@
 ---
 title: "Matching graphs with spatial constrains"
+sidebar: false
 author: "Anna Calissano"
 categories: []
 image: Anna-Calissano.jpg

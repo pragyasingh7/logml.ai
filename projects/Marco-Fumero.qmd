@@ -1,5 +1,6 @@
 ---
 title: "On the Geometry of Relative Representations"
+sidebar: false
 author: "Marco Fumero"
 categories: []
 image: Marco-Fumero.png

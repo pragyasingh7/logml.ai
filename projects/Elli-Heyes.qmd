@@ -1,5 +1,6 @@
 ---
 title: "Generating Calabi-Yau Manifolds with Machine Learning"
+sidebar: false
 author: "Elli Heyes"
 categories: []
 image: Elli-Heyes.jpg

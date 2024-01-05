@@ -1,5 +1,6 @@
 ---
 title: "Self-supervised learning for Topological Neural Networks"
+sidebar: false
 author: "Claudio Battiloro"
 categories: []
 image: Claudio-Battiloro.jpg

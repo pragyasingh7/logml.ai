@@ -1,5 +1,6 @@
 ---
 title: "Graph Learning for Uplift Modeling"
+sidebar: false
 author: "George Panagopoulos"
 categories: []
 image: George-Panagopoulos.jpg

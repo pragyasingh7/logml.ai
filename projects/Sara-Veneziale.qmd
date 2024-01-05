@@ -1,5 +1,6 @@
 ---
 title: "Invariantly learning terminal singularities"
+sidebar: false
 author: "Sara Veneziale"
 categories: []
 image: Sara-Veneziale.png

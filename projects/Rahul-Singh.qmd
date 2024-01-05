@@ -1,5 +1,6 @@
 ---
 title: "Spectral Signed GNNs for fMRI Connectomes"
+sidebar: false
 author: "Rahul Singh"
 categories: []
 image: Rahul-Singh.jpg

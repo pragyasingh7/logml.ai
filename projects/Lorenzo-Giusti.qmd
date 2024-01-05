@@ -1,5 +1,6 @@
 ---
 title: "Exploiting Graph Neural Networks for Prescriptive maintenance of CERN’s technical infrastructure"
+sidebar: false
 author: "Lorenzo Giusti"
 categories: []
 image: Lorenzo-Giusti.png

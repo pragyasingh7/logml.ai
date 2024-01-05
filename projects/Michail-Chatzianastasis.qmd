@@ -1,5 +1,6 @@
 ---
 title: "Multimodal Protein Representation Learning"
+sidebar: false
 author: "Michail Chatzianastasis"
 categories: []
 image: Michail-Chatzianastasis.png
