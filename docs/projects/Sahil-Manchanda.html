@@ -238,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://www.cse.iitd.ac.in/~sahilm/" class="about-link" rel="" target="">
+  <a href="/cse.iitd.ac.in/~sahilm" class="about-link" rel="" target="">
     <i class="bi bi-website"></i>
      <span class="about-link-text">website</span>
   </a>
@@ -247,33 +247,31 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sahil-manchanda" class="level2">
 <h2 data-anchor-id="sahil-manchanda">Sahil Manchanda</h2>
-<p>Sahil Manchanda is a PhD scholar at the Department of Computer Science at the Indian Institute of Technology Delhi, working under the supervision of Prof.&nbsp;Sayan Ranu. Sahil works in the area of Learning to solve graph optimization problems with focus on Combinatorial Optimization, Graph Neural Networks, Lifelong Learning and Generative modeling. He is also interested in applications of Computer Science concepts in other fields such as Material Science and Hardware. He has interned at prestigious institutes such as the University of Tokyo, NAVER Labs- France and Qualcomm AI Research Amsterdam. His research works have been published in top conferences such as NeurIPS, AAAI, ICML, ECML-PKDD and LoG. Additionally he has one US patent granted to his name. Sahil has been the recipient of the Qualcomm Innovation Fellowship for the year 2022.</p>
 </section>
 <section id="project" class="level2">
 <h2 data-anchor-id="project">Project</h2>
-<p>Recently, a lot of interest has been shown in the ML community to learn to solve NP-Hard Combinatorial Optimization(CO) problems. The prime reasons being:</p>
-<ol type="1">
-<li><p>Deep Learning models offer the advantage of speed-up(with good quality) due to GPU based acceleration which is expected to further enhance as GPU hardware improves.</p></li>
-<li><p>Heuristics can be learned/distilled directly from the data distribution, thus minimizing or eliminating the need for manually crafted designs.</p></li>
-</ol>
-<p>In this project we take a different approach and aim to learn to predict the optimal values of NP-Hard Combinatorial problems. Combinatorial optimization solvers can be augmented with machine learning-based optimal solution value predictors to reduce the search space during the quest for precise and high-quality solutions[1]. Further, in some problems such as Graph Edit Distance, directly estimating the optimal value between 2 graphs is also very useful[2].</p>
-<p>Recently, one work[1] attempts to learn to predict optimal values for TSP and job-shop scheduling problems using a Graph Transformer. The paper has interesting results giving hope that with further enhancements and better modelling it might be possible to learn to predict the optimal value more accurately. However, to understand its applicability in practical scenarios, results on crucial aspects such as inference time, percentage errors against optimal solutions and scalability to large CO problem instances are not discussed in the paper. Further, analysis is also required on how does the cost-accuracy tradeoff vary as the model capacity changes especially w.r.t to Graph Transformer layers etc.</p>
+<p>Recently, lot of interest has been shown in the ML community to learn to solve NP- Hard combinatorial problems. The prime reason being (1) Deep Learning models offer the advantage of speed-up(with good quality) due to GPU based acceleration which is expected to further enhance as GPU hardware improves, (2) Heuristics can be learned/distilled directly from the data distribution, thus minimizing or eliminating the need for manually crafted designs.</p>
+<p>In this project we take a different approach and aim to learn to predict the optimal values of NP-Hard Combinatorial problems.</p>
+<p>Combinatorial optimization solvers like CPLEX/SCIP can be augmented with machine learning-based optimal solution value predictors to reduce the search space during the quest for precise and high-quality solutions.</p>
+<p>Recently, one work[1] attempts to learn to predict optimal values for TSP and job-scheduling problems using a Graph Transformer. The paper has interesting results giving hope that with further enhancements and better modelling it might be possible to learn to predict the optimal value more accurately.</p>
+<p>However, to understand its applicability in practical scenarios, results on crucial aspects such as inference time, percentage errors against optimal solutions and scalability to large CO problems are absent. Further, how does the cost-accuracy tradeoff varies as the model capacity changes especially w.r.t to Transformer layers which generally is critical in running time vs accuracy.</p>
 <p>Goal of project:</p>
-<p>The goal of this project will be initially implement the paper[1] and find out the cost(running time) and error(%) trade off with different model capacities on a set of CO problems. Further, if time permits analyze how does the method scale for larger instances of CO problems such as TSP 100 and TSP 200.</p>
+<p>The goal of this project will be to implement the paper[1] and find out the cost(running time) and accuracy trade off with different model capacities. Further, if time permits analyze how does the method scale for larger instances of CO problems such as TSP 100 and TSP 200.</p>
 <p>Execution Plan:</p>
-<p>The paper mentions that it uses GraphGPS[3] Transformer from PyTorch Geometric. It is easy to use.</p>
-<p>I will provide instances for CO problems(Eg:- TSP for different sizes, Job-Shop Scheduling Problem etc.) and their optimal values to the students. The students will write code to train the parameters of the Graph Transformer. Analyze results w.r.t cost vs prediction accuracy(error) trade off and explore the Pareto frontier etc. If time permits then understand the generalization w.r.t problem size.</p>
-<p>Finally, based upon the results we get, we together hope to formulate and investigate an interesting problem :).</p>
-<p>References:</p>
-<p>[1] Wang, Tianze, Amir H. Payberah, and Vladimir Vlassov. “Graph Representation Learning with Graph Transformers in Neural Combinatorial Optimization.”</p>
-<p>[2] Ranjan, Rishabh, et al.&nbsp;“Greed: A neural framework for learning graph distance functions.” Advances in Neural Information Processing Systems 35 (2022): 22518-22530.</p>
-<p>[3] Rampášek, Ladislav, et al.&nbsp;“Recipe for a general, powerful, scalable graph transformer.” Advances in Neural Information Processing Systems 35 (2022): 14501-14515.</p>
+<ol type="1">
+<li><p>The paper mentions that it uses GraphGPS Transformer from PyTorch Geometric. It is easy to integrate that( I already have experience with it on different problems) .</p></li>
+<li><p>I will generate instances for CO problems(TSP for different sizes) and their optimal values and provide it to students.</p></li>
+<li><p>The students will write code to train the parameters of the Graph Transformer.</p></li>
+<li><p>Analyze results w.r.t cost vs prediction accuracy(mse) trade off.</p></li>
+<li><p>If time permits understand generalization w.r.t problem size.</p></li>
+</ol>
+<p>[1] Wang, Tianze, Amir H. Payberah, and Vladimir Vlassov. ““Graph Representation Learning with Graph Transformers in Neural Combinatorial Optimization.””</p>
 
 
 </section>
 </main></div>
     </div>
-    <img src="Sahil-Manchanda.jpg" class="about-image
+    <img src="Sahil-Manchanda.png" class="about-image
   rounded " style="width: 15em;">
   </div>
 </div>
