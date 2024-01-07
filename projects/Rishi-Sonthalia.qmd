@@ -3,7 +3,7 @@ title: "Mixed Curvature Graph Neural Networks"
 sidebar: false
 author: "Rishi Sonthalia"
 categories: []
-image: Rishi-Sonthalia.png
+image: Rishi-Sonthalia.jpg
 about:
   id: project-profile
   template: solana
@@ -13,6 +13,7 @@ about:
       href: https://sites.google.com/umich.edu/rsonthal/
 ---
 ## Rishi Sonthalia
+Rishi Sonthalia is a Hedrick Assistant Adjunct Professor in the Math department at UCLA. He completed his Ph.D. from the University of Michigan where he won the Peter Smereka prize for the best Applied Math thesis. Rishi's research interested is in mathematics for machine learning with a special focus on generalization, optimization, and the role of geometry.
 
 
 ## Project
