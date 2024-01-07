@@ -11,7 +11,7 @@ about:
   links:
     - icon: website
       text: website
-      href: cse.iitd.ac.in/~sahilm
+      href: https://www.cse.iitd.ac.in/~sahilm
 ---
 ## Sahil Manchanda
 Sahil Manchanda is a PhD scholar at the Department of Computer Science

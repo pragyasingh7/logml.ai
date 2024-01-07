@@ -17,14 +17,5 @@ Abhishek is an incoming DL Research Scientist at Illumina AI lab Cambridge and b
 His Ph.D. thesis is about Deep Functional Maps for 3D shape analysis. He is very interested in alignment problems in general and their applications in molecular biology.
 
 
-
 ## Project
-3D Shape matching is a fundamental problem in computer vision and graphics with significant applications on biological data. In this project, we will take a closer look at Deep Functional Map (DFM) [1,2] paradigm for 3D shape matching.  You will become familiar with unsupervised DFM
-frameworks [2] and investigate a couple of directions less explored in the DFM literature. First, most DFM literature strongly relies on precomputed Laplacian Beltrami (LB) eigenbasis. There have been some recent attempts that learn an embedding [3,4] instead. However, it is not entirely clear in which circumstances learned embedding is more robust and useful than LB eigenbasis. Secondly, we will investigate cycle consistency constraints in DFM that provides a strong regularization by jointly optimizing the maps over a collection of shapes. By the end of the project, you should better understand these topics from both theoretical and practical perspectives.
-
-References:
-
-1) Litany et al. Deep Functional Map: Structure prediction for dense shape correspondence, ICCV 2017
-2) Roufosse et al. Unsupervised Deep Learning for 3D shape Matching, ICCV 2019
-3) Marin et al. Correspondence Learning via Linearly Invariant Embedding, Neurips 2020
-4) Sharma & Ovsjanikov Joint Symmetry Detection and Shape Matching for Non-rigid Point Cloud, Arxiv
+Predicting the effect of a (missense) mutation accurately is one of the central problem in biology. Currently, two paradigms dominate benchmarks for missense variant pathogenicity prediction, namely PrimateAI-3D and alpha-missense. Interestingly, both follow totally different approach in their learned model. While PrimateAI-3D is trained from scratch, alpha-missense follows a pretraining-finetuning strategy. Both  approaches rely on MSA, Protein 3D structures as input and attention mechanism in their  model architecture. Goal of the project is to explore alpha-missense pretraining-finetuning strategy and find simpler alternatives to the pre-training part that requires training an alphafold2 (predicting 3d structures from multiple sequence alignment).
