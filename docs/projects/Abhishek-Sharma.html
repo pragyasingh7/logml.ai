@@ -8,7 +8,7 @@
 
 <meta name="author" content="Abhishek Sharma">
 
-<title>LOGML 2024 - ML for Science</title>
+<title>LOGML 2024 - Predicting the pathogenicity of a (missense) mutation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ML for Science</h1>
+<h1 class="title">Predicting the pathogenicity of a (missense) mutation</h1>
 </div>
 <div class="quarto-title-meta">
     <div>
@@ -172,11 +172,20 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abhishek-sharma" class="level2">
 <h2 data-anchor-id="abhishek-sharma">Abhishek Sharma</h2>
-<p>Abhishek is an incoming DL Research Scientist at Illumina AI lab Cambridge and before that, did his Ph.D.&nbsp;in the Shape Analysis Group at Ecole Polytechnique. His Ph.D.&nbsp;thesis is about Deep Functional Maps for 3D shape analysis. He is very interested in alignment problems in general and their applications in molecular biology.</p>
+<p>Abhishek is currently a senior research scientist in AI dept of Illumina, Cambridge. He did his PhD in computer science from Ecole polytechnique and masters in Applied Math from Ecole Centrale Paris. Before that, he also spent time as a researcher at EPFL, INRIA and MPI. In general, he is very interested in ML breakthroughs in real world problems with major societal impact.</p>
 </section>
 <section id="project" class="level2">
 <h2 data-anchor-id="project">Project</h2>
-<p>Predicting the effect of a (missense) mutation accurately is one of the central problem in biology. Currently, two paradigms dominate benchmarks for missense variant pathogenicity prediction, namely PrimateAI-3D and alpha-missense. Interestingly, both follow totally different approach in their learned model. While PrimateAI-3D is trained from scratch, alpha-missense follows a pretraining-finetuning strategy. Both approaches rely on MSA, Protein 3D structures as input and attention mechanism in their model architecture. Goal of the project is to explore alpha-missense pretraining-finetuning strategy and find simpler alternatives to the pre-training part that requires training an alphafold2 (predicting 3d structures from multiple sequence alignment).</p>
+<p>Predicting the effect of a (missense) mutation accurately is one of the central problems in biology. Currently, two paradigms dominate benchmarks for missense variant pathogenicity prediction, namely PrimateAI-3D and alpha-missense [1]. Interestingly, both follow totally different approaches in their learned model. While PrimateAI-3D is trained from scratch, alpha-missense [2] follows a pretraining-finetuning strategy. Both approaches rely on MSA, Protein 3D structures as input and attention mechanism in their model architecture. The goal of the project is to explore the alpha-missense pretraining-fine tuning strategy and find (simpler/better) alternatives E.g. [3] outlines a (simpler) alternative to the pre-training part (alphafold2.)</p>
+<p>1 . PrimateAI-3D outperforms AlphaMissense in real-world cohorts (Under Review)</p>
+<ol start="2" type="1">
+<li><p>Accurate proteome-wide missense variant effect prediction with AlphaMissense Cheng et al.&nbsp;Science, 2023</p></li>
+<li><p>Efficient and accurate prediction of protein structure using RoseTTAFold2</p></li>
+</ol>
+<p>Minkyung Baek, Ivan Anishchenko, Ian Humphreys, Qian Cong, David Baker, Frank DiMaio Bio arxiv, 2023.</p>
+<ol start="4" type="1">
+<li>https://structural-bioinformatics.netlify.app/index/</li>
+</ol>
 
 
 </section>
