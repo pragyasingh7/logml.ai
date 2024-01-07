@@ -3,7 +3,7 @@ title: "On the Geometry of Relative Representations"
 sidebar: false
 author: "Marco Fumero"
 categories: []
-image: Marco-Fumero.png
+image: Marco-Fumero.jpg
 about:
   id: project-profile
   template: solana
@@ -13,7 +13,11 @@ about:
       href: https://scholar.google.com/citations?user=VYEljYEAAAAJ&hl=it&authuser=1
 ---
 ## Marco Fumero
+I am a Ph.D. student in Computer Science at Sapienza, University of Rome, where I am part of the GLADIA research group, led by prof. Emanuele Rodolà.
 
+I am fascinated with a broad spectrum of research fields in Computer Science, revolving around Artificial Intelligence and Geometry, and the cross contamination of ideas coming from these topics.
+
+My research activity is focused on geometry processing, geometric deep learning and representation learning.
 
 
 ## Project
