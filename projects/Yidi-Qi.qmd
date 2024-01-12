@@ -1,5 +1,5 @@
 ---
-title: "Calabi-Yau Metrics with U(1)-invariant Neural Network"
+title: "Calabi-Yau Metrics with U(1)-invariant Neural Networks"
 sidebar: false
 author: "Yidi Qi"
 categories: []
