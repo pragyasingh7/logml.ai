@@ -19,12 +19,10 @@ Abhishek is currently a senior research scientist in AI dept of Illumina, Cambri
 ## Project
  Predicting the effect of a (missense) mutation accurately is one of the central problems in biology. Currently, two paradigms dominate benchmarks for missense variant pathogenicity prediction, namely PrimateAI-3D and alpha-missense [1]. Interestingly, both follow totally different approaches in their learned model. While PrimateAI-3D is trained from scratch, alpha-missense [2] follows a pretraining-finetuning strategy. Both approaches rely on MSA, Protein 3D structures as input and attention mechanism in their model architecture. The goal of the project is to explore the alpha-missense pretraining-fine tuning strategy and find (simpler/better) alternatives  E.g. [3] outlines a (simpler) alternative to the pre-training part (alphafold2.)
 
-1 . PrimateAI-3D outperforms AlphaMissense in real-world cohorts (Under Review)
+1 . PrimateAI-3D outperforms AlphaMissense in real-world cohorts (Under Review) [https://www.medrxiv.org/content/10.1101/2024.01.12.24301193v1](https://www.medrxiv.org/content/10.1101/2024.01.12.24301193v1)
 
 2. Accurate proteome-wide missense variant effect prediction with AlphaMissense Cheng et al. Science, 2023
 
-3. Efficient and accurate prediction of protein structure using RoseTTAFold2
+3. Efficient and accurate prediction of protein structure using RoseTTAFold2. Minkyung Baek, Ivan Anishchenko, Ian Humphreys, Qian Cong, David Baker, Frank DiMaio Bio arxiv, 2023.
 
-Minkyung Baek, Ivan Anishchenko, Ian Humphreys, Qian Cong, David Baker, Frank DiMaio Bio arxiv, 2023.
-
-4. https://structural-bioinformatics.netlify.app/index/
+4. [https://structural-bioinformatics.netlify.app/index/](https://structural-bioinformatics.netlify.app/index/)
