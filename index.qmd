@@ -29,10 +29,10 @@ height: 300px;
 <p>LOGML (London Geometry and Machine Learning) aims to bring together mathematicians and computer scientists to work together on a variety of problems at the intersection of geometry and machine learning. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
 
 ::: {.callout-note}
-## Participant Applications (deadline: 26 Jan 2024)
-Applications for participants are now open! The summer school is targeted at early career researchers, that includes mostly PhD students, though Master's students, postdocs, and people working in industry are also welcome to apply.  Bachelor's students will be considered but preference will be given to Master's level and above. You can find the application form here: [https://forms.gle/23kynFehZSgQACbLA](https://forms.gle/23kynFehZSgQACbLA)
+## Participant Applications (applications now closed)
+Applications for participants are now open! The summer school is targeted at early career researchers, that includes mostly PhD students, though Master's students, postdocs, and people working in industry are also welcome to apply.  Bachelor's students will be considered but preference will be given to Master's level and above.
 
-The application deadline is 26 Jan 2024, 11:59pm in your time zone.
+Applications closed on 26 Jan 2024.
 
 For all questions please contact [logml.committee@gmail.com](mailto:logml.committee@gmail.com).
 :::
