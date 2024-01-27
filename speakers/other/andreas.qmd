@@ -1,7 +1,7 @@
 ---
 title: "Andreas Loukas"
 sidebar: false
-description: ""
+description: "Prescient Design, Genentech, Roche"
 image: andreas.jpg
 toc: false
 about:
@@ -11,6 +11,7 @@ about:
     - icon: link
       text: website
       href: https://andreasloukas.blog/
+
 ---
 ---
 
@@ -28,3 +29,6 @@ about:
 :::{#person-profile}
 :::
 
+Andreas is a computer science researcher and graph enthusiast. His work focuses on the foundations and applications of machine learning to structured problems. 
+He aims to find ways to exploit (graph, constraint, group) information, with the ultimate goal of designing algorithms that can learn from fewer data. 
+He is also fascinated by the theoretical analysis of neural networks and in using them to solve hard combinatorial and bio-engineering problems (especially protein design).
