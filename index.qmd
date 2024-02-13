@@ -32,7 +32,7 @@ height: 300px;
 ## Participant Applications (applications now closed)
 Applications for participants are now open! The summer school is targeted at early career researchers, that includes mostly PhD students, though Master's students, postdocs, and people working in industry are also welcome to apply.  Bachelor's students will be considered but preference will be given to Master's level and above.
 
-Applications closed on 26 Jan 2024.
+Applications closed on 26 Jan 2024. We expect to inform all applicants by the end of February about the outcome of their application. (If we need longer, then this text here will be updated.)
 
 For all questions please contact [logml.committee@gmail.com](mailto:logml.committee@gmail.com).
 :::
