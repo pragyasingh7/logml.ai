@@ -75,3 +75,8 @@ Here's what you can anticipate:
 
 <p>You can find a list of previous years' projects and speakers under "Archives" above.</p>
 
+<p>We gratefully acknowledge sponsorship from:</p>
+
+<img src="img/sponsors/LSGNT-Logo.png" alt="London School of Number Theory and Geometry logo" width=300px>
+<img src="img/sponsors/Heilbronn-Logo.png" alt="Heilbronn logo" width=300px>
+Schmidt Futures
