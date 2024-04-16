@@ -1,0 +1,32 @@
+---
+title: "Michalis Vazirgiannis"
+sidebar: false
+description: "Ecole Polytechnique"
+image: michalis.png
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Michalis Vazirgiannis</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+M. Vazirgiannis is a Distinguished Professor at Ecole Polytechnique in France. He has been intensively involved in data science and AI related research. His broad research area is in methods for data mining and machine/deep learning methods for diverse data types and applications (including graphs, text, time series). Recently he is working of i. GNNs and aspects including expressiveness, efficiency, generation ii. Pretrained models and resources for multilingual NLP and Biomedical applications. His research and industrial impact is spanning different domains such as web advertising, social networks, online gambling, insurance, legal text applications, aviation and maritime industry and the bio/medical domain. He also pioneered at the teaching/training level having introduced new machine/deep learning and AI courses for academic and executive training studies. Pr. Vazirgiannis has published more than 250 papers in international journals and proceedings of international conferences and his  work is highly cited. On the side of supervision he has supervised 30 completed PhD theses. Finally he has been able to attract significant funding for research from national and international sources, from research agencies and industrial partners (including Google, Airbus, Huawei, Deezer, BNP, LVMH). He lead(s) academic research chairs (DIGITEO 2013-15, ANR/HELAS 2020-26) and an industrial one (AXA, 2015-2018). He has received several awards and distinctions including i. Marie Curie Intra European Fellowship (2006-8) ii. “Rhino-Bird International Academic Expert Award” in recognition of his academic/professional work @ Tencent (2017), iii. best paper awards in international conferences (such as IJCAI 2018, CIKM2013). He has been invited to media interviews in France, USA and China  and published popularized articles in French and Greek magazines/newspapers on Artificial Intelligence topics.
