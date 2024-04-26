@@ -79,4 +79,4 @@ Here's what you can anticipate:
 
 <img src="img/sponsors/LSGNT-Logo.png" alt="London School of Number Theory and Geometry logo" width=300px>
 <img src="img/sponsors/Heilbronn-Logo.png" alt="Heilbronn logo" width=300px>
-Schmidt Futures <img src="img/sponsors/G-Research.png" alt="G-Research logo" width=150px> <img src="img/sponsors/IJCAI.jpg" alt="IJCAI logo" width=200px> <img src="img/sponsors/Imperial.png" alt="Imperial logo" width=300px>
+Schmidt Futures <img src="img/sponsors/G-Research.png" alt="G-Research logo" width=150px> <img src="img/sponsors/IJCAI.jpg" alt="IJCAI logo" width=200px> <img src="img/sponsors/Imperial.png" alt="Imperial logo" width=300px> <img src="img/sponsors/valence.png" alt="valence logo" width=300px> <img src="img/sponsors/roche.png" alt="roche logo" width=300px> <img src="img/sponsors/genentech.png" alt="genentech logo" width=300px>
