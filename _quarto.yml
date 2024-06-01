@@ -28,10 +28,11 @@ website:
         text: Policies
       - href: sponsors.qmd
         text: Sponsors
-      - href: logml2022/speaker.qmd
-        text: "Archives"
       - href: program.qmd
         text: Schedule
+      - href: logml2022/speaker.qmd
+        text: "Archives"
+      
       # - text: Program
       #   menu:
       #     - text: Schedule

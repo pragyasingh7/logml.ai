@@ -3,7 +3,7 @@ title: Schedule
 sidebar: false
 ---
 
-The provisional schedule of the events is available here. The timezone is GMT+00:00.
+The provisional schedule of the events is available here. The timezone is GMT+00:00. 
 
 You can add the events to your calendar via [iCal](https://calendar.google.com/calendar/ical/logml.committee%40gmail.com/public/basic.ics).
 
