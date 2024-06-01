@@ -1,6 +1,6 @@
 ---
 title: Speakers
-sidebar: false
+sidebar: false 
 titpagetitle: "Speakers | LOGML"
 listing:
   - id: keynote
