@@ -1,0 +1,32 @@
+---
+title: Sponsors
+page-layout: full
+---
+<br>
+<br>
+
+<p>We gratefully acknowledge sponsorship from:</p>
+
+
+<br>
+<br>
+
+::: {layout="[[1,1, 1], [1, 1, 1]]"}
+
+![](img/sponsors/G-Research.png)
+
+![](img/sponsors/genentech.png)
+
+![](img/sponsors/Heilbronn-Logo.png)
+
+![](img/sponsors/IJCAI.jpg)
+
+![](img/sponsors/Imperial.png)
+
+![](img/sponsors/LSGNT-Logo.png)
+
+<img src="img/sponsors/roche.png" width="230" height="140" alt="Image description">
+
+![](img/sponsors/valence.png)
+
+:::

@@ -32,6 +32,8 @@ website:
         href: projects.qmd
       - href: policies.qmd
         text: Policies
+      - href: sponsors.qmd
+        text: Sponsors
       - href: logml2022/speaker.qmd
         text: "Archives"
  
