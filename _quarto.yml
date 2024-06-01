@@ -20,12 +20,6 @@ website:
     left:
       - href: people.qmd
         text: People
-      #- href: projects.qmd
-      #  text: Projects
-      # - text: Program
-      #   menu:
-      #     - text: Schedule
-      #       href: program.qmd
       - text: Speakers
         href: speaker.qmd
       - text: Projects&Mentors
@@ -36,6 +30,12 @@ website:
         text: Sponsors
       - href: logml2022/speaker.qmd
         text: "Archives"
+      #- href: projects.qmd
+      #  text: Projects
+      # - text: Program
+      #   menu:
+      #     - text: Schedule
+      #       href: program.qmd
  
     right: 
       - icon: youtube
