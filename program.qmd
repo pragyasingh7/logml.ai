@@ -1,6 +1,9 @@
 ---
+titpagetitle: "Schedule | LOGML"
 title: Schedule
 sidebar: false
+page-layout: full
+title-block-banner: true 
 ---
 
 The provisional schedule of the events is available here. The timezone is GMT+00:00. 
