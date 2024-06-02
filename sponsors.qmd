@@ -29,4 +29,8 @@ page-layout: full
 
 ![](img/sponsors/valence.png)
 
+
+![](img/sponsors/schmidtsciences_primary_color.png)
+
+
 :::
