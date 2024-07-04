@@ -6,7 +6,7 @@ page-layout: full
 title-block-banner: true 
 ---
 
-The provisional schedule of the events is available here. The timezone is GMT+00:00. 
+The provisional schedule of the events is available here. The timezone is London time.
 
 You can add the events to your calendar via [iCal](https://calendar.google.com/calendar/ical/logml.committee%40gmail.com/public/basic.ics).
 
