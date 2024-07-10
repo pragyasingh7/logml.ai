@@ -32,5 +32,7 @@ page-layout: full
 
 ![](img/sponsors/schmidtsciences_primary_color.png)
 
+![](img/sponsors/DeepMind.png)
+
 
 :::

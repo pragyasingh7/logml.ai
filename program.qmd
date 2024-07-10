@@ -13,7 +13,7 @@ You can add the events to your calendar via [iCal](https://calendar.google.com/c
 
 ![](img/calendar.png)
 
-*   **Joan Bruna: Quantitative Benefits of Rank in Attention Layers**
+*   **Joan Bruna: Quantitative Benefits of Rank in Attention Layers** [(Slides)](files/JBruna-slides.pdf)
 
     Abstract: Attention-based mechanisms are widely used in machine learning, most prominently in transformers and graph neural networks.
     However, hyperparameters such as the rank of the attention matrices and the number of heads are kept nearly the same in all realizations of this architecture, without any theoretical justification.
@@ -27,9 +27,11 @@ we will show dramatic tradeoffs between these two parameters.
 
     Abstract: I will present results from the thesis of my recently graduated student Kelly Maggs, a diverse collection of fruitful applications of the classical algebra-topological notion of “cochains” in signal processing, machine learning, and gene expression analysis. The first of these applications concerns the interplay between discrete Morse theory and combinatorial Hodge theory. The second involves the use of differential k-forms in Euclidean space to represent simplices in a simplicial complex and thus facilitate interpretability and geometric consistency in geometric deep learning, without message passing. The last application leads to a pipeline for detecting closed biological processes of various types (e.g., the cell cycle) from single-cell RNA seq data, based on persistent cohomology and lead-lag theory for embedded simplicial complexes. Before sketching these applications, I will introduce the notion of cochains and explain how they encode the interplay between geometry and topology.
 
-*   **Vishnu Jejjala: Deep Learning Topology**
+*   **Vishnu Jejjala: Deep Learning Topology** [(Slides)](files/VJejjala-slides.pdf)
 
 *   **Pietro Lio: Diffusion and geometric models for medicine**
+
+*   **Peter Lu: Tutorial on Optimal Transport** [(Slides)](files/PLu-slides.pdf)
 
 *   **Anthea Monod: A Tropical Geometric Perspective on Deep Learning**
 
