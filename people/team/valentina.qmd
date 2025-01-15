@@ -14,17 +14,6 @@ about:
       href: https://twitter.com/valegiunca
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Organising Committee</li>
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
 Valentina Giunchiglia is a first year PhD student funded by the Medical Research Council, specialising in Artificial Intelligence and Computational Neuroscience.
 
 Her research interests focus on building top-down and bottom-up computational models of the brain to better understand and treat different neurodegenerative diseases (e.g. Multiple Sclerosis, Parkinson’s or Alzheimer’s). She is interested in working on research projects that cross the boundaries between artificial intelligence (AI) and the clinics, with the aim of making AI actually applicable in clinical practice. She works on data-centric and explainable AI, with a special interest towards graph machine learning.

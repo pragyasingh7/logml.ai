@@ -1,0 +1,29 @@
+---
+title: "Spectral Signed GNNs for fMRI Connectomes"
+sidebar: false
+author: "Rahul Singh"
+categories: []
+image: Rahul-Singh.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://rahulsinghchandraul.github.io
+---
+## Rahul Singh
+Rahul is a Wu Tsai postdoctoral fellow at Yale University where he is mentored by Smita Krishnaswamy and Joy Hirsch. He received his PhD in Machine Learning in under the mentorship of Yongxin Chen from the Georgia Institute of Technology. His research interests are in the areas of signal processing, graph neural networks, and machine learning applications in bioinformatics and neuroscience. One of his current research focuses is to explore the neural complexes of brain-to-brain communication when two humans interact.
+
+
+## Project
+The existing GNN architectures have focused almost exclusively on graphs with nonnegative edges, which encode some kind of similarity relation between the incident nodes. In contrast, negative edges are often useful to model dissimilarity relations: for instance, in social networks, users may have common/opposite political views or like/dislike each other. Such negative correlations also arise in functional magnetic resonance imaging (fMRI)-derived brain networks or connectomes [1]. These dissimilarity relations are modeled using signed graphs allowing the edges to take both positive or negative values.
+
+
+We will build upon the recently proposed spectral signed graph neural network (GNN) architechtures [2] that can handle (directed) signed graphs and provide interpretable models backed by frequency analysis of signed graphs. Existing representation learning based methods such as BrainGNN [3] for fMRI data do not take these negative correlations into account. The focus of the project will be to utilize interpretable spectral signed GNNs to understand the neurobiological information of negative edges in fMRI connectomes. We will use open-source fMRI datasets human connectome project (HCP) and autism brain imaging data exchange (ABIDE) for our analysis. The brain will be modeled as a signed graph with nodes representing brain regions of interest (ROIs) and edges representing the functional connectivity between those ROIs computed as the pairwise (positive as well as negative) correlations of fMRI time series. The goal will be to identify and explain the effect of negative correlations between different brain regions on learned representations over fMRI connectomes.
+
+[1] Liang Zhan et al. The significance of negative correlations in brain connectivity, Journal of Comparative Neurology 2017.
+
+[2] Rahul Singh and Yongxin Chen, Signed graph neural networks: A frequency perspective, Transactions on Machine Learning Research 2023.
+
+[3] Xiaoxiao Li et al. BrainGNN: Interpretable brain graph neural network for fMRI analysis,   Medical Image Analysis 2021.

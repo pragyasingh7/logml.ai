@@ -1,0 +1,36 @@
+---
+title: Speakers
+titpagetitle: "Speakers | LOGML"
+listing:
+  - id: keynote
+    contents: "speakers2024/keynote/*.qmd"
+    type: grid
+    sort: title
+    image-height: 225px
+    grid-columns: 3
+    page-size: 999
+    fields: [title, description, image]
+    grid-item-align: left
+  - id: speaker
+    contents: "speakers2024/other/*.qmd"
+    type: grid
+    sort: title
+    image-height: 225px
+    grid-columns: 3
+    page-size: 999
+    fields: [title, description, image]
+    grid-item-align: left
+page-layout: full
+comments: false
+---
+
+
+# Keynote speakers
+
+:::{#keynote}
+:::
+
+# Speakers
+
+:::{#speaker}
+:::

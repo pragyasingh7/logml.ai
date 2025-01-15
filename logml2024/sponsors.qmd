@@ -1,0 +1,30 @@
+---
+title: Sponsors
+page-layout: full
+---
+
+::: {layout="[[1,1, 1], [1, 1, 1]]"}
+
+![](sponsors2024/G-Research.png)
+
+![](sponsors2024/genentech.png)
+
+![](sponsors2024/Heilbronn-Logo.png)
+
+![](sponsors2024/IJCAI.jpg)
+
+![](sponsors2024/Imperial.png)
+
+![](sponsors2024/LSGNT-Logo.png)
+
+<img src="sponsors2024/roche.png" width="230" height="140" alt="Image description">
+
+![](sponsors2024/valence.png)
+
+
+![](sponsors2024/schmidtsciences_primary_color.png)
+
+![](sponsors2024/DeepMind.png)
+
+
+:::

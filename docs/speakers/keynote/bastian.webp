@@ -1,0 +1,31 @@
+---
+title: "Bastian Rieck"
+sidebar: false
+description: "Helmholtz Munich"
+image: bastian.webp
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://bastian.rieck.me/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Bastian Reck </li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+

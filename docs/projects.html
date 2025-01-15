@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LOGML 2024 - Projects</title>
+<title>Projects – LOGML 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,17 +37,23 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-06267f68cc4d49f835c92266163fc562.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -91,12 +98,39 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="LOGML 2024">
-<meta name="twitter:description" content="London Geometry and Machine Learning Summer School, July 8-12 2024">
+<meta name="twitter:title" content="LOGML 2025">
+<meta name="twitter:description" content="London Geometry and Machine Learning Summer School, July 7-11 2025">
 <meta name="twitter:image" content="https://www.logml.ai/img/logo.png">
 <meta name="twitter:site" content="@LogmlSchool">
 <meta name="twitter:card" content="summary">
@@ -105,72 +139,60 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">LOGML 2024</span>
+    <span class="navbar-title">LOGML 2025</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./speaker.html" rel="" target="">
- <span class="menu-text">Speakers</span></a>
+    <a class="nav-link" href="./speaker.html"> 
+<span class="menu-text">Speakers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" rel="" target="" aria-current="page">
- <span class="menu-text">Projects&amp;Mentors</span></a>
+    <a class="nav-link" href="./policies.html"> 
+<span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./policies.html" rel="" target="">
- <span class="menu-text">Policies</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./sponsors.html" rel="" target="">
- <span class="menu-text">Sponsors</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./program.html" rel="" target="">
- <span class="menu-text">Schedule</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./logml2022/speaker.html" rel="" target="">
- <span class="menu-text">Archives</span></a>
+    <a class="nav-link" href="./logml2024/speaker.html"> 
+<span class="menu-text">Archives</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/channel/UC7m0STJK9e4BbD-elwS4bNw" rel="" target=""><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://www.youtube.com/channel/UC7m0STJK9e4BbD-elwS4bNw"> <i class="bi bi-youtube" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/LogmlSchool" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/LogmlSchool"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/company/logml/" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/company/logml/"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -183,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -207,418 +229,403 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="" data-listing-file-modified-sort="1705087036250" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="0" data-categories="" data-listing-file-modified-sort="1736970089070" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
 <div class="thumbnail">
-<p><a href="./projects/Yidi-Qi.html"> <img src="./projects/Yidi-Qi.png" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Yidi-Qi.html" class="no-external"></a></p><a href="./projects/Yidi-Qi.html" class="no-external">
+<p><img loading="lazy" src="./projects/Yidi-Qi.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/Yidi-Qi.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Yidi-Qi.html">
 <h3 class="no-anchor listing-title">
-Calabi-Yau Metrics with U(1)-invariant Neural Networks
+<a href="./projects/Yidi-Qi.html" class="no-external">Calabi-Yau Metrics with U(1)-invariant Neural Networks</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Yidi-Qi.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Yidi-Qi.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Yidi-Qi.html">
+<p><a href="./projects/Yidi-Qi.html" class="no-external"></a></p><a href="./projects/Yidi-Qi.html" class="no-external">
 <div class="listing-author">
 Yidi Qi
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="" data-listing-file-modified-sort="1704473185349" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="1" data-categories="" data-listing-file-modified-sort="1736970089038" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
 <div class="thumbnail">
-<p><a href="./projects/Lorenzo-Giusti.html"> <img src="./projects/Lorenzo-Giusti.png" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Lorenzo-Giusti.html" class="no-external"></a></p><a href="./projects/Lorenzo-Giusti.html" class="no-external">
+<p><img loading="lazy" src="./projects/Lorenzo-Giusti.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/Lorenzo-Giusti.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Lorenzo-Giusti.html">
 <h3 class="no-anchor listing-title">
-Exploiting Graph Neural Networks for Prescriptive maintenance of CERN’s technical infrastructure
+<a href="./projects/Lorenzo-Giusti.html" class="no-external">Exploiting Graph Neural Networks for Prescriptive maintenance of CERN’s technical infrastructure</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Lorenzo-Giusti.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Lorenzo-Giusti.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Lorenzo-Giusti.html">
+<p><a href="./projects/Lorenzo-Giusti.html" class="no-external"></a></p><a href="./projects/Lorenzo-Giusti.html" class="no-external">
 <div class="listing-author">
 Lorenzo Giusti
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="" data-listing-file-modified-sort="1704713288297" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="" data-listing-file-modified-sort="1736970089036" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
 <div class="thumbnail">
-<p><a href="./projects/Elli-Heyes.html"> <img src="./projects/Elli-Heyes.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Elli-Heyes.html" class="no-external"></a></p><a href="./projects/Elli-Heyes.html" class="no-external">
+<p><img loading="lazy" src="./projects/Elli-Heyes.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Elli-Heyes.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Elli-Heyes.html">
 <h3 class="no-anchor listing-title">
-Generating Calabi-Yau Manifolds with Machine Learning
+<a href="./projects/Elli-Heyes.html" class="no-external">Generating Calabi-Yau Manifolds with Machine Learning</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Elli-Heyes.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Elli-Heyes.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Elli-Heyes.html">
+<p><a href="./projects/Elli-Heyes.html" class="no-external"></a></p><a href="./projects/Elli-Heyes.html" class="no-external">
 <div class="listing-author">
 Elli Heyes
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-file-modified-sort="1704473185347" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-file-modified-sort="1736970089031" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
 <div class="thumbnail">
-<p><a href="./projects/Dolores-Garcia.html"> <img src="./projects/Dolores-Garcia.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Dolores-Garcia.html" class="no-external"></a></p><a href="./projects/Dolores-Garcia.html" class="no-external">
+<p><img loading="lazy" src="./projects/Dolores-Garcia.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Dolores-Garcia.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Dolores-Garcia.html">
 <h3 class="no-anchor listing-title">
-Geometric GNNs for particle level reconstruction
+<a href="./projects/Dolores-Garcia.html" class="no-external">Geometric GNNs for particle level reconstruction</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Dolores-Garcia.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Dolores-Garcia.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Dolores-Garcia.html">
+<p><a href="./projects/Dolores-Garcia.html" class="no-external"></a></p><a href="./projects/Dolores-Garcia.html" class="no-external">
 <div class="listing-author">
 Dolores Garcia
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="" data-listing-file-modified-sort="1704473185350" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="4" data-categories="" data-listing-file-modified-sort="1736970089075" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
 <div class="thumbnail">
-<p><a href="./projects/Zhengang-Zhong.html"> <img src="./projects/Zhengang-Zhong.png" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Zhengang-Zhong.html" class="no-external"></a></p><a href="./projects/Zhengang-Zhong.html" class="no-external">
+<p><img loading="lazy" src="./projects/Zhengang-Zhong.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/Zhengang-Zhong.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Zhengang-Zhong.html">
 <h3 class="no-anchor listing-title">
-Geometry for Distribution Learning
+<a href="./projects/Zhengang-Zhong.html" class="no-external">Geometry for Distribution Learning</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Zhengang-Zhong.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Zhengang-Zhong.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Zhengang-Zhong.html">
+<p><a href="./projects/Zhengang-Zhong.html" class="no-external"></a></p><a href="./projects/Zhengang-Zhong.html" class="no-external">
 <div class="listing-author">
 Zhengang Zhong
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="" data-listing-file-modified-sort="1705245581078" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="5" data-categories="" data-listing-file-modified-sort="1736970089038" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
 <div class="thumbnail">
-<p><a href="./projects/George-Panagopoulos.html"> <img src="./projects/George-Panagopoulos.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/George-Panagopoulos.html" class="no-external"></a></p><a href="./projects/George-Panagopoulos.html" class="no-external">
+<p><img loading="lazy" src="./projects/George-Panagopoulos.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/George-Panagopoulos.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/George-Panagopoulos.html">
 <h3 class="no-anchor listing-title">
-Graph Learning for Uplift Modeling
+<a href="./projects/George-Panagopoulos.html" class="no-external">Graph Learning for Uplift Modeling</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/George-Panagopoulos.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/George-Panagopoulos.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/George-Panagopoulos.html">
+<p><a href="./projects/George-Panagopoulos.html" class="no-external"></a></p><a href="./projects/George-Panagopoulos.html" class="no-external">
 <div class="listing-author">
 George Panagopoulos
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="" data-listing-file-modified-sort="1704473185350" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="6" data-categories="" data-listing-file-modified-sort="1736970089068" data-listing-reading-time-sort="2" data-listing-word-count-sort="400">
 <div class="thumbnail">
-<p><a href="./projects/Sara-Veneziale.html"> <img src="./projects/Sara-Veneziale.png" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Sara-Veneziale.html" class="no-external"></a></p><a href="./projects/Sara-Veneziale.html" class="no-external">
+<p><img loading="lazy" src="./projects/Sara-Veneziale.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/Sara-Veneziale.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Sara-Veneziale.html">
 <h3 class="no-anchor listing-title">
-Invariantly learning terminal singularities
+<a href="./projects/Sara-Veneziale.html" class="no-external">Invariantly learning terminal singularities</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Sara-Veneziale.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Sara-Veneziale.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Sara-Veneziale.html">
+<p><a href="./projects/Sara-Veneziale.html" class="no-external"></a></p><a href="./projects/Sara-Veneziale.html" class="no-external">
 <div class="listing-author">
 Sara Veneziale
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="" data-listing-file-modified-sort="1704629483010" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="7" data-categories="" data-listing-file-modified-sort="1736970089046" data-listing-reading-time-sort="3" data-listing-word-count-sort="533">
 <div class="thumbnail">
-<p><a href="./projects/Sahil-Manchanda.html"> <img src="./projects/Sahil-Manchanda.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Sahil-Manchanda.html" class="no-external"></a></p><a href="./projects/Sahil-Manchanda.html" class="no-external">
+<p><img loading="lazy" src="./projects/Sahil-Manchanda.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Sahil-Manchanda.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Sahil-Manchanda.html">
 <h3 class="no-anchor listing-title">
-Learning to predict optimal solution value for NP-Hard Combinatorial problems
+<a href="./projects/Sahil-Manchanda.html" class="no-external">Learning to predict optimal solution value for NP-Hard Combinatorial problems</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Sahil-Manchanda.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Sahil-Manchanda.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Sahil-Manchanda.html">
+<p><a href="./projects/Sahil-Manchanda.html" class="no-external"></a></p><a href="./projects/Sahil-Manchanda.html" class="no-external">
 <div class="listing-author">
 Sahil Manchanda
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="" data-listing-file-modified-sort="1704473185347" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="8" data-categories="" data-listing-file-modified-sort="1736970089020" data-listing-reading-time-sort="2" data-listing-word-count-sort="352">
 <div class="thumbnail">
-<p><a href="./projects/Anna-Calissano.html"> <img src="./projects/Anna-Calissano.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Anna-Calissano.html" class="no-external"></a></p><a href="./projects/Anna-Calissano.html" class="no-external">
+<p><img loading="lazy" src="./projects/Anna-Calissano.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Anna-Calissano.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Anna-Calissano.html">
 <h3 class="no-anchor listing-title">
-Matching graphs with spatial constrains
+<a href="./projects/Anna-Calissano.html" class="no-external">Matching graphs with spatial constrains</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Anna-Calissano.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Anna-Calissano.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Anna-Calissano.html">
+<p><a href="./projects/Anna-Calissano.html" class="no-external"></a></p><a href="./projects/Anna-Calissano.html" class="no-external">
 <div class="listing-author">
 Anna Calissano
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="" data-listing-file-modified-sort="1704630380277" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="" data-listing-file-modified-sort="1736970089040" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
 <div class="thumbnail">
-<p><a href="./projects/Rishi-Sonthalia.html"> <img src="./projects/Rishi-Sonthalia.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Rishi-Sonthalia.html" class="no-external"></a></p><a href="./projects/Rishi-Sonthalia.html" class="no-external">
+<p><img loading="lazy" src="./projects/Rishi-Sonthalia.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Rishi-Sonthalia.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Rishi-Sonthalia.html">
 <h3 class="no-anchor listing-title">
-Mixed Curvature Graph Neural Networks
+<a href="./projects/Rishi-Sonthalia.html" class="no-external">Mixed Curvature Graph Neural Networks</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Rishi-Sonthalia.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Rishi-Sonthalia.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Rishi-Sonthalia.html">
+<p><a href="./projects/Rishi-Sonthalia.html" class="no-external"></a></p><a href="./projects/Rishi-Sonthalia.html" class="no-external">
 <div class="listing-author">
 Rishi Sonthalia
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="" data-listing-file-modified-sort="1704473185349" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="10" data-categories="" data-listing-file-modified-sort="1736970089039" data-listing-reading-time-sort="2" data-listing-word-count-sort="326">
 <div class="thumbnail">
-<p><a href="./projects/Michail-Chatzianastasis.html"> <img src="./projects/Michail-Chatzianastasis.png" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Michail-Chatzianastasis.html" class="no-external"></a></p><a href="./projects/Michail-Chatzianastasis.html" class="no-external">
+<p><img loading="lazy" src="./projects/Michail-Chatzianastasis.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/Michail-Chatzianastasis.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Michail-Chatzianastasis.html">
 <h3 class="no-anchor listing-title">
-Multimodal Protein Representation Learning
+<a href="./projects/Michail-Chatzianastasis.html" class="no-external">Multimodal Protein Representation Learning</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Michail-Chatzianastasis.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Michail-Chatzianastasis.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Michail-Chatzianastasis.html">
+<p><a href="./projects/Michail-Chatzianastasis.html" class="no-external"></a></p><a href="./projects/Michail-Chatzianastasis.html" class="no-external">
 <div class="listing-author">
 Michail Chatzianastasis
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="" data-listing-file-modified-sort="1704716411321" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="11" data-categories="" data-listing-file-modified-sort="1736970089039" data-listing-reading-time-sort="4" data-listing-word-count-sort="714">
 <div class="thumbnail">
-<p><a href="./projects/Marco-Fumero.html"> <img src="./projects/Marco-Fumero.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Marco-Fumero.html" class="no-external"></a></p><a href="./projects/Marco-Fumero.html" class="no-external">
+<p><img loading="lazy" src="./projects/Marco-Fumero.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Marco-Fumero.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Marco-Fumero.html">
 <h3 class="no-anchor listing-title">
-On the Geometry of Relative Representations
+<a href="./projects/Marco-Fumero.html" class="no-external">On the Geometry of Relative Representations</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Marco-Fumero.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Marco-Fumero.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Marco-Fumero.html">
+<p><a href="./projects/Marco-Fumero.html" class="no-external"></a></p><a href="./projects/Marco-Fumero.html" class="no-external">
 <div class="listing-author">
 Marco Fumero
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="" data-listing-file-modified-sort="1704629929172" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="12" data-categories="" data-listing-file-modified-sort="1736970089038" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
 <div class="thumbnail">
-<p><a href="./projects/Joshua-Robinson.html"> <img src="./projects/Joshua-Robinson.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Joshua-Robinson.html" class="no-external"></a></p><a href="./projects/Joshua-Robinson.html" class="no-external">
+<p><img loading="lazy" src="./projects/Joshua-Robinson.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Joshua-Robinson.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Joshua-Robinson.html">
 <h3 class="no-anchor listing-title">
-Powerful Graph Neural Networks for Relational Databases
+<a href="./projects/Joshua-Robinson.html" class="no-external">Powerful Graph Neural Networks for Relational Databases</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Joshua-Robinson.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Joshua-Robinson.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Joshua-Robinson.html">
+<p><a href="./projects/Joshua-Robinson.html" class="no-external"></a></p><a href="./projects/Joshua-Robinson.html" class="no-external">
 <div class="listing-author">
 Joshua Robinson
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="" data-listing-file-modified-sort="1705309310537" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="13" data-categories="" data-listing-file-modified-sort="1736970089018" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
 <div class="thumbnail">
-<p><a href="./projects/Abhishek-Sharma.html"> <img src="./projects/Abhishek-Sharma.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Abhishek-Sharma.html" class="no-external"></a></p><a href="./projects/Abhishek-Sharma.html" class="no-external">
+<p><img loading="lazy" src="./projects/Abhishek-Sharma.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Abhishek-Sharma.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Abhishek-Sharma.html">
 <h3 class="no-anchor listing-title">
-Predicting the pathogenicity of a (missense) mutation
+<a href="./projects/Abhishek-Sharma.html" class="no-external">Predicting the pathogenicity of a (missense) mutation</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Abhishek-Sharma.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Abhishek-Sharma.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Abhishek-Sharma.html">
+<p><a href="./projects/Abhishek-Sharma.html" class="no-external"></a></p><a href="./projects/Abhishek-Sharma.html" class="no-external">
 <div class="listing-author">
 Abhishek Sharma
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="" data-listing-file-modified-sort="1704473185347" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="14" data-categories="" data-listing-file-modified-sort="1736970089020" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
 <div class="thumbnail">
-<p><a href="./projects/Claudio-Battiloro.html"> <img src="./projects/Claudio-Battiloro.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Claudio-Battiloro.html" class="no-external"></a></p><a href="./projects/Claudio-Battiloro.html" class="no-external">
+<p><img loading="lazy" src="./projects/Claudio-Battiloro.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Claudio-Battiloro.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Claudio-Battiloro.html">
 <h3 class="no-anchor listing-title">
-Self-supervised learning for Topological Neural Networks
+<a href="./projects/Claudio-Battiloro.html" class="no-external">Self-supervised learning for Topological Neural Networks</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Claudio-Battiloro.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Claudio-Battiloro.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Claudio-Battiloro.html">
+<p><a href="./projects/Claudio-Battiloro.html" class="no-external"></a></p><a href="./projects/Claudio-Battiloro.html" class="no-external">
 <div class="listing-author">
 Claudio Battiloro
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="" data-listing-file-modified-sort="1704473185349" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="15" data-categories="" data-listing-file-modified-sort="1736970089040" data-listing-reading-time-sort="2" data-listing-word-count-sort="376">
 <div class="thumbnail">
-<p><a href="./projects/Rahul-Singh.html"> <img src="./projects/Rahul-Singh.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./projects/Rahul-Singh.html" class="no-external"></a></p><a href="./projects/Rahul-Singh.html" class="no-external">
+<p><img loading="lazy" src="./projects/Rahul-Singh.jpg" class="thumbnail-image"></p>
+</a><p><a href="./projects/Rahul-Singh.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./projects/Rahul-Singh.html">
 <h3 class="no-anchor listing-title">
-Spectral Signed GNNs for fMRI Connectomes
+<a href="./projects/Rahul-Singh.html" class="no-external">Spectral Signed GNNs for fMRI Connectomes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./projects/Rahul-Singh.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./projects/Rahul-Singh.html"> </a>
 </div>
 <div class="metadata">
-<a href="./projects/Rahul-Singh.html">
+<p><a href="./projects/Rahul-Singh.html" class="no-external"></a></p><a href="./projects/Rahul-Singh.html" class="no-external">
 <div class="listing-author">
 Rahul Singh
 </div>
@@ -665,18 +672,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -708,11 +704,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -722,8 +755,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -735,7 +777,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -779,6 +943,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -804,6 +969,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -866,7 +1057,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright © 2023, LOGML Team</div>   
+    <div class="nav-footer-left">
+<p>Copyright © 2025, LOGML Team</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -900,6 +1093,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

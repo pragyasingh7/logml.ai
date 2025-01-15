@@ -1,0 +1,20 @@
+---
+title: "Mixed Curvature Graph Neural Networks"
+sidebar: false
+author: "Rishi Sonthalia"
+categories: []
+image: Rishi-Sonthalia.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://sites.google.com/umich.edu/rsonthal/
+---
+## Rishi Sonthalia
+Rishi Sonthalia is a Hedrick Assistant Adjunct Professor in the Math department at UCLA. He completed his Ph.D. from the University of Michigan where he won the Peter Smereka prize for the best Applied Math thesis. Rishi's research interested is in mathematics for machine learning with a special focus on generalization, optimization, and the role of geometry.
+
+
+## Project
+Recent work has shown that hyperbolic geometry can be very useful in improving the performance of neural networks, including graph neural networks. There has also been recent work suggesting that using the correct geometry (based on curvature) can be used to alleviate oversquashing in GNNs. Hence it is currently of relevance to understand the performance of GNNs that use mix curvature geometries. For this a variety of different models have been proposed - product manifolds (Gu et al. 2019), hierarchical hyperbolic spaces (Sonthalia et al. 2022), the space of positive definite matrices (Lopez et al. 2021), as well neural networks that intertwine standard Euclidean and hyperbolic layers (Cui at al. 2022).
