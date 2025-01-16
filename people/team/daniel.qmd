@@ -1,7 +1,7 @@
 ---
 title: "Daniel Platt"
 sidebar: false
-sortby: "Daniel Platt"
+sortby: "Daniel, Platt"
 description: "Imperial College London"
 image: daniel.png
 toc: false

@@ -1,7 +1,7 @@
 ---
 title: "Arne Wolf"
 sidebar: false
-sortby: "Arne Wolf"
+sortby: "Arne, Wolf"
 description: "Imperial College London"
 image: arne.jpeg
 toc: false

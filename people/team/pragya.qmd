@@ -1,7 +1,7 @@
 ---
 title: "Pragya Singh"
 sidebar: false
-sortby: "Pragya Singh"
+sortby: "Pragya, Singh"
 description: "Imperial College London"
 image: pragya.jpg
 toc: false
@@ -9,7 +9,7 @@ about:
   id: person-profile
   template: trestles
   links:
-    - icon: link
+    - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/pragya-singh7/
 ---

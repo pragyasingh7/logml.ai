@@ -26,7 +26,7 @@ height: 300px;
 
 <h2 style="color: #73313a">London, 7-11 July 2025</h2>
 
-<p>LOGML (London Geometry and Machine Learning) aims to bring together mathematicians and computer scientists to work together on a variety of problems at the intersection of geometry and machine learning. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
+<p>LOGML (London Geometry and Machine Learning) aims to bring together mathematicians and computer scientists to collaborate on a variety of problems at the intersection of geometry and machine learning. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
 
 ::: {.callout-note}
 ## Mentor Applications (Open)
