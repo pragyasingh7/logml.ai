@@ -20,8 +20,8 @@ website:
     left:
       - href: people.qmd
         text: People
-      - text: Speakers
-        href: speaker.qmd
+      # - text: Speakers
+      #   href: speaker.qmd
       # - text: Projects&Mentors
       #   href: projects.qmd
       - href: policies.qmd

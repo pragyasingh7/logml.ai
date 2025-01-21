@@ -44,6 +44,7 @@ LOGML is not merely a summer school; it's an incubator for innovation at the int
 * [Surfing on the Neural Sheaf (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=xOXFkyRzTlu)
 * [Accelerating Molecular Graph Neural Networks via Knowledge Distillation (Synergy of Scientific and Machine Learning Modeling workshop, ICML, 2023)](https://syns-ml.github.io/2023/assets/papers/67.pdf)
 * [Implicit Convolutional Kernels for Steerable CNNs (NeurIPS, 2023 )](https://arxiv.org/abs/2212.06096)
+* [Group-invariant machine learning on the Kreuzer-Skarke dataset (Physics Letters B, 2024)](https://www.sciencedirect.com/science/article/pii/S0370269324005549?via%3Dihub)
 
 Here's what you can anticipate:
 
@@ -53,13 +54,13 @@ Here's what you can anticipate:
 
 
 
-<br>Applications close on February 28th.
+<br>Applications close on February 16th.
 
 :::
 
 ::: {.callout-note}
-## Participant Applications (Opening mid-February)
-Thank you for your interest in our program. Applications will open in mid-February. We encourage you to check back for more details. 
+## Participant Applications (Opening early-March)
+Thank you for your interest in our program. Applications will open in early-March. We encourage you to check back then for more details. 
 
 :::
 
