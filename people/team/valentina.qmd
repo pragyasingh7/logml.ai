@@ -2,7 +2,7 @@
 title: "Valentina Giunchiglia"
 sidebar: false
 sortby: "Valentina, Giunchiglia"
-description: "Imperial College London"
+description: "Imperial College London, Harvard University"
 image: valentina.png
 toc: false
 about:

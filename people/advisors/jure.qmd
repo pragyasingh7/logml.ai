@@ -1,0 +1,38 @@
+---
+title: "Jure Leskovec"
+sidebar: false
+description: "Stanford University"
+image: jure.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://cs.stanford.edu/~jure/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Jure Leskovec</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+
+
+Jure Leskovec is Professor of Computer Science at Stanford University. He is affiliated with the Stanford AI Lab, Machine Learning Group and the Center for Research on Foundation Models.
+
+In the past, he served as a Chief Scientist at Pinterest and was an investigator at Chan Zuckerberg Biohub. Most recently, he co-founded machine learning startup Kumo.AI. Leskovec pioneered the field of Graph Neural Networks and co-authored PyG, the most widely-used graph neural network library. Research from his group has been used by many countries to fight COVID-19 pandemic, and has been incorporated into products at Facebook, Pinterest, Uber, YouTube, Amazon, and more.
+
+His research received several awards including Microsoft Research Faculty Fellowship in 2011, Okawa Research award in 2012, Alfred P. Sloan Fellowship in 2012, Lagrange Prize in 2015, and ICDM Research Contributions Award in 2019. His research contributions have spanned social networks, data mining and machine learning, and computational biomedicine with the focus on drug discovery. His work has won 12 best paper awards and 5 10-year test of time awards at premier venues in these research areas. Leskovec received his bachelor's degree in computer science from University of Ljubljana, Slovenia, PhD in machine learning from Carnegie Mellon University and postdoctoral training at Cornell University. 
