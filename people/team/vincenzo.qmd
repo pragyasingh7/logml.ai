@@ -1,0 +1,17 @@
+---
+title: "Vincenzo Marco De Luca"
+sidebar: false
+sortby: "Vincenzo, Marco De Luca"
+description: "University of Trento"
+image: vincenzo.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/vincenzo-marco-de-luca/
+---
+
+Marco is a PhD student in the Department of Information Engineering and Computer Science at the University of Trento, supervised by Prof. Andrea Passerini, Prof. Giovanna Varni, and Prof. Marco Zenato. His research is dedicated to advancing Human-Centered AI, focusing on applications that model Social Interaction and Human-Machine Teaming. His research focuses on Graph Neural Networks to explore three areas: the design of trustworthy AI systems, the ability to learn effectively from limited data, and the modeling of complex relational dynamics.

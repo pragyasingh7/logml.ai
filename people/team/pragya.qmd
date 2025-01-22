@@ -1,0 +1,20 @@
+---
+title: "Pragya Singh"
+sidebar: false
+sortby: "Pragya, Singh"
+description: "Imperial College London"
+image: pragya.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/pragya-singh7/
+---
+
+
+Pragya recently finished her masters in Artificial Intelligence at Imperial College London. 
+Prior to that, she finished her undergraduate in Engineering Physics from IIT Roorkee and worked as a quantitative researcher at Goldman Sachs.
+Her research interests include geometric and topological machine learning, especially their applications to natural sciences.

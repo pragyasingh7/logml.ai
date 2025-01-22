@@ -6,8 +6,8 @@ listing:
     contents: "people/team/*.qmd"
     type: grid
     sort: title
-    image-height: 225px
-    grid-columns: 3
+    image-height: 150px
+    grid-columns: 4
     page-size: 999
     fields: [title, description, image]
     grid-item-align: left

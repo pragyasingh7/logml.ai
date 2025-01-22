@@ -1,9 +1,0 @@
----
-title: "Daniel Platt"
-sidebar: false
-sortby: "Daniel Platt"
-description: "King's College London"
-image: bastian.webp
-toc: false
----
-

@@ -1,0 +1,31 @@
+---
+title: "Matching graphs with spatial constrains"
+sidebar: false
+author: "Anna Calissano"
+categories: []
+image: Anna-Calissano.jpg
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://annacalissano.github.io/
+---
+## Anna Calissano
+Anna Calissano is a Chapman Fellow at the Department of Mathematics at Imperial College London. She conducts research on defining suitable geometrical embeddings and novel statistical tools for the analysis of set of graphs and networks. She works at the intersection of geometry, statistics, and computing. Her main applicational areas are urban planning and medical imaging. Anna received a PhD in Mathematics from Politecnico di Milano in 2021, under the supervision of Prof. Simone Vantini and Prof. Aasa Feragen (DTU). She worked as a postdoctoral researcher at INRIA (France) within the ERC Project Geometric Statistics leaded by Xavier Pennec.
+
+
+
+## Project
+Problem Statement:
+Given two graphs, finding a correspondence between the two sets of nodes has been broadly studied in the literature as graph matching. In many real-world applications, the matching is constrained: not every node can be assigned to every other node. Consider for example the brain structural connectivity of different subjects, a misalignment between brain parcels (i.e. nodes) can occur during the signal preprocessing. However, the only reasonable alignments are between neighboring parcels [1]. The goal of the project is to define a graph matching procedure with spatial constrains (e.g. the spatial distance on the cortex between parcels) on a set of structural connectivity matrices of healthy subjects from the Human Connectome Project.
+
+Solutions to explore:
+The problem can be addressed in different ways: (1) by adding a penalization term in the optimization procedure which depends on the spatial distance of the nodes (e.g. Rigid Graph Matching [2]); (2) by defining an optimization problem using the generators of the permutation group ([3]).
+
+[1] Calissano, A., Papadopoulo, T., Pennec, X., & Deslauriers-Gauthier, S. (2022). Graph Alignment Exploiting the Spatial Organisation Improves the Similarity of Brain Networks. In Human Brain Mapping (to appear)
+
+[2] Ravindra, V., Nassar, H., Gleich, D. F., & Grama, A. (2020). Rigid graph alignment. In Complex Networks and Their Applications VIII: Volume 1 Proceedings of the Eighth International Conference on Complex Networks and Their Applications COMPLEX NETWORKS 2019 8 (pp. 621-632). Springer International Publishing.
+
+[3] Coxeter, H. S., & Moser, W. O. (2013). Generators and relations for discrete groups (Vol. 14). Springer Science & Business Media.

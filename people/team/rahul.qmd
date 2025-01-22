@@ -1,0 +1,21 @@
+---
+title: "Rahul Singh"
+sidebar: false
+sortby: "Rahul, Singh"
+description: "Yale University"
+image: rahul.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: link
+      text: website
+      href: https://rahulsinghchandraul.github.io/
+---
+
+
+Rahul is a Wu Tsai postdoctoral fellow at Yale University. 
+He received his PhD in Machine Learning under the mentorship of Yongxin Chen from Georgia Institute of Technology. 
+His research interests are in the areas of signal processing, graph neural networks, and machine learning applications in bioinformatics and neuroscience. 
+He enjoys hiking, camping, and exploring nature and is also an AC Milan fan.

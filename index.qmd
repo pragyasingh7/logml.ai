@@ -22,56 +22,46 @@ height: 300px;
 
 <img src="img/logo.png" align="left" width="100px" style="margin-right: 30px" />
 
-<h1>LOGML Summer School 2024</h1>
+<h1>LOGML Summer School 2025</h1>
 
-<h2 style="color: #73313a">London, 8-12 July 2024</h2>
+<h2 style="color: #73313a">London, 7-11 July 2025</h2>
 
-<p>LOGML (London Geometry and Machine Learning) aims to bring together mathematicians and computer scientists to work together on a variety of problems at the intersection of geometry and machine learning. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
-
-::: {.callout-note}
-## Participant Applications (results announced)
-We had far more applicants than spaces and have filled all spaces. Sadly, that meant that we had to reject many highly qualified candidates. Also candidates on the waiting list cannot be offered a space this year.
-
-We have informed all applicants about the outcome of their application via email to the email address they gave at application. If you have applied and have not received a response from us, please email us at [logml.committee@gmail.com](mailto:logml.committee@gmail.com).
-:::
+<p>LOGML (London Geometry and Machine Learning) aims to bring together mathematicians and computer scientists to collaborate on a variety of problems at the intersection of geometry and machine learning. There will be a selection of group projects, each overseen by an experienced mentor, talks by leading figures in the field, a variety of social events and a company networking night.</p>
 
 ::: {.callout-note}
-## Participant Applications (applications now closed)
-Applications for participants are now open! The summer school is targeted at early career researchers, that includes mostly PhD students, though Master's students, postdocs, and people working in industry are also welcome to apply.  Bachelor's students will be considered but preference will be given to Master's level and above.
-
-Applications closed on 26 Jan 2024. We expect to inform all applicants by the end of February about the outcome of their application. (If we need longer, then this text here will be updated.)
-
-For all questions please contact [logml.committee@gmail.com](mailto:logml.committee@gmail.com).
-:::
-
-::: {.callout-note}
-## Mentor Applications (applications now closed)
-Applications for group project mentors are now open! Mentors guide a small group of passionate early career researchers on a week-long project of their choosing at the intersection of geometry and machine learning.
+## Mentor Applications (Open)
+Applications for group project mentors are now open! Kindly apply using [this](https://forms.office.com/pages/responsepage.aspx?id=B3WJK4zudUWDC0-CZ8PTB1ijC_suxSlEkBrY_Oypg69UMENHSjNMQVVGWjVEWUswUFFNMk85TU9NUC4u&route=shorturl) form. 
+Mentors guide a small group of passionate early career researchers on a week-long project of their choosing at the intersection of geometry and machine learning.
 
 LOGML is not merely a summer school; it's an incubator for innovation at the intersection of geometry and machine learning. Several working groups that started at LOGML went on to form longer-term collaborations leading to publications in notable conferences and journals, including:
 
-
-* [Eqivariant Subgraph Aggregation Networks (ICLR 2022, Spotlight)](https://openreview.net/pdf?id=dFbKQaRk15w)
-* [Towards Training GNNs Using Explanation Directed Message Passing (LOG conference, 2022)](https://proceedings.mlr.press/v198/giunchiglia22a.html)
-* [Unsupervised Network Embedding Beyond Homophily (TMLR, 2022)](https://openreview.net/pdf?id=sRgvmXjrmg)
-* [Equivariant Mesh Attention Networks (TMLR, 2022)](https://arxiv.org/pdf/2205.10662.pdf)
-* [Generalized Laplacian Positional Encoding for Graph Representation Learning  (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=BNhhZwAlVNC)
-* [Surfing on the Neural Sheaf (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=xOXFkyRzTlu)
-* [Accelerating Molecular Graph Neural Networks via Knowledge Distillation (Synergy of Scientific and Machine Learning Modeling workshop, ICML, 2023)](https://syns-ml.github.io/2023/assets/papers/67.pdf)
+* [Group-invariant machine learning on the Kreuzer-Skarke dataset (Physics Letters B, 2024)](https://www.sciencedirect.com/science/article/pii/S0370269324005549?via%3Dihub)
 * [Implicit Convolutional Kernels for Steerable CNNs (NeurIPS, 2023 )](https://arxiv.org/abs/2212.06096)
+* [Accelerating Molecular Graph Neural Networks via Knowledge Distillation (Synergy of Scientific and Machine Learning Modeling workshop, ICML, 2023)](https://syns-ml.github.io/2023/assets/papers/67.pdf)
+* [Surfing on the Neural Sheaf (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=xOXFkyRzTlu)
+* [Generalized Laplacian Positional Encoding for Graph Representation Learning  (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=BNhhZwAlVNC)
+* [Equivariant Mesh Attention Networks (TMLR, 2022)](https://arxiv.org/pdf/2205.10662.pdf)
+* [Unsupervised Network Embedding Beyond Homophily (TMLR, 2022)](https://openreview.net/pdf?id=sRgvmXjrmg)
+* [Towards Training GNNs Using Explanation Directed Message Passing (LOG conference, 2022)](https://proceedings.mlr.press/v198/giunchiglia22a.html)
+* [Eqivariant Subgraph Aggregation Networks (ICLR 2022, Spotlight)](https://openreview.net/pdf?id=dFbKQaRk15w)
 
 Here's what you can anticipate:
 
 * <strong>Deep dive into collaborative research:</strong> You'll steer a group of typically five early-career researchers, working closely on a well-defined project. While 15 hours of the week are earmarked for project working time, the energy and enthusiasm often see groups dedicating more.
-* <strong>Drive tangible outcomes:</strong> The LOGML experience is intensive, yet the time frame is concise. With only one week available, it's essential to zero in on achievable milestones. In the past, mentors have found success in adapting existing algorithms to fresh datasets, implementing a pilot for a theoretical ideal, or laying the theoretical foundations for a longer-term project.
-* <strong>Engage & enlighten:</strong> Apart from the project work, the week will be filled with lectures by leading figures in the field, and a company and networking night.
+* <strong>Drive tangible outcomes:</strong> The LOGML experience is intensive, yet the time frame is concise. With only one week available, it's essential to zero in on achievable milestones. In the past, mentors have found success in adapting existing algorithms to fresh datasets, implementing a pilot for a theoretical idea, or laying the theoretical foundations for a longer-term project.
+* <strong>Engage & enlighten:</strong> Apart from the project work, the week will be filled with lectures by leading figures in the field, as well as a company and networking night.
 
 
 
-<br>Applications closed on December 1st.
+<br><strong style="color: #73313a">Applications close on February 16th.</strong>
 
 :::
 
+::: {.callout-note}
+## Participant Applications (Opening early-March)
+Thank you for your interest in our program. Applications will open in early-March. We encourage you to check back then for more details. 
+
+:::
 
 <p>You can find a list of previous years' projects and speakers under "Archives" above.</p>
 
