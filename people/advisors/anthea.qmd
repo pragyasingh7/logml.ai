@@ -29,6 +29,8 @@ about:
 :::{#person-profile}
 :::
 
-Anthea Monod is a Lecturer (Assistant Professor with tenure) in Biomathematics at the Department of Mathematics at Imperial College London.
-Her research areas primarily include topological data analysis, algebraic statistics, and nonlinear algebra applied to mathematical and computational biology.
-She earned her PhD from the Swiss Federal Institute of Technology in Lausanne (EPFL). Prior to joining Imperial, she held postdoctoral and visiting faculty positions at the Technion–Israel Institute of Technology, Duke University, Columbia University in the City of New York, and Tel Aviv University.
+Anthea Monod is a Senior Lecturer (associate professor) in the Department of Mathematics at Imperial College London. 
+Her research areas primarily include topological data analysis, algebraic statistics, and nonlinear algebra applied to mathematical and computational biology and theoretical machine learning. 
+She is a Co-Director of the “Erlangen Programme” £10M EPSRC-funded Hub for Mathematical and Computational Foundations of Artificial Intelligence. 
+She earned her PhD from the Swiss Federal Institute of Technology in Lausanne (EPFL). 
+Prior to joining Imperial, she held postdoctoral and visiting faculty positions at the Technion–Israel Institute of Technology, Duke University, Columbia University in the City of New York, and Tel Aviv University.
