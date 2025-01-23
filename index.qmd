@@ -35,7 +35,7 @@ Mentors guide a small group of passionate early career researchers on a week-lon
 
 LOGML is not merely a summer school; it's an incubator for innovation at the intersection of geometry and machine learning. Several working groups that started at LOGML went on to form longer-term collaborations leading to publications in notable conferences and journals, including:
 
-* [Group-invariant machine learning on the Kreuzer-Skarke dataset (Physics Letters B, 2024)](https://www.sciencedirect.com/science/article/pii/S0370269324005549?via%3Dihub)
+* [Group-invariant machine learning on the Kreuzer-Skarke dataset (Physics Letters B, 2024)](https://www.sciencedirect.com/science/article/pii/S0370269324005549)
 * [Implicit Convolutional Kernels for Steerable CNNs (NeurIPS, 2023 )](https://arxiv.org/abs/2212.06096)
 * [Accelerating Molecular Graph Neural Networks via Knowledge Distillation (Synergy of Scientific and Machine Learning Modeling workshop, ICML, 2023)](https://syns-ml.github.io/2023/assets/papers/67.pdf)
 * [Surfing on the Neural Sheaf (Workshop on Symmetry and Geometry in Neural Representations, NeurIPS 2022)](https://openreview.net/pdf?id=xOXFkyRzTlu)

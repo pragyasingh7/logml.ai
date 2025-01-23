@@ -1,0 +1,17 @@
+---
+title: "Massimiliano Esposito"
+sidebar: false
+sortby: "Massimiliano, Esposito"
+description: "IBM"
+image: max.png
+toc: false
+about:
+  id: person-profile
+  template: trestles
+---
+
+
+Max is a research scientist at IBM. 
+He holds a PhD from Imperial College, with a thesis in harmonic analysis on the non-linear quantisation of pseudo-differential operators. 
+His research at IBM focuses on AI for science, with a particular emphasis on AI for quantum computing, AI for nuclear fusion, and AI for materials discovery. 
+In his spare time, he enjoys football, swimming, and considering how AI can improve maths discoveries and thinking.
