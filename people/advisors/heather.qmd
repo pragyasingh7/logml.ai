@@ -1,0 +1,38 @@
+---
+title: "Heather Harrington"
+sidebar: false
+description: "MPI-CBG Dresden"
+image: heather.webp
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.mpi-cbg.de/research/researchgroups/currentgroups/heather-harrington/research
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Heather Harrington</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Heather Harrington is a director at the Max Planck Institute of Molecular Cell Biology and Genetics, where she also leads the interinstitutional Center for Systems Biology Dresden (CSBD) in collaboration with partners from the Technical University Dresden and the Max Planck Institute for the Physics of Complex Systems.
+
+Her research interests span applied algebra, dynamical systems, networks, topological data analysis, and systems biology. 
+She focuses on developing mathematical approaches to address challenges in the natural and medical sciences.
+
+She has received several honors for her contributions to mathematics, including the Whitehead Prize from the London Mathematical Society and the 2019 Adams Prize from the University of Cambridge (co-awarded). 
+In 2020, she was recognized with the Philip Leverhulme Prize for advances in analysis of noisy data.

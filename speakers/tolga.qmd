@@ -1,0 +1,41 @@
+---
+title: "Tolga Birdal"
+sidebar: false
+description: "Imperial College London"
+image: tolga.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://tolgabirdal.github.io/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Tolga Birdal</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Dr. Tolga Birdal is an assistant professor (Lecturer) and a UKRI Future Leaders Fellow in the Department of Computing of Imperial College London. 
+Previously, he was a senior Postdoctoral Research Fellow at Stanford University within the Geometric Computing Group of Prof. Leonidas Guibas. 
+Tolga has defended his masters and Ph.D. theses at the Computer Vision Group under Chair for Computer Aided Medical Procedures, Technical University of Munich led by Prof. Nassir Navab. 
+He was also a Doktorand at Siemens AG under the supervision of Dr. Slobodan Ilic working on “Geometric Methods for 3D Reconstruction from Large Point Clouds”. 
+His thesis was awarded the prestigious EMVA Young Professional Award. 
+His current foci of interest involve topological / geometric machine learning and 3D computer vision. 
+His more theoretical work is aimed at investigating and interrogating limits in geometric computing and non-Euclidean inference as well as principles of deep learning. 
+Tolga has several publications at well-respected venues such as NeurIPS, CVPR, ICCV, ECCV, ICLR, T-PAMI, ICRA, IROS, ICASSP and 3DV. 
+He is AC for CVPR, ICCV,  ECCV and is currently program-chairing 3DV 2025. 
+Aside from his academic life, Tolga has co-founded multiple companies including [Befunky](https://www.befunky.com/), a widely used web-based image editing platform.

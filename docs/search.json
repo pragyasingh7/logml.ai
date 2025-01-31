@@ -476,7 +476,7 @@
     "href": "speaker.html",
     "title": "Speakers",
     "section": "",
-    "text": "Keynote speakers\n\n\n\n\n\n\n\n\n\n\nHeather Harrington\n\n\nMPI-CBG Dresden\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nSpeakers\n\n\n\n\n\n\n\n\n\n\nBastian Rieck\n\n\nHelmholtz Munich\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    People\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBastian Rieck\n\n\nUniversity of Fribourg\n\n\n\n\n\n\n\n\n\n\n\n\n\nFilippo Maria Bianchi\n\n\nUiT the Arctic University of Norway\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancisco J. R. Ruiz\n\n\nGoogle DeepMind\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarco Cuturi\n\n\nApple, CREST - ENSAE, Institut Polytechnique de Paris\n\n\n\n\n\n\n\n\n\n\n\n\n\nTolga Birdal\n\n\nImperial College London\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/team/valentina.html",
@@ -519,6 +519,13 @@
     "title": "Michael Bronstein",
     "section": "",
     "text": "Home\n    People\n    Michael Bronstein \n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nMichael Bronstein is the DeepMind Professor of AI at the University of Oxford. He was previously Head of Graph Learning Research at Twitter, a professor at Imperial College London and held visiting appointments at Stanford, MIT, and Harvard. He has been affiliated with three Institutes for Advanced Study (at TUM as a Rudolf Diesel Fellow (2017-2019), at Harvard as a Radcliffe fellow (2017-2018), and at Princeton as a short-time scholar (2020)). Michael received his PhD from the Technion in 2007. He is the recipient of the EPSRC Turing AI World Leading Research Fellowship, Royal Society Wolfson Research Merit Award, Royal Academy of Engineering Silver Medal, five ERC grants, two Google Faculty Research Awards, and two Amazon AWS ML Research Awards. He is a Member of the Academia Europaea, Fellow of IEEE, IAPR, BCS, and ELLIS, ACM Distinguished Speaker, and World Economic Forum Young Scientist. In addition to his academic career, Michael is a serial entrepreneur and founder of multiple startup companies, including Novafora, Invision (acquired by Intel in 2012), Videocites, and Fabula AI (acquired by Twitter in 2019)."
+  },
+  {
+    "objectID": "people/advisors/heather.html",
+    "href": "people/advisors/heather.html",
+    "title": "Heather Harrington",
+    "section": "",
+    "text": "Home\n    People\n    Heather Harrington\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nHeather Harrington is a director at the Max Planck Institute of Molecular Cell Biology and Genetics, where she also leads the interinstitutional Center for Systems Biology Dresden (CSBD) in collaboration with partners from the Technical University Dresden and the Max Planck Institute for the Physics of Complex Systems.\nHer research interests span applied algebra, dynamical systems, networks, topological data analysis, and systems biology. She focuses on developing mathematical approaches to address challenges in the natural and medical sciences.\nShe has received several honors for her contributions to mathematics, including the Whitehead Prize from the London Mathematical Society and the 2019 Adams Prize from the University of Cambridge (co-awarded). In 2020, she was recognized with the Philip Leverhulme Prize for advances in analysis of noisy data."
   },
   {
     "objectID": "people/advisors/jure.html",
@@ -988,18 +995,39 @@
     ]
   },
   {
-    "objectID": "speakers/keynote/heather.html",
-    "href": "speakers/keynote/heather.html",
-    "title": "Heather Harrington",
+    "objectID": "speakers/marco.html",
+    "href": "speakers/marco.html",
+    "title": "Marco Cuturi",
     "section": "",
-    "text": "Home\n    People\n    Heather Harrington\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website"
+    "text": "Home\n    Speakers\n    Marco Cuturi\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nMarco Cuturi is a Research Scientist at Apple Machine Learning Research in Paris and a Professor of Statistics at CREST - ENSAE, Institut Polytechnique de Paris. His research interests include machine learning, optimal transport, optimization, time-series analysis, and kernel methods.\nDr. Cuturi earned his Ph.D. from École des Mines de Paris in November 2005. Following his doctoral studies, he held postdoctoral positions at the Institute of Statistical Mathematics in Tokyo and at Princeton University. He also worked in the financial industry for two years. From 2010 to 2016, he was an Associate Professor at the Graduate School of Informatics, Kyoto University. In 2016, he joined ENSAE, and between 2018 and 2022, he was part of the Google Brain team. In January 2022, he joined Apple, contributing to the Machine Learning Research team led by Samy Bengio.\nThroughout his career, Dr. Cuturi has made significant contributions to the field of optimal transport and its applications in machine learning. He has served as an associate editor for the Journal of Machine Learning Research (JMLR) and as a senior area chair for conferences such as NeurIPS and ICML. He has also been an area chair for AISTATS and ICLR."
   },
   {
-    "objectID": "speakers/other/bastian.html",
-    "href": "speakers/other/bastian.html",
+    "objectID": "speakers/filippo.html",
+    "href": "speakers/filippo.html",
+    "title": "Filippo Maria Bianchi",
+    "section": "",
+    "text": "Home\n    Speakers\n    Filippo Maria Bianchi\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nFilippo Maria Bianchi is an Associate Professor at the Department of Mathematics and Statistics at UiT the Arctic University of Norway and a senior researcher at NORCE the Norwegian Research Centre. He is the vice-chair of the IEEE Task Force on Learning for Structured Data, a member of the ELLIS society, the Graph Machine Learning Group in Lugano, the IEEE Task Force on Reservoir Computing, and the co-founder of the Northernmost Graph Machine Learning group.\nHis research interests lie at the intersection between machine learning, dynamical systems, and complex networks. He mostly works with energy analytics and remote sensing applications."
+  },
+  {
+    "objectID": "speakers/tolga.html",
+    "href": "speakers/tolga.html",
+    "title": "Tolga Birdal",
+    "section": "",
+    "text": "Home\n    Speakers\n    Tolga Birdal\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nDr. Tolga Birdal is an assistant professor (Lecturer) and a UKRI Future Leaders Fellow in the Department of Computing of Imperial College London. Previously, he was a senior Postdoctoral Research Fellow at Stanford University within the Geometric Computing Group of Prof. Leonidas Guibas. Tolga has defended his masters and Ph.D. theses at the Computer Vision Group under Chair for Computer Aided Medical Procedures, Technical University of Munich led by Prof. Nassir Navab. He was also a Doktorand at Siemens AG under the supervision of Dr. Slobodan Ilic working on “Geometric Methods for 3D Reconstruction from Large Point Clouds”. His thesis was awarded the prestigious EMVA Young Professional Award. His current foci of interest involve topological / geometric machine learning and 3D computer vision. His more theoretical work is aimed at investigating and interrogating limits in geometric computing and non-Euclidean inference as well as principles of deep learning. Tolga has several publications at well-respected venues such as NeurIPS, CVPR, ICCV, ECCV, ICLR, T-PAMI, ICRA, IROS, ICASSP and 3DV. He is AC for CVPR, ICCV, ECCV and is currently program-chairing 3DV 2025. Aside from his academic life, Tolga has co-founded multiple companies including Befunky, a widely used web-based image editing platform."
+  },
+  {
+    "objectID": "speakers/francisco.html",
+    "href": "speakers/francisco.html",
+    "title": "Francisco J. R. Ruiz",
+    "section": "",
+    "text": "Home\n    Speakers\n    Francisco J. R. Ruiz\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nFrancisco J. R. Ruiz is a Research Scientist working at Google DeepMind in the Deep Learning Team. Before joining Google DeepMind, he was a Postdoctoral Research Scientist in the Department of Computer Science at Columbia University and in the Engineering Department at the University of Cambridge, where he held a Marie-Sklodowska Curie fellowship in the context of the E.U. Horizon 2020 program. He completed his Ph.D. and M.Sc. from the University Carlos III in Madrid. His research is focused on statistical machine learning, specially Bayesian modeling and inference."
+  },
+  {
+    "objectID": "speakers/bastian.html",
+    "href": "speakers/bastian.html",
     "title": "Bastian Rieck",
     "section": "",
-    "text": "Home\n    People\n    Bastian Reck \n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website"
+    "text": "Home\n    Speakers\n    Bastian Rieck\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nBastian Rieck, M.Sc., Ph.D., is a Full Professor of Machine Learning at the University of Fribourg in Switzerland and the Principal Investigator of the AIDOS Lab, which focuses on developing novel machine learning methods driven by geometry and topology. His research has received multiple awards, including an ERC Starting Grant. Dr. Rieck is also a member of ELLIS, the European Laboratory for Learning and Intelligent Systems, and AI-LIFE, the International Network of Artificial Intelligence for the Life Sciences. Moreover, Dr. Rieck serves as the director of AATRN, the Applied Algebraic Topology Research Network. He received his M.Sc. degree in mathematics, as well as his Ph.D. in computer science, from Heidelberg University in Germany, graduating both times with distinction."
   },
   {
     "objectID": "logml2021/speakers2021/other/gabriele-steidl.html",
@@ -1529,14 +1557,14 @@
     "href": "people.html#organising-committee",
     "title": "LOGML 2025",
     "section": "Organising Committee",
-    "text": "Organising Committee\n\n\n\n\n\n\n\n\n\n\nArne Wolf\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaniel Platt\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nMassimiliano Esposito\n\n\nIBM\n\n\n\n\n\n\n\n\n\n\n\n\n\nPragya Singh\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nRahul Singh\n\n\nYale University\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimone Foti\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nValentina Giunchiglia\n\n\nImperial College London, Harvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nVincenzo Marco De Luca\n\n\nUniversity of Trento\n\n\n\n\n\n\n\n\n\n\n\n\n\nZhengang Zhong\n\n\nUniversity of Warwick\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Organising Committee\n\n\n\n\n\n\n\n\n\n\nVincenzo Marco De Luca\n\n\nUniversity of Trento\n\n\n\n\n\n\n\n\n\n\n\n\n\nMassimiliano Esposito\n\n\nIBM\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimone Foti\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nValentina Giunchiglia\n\n\nImperial College London, Harvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaniel Platt\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nPragya Singh\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nRahul Singh\n\n\nYale University\n\n\n\n\n\n\n\n\n\n\n\n\n\nArne Wolf\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nZhengang Zhong\n\n\nUniversity of Warwick\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#scientific-advisory-committee",
     "href": "people.html#scientific-advisory-committee",
     "title": "LOGML 2025",
     "section": "Scientific Advisory Committee",
-    "text": "Scientific Advisory Committee\n\n\n\n\n\n\n\n\n\n\nAnthea Monod\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nJure Leskovec\n\n\nStanford University\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarinka Zitnik\n\n\nHarvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nMichael Bronstein\n\n\nUniversity of Oxford\n\n\n\n\n\n\n\n\n\n\n\n\n\nXavier Bresson\n\n\nNational University of Singapore\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Scientific Advisory Committee\n\n\n\n\n\n\n\n\n\n\nAnthea Monod\n\n\nImperial College London\n\n\n\n\n\n\n\n\n\n\n\n\n\nArnaud Doucet\n\n\nUniversity of Oxford, Google DeepMind\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeather Harrington\n\n\nMPI-CBG Dresden\n\n\n\n\n\n\n\n\n\n\n\n\n\nJure Leskovec\n\n\nStanford University\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarinka Zitnik\n\n\nHarvard University\n\n\n\n\n\n\n\n\n\n\n\n\n\nMichael Bronstein\n\n\nUniversity of Oxford\n\n\n\n\n\n\n\n\n\n\n\n\n\nXavier Bresson\n\n\nNational University of Singapore\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/advisors/anthea.html",
@@ -1544,6 +1572,13 @@
     "title": "Anthea Monod",
     "section": "",
     "text": "Home\n    People\n    Anthea Monod\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nAnthea Monod is a Senior Lecturer (associate professor) in the Department of Mathematics at Imperial College London. Her research areas primarily include topological data analysis, algebraic statistics, and nonlinear algebra applied to mathematical and computational biology and theoretical machine learning. She is a Co-Director of the “Erlangen Programme” £10M EPSRC-funded Hub for Mathematical and Computational Foundations of Artificial Intelligence. She earned her PhD from the Swiss Federal Institute of Technology in Lausanne (EPFL). Prior to joining Imperial, she held postdoctoral and visiting faculty positions at the Technion–Israel Institute of Technology, Duke University, Columbia University in the City of New York, and Tel Aviv University."
+  },
+  {
+    "objectID": "people/advisors/arnaud.html",
+    "href": "people/advisors/arnaud.html",
+    "title": "Arnaud Doucet",
+    "section": "",
+    "text": "Home\n    People\n    Arnaud Doucet\n\n  \n\n\n  \n \n \n  \n   \n  \n    \n     website\n  \n\n\n\nArnaud Doucet is a Professor of Statistics at University of Oxford and a Senior Staff Research Scientist at Google DeepMind. He was an Institute of Mathematical Statistics Medallion (IMS) Lecturer in 2016, was elected IMS Fellow in 2017 and awarded the Guy Silver Medal from the Royal Statistical Society in 2020. His research interests lie in the development and analysis of efficient computational methods for inference and learning, machine learning, signal processing and related areas. Recently, he has been very interested in generative modeling (in particular denoising diffusion models) and computational optimal transport."
   },
   {
     "objectID": "people/advisors/marinka.html",

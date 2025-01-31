@@ -1,7 +1,7 @@
 ---
 title: "Zhengang Zhong"
 sidebar: false
-sortby: "Zhengang, Zhong"
+sortby: "Zhong, Zhengang"
 description: "University of Warwick"
 image: zhengang.png
 toc: false

@@ -1,0 +1,36 @@
+---
+title: "Bastian Rieck"
+sidebar: false
+description: "University of Fribourg"
+image: bastian.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://bastian.rieck.me/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Bastian Rieck</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Bastian Rieck, M.Sc., Ph.D., is a Full Professor of Machine Learning at the University of Fribourg in Switzerland and the Principal Investigator of the AIDOS Lab, which focuses on developing novel machine learning methods driven by geometry and topology. 
+His research has received multiple awards, including an ERC Starting Grant. 
+Dr. Rieck is also a member of ELLIS, the European Laboratory for Learning and Intelligent Systems, and AI-LIFE, the International Network of Artificial Intelligence for the Life Sciences. 
+Moreover, Dr. Rieck serves as the director of AATRN, the Applied Algebraic Topology Research Network. 
+He received his M.Sc. degree in mathematics, as well as his Ph.D. in computer science, from Heidelberg University in Germany, graduating both times with distinction.

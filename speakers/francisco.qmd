@@ -1,0 +1,35 @@
+---
+title: "Francisco J. R. Ruiz"
+sidebar: false
+description: "Google DeepMind"
+image: francisco.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://franrruiz.github.io/index.html
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Francisco J. R. Ruiz</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Francisco J. R. Ruiz is a Research Scientist working at Google DeepMind in the Deep Learning Team. 
+Before joining Google DeepMind, he was a Postdoctoral Research Scientist in the Department of Computer Science at Columbia University and in the Engineering Department at the University of Cambridge, where he held a Marie-Sklodowska Curie fellowship in the context of the E.U. Horizon 2020 program. 
+He completed his Ph.D. and M.Sc. from the University Carlos III in Madrid. 
+His research is focused on statistical machine learning, specially Bayesian modeling and inference.
