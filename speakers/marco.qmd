@@ -1,0 +1,44 @@
+---
+title: "Marco Cuturi"
+sidebar: false
+description: "Apple, CREST - ENSAE, Institut Polytechnique de Paris"
+image: marco.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://marcocuturi.net/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Marco Cuturi</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Marco Cuturi is a Research Scientist at Apple Machine Learning Research in Paris and a Professor of Statistics at CREST - ENSAE, Institut Polytechnique de Paris. 
+His research interests include machine learning, optimal transport, optimization, time-series analysis, and kernel methods. 
+
+Dr. Cuturi earned his Ph.D. from École des Mines de Paris in November 2005. 
+Following his doctoral studies, he held postdoctoral positions at the Institute of Statistical Mathematics in Tokyo and at Princeton University. 
+He also worked in the financial industry for two years. 
+From 2010 to 2016, he was an Associate Professor at the Graduate School of Informatics, Kyoto University. 
+In 2016, he joined ENSAE, and between 2018 and 2022, he was part of the Google Brain team. 
+In January 2022, he joined Apple, contributing to the Machine Learning Research team led by Samy Bengio.
+
+Throughout his career, Dr. Cuturi has made significant contributions to the field of optimal transport and its applications in machine learning. 
+He has served as an associate editor for the Journal of Machine Learning Research (JMLR) and as a senior area chair for conferences such as NeurIPS and ICML. 
+He has also been an area chair for AISTATS and ICLR. 

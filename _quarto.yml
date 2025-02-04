@@ -20,8 +20,8 @@ website:
     left:
       - href: people.qmd
         text: People
-      # - text: Speakers
-      #   href: speaker.qmd
+      - text: Speakers
+        href: speaker.qmd
       # - text: Projects&Mentors
       #   href: projects.qmd
       - href: policies.qmd
@@ -40,6 +40,8 @@ website:
         href: https://twitter.com/LogmlSchool
       - icon: linkedin
         href: https://www.linkedin.com/company/logml/
+      - text: "{{< fa brands bluesky >}}"
+        href: https://bsky.app/profile/logml.bsky.social
 
   sidebar:
     - title: "Archives"
@@ -75,6 +77,8 @@ website:
         href: https://www.linkedin.com/company/logml/
       - icon: envelope
         href: mailto:logml.committee@gmail.com
+      - text: "{{< fa brands bluesky >}}"
+        href: https://bsky.app/profile/logml.bsky.social
 
 format:
   html:

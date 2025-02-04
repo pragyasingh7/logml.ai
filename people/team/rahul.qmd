@@ -1,7 +1,7 @@
 ---
 title: "Rahul Singh"
 sidebar: false
-sortby: "Rahul, Singh"
+sortby: "Singh, Rahul"
 description: "Yale University"
 image: rahul.jpg
 toc: false

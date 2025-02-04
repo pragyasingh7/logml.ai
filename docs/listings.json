@@ -35,8 +35,11 @@
   {
     "listing": "/speaker.html",
     "items": [
-      "/speakers/keynote/heather.html",
-      "/speakers/other/bastian.html"
+      "/speakers/bastian.html",
+      "/speakers/filippo.html",
+      "/speakers/francisco.html",
+      "/speakers/marco.html",
+      "/speakers/tolga.html"
     ]
   },
   {
@@ -105,16 +108,18 @@
   {
     "listing": "/people.html",
     "items": [
-      "/people/team/arne.html",
-      "/people/team/daniel.html",
+      "/people/team/vincenzo.html",
       "/people/team/max.html",
-      "/people/team/pragya.html",
-      "/people/team/rahul.html",
       "/people/team/simone.html",
       "/people/team/valentina.html",
-      "/people/team/vincenzo.html",
+      "/people/team/daniel.html",
+      "/people/team/pragya.html",
+      "/people/team/rahul.html",
+      "/people/team/arne.html",
       "/people/team/zhengang.html",
       "/people/advisors/anthea.html",
+      "/people/advisors/arnaud.html",
+      "/people/advisors/heather.html",
       "/people/advisors/jure.html",
       "/people/advisors/marinka.html",
       "/people/advisors/bronstein.html",

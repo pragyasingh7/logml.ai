@@ -1,0 +1,35 @@
+---
+title: "Arnaud Doucet"
+sidebar: false
+description: "University of Oxford, Google DeepMind"
+image: arnaud.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.stats.ox.ac.uk/~doucet/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Arnaud Doucet</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Arnaud Doucet is a Professor of Statistics at University of Oxford and a Senior Staff Research Scientist at Google DeepMind. 
+He was an Institute of Mathematical Statistics Medallion (IMS) Lecturer in 2016, was elected IMS Fellow in 2017 and awarded the Guy Silver Medal from the Royal Statistical Society in 2020.
+His research interests lie in the development and analysis of efficient computational methods for inference and learning, machine learning, signal processing and related areas. 
+Recently, he has been very interested in generative modeling (in particular denoising diffusion models) and computational optimal transport. 

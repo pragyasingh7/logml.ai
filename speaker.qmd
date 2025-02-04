@@ -3,35 +3,24 @@ title: Speakers
 sidebar: false 
 titpagetitle: "Speakers | LOGML"
 listing:
-  - id: keynote
-    contents: "speakers/keynote/*.qmd"
+    contents: "speakers/*.qmd"
     type: grid
     sort: title
-    image-height: 225px
-    grid-columns: 3
-    page-size: 999
-    fields: [title, description, image]
-    grid-item-align: left
-  - id: speaker
-    contents: "speakers/other/*.qmd"
-    type: grid
-    sort: title
-    image-height: 225px
-    grid-columns: 3
+    image-height: 200px
+    grid-columns: 4
     page-size: 999
     fields: [title, description, image]
     grid-item-align: left
 page-layout: full
 comments: false
 ---
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">People</li>
+  </ol>
+</nav>
+```
 
 
-# Keynote speakers
-
-:::{#keynote}
-:::
-
-# Speakers
-
-:::{#speaker}
-:::

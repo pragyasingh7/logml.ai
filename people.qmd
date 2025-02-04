@@ -5,7 +5,7 @@ listing:
   - id: team
     contents: "people/team/*.qmd"
     type: grid
-    sort: title
+    sort: sortby
     image-height: 150px
     grid-columns: 4
     page-size: 999
