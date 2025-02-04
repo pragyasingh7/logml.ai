@@ -1,8 +1,8 @@
 ---
 title: "Heather Harrington"
 sidebar: false
-description: "MPI-CBG Dresden"
-image: heather.webp
+description: "MPI-CBG, TU Dresden"
+image: heather.jpeg
 toc: false
 about:
   id: person-profile
@@ -30,9 +30,12 @@ about:
 :::
 
 Heather Harrington is a director at the Max Planck Institute of Molecular Cell Biology and Genetics, where she also leads the interinstitutional Center for Systems Biology Dresden (CSBD) in collaboration with partners from the Technical University Dresden and the Max Planck Institute for the Physics of Complex Systems.
+She is also an Honorary Professor at Technical University of Dresden and Professor of Mathematics at Oxford.
 
-Her research interests span applied algebra, dynamical systems, networks, topological data analysis, and systems biology. 
-She focuses on developing mathematical approaches to address challenges in the natural and medical sciences.
+She is a mathematician with expertise in the mathematical foundations of Topological Data Analysis and machine learning. 
+She investigates topological methods suitable for analysis of high-dimensional biological data, as well as the mathematical foundations of AI. 
+Her research focuses on the problem of reconciling models and data by extracting information about the structure of models and the shape of data. 
+She combines techniques from a variety of disciplines such as computational algebraic geometry and computational topology, statistics, optimization, network theory, and systems biology.
 
 She has received several honors for her contributions to mathematics, including the Whitehead Prize from the London Mathematical Society and the 2019 Adams Prize from the University of Cambridge (co-awarded). 
 In 2020, she was recognized with the Philip Leverhulme Prize for advances in analysis of noisy data.
