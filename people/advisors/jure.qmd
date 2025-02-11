@@ -2,6 +2,7 @@
 title: "Jure Leskovec"
 sidebar: false
 description: "Stanford University"
+sortby: "Leskovec, Jure"
 image: jure.jpg
 toc: false
 about:

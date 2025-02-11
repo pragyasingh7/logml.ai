@@ -2,6 +2,7 @@
 title: "Xavier Bresson"
 sidebar: false
 description: "National University of Singapore"
+sortby: "Bresson, Xavier"
 image: xavier.jpeg
 toc: false
 about:

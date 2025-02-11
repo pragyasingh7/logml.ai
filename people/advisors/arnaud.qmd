@@ -1,6 +1,7 @@
 ---
 title: "Arnaud Doucet"
 sidebar: false
+sortby: "Doucet, Arnaud"
 description: "University of Oxford, Google DeepMind"
 image: arnaud.jpg
 toc: false

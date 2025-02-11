@@ -1,6 +1,7 @@
 ---
 title: "Anthea Monod"
 sidebar: false
+sortby: "Monod, Anthea"
 description: "Imperial College London"
 image: anthea.jpg
 toc: false

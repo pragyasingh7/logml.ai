@@ -2,6 +2,7 @@
 title: "Heather Harrington"
 sidebar: false
 description: "MPI-CBG, TU Dresden"
+sortby: "Harrington, Heather"
 image: heather.jpeg
 toc: false
 about:

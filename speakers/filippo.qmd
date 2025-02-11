@@ -2,6 +2,7 @@
 title: "Filippo Maria Bianchi"
 sidebar: false
 description: "UiT the Arctic University of Norway"
+sortby: "Bianchi, Filippo Maria"
 image: filippo.jpg
 toc: false
 about:

@@ -2,6 +2,7 @@
 title: "Bastian Rieck"
 sidebar: false
 description: "University of Fribourg"
+sortby: "Rieck, Bastian"
 image: bastian.jpg
 toc: false
 about:

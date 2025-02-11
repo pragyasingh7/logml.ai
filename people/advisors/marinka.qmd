@@ -2,6 +2,7 @@
 title: "Marinka Zitnik"
 sidebar: false
 description: "Harvard University"
+sortby: "Zitnik, Marinka"
 image: marinka.webp
 toc: false
 about:

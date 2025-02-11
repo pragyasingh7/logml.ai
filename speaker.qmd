@@ -5,7 +5,7 @@ titpagetitle: "Speakers | LOGML"
 listing:
     contents: "speakers/*.qmd"
     type: grid
-    sort: title
+    sort: sortby
     image-height: 200px
     grid-columns: 4
     page-size: 999

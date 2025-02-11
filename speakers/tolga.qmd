@@ -2,6 +2,7 @@
 title: "Tolga Birdal"
 sidebar: false
 description: "Imperial College London"
+sortby: "Birdal, Tolga"
 image: tolga.jpg
 toc: false
 about:

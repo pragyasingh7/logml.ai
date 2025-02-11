@@ -14,6 +14,7 @@ listing:
   - id: advisors
     contents: "people/advisors/*.qmd"
     type: grid
+    sort: sortby
     image-height: 150px
     grid-columns: 4
     fields: [title, description, image]

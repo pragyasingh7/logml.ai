@@ -2,6 +2,7 @@
 title: "Marco Cuturi"
 sidebar: false
 description: "Apple, CREST - ENSAE, Institut Polytechnique de Paris"
+sortby: "Cuturi, Marco"
 image: marco.jpg
 toc: false
 about:

@@ -2,6 +2,7 @@
 title: "Michael Bronstein "
 sidebar: false
 description: "University of Oxford"
+sortby: "Bronstein, Michael"
 image: bronstein.webp
 toc: false
 about:

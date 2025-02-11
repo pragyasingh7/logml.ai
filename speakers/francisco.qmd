@@ -2,6 +2,7 @@
 title: "Francisco J. R. Ruiz"
 sidebar: false
 description: "Google DeepMind"
+sortby: "Ruiz, Francisco J. R."
 image: francisco.jpg
 toc: false
 about:
