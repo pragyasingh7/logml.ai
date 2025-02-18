@@ -1,6 +1,7 @@
 ---
 title: "Smita Krishnaswamy"
 description: "Yale University"
+sortby: "Krishnaswamy, Smita"
 image: smita-krishnaswamy.jpeg
 toc: false
 about:
@@ -14,16 +15,6 @@ about:
 ---
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Smita Krishnaswamy</li>
-
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

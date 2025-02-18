@@ -1,0 +1,14 @@
+---
+title: "Francesco Viganò"
+sidebar: false
+sortby: "Viganò, Francesco"
+description: "Imperial College London"
+image: francesco.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+---
+
+
+Francesco Viganò is a PhD student at Imperial College (LSGNT) with a background in algebraic geometry, now working on spectral graph theory and applications of geometry to graph-based learning models. He is one of the authors of “Equivariant Mesh Attention Networks”, one of the LOGML 2021 projects. He has experience organising events and raising funding, for example as a co-organiser of the LOGML 2022 workshop.

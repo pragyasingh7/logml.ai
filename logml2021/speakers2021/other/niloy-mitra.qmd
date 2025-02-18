@@ -1,6 +1,7 @@
 ---
 title: "Niloy J. Mitra"
 description: "University College London"
+sortby: "J. Mitra, Niloy"
 image: niloy-mitra.jpeg
 toc: false
 about:

@@ -1,6 +1,7 @@
 ---
 title: "Vishnu Jejjala"
 sidebar: false
+sortby: "Jejjala, Vishnu"
 description: "University of the Witwatersrand: Johannesburg"
 image: vishnu.jpg
 toc: false
@@ -14,17 +15,6 @@ about:
 ---
 
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Vishnu Jejjala</li>
-
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

@@ -1,6 +1,7 @@
 ---
 title: "Kathryn Hess"
 sidebar: false
+sortby: "Hess, Kathryn"
 description: "EPFL"
 image: kathryn-hess.png
 toc: false
@@ -14,17 +15,6 @@ about:
 
 ---
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Kathryn Hess</li>
-
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

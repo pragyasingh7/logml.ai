@@ -2,6 +2,7 @@
 title: "Pietro Liò"
 sidebar: false
 description: "University of Cambridge"
+sortby: "Liò, Pietro"
 image: pietro.jpeg
 toc: false
 about:
@@ -14,17 +15,6 @@ about:
 
 ---
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Pietro Liò</li>
-
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

@@ -1,6 +1,7 @@
 ---
 title: "Petar Veličković"
 description: "DeepMind"
+sortby: "Veličković, Petar"
 image: petar-velickovic.jpeg
 toc: false
 about:
@@ -14,16 +15,6 @@ about:
 ---
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Petar Veličković</li>
-
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

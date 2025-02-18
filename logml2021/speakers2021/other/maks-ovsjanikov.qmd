@@ -2,6 +2,7 @@
 title: "Maks Ovsjanikov"
 description: "École Polytechnique"
 image: maks-ovsjanikov.jpeg
+sortby: "Ovsjanikov, Maks"
 toc: false
 about:
   id: person-profile

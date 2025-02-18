@@ -1,6 +1,7 @@
 ---
 title: "Marinka Zitnik"
 description: "Harvard University"
+sortby: "Zitnik, Marinka"
 image: marinka-zitnik.jpeg
 toc: false
 about:

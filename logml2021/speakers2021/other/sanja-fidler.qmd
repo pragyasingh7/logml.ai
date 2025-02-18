@@ -1,6 +1,7 @@
 ---
 title: "Sanja Fidler"
 description: "University of Toronto, Vector Institute, Nvidia"
+sortby: "Fidler, Sanja"
 image: sanja-fidler.jpeg
 toc: false
 about:

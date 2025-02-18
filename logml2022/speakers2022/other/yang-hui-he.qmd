@@ -1,6 +1,7 @@
 ---
 title: "Yang-Hui He"
 description: "City, University of London"
+sortby: "He, Yang-Hui"
 image: yang-hui-he.jpeg
 toc: false
 about:
@@ -14,16 +15,6 @@ about:
 ---
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Yang-Hui He</li>
-
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

@@ -1,0 +1,18 @@
+---
+title: "Konstantinos Barmpas"
+sidebar: false
+sortby: "Barmpas, Konstantinos"
+description: "Imperial College London"
+image: konstantinos.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: link
+      text: website
+      href: https://www.barmpas.com
+---
+
+
+Konstantinos Barmpas is a PhD student at Imperial College London under the supervision of Professor Stefanos Zafeiriou. His research lies in the intersection of Machine Learning and Brain-Computer Interfaces (BCIs). Prior to his PhD studies, Konstantinos received his M.Eng. (integrated B.Eng) in Electrical and Electronic Engineering from Imperial College London in 2020. He undertook his Master’s Year as an exchange student at ETH Zürich, where he conducted his Master Thesis at the Data Analytics Lab under the supervision of Professor Thomas Hofmann.

@@ -1,0 +1,23 @@
+---
+title: "Michael Bronstein"
+sidebar: false
+description: "University of Oxford"
+sortby: "Bronstein, Michael"
+image: bronstein.webp
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.cs.ox.ac.uk/people/michael.bronstein/
+
+---
+---
+
+
+:::{#person-profile}
+:::
+
+Michael Bronstein is the DeepMind Professor of AI at the University of Oxford. He was previously Head of Graph Learning Research at Twitter, a professor at Imperial College London and held visiting appointments at Stanford, MIT, and Harvard. He has been affiliated with three Institutes for Advanced Study (at TUM as a Rudolf Diesel Fellow (2017-2019), at Harvard as a Radcliffe fellow (2017-2018), and at Princeton as a short-time scholar (2020)). Michael received his PhD from the Technion in 2007. He is the recipient of the EPSRC Turing AI World Leading Research Fellowship, Royal Society Wolfson Research Merit Award, Royal Academy of Engineering Silver Medal, five ERC grants, two Google Faculty Research Awards, and two Amazon AWS ML Research Awards. He is a Member of the Academia Europaea, Fellow of IEEE, IAPR, BCS, and ELLIS, ACM Distinguished Speaker, and World Economic Forum Young Scientist. In addition to his academic career, Michael is a serial entrepreneur and founder of multiple startup companies, including Novafora, Invision (acquired by Intel in 2012), Videocites, and Fabula AI (acquired by Twitter in 2019).

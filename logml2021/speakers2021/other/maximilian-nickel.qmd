@@ -1,6 +1,7 @@
 ---
 title: "Maximilian Nickel"
 description: "Facebook AI Research"
+sortby: "Nickel, Maximilian"
 image: maximilian-nickel.jpeg
 toc: false
 about:

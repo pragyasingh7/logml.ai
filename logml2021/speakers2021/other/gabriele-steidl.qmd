@@ -1,6 +1,7 @@
 ---
 title: "Gabriele Steidl"
 description: "Technische Universität Berlin"
+sortby: "Steidl, Gabriele"
 image: gabriele-steidl.jpeg
 toc: false
 about:

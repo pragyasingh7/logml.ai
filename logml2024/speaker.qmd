@@ -5,8 +5,8 @@ listing:
   - id: keynote
     contents: "speakers2024/keynote/*.qmd"
     type: grid
-    sort: title
-    image-height: 225px
+    sort: sortby
+    image-height: 200px
     grid-columns: 3
     page-size: 999
     fields: [title, description, image]
@@ -14,8 +14,8 @@ listing:
   - id: speaker
     contents: "speakers2024/other/*.qmd"
     type: grid
-    sort: title
-    image-height: 225px
+    sort: sortby
+    image-height: 200px
     grid-columns: 3
     page-size: 999
     fields: [title, description, image]

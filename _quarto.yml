@@ -54,16 +54,19 @@ website:
             - logml2024/speaker.qmd
             - logml2024/projects.qmd
             - logml2024/sponsors.qmd
+            - logml2024/people.qmd
         - section: "LOGML 2022"
           contents:
             - logml2022/speaker.qmd
             - logml2022/projects.qmd
             - logml2022/sponsors.qmd
+            - logml2022/people.qmd
         - section: "LOGML 2021"
           contents:
             - logml2021/speaker.qmd
             - logml2021/projects.qmd
             - logml2021/sponsors.qmd
+            - logml2021/people.qmd
         
               
   page-footer: 

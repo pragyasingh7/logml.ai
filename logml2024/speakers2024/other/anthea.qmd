@@ -1,6 +1,7 @@
 ---
 title: "Anthea Monod"
 sidebar: false
+sortby: "Monod, Anthea"
 description: "Imperial College London"
 image: anthea.jpg
 toc: false
@@ -14,17 +15,6 @@ about:
 
 ---
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
-    <li class="breadcrumb-item active">Anthea Monod</li>
-
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

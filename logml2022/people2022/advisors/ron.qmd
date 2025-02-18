@@ -1,0 +1,26 @@
+---
+title: "Ron Kimmel"
+sidebar: false
+description: "Technion – Israel Institute of Technology"
+sortby: "Kimmel, Ron"
+image: ron.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://ron.cs.technion.ac.il/
+
+---
+---
+
+:::{#person-profile}
+:::
+
+Ron Kimmel is a Professor of Computer Science (and Electrical and Computer Engineering by courtesy) at the Technion where he holds the Montreal Chair in Sciences. He held a post-doctoral position at UC Berkeley and a visiting professorship at Stanford University. 
+He has worked in various areas of shape reconstruction and analysis in computer vision, image processing, deep learning of big geometric data, and computer graphics. 
+Kimmel’s interest in recent years has been understanding of machine learning, medical imaging and specifically computational oncology/pathology, precision medicine, optimization of solvers to problems with a geometric flavor, and applications of metric, spectral, Riemannian, and differential geometries. 
+Kimmel is an IEEE Fellow and SIAM Fellow for his contributions to image processing, shape reconstruction and geometric analysis. 
+He is the founder of the Geometric Image Processing Lab. and a founder and advisor of several successful image processing and analysis companies.

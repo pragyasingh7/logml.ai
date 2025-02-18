@@ -1,6 +1,7 @@
 ---
 title: "Thomas Kipf"
 description: "Google Brain"
+sortby: "Kipf, Thomas"
 image: thomas-kipf.jpeg
 toc: false
 about:

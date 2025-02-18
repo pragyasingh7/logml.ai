@@ -1,0 +1,37 @@
+---
+title: People
+titpagetitle: "People | LOGML"
+listing:
+  - id: team
+    contents: "people2024/team/*.qmd"
+    type: grid
+    sort: sortby
+    image-height: 150px
+    grid-columns: 4
+    page-size: 999
+    fields: [title, description, image]
+    grid-item-align: left
+  - id: advisors
+    contents: "people2024/advisors/*.qmd"
+    type: grid
+    sort: sortby
+    image-height: 150px
+    grid-columns: 4
+    page-size: 999
+    fields: [title, description, image]
+    grid-item-align: left
+page-layout: full
+comments: false
+---
+
+
+## Organising Committee
+
+:::{#team}
+:::
+
+
+## Scientific Advisory Committee
+
+:::{#advisors}
+:::

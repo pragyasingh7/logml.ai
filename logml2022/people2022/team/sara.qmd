@@ -1,0 +1,15 @@
+---
+title: "Sara Veneziale"
+sidebar: false
+sortby: "Veneziale, Sara"
+description: "Imperial College London"
+image: sara.jpg
+toc: false
+about:
+  id: person-profile
+  template: trestles
+  links:
+    - icon: link
+      text: website
+      href: https://sites.google.com/view/saraveneziale/home
+---

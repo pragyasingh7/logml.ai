@@ -1,0 +1,23 @@
+---
+title: "Thomas Kipf"
+sidebar: false
+description: "Google Deepmind"
+sortby: "Kipf, Thomas"
+image: thomas.webp
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://tkipf.github.io/
+
+---
+---
+
+
+:::{#person-profile}
+:::
+
+Thomas Kipf is a Senior Research Scientist at Google DeepMind. He obtained his PhD at the University of Amsterdam working with Max Welling. For his PhD thesis on Deep Learning with Graph-Structured Representations he received the ELLIS PhD Award 2021. He am broadly interested in developing and studying machine learning models that can reason about the rich structure of both the physical and digital world and their combinatorial complexity.

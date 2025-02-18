@@ -1,6 +1,7 @@
 ---
 title: "Michael Betancourt"
 description: "Imperial College London, Twitter"
+sortby: "Betancourt, Michael"
 image: michael-betancourt.jpeg
 toc: false
 about:

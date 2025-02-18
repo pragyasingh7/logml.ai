@@ -1,6 +1,7 @@
 ---
 title: "Ruriko Yoshida"
 description: "Naval Postgraduate School, California"
+sortby: "Yoshida, Ruriko"
 image: ruriko-yoshida.jpeg
 toc: false
 about:
