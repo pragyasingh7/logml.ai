@@ -1,0 +1,39 @@
+---
+title: "Alice Barbara Tumpach"
+sidebar: false
+description: "Wolfgang Pauli Institute (WPI), Vienna"
+sortby: "Tumpach, Alice Barbara"
+image: barbara.jpeg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://geometricgreenlearning.com/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Alice Barbara Tumpach</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Alice Barbara Tumpach is  Research Director at Wolfgang Pauli Institute (WPI), Vienna, and deputy head of the Mathematical Artificial Intelligence and Machine Learning Research Division of WPI, leading the Geometry-Informed Machine Learning Group. 
+She is an expert on infinite-dimensional Differential Geometry, a research topic at the intersection of Geometry, Functional Analysis and Algebra, and a fundamental cornerstone for finite dimensional Geometry, Optimization, Probability and Mathematical Physics. 
+Together with her collaborators, she develops news theoretical approaches to deal with group actions and their invariants, as well as new solutions for machine learning tasks in the presence of an infinite-dimensional group of symmetries, typically a diffeomorphism group or a gauge group. 
+She is P.I. of several reseach projects including  FWF-projects entitled "Geometric green Learning on groups and quotient spaces" , and "Banach Poisson-Lie Groups and integrable systems". 
+She is a reviewer for several international research agencies and for international mathematics and computer science journals. 
+During her studies, she trained at the Ecole Normale Supérieure d'Ulm and the Ecole Polytechnique, France, where she obtained her doctorate. 
+More recently, she has also acquired solid training in computer vision, gender studies and diversity management. 
