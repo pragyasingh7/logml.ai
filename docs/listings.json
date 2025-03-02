@@ -54,6 +54,7 @@
     "items": [
       "/speakers/filippo.html",
       "/speakers/tolga.html",
+      "/speakers/coralia.html",
       "/speakers/marco.html",
       "/speakers/bastian.html",
       "/speakers/francisco.html",
@@ -118,22 +119,16 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/Yidi-Qi.html",
-      "/projects/Lorenzo-Giusti.html",
-      "/projects/Elli-Heyes.html",
-      "/projects/Dolores-Garcia.html",
-      "/projects/Zhengang-Zhong.html",
-      "/projects/George-Panagopoulos.html",
-      "/projects/Sara-Veneziale.html",
-      "/projects/Sahil-Manchanda.html",
-      "/projects/Anna-Calissano.html",
-      "/projects/Rishi-Sonthalia.html",
-      "/projects/Michail-Chatzianastasis.html",
-      "/projects/Marco-Fumero.html",
-      "/projects/Joshua-Robinson.html",
-      "/projects/Abhishek-Sharma.html",
-      "/projects/Claudio-Battiloro.html",
-      "/projects/Rahul-Singh.html"
+      "/projects/Fabrizio-Frasca.html",
+      "/projects/Caterina-Graziani.html",
+      "/projects/Vijay-Prakash-Dwivedi.html",
+      "/projects/Michael-Murray.html",
+      "/projects/Arturs-Berzins.html",
+      "/projects/Donato-Crisostomi.html",
+      "/projects/Estefania-Loayza-Romero.html",
+      "/projects/Dhananjay-Bhaskar.html",
+      "/projects/Owen-Queen.html",
+      "/projects/Veronica-Lachi.html"
     ]
   },
   {

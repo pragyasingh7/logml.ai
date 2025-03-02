@@ -1,0 +1,38 @@
+---
+title: "Coralia Cartis"
+sidebar: false
+description: "University of Oxford"
+sortby: "Cartis, Coralia"
+image: coralia.png
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://people.maths.ox.ac.uk/cartis/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Coralia Cartis</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Coralia Cartis is Professor of Numerical Optimization at the Mathematical Institute, University of Oxford and a Fellow of Balliol College. 
+She has been a Turing Fellow of the Alan Turing Institute for Data Science (2016–2024). 
+She received a BSc degree in mathematics from Babesh-Bolyai University, Cluj-Napoca, Romania, and a PhD degree in mathematics from the University of Cambridge, under the supervision of Prof Michael J.D. Powell. 
+Prior to her current post, she worked as a research scientist at Rutherford Appleton Laboratory and was a tenured assistant professor in the School of Mathematics, University of Edinburgh. 
+Her research interests include the development and analysis of nonlinear optimization algorithms and diverse applications of optimization from climate modeling to signal processing and machine learning. 
+She serves on the editorial boards of leading optimization and numerical analysis journals and was awarded some prizes for her research, such as the 2023 SIAM and EUROPT fellowships.
