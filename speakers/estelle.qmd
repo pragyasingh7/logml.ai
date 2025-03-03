@@ -1,0 +1,36 @@
+---
+title: "Estelle Massart"
+sidebar: false
+description: "UCLouvain"
+sortby: "Massart, Estelle"
+image: estelle.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://perso.uclouvain.be/estelle.massart/
+
+---
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../speaker.html">Speakers</a></li>
+    <li class="breadcrumb-item active">Estelle Massart</li>
+
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+Estelle Massart received a PhD in mathematical engineering from UCLouvain in 2019. 
+Her PhD thesis, entitled Data fitting on positive semidefinite matrix manifolds, was awarded the XXI Alston Householder prize in 2022. 
+From 2020 to 2022, she was a postdoctoral researcher with the Mathematical Institute, at the University of Oxford, where she was funded by the National Physical Laboratory. 
+She is currently an academic faculty member at UCLouvain, conducting her research in various topics in optimization and machine learning.

@@ -56,6 +56,7 @@
       "/speakers/tolga.html",
       "/speakers/coralia.html",
       "/speakers/marco.html",
+      "/speakers/estelle.html",
       "/speakers/bastian.html",
       "/speakers/francisco.html",
       "/speakers/barbara.html"
@@ -119,16 +120,18 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/Fabrizio-Frasca.html",
-      "/projects/Caterina-Graziani.html",
-      "/projects/Vijay-Prakash-Dwivedi.html",
-      "/projects/Michael-Murray.html",
       "/projects/Arturs-Berzins.html",
-      "/projects/Donato-Crisostomi.html",
-      "/projects/Estefania-Loayza-Romero.html",
       "/projects/Dhananjay-Bhaskar.html",
+      "/projects/Donato-Crisostomi.html",
+      "/projects/Vijay-Prakash-Dwivedi.html",
+      "/projects/Fabrizio-Frasca.html",
+      "/projects/Guadalupe-Gonzalez-and-Chirag-Agarwal.html",
+      "/projects/Caterina-Graziani.html",
+      "/projects/Veronica-Lachi.html",
+      "/projects/Anthea-Monod-and-Omer-Bobrowski.html",
+      "/projects/Michael-Murray.html",
       "/projects/Owen-Queen.html",
-      "/projects/Veronica-Lachi.html"
+      "/projects/Estefania-Loayza-Romero.html"
     ]
   },
   {
