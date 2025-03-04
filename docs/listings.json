@@ -59,20 +59,64 @@
       "/speakers/estelle.html",
       "/speakers/bastian.html",
       "/speakers/francisco.html",
-      "/speakers/barbara.html"
+      "/speakers/barbara.html",
+      "/speakers/marinka.html"
     ]
   },
   {
-    "listing": "/logml2021/people.html",
+    "listing": "/people.html",
     "items": [
-      "/logml2021/people2021/team/mehdi.html",
-      "/logml2021/people2021/team/guada.html",
-      "/logml2021/people2021/team/tim.html",
-      "/logml2021/people2021/team/momchil.html",
-      "/logml2021/people2021/team/daniel.html",
-      "/logml2021/people2021/advisors/kevin.html",
-      "/logml2021/people2021/advisors/ron.html",
-      "/logml2021/people2021/advisors/welling.html"
+      "/people/team/vincenzo.html",
+      "/people/team/max.html",
+      "/people/team/simone.html",
+      "/people/team/valentina.html",
+      "/people/team/daniel.html",
+      "/people/team/pragya.html",
+      "/people/team/rahul.html",
+      "/people/team/arne.html",
+      "/people/team/zhengang.html",
+      "/people/advisors/xavier.html",
+      "/people/advisors/bronstein.html",
+      "/people/advisors/arnaud.html",
+      "/people/advisors/heather.html",
+      "/people/advisors/jure.html",
+      "/people/advisors/anthea.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/Fabrizio-Frasca.html",
+      "/projects/Caterina-Graziani.html",
+      "/projects/Anthea-Monod-and-Omer-Bobrowski.html",
+      "/projects/Guadalupe-Gonzalez-and-Chirag-Agarwal.html",
+      "/projects/Vijay-Prakash-Dwivedi.html",
+      "/projects/Michael-Murray.html",
+      "/projects/Tancredi-Schettini-Gherardini.html",
+      "/projects/Kelly-Maggs.html",
+      "/projects/Arturs-Berzins.html",
+      "/projects/Donato-Crisostomi.html",
+      "/projects/Estefania-Loayza-Romero.html",
+      "/projects/Dhananjay-Bhaskar.html",
+      "/projects/Owen-Queen.html",
+      "/projects/Veronica-Lachi.html"
+    ]
+  },
+  {
+    "listing": "/logml2021/speaker.html",
+    "items": [
+      "/logml2021/speakers2021/keynote/michael-bronstein.html",
+      "/logml2021/speakers2021/keynote/ulrike-tillmann.html",
+      "/logml2021/speakers2021/other/michael-betancourt.html",
+      "/logml2021/speakers2021/other/sanja-fidler.html",
+      "/logml2021/speakers2021/other/niloy-mitra.html",
+      "/logml2021/speakers2021/other/thomas-kipf.html",
+      "/logml2021/speakers2021/other/maximilian-nickel.html",
+      "/logml2021/speakers2021/other/maks-ovsjanikov.html",
+      "/logml2021/speakers2021/other/martin-rumpf.html",
+      "/logml2021/speakers2021/other/gabriele-steidl.html",
+      "/logml2021/speakers2021/other/ruriko-yoshida.html",
+      "/logml2021/speakers2021/other/marinka-zitnik.html"
     ]
   },
   {
@@ -101,58 +145,16 @@
     ]
   },
   {
-    "listing": "/logml2021/speaker.html",
+    "listing": "/logml2021/people.html",
     "items": [
-      "/logml2021/speakers2021/keynote/michael-bronstein.html",
-      "/logml2021/speakers2021/keynote/ulrike-tillmann.html",
-      "/logml2021/speakers2021/other/michael-betancourt.html",
-      "/logml2021/speakers2021/other/sanja-fidler.html",
-      "/logml2021/speakers2021/other/niloy-mitra.html",
-      "/logml2021/speakers2021/other/thomas-kipf.html",
-      "/logml2021/speakers2021/other/maximilian-nickel.html",
-      "/logml2021/speakers2021/other/maks-ovsjanikov.html",
-      "/logml2021/speakers2021/other/martin-rumpf.html",
-      "/logml2021/speakers2021/other/gabriele-steidl.html",
-      "/logml2021/speakers2021/other/ruriko-yoshida.html",
-      "/logml2021/speakers2021/other/marinka-zitnik.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/Arturs-Berzins.html",
-      "/projects/Dhananjay-Bhaskar.html",
-      "/projects/Donato-Crisostomi.html",
-      "/projects/Vijay-Prakash-Dwivedi.html",
-      "/projects/Fabrizio-Frasca.html",
-      "/projects/Guadalupe-Gonzalez-and-Chirag-Agarwal.html",
-      "/projects/Caterina-Graziani.html",
-      "/projects/Veronica-Lachi.html",
-      "/projects/Anthea-Monod-and-Omer-Bobrowski.html",
-      "/projects/Michael-Murray.html",
-      "/projects/Owen-Queen.html",
-      "/projects/Estefania-Loayza-Romero.html"
-    ]
-  },
-  {
-    "listing": "/people.html",
-    "items": [
-      "/people/team/vincenzo.html",
-      "/people/team/max.html",
-      "/people/team/simone.html",
-      "/people/team/valentina.html",
-      "/people/team/daniel.html",
-      "/people/team/pragya.html",
-      "/people/team/rahul.html",
-      "/people/team/arne.html",
-      "/people/team/zhengang.html",
-      "/people/advisors/xavier.html",
-      "/people/advisors/bronstein.html",
-      "/people/advisors/arnaud.html",
-      "/people/advisors/heather.html",
-      "/people/advisors/jure.html",
-      "/people/advisors/anthea.html",
-      "/people/advisors/marinka.html"
+      "/logml2021/people2021/team/mehdi.html",
+      "/logml2021/people2021/team/guada.html",
+      "/logml2021/people2021/team/tim.html",
+      "/logml2021/people2021/team/momchil.html",
+      "/logml2021/people2021/team/daniel.html",
+      "/logml2021/people2021/advisors/kevin.html",
+      "/logml2021/people2021/advisors/ron.html",
+      "/logml2021/people2021/advisors/welling.html"
     ]
   },
   {
