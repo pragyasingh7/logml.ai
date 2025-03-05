@@ -1,0 +1,55 @@
+---
+title: "Beyond Text: Exploring Adaptations of LLMs for Graph-Based Tasks"
+sidebar: false
+author: "Fabrizio Frasca"
+categories: []
+sortby: "Frasca, Fabrizio"
+image: Fabrizio-Frasca.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://noired.github.io/
+---
+
+## Fabrizio Frasca
+
+Fabrizio Frasca is a Postdoctoral Fellow at Technion, working with Prof. Haggai Maron on Geometric Deep Learning, with a focus on equivariance, expressiveness, and Graph Neural Networks. 
+He co-organizes GLOW (Graph Learning on Wednesdays), a reading group on graph learning.
+
+Fabrizio holds a PhD in Computing from Imperial College London, where he worked with Prof. Michael Bronstein on addressing the representational limitations of Graph Neural Networks, exploring meso-scale topology and equivariance as design principles for expressive architectures.
+
+Previously, he was a Machine Learning Researcher at Twitter Cortex (2019–2023, following the acquisition of Fabula AI). 
+His past research includes applied Machine Learning in Computational Biology, particularly drug repurposing and epigenetic gene expression regulation.
+
+## Project
+
+Large Language Models (LLMs) exhibit strong reasoning and instruction-following abilities on textual data, but how well can they process structured inputs like graphs?
+
+This question is both practically relevant and theoretically intriguing. 
+Graphs flexibly model relational systems, structured objects and knowledge – LLMs that natively and effectively handle them would constitute powerful tools for modular and nuanced reasoning thereon. 
+Via natural language, users could guide graph-based analyses by providing in-context examples or by breaking down complex tasks into substeps, while grounding Retrieval-Augmented Generation with relational context. 
+Studying LLMs on graphs also intersects with tackling computationally hard problems, additionally shedding light on their ability to solve challenging mathematical tasks.
+
+Early research has explored LLMs for graphs, but training-free prompting schemes have shown weak performance [1]. 
+Hybrid approaches incorporating Graph Neural Networks (GNNs) [2,3] offer improvements but either process graphs in a prompt-agnostic way or propose sophisticated architectural modifications and are specific to text-attributed structures. 
+An open question remains under-explored: “Can LLMs themselves be effectively instructed to process relational data?”. 
+This appears as a plausible possibility given the theoretical expressiveness of their architectural backbone, the massive size of their pretraining corpora, and preliminary, encouraging results [4,5], suggesting, inter-alia, that fine-tuned LLMs can achieve competitive performance compared to Transformers trained from scratch.
+
+The goal of this project is to provide a more systematic analysis on the adaptation of pretrained LLMs for graph tasks, aiming to study whether and how the pre-acquired abilities of LLMs can apply to structured objects with parameter-efficient fine-tuning and no sophisticated architectural changes. 
+On these fine-tuned LLMs, we will investigate aspects related to expressiveness, permutation invariance, skill transfer and sample efficiency. 
+We will explore whether the architectural biases of LLMs give them an expressiveness edge over standard message-passing GNNs. 
+We will also analyse their sensitivity to node orderings – i.e., the extent to which they respect the main graph symmetry – and study the impact of the LLM architectural backbones. 
+We will finally assess their robustness to input distributions and explore their ability to tackle unseen tasks with appropriate prompting.
+
+[1] “Talk Like a Graph: Encoding Graphs for Large Language Models”, Fatemi et al., 2023
+
+[2] “Let Your Graph Do the Talking: Encoding Structured Data for LLMs”, Perozzi et al., 2024
+
+[3] “GL-Fusion: Rethinking The Combination Of GNN and LLM”, Yan et al., 2024
+
+[4] “Understanding Transformer Reasoning Capabilities via Graph Algorithms”, Sanford et al., 2024
+
+[5] “G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering”, He et al., 2024

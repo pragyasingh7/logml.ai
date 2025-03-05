@@ -1,0 +1,55 @@
+---
+title: "Towards a More Rigorous Evaluation of Hyperbolic Graph Representation Learning"
+sidebar: false
+author: "Veronica Lachi"
+categories: []
+sortby: "Lachi, Veronica"
+image: Veronica-Lachi.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?hl=it&user=uly8D-sAAAAJ
+---
+
+## Veronica Lachi
+
+Veronica Lachi is a researcher in the Mobile and Social Computing Lab at Bruno Kessler Foundation in Trento. 
+Her research interests focus on the theoretical properties of Graph Neural Networks, particularly their expressiveness, hierarchical pooling, and temporal GNNs. 
+She obtained a PhD in Artificial Intelligence from the University of Siena under the supervision of Prof. Monica Bianchini. 
+During her PhD, she was a Visiting Researcher at UiT The Arctic University of Tromsø.
+
+## Project
+
+Recent advances in graph representation learning have introduced models that leverage hyperbolic space instead of traditional Euclidean spaces [1,2,3,4]. 
+The motivation behind this shift stems from theoretical results which demonstrated that tree-like structures can be embedded in hyperbolic space with arbitrarily low distortion—an advantage that Euclidean space does not provide [5]. 
+However, in [6] it has been shown that Euclidean models with comparable number of parameters can match or even surpass the performance of hyperbolic graph models. 
+This suggests that the benchmark tasks used to justify hyperbolic methods may not be well-suited for distinguishing their benefits from those of standard Euclidean models. 
+In other words, the choice of datasets and evaluation protocols may not accurately reflect the claimed advantages of hyperbolic embeddings. 
+A key issue is the metric used to quantify the hyperbolicity of graph datasets. 
+The widely used δ-hyperbolicity measure characterizes the entire graph structure but does not account for the interplay between node features and connectivity. 
+Moreover, this measure is relatively coarse.
+
+The goal of this project is to refine the evaluation of hyperbolic graph learning models by identifying a more informative metric for assessing dataset hyperbolicity. 
+Specifically, we will (1) identify other metrics which provide a finer geometric characterization of graph structures by incorporating both topology and feature information (an example is Ollivier-Ricci curvature [7]); 
+(2) computing and analyzing this curvature across multiple real-world graph datasets of varying sizes, identifying cases where hyperbolic embeddings are genuinely beneficial; 
+(3) repeat the experiments presented in [5] on the selected datasets.
+
+Beyond this immediate objective, the project has the possibility of extension in future works. 
+A long-term goal is to develop models capable of learning the most appropriate underlying manifold for a given dataset and task, rather than assuming a fixed geometric prior.
+
+[1] Ganea, Octavian, Gary Bécigneul, and Thomas Hofmann. "Hyperbolic neural networks." Advances in neural information processing systems 31 (2018).
+
+[2] Chami, Ines, et al. "Hyperbolic graph convolutional neural networks." Advances in neural information processing systems 32 (2019).
+
+[3] Shimizu, Ryohei, Yusuke Mukuta, and Tatsuya Harada. "Hyperbolic neural networks++." arXiv preprint arXiv:2006.08210 (2020).
+
+[4] Zhang, Yiding, et al. "Lorentzian graph convolutional networks." Proceedings of the web conference 2021. 2021.
+
+[5] Sarkar, Rik. "Low distortion Delaunay embedding of trees in hyperbolic plane." International symposium on graph drawing. Berlin, Heidelberg: Springer Berlin Heidelberg, 2011.
+
+[6] Katsman, Isay, and Anna Gilbert. "Shedding Light on Problems with Hyperbolic Graph Learning." Transactions on Machine Learning Research, 2024.
+
+[7] Lin, Yong, Linyuan Lu, and Shing-Tung Yau. "Ricci curvature of graphs." Tohoku Mathematical Journal, Second Series 63.4 (2011): 605-627.

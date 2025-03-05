@@ -1,0 +1,105 @@
+---
+title: "Topological data analysis (TDA) to elucidate protein functions via variant landscapes"
+sidebar: false
+author: "Owen Queen"
+categories: []
+sortby: "Queen, Owen"
+image: Owen-Queen.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://owencqueen.github.io/
+---
+
+## Owen Queen
+
+Owen Queen is a computer science Ph.D. student at Stanford University advised by James Zou. 
+He previously obtained his B.S. in computer science from the University of Tennessee and worked as a research associate at Harvard Medical School under the supervision of Marinka Zitnik. 
+His work focuses on building powerful and practical AI systems for biomedical discovery. 
+In particular, he’s interested the combination of distributed lines of evidence to provide practitioners with actionable insights into biomedical data, facilitated by multimodal learning and agentic LLM systems. 
+Previously, he’s worked on a variety of AI methods and applications in science, including building large multimodal models for protein phenotypes, evaluating explainability of graph neural networks, and designing geometric deep learning methods for polymer property prediction. 
+
+
+## Project
+
+Protein functional annotation is a critical task in computational biology; it is concerned with deducing the function of a protein within a biological system, such as the pathways for which that protein plays a part. 
+Determining the function of a protein is often the first step in developing drugs to target that protein or determining the cause of diseases. 
+However, this task is extremely complex and traditionally involved years of work in a wet lab to determine a protein’s role in a specific biological system. 
+Unsupervised or zero-shot protein functional annotation, with little-to-no wet lab data required, is a holy grail for computational biology.
+ 
+The development of protein language models (PLMs), self-supervised language models trained on large protein databases, has supercharged research in functional proteomics. 
+Despite no explicit training on functional data, PLMs have been shown to encode functional properties of proteins [1]. 
+These functional properties are often encoded within the activations of PLMs, and elucidating them requires advanced machine learning approaches, such as mechanistic interpretability [1], multimodal learning [2], or fine-tuning on large, annotated datasets [3]. 
+However, many gaps still exist in understanding protein functions from protein language models.
+ 
+**Biological background**: Proteins are made up of amino acid sequences, or sequences of a 20-character language. 
+The function of a protein is determined by its chemical properties, and changes to the amino acid sequence may result in a change to the chemical properties (and therefore the function). 
+A change to a protein’s sequence that does not change its function is a benign mutation; a change that affects the function is a pathogenic mutation. 
+Pathogenic mutations often occur on chemically relevant parts of the protein, such as binding sites for other proteins or small molecules. 
+Biologists have realized the importance of variants to understanding the properties of proteins. 
+Deep Mutational Scanning (DMS) [4] is a functional assay (experiment in the wet lab) to understand protein fitness given mutations, or changes in the sequence of a protein. 
+Prediction of variant effects in proteins has exploded in recent years, with the release of AlphaMissense [5], which was built solely to predict variant effects, and Evo-2 [6], whose major focus was on variant effect prediction. 
+These methods give us predictive proxies for variant pathogenicity on proteins that have not been examined in DMS assays.
+ 
+**Machine learning background**: Topological data analysis (TDA) is a burgeoning field that is concerned with understanding the topology of data, i.e., what the shape and general construction of that data can tell us about its real-world characteristics. 
+TDA has been applied in many areas of science, including molecular property prediction [7] and analysis of neuronal activation patterns [8]. 
+In parallel, mechanistic interpretability is a new branch of explainability research that seeks to understand what a large neural network has learned. 
+It has seen adoption in LLM research, mainly through the efforts of Anthropic [9], but it also has made its way into PLMs [1]. 
+It has been theorized that TDA and mechanistic interpretability might have some overlap [10], either through the analysis of internal activations directly or of sparse autoencoder (SAE) features.
+ 
+**This project**: I propose to tackle the problem of protein function prediction through a geometric and topological approach. 
+DMS assays give us data on how a protein changes given some perturbation on the sequence of the protein. 
+We can use these perturbations as a “landscape” to understand the distribution of valid changes that can be made on such a protein. 
+Given this landscape, I propose to examine the topology of the internal activations of PLMs. 
+Rather than training sparse autoencoders (SAEs) in a mechanistic interpretability fashion as [1], I believe the internal topology of the activations may hold valuable information about the functions of a given protein. 
+TDA and other geometric deep learning tools might provide a valuable window into the organization of internal latent spaces in the model, allowing us to probe the model for understanding of the function of proteins.
+We can use the mutational landscapes of well-studied proteins to derive distributions of certain classes of proteins, such as those involved in transport pathways, and extend that to poorly studied proteins for which functions have not yet been derived.
+ 
+There are many methodological leaps to be made here:
+
+1.	What kinds of geometric and topological approaches are best for richly capturing PLM activations?
+
+2.	Which parts of the PLM do we examine? All layer activations? Final layer activations? Do we learn how to select out different activations?
+
+3.	What is the minimal data we can use to learn this task? Can we transfer from well-studied proteins to poorly studied ones?
+
+4.	What is the limit of biological functions that we can learn with this method? Will we stick to molecular properties such as enzyme properties or more complex phenotypes such as metabolic pathway involvement?
+
+5.	What are the tradeoffs between SAEs and topological approaches for mechanistic interpretability?
+
+6.	What is role of experimental (e.g., DMS) vs. predicted (e.g., AlphaMissense) variant effects in this task? Can we bootstrap on top of predicted variant effects to increase our data?
+ 
+If solved, this work could have broad impact in both the machine learning and biology communities. 
+This project will give you a chance to work directly on (1) state-of-the-art machine learning methods and (2) relevant biological problems that could have real-world impact on drug discovery and disease biology.
+ 
+
+[1] Simon, and Zou, “InterPLM: Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders”, biorXiv 2024
+
+[2] Queen et al., “ProCyon: A multimodal foundation model for protein phenotypes”, biorXiv 2024
+
+[3] Notin et al., “ProteinGym: Large-Scale Benchmarks for Protein Design and Fitness
+Prediction”, NeurIPS 2023
+
+[4] Fowler and Fields, “Deep mutational scanning: a new style of protein science”,
+Nature Methods, 2014
+
+[5] Cheng et al., “Accurate proteome-wide missense variant effect prediction with
+AlphaMissense”, Science 2023
+
+[6] Brixi et al., “Genome modeling and design across all domains of life with Evo 2”,
+biorXiv 2025
+
+[7] Townsend et al., “Representation of molecular structures with persistent homology
+for machine learning applications in chemistry”, Nature Communications 2020
+
+[8] Saggar et al., “Precision dynamical mapping using topological data analysis reveals
+a hug-like transition state at rest”, Nature Communications 2022
+
+[9] Templeton et al., “Scaling Monosemanticity: Extracting Interpretable Features from
+Claude 3 Sonnet”, Anthropic Technical Report, 2024
+
+[10] Carlsson, “Topological Data Analysis and Mechanistic Intepretability”, LessWrong
+blog post, 2025

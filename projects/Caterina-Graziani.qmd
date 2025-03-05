@@ -1,0 +1,55 @@
+---
+title: "Beyond VC Dimension - Rademacher Complexity for GNN Generalization"
+sidebar: false
+author: "Caterina Graziani"
+categories: []
+sortby: "Graziani, Caterina"
+image: Caterina-Graziani.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?user=OMVOd6gAAAAJ&hl=it&oi=ao
+---
+
+## Caterina Graziani
+
+Caterina Graziani is a Research Associate in Artificial Intelligence at the University of Siena, Italy. 
+She earned a Master’s degree in Mathematics and then obtained her PhD in Artificial Intelligence at the University of Siena in 2024, under the supervision of Prof. Franco Scarselli, Prof. Monica Bianchini and Prof. Moreno Falaschi. 
+In her PhD thesis, she studied the expressive power of GNNs beyond the Weisfeiler-Lehman test. 
+During her PhD she spent four months at the Machine Learning Research Unit of the Technical University of Vienna under the supervision of Prof. Thomas Gartner.
+
+Her research interests lie in the Mathematics of Deep Learning, with a focus on expressivity, approximation, and generalization in Graph Neural Networks, as well as their bioinformatics applications. 
+She received the Best Master's Student Award in 2020 and has actively contributed to organizing scientific events such as the Learning on Graphs (LOG) Italian Meetup, the Young Applied Mathematicians Conference, and the AI4BA Summer School on Biomedical Applications of AI, among others. 
+She is also involved in several outreach activities, organizing events like Pint of Science or Graph Learning on Wednesdays (GLOW) reading group on the latest advancements in Graph Learning.
+
+## Project
+
+While Graph Neural Networks (GNNs) have achieved significant success across various applications, several questions about their generalization capabilities remain open. 
+Much of the theoretical analysis has relied on the Vapnik-Chervonenkis (VC) dimension, which, while offering valuable insights, often provides overly loose and pessimistic upper bounds. 
+These limitations highlight the need for alternative measures that better capture the real-world generalization of GNNs. 
+A promising alternative is Rademacher complexity, as explored by Garg et al. [3], which offers a more refined, data-dependent characterization of a model’s capacity to generalize. 
+Unlike the VC dimension, which focuses on worst-case scenarios, Rademacher complexity provides a more practical and precise assessment.
+
+Recent works by Morris et al.[1] and D’Inverno et al.[2] have linked expressivity and generalization, deriving VC dimension bounds in terms of the color classes assigned by the 1-Weisfeiler-Lehman (1-WL) test. 
+However, these results do not extend to Rademacher complexity, leaving an important gap in understanding how structural properties of graphs influence generalization.
+
+This project seeks to bridge that gap by extending the generalization bounds established by [1] and [2] to Rademacher complexity in message-passing GNNs. 
+By leveraging the known relationship between VC dimension and Rademacher complexity, we aim to develop tighter and more realistic bounds.
+
+A key aspect of this study is examining how the number of colors produced by the 1-WL test affects Rademacher complexity, thus connecting expressivity with generalization in a more refined manner. 
+Additionally, generalization in GNNs is strongly influenced by graph topology. 
+We will analyze the role of spectral properties, connectivity, and clustering coefficients, among others, in shaping Rademacher complexity and its implications for learning performance. 
+
+This research may lead to a categorization of graphs based on their Rademacher complexity, providing a systematic framework for understanding how graph structure impacts GNN generalization. 
+
+An experimental analysis will be conducted to validate the derived bounds ensuring their effectiveness in real-world scenarios.
+
+[1] Morris, C., Geerts, F., Tönshoff, J., & Grohe, M. (2023, July). Wl meet vc. In International Conference on Machine Learning (pp. 25275-25302). PMLR.
+
+[2] D’Inverno, G. A., Bianchini, M., & Scarselli, F. (2025). VC dimension of Graph Neural Networks with Pfaffian activation functions. Neural Networks, 182, 106924.
+
+[3] Garg, V., Jegelka, S., & Jaakkola, T. (2020, November). Generalization and representational limits of graph neural networks. In International Conference on Machine Learning (pp. 3419-3430). PMLR.
+

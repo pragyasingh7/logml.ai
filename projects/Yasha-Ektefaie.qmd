@@ -1,0 +1,65 @@
+---
+title: "Iterative Reasoning in Graph Neural Networks for Drug Repurposing"
+sidebar: false
+author: "Yasha Ektefaie"
+categories: []
+sortby: "Ektefaie, Yasha"
+image: Yasha-Ektefaie.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://www.yashaektefaie.com/
+---
+
+## Yasha Ektefaie
+
+Yasha Ektefaie is a PhD student at Harvard Medical School, co-advised by Marinka Zitnik and Maha Farhat. 
+His research focuses on developing and applying machine learning to problems in biology and medicine. 
+His past projects include evaluating model generalizability, designing an AI agent for antibiotic discovery in Tuberculosis, and developing a foundation model for phylogenetic inference using a hybrid state-space transformer architecture and conditional graph diffusion. 
+
+
+## Project
+
+Graph Neural Networks (GNNs) are widely used for relational learning tasks such as link prediction, molecular property prediction, and biomedical knowledge discovery. 
+However, standard GNNs operate in a one-shot inference paradigm, where predictions are made based on a static graph and a given query, without the ability to incorporate new evidence dynamically.
+
+In real-world applications, especially in biomedical research, users often have additional context (e.g., experimental data, transcriptomic profiles) that could refine a model’s predictions. 
+However, existing GNN architectures lack a built-in mechanism to revise their outputs based on newly injected information at inference time, without retraining.
+
+We propose developing a reasoning GNN that can iteratively refine its predictions by incorporating previous outputs and newly injected data, enabling a more adaptive and context-aware decision-making process. 
+The model will be deployed in the medical domain, specifically for drug repurposing [1], where transcriptomic data [2] will be used to guide and revise predictions of drug-disease associations.
+
+Key Contributions:
+
+1. Inference-Time Adaptation: Unlike standard GNNs that generate static predictions, our model will dynamically adjust its outputs given new information.
+
+2. Memory-Augmented or Iterative Reasoning Framework: The reasoning mechanism could be implemented using recurrent message passing, GNN-based memory, or attention over prior predictions.
+
+3. Application to Drug Repurposing: The framework will be tested on a biomedical knowledge graph where a GNN predicts drug-disease relationships.
+
+4. Transcriptomic data will be injected to simulate real-world perturbation-driven hypothesis testing.
+
+Technical Approach:
+
+1. Transformer trained on tokenized graph [3] with injected transcriptomic tokens from scGPT [4] then using reinforcement learning, in a similar vein as Deep-Seek R1 [5], to explore if we can induce reasoning capabilities in this model to utilize transcriptomic data and previous predictions to revise its predictions.
+
+2. Dataset: Drug-disease interaction graphs (e.g., PrimeKG) combined with transcriptomic perturbation data (e.g., LINCS L1000 or more recently the Tahoe-100M [6]).
+
+3. Evaluation Metrics: Improvement in link prediction accuracy and robustness to new data injections compared to static GNN baselines
+
+Expected Outcome: A proof-of-concept reasoning GNN that can revise its predictions dynamically at inference time, demonstrated in a drug repurposing setting.
+
+[1] Huang, K., Chandak, P., Wang, Q. et al. A foundation model for clinician-centered drug repurposing. Nat Med 30, 3601–3613 (2024). https://doi.org/10.1038/s41591-024-03233-x
+
+[2] Wu, P., Feng, Q., Kerchberger, V.E. et al. Integrating gene expression and clinical data to identify drug repurposing candidates for hyperlipidemia and hypertension. Nat Commun 13, 46 (2022). https://doi.org/10.1038/s41467-021-27751-1
+
+[3] Jinwoo Kim, Tien Dat Nguyen, Seonwoo Min, Sungjun Cho, Moontae Lee, Honglak Lee, and Seunghoon Hong. "Pure Transformers are Powerful Graph Learners." In Advances in Neural Information Processing Systems 35 (NeurIPS 2022). 2022.
+
+[4] Cui, H., Wang, C., Maan, H. et al. scGPT: toward building a foundation model for single-cell multi-omics using generative AI. Nat Methods 21, 1470–1480 (2024). https://doi.org/10.1038/s41592-024-02201-0
+
+[5] Guo, D., Yang, D., Zhang, H., & Song, J. (2025). DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv preprint arXiv:2501.12948.
+
+[6] Zhang, J. et al. (2025). Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling. bioRxiv. https://doi.org/10.1101/2025.02.20.639398

@@ -1,0 +1,35 @@
+---
+title: "Looking for Einstein Metrics with Machine Learning"
+sidebar: false
+author: "Tancredi Schettini Gherardini"
+categories: []
+sortby: "Gherardini, Tancredi Schettini"
+image: Tancredi-Schettini-Gherardini.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?user=d7Vlc7gAAAAJ&hl=it
+---
+
+## Tancredi Schettini Gherardini
+
+Tancredi Schettini Gherardini is a final-year PhD in the Centre for Theoretical Physics at Queen Mary University of London, supervised by David Berman. 
+His research is at the intersection of geometry (differential and algebraic) and machine learning, to tackle problems that arise in theoretical physics or pure mathematics.
+
+
+## Project
+
+Einstein metrics are ubiquitous in differential geometry, because of their unique properties, as well as in theoretical physics, since they correspond to solutions of Einstein's equations in vacuum (with a cosmological constant). 
+Although many examples are already known, finding new Einstein metrics constitutes a remarkably difficult problem and an active area of research. 
+
+Machine learning has been used to find Einstein metrics numerically in very specific contexts in the last few years, but they all relied on some analytic ansatz which simplified the problem. 
+A new semi-supervised machine learning package, called "AInstein", was recently presented in [1], with the scope of finding solutions of Einstein's equations in full generality, i.e. on any manifold. 
+The generality of this code makes it applicable to a very large number of interesting cases. 
+Namely, to all manifolds for which the existence of Einstein metrics is proven or conjectured without any clue on the analytic formula, as well as to all manifolds for which the existence of Einstein metrics has not been settled yet. 
+
+In this project, we will discuss all possible options and pick one (or more) specific differentiable manifold(s), hosting some open questions regarding Einstein metrics, with a suitable atlas that is appropriate for the semi-supervised machine learning approach; then, by leveraging AInstein, we will seek to obtain numerical results that contribute towards resolving these questions.
+
+[1] Hirst, E., Gherardini, T.S. and Stapleton, A.G., 2025. AInstein: Numerical Einstein Metrics via Machine Learning. arXiv preprint arXiv:2502.13043.
