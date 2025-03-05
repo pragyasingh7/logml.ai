@@ -100,22 +100,27 @@
       "/projects/Ruth-Johnson.html",
       "/projects/Donato-Crisostomi.html",
       "/projects/Estefania-Loayza-Romero.html",
+      "/projects/Jiayi-Li.html",
       "/projects/Dhananjay-Bhaskar.html",
       "/projects/Owen-Queen.html",
       "/projects/Veronica-Lachi.html"
     ]
   },
   {
-    "listing": "/logml2021/people.html",
+    "listing": "/logml2021/speaker.html",
     "items": [
-      "/logml2021/people2021/team/mehdi.html",
-      "/logml2021/people2021/team/guada.html",
-      "/logml2021/people2021/team/tim.html",
-      "/logml2021/people2021/team/momchil.html",
-      "/logml2021/people2021/team/daniel.html",
-      "/logml2021/people2021/advisors/kevin.html",
-      "/logml2021/people2021/advisors/ron.html",
-      "/logml2021/people2021/advisors/welling.html"
+      "/logml2021/speakers2021/keynote/michael-bronstein.html",
+      "/logml2021/speakers2021/keynote/ulrike-tillmann.html",
+      "/logml2021/speakers2021/other/michael-betancourt.html",
+      "/logml2021/speakers2021/other/sanja-fidler.html",
+      "/logml2021/speakers2021/other/niloy-mitra.html",
+      "/logml2021/speakers2021/other/thomas-kipf.html",
+      "/logml2021/speakers2021/other/maximilian-nickel.html",
+      "/logml2021/speakers2021/other/maks-ovsjanikov.html",
+      "/logml2021/speakers2021/other/martin-rumpf.html",
+      "/logml2021/speakers2021/other/gabriele-steidl.html",
+      "/logml2021/speakers2021/other/ruriko-yoshida.html",
+      "/logml2021/speakers2021/other/marinka-zitnik.html"
     ]
   },
   {
@@ -144,20 +149,16 @@
     ]
   },
   {
-    "listing": "/logml2021/speaker.html",
+    "listing": "/logml2021/people.html",
     "items": [
-      "/logml2021/speakers2021/keynote/michael-bronstein.html",
-      "/logml2021/speakers2021/keynote/ulrike-tillmann.html",
-      "/logml2021/speakers2021/other/michael-betancourt.html",
-      "/logml2021/speakers2021/other/sanja-fidler.html",
-      "/logml2021/speakers2021/other/niloy-mitra.html",
-      "/logml2021/speakers2021/other/thomas-kipf.html",
-      "/logml2021/speakers2021/other/maximilian-nickel.html",
-      "/logml2021/speakers2021/other/maks-ovsjanikov.html",
-      "/logml2021/speakers2021/other/martin-rumpf.html",
-      "/logml2021/speakers2021/other/gabriele-steidl.html",
-      "/logml2021/speakers2021/other/ruriko-yoshida.html",
-      "/logml2021/speakers2021/other/marinka-zitnik.html"
+      "/logml2021/people2021/team/mehdi.html",
+      "/logml2021/people2021/team/guada.html",
+      "/logml2021/people2021/team/tim.html",
+      "/logml2021/people2021/team/momchil.html",
+      "/logml2021/people2021/team/daniel.html",
+      "/logml2021/people2021/advisors/kevin.html",
+      "/logml2021/people2021/advisors/ron.html",
+      "/logml2021/people2021/advisors/welling.html"
     ]
   },
   {

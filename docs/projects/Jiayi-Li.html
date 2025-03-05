@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jiayi Li">
 
-<title>Speakers – LOGML 2025</title>
+<title>Symmetry, degeneracy and effective dimensions of neural networks – LOGML 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-06267f68cc4d49f835c92266163fc562.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-06267f68cc4d49f835c92266163fc562.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,70 +68,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="LOGML 2025">
 <meta name="twitter:description" content="London Geometry and Machine Learning Summer School, July 7-11 2025">
-<meta name="twitter:image" content="https://www.logml.ai/img/logo.png">
+<meta name="twitter:image" content="Jiayi-Li.png">
 <meta name="twitter:site" content="@LogmlSchool">
 <meta name="twitter:card" content="summary">
 </head>
@@ -145,10 +85,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">LOGML 2025</span>
     </a>
   </div>
@@ -159,23 +99,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./speaker.html" aria-current="page"> 
+    <a class="nav-link" href="../speaker.html"> 
 <span class="menu-text">Speakers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects&amp;Mentors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./policies.html"> 
+    <a class="nav-link" href="../policies.html"> 
 <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./logml2024/speaker.html"> 
+    <a class="nav-link" href="../logml2024/speaker.html"> 
 <span class="menu-text">Archives</span></a>
   </li>  
 </ul>
@@ -207,204 +147,71 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#jiayi-li" id="toc-jiayi-li" class="nav-link active" data-scroll-target="#jiayi-li">Jiayi Li</a></li>
+  <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Speakers</h1>
+<h1 class="title">Symmetry, degeneracy and effective dimensions of neural networks</h1>
 </div>
-
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jiayi Li </p>
+          </div>
   </div>
-  
+  </div>
+</header> <div class="about-links">
+  <a href="https://jl2ml.github.io/" class="about-link" rel="" target="">
+    <i class="bi bi-website"></i>
+     <span class="about-link-text">website</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<section id="jiayi-li" class="level2">
+<h2 data-anchor-id="jiayi-li">Jiayi Li</h2>
+<p>Jiayi is a postdoctoral fellow at the Max Planck Institute and a member of the Harrington group. Her research lies at the intersection of algebraic geometry and theoretical machine learning, where she develops numerical algebro-geometric methods to analyze and characterize the optimization landscape of neural networks and creates machine-assisted tools for discovering equations and uncovering hidden structures of interest to the theoretical study of algebraic geometry. Prior to moving to Germany, she did her PhD at UCLA as part of the mathematical machine learning group. Jiayi is passionate about mathematics and machine learning, particularly in devising advanced mathematical techniques that illuminate the training dynamics and generalization behaviors of modern neural networks.</p>
+</section>
+<section id="project" class="level2">
+<h2 data-anchor-id="project">Project</h2>
+<p>“Local learning coefficient” (LLC), a concept introduced in singular learning theory have recently gained attention among the modern machine learning community. In neural network setting, the LLC roughly corresponds to how much a single weight affects the overall loss, and thus can be used to track the weights associated to a specific component of the architecture (e.g.&nbsp;attention head, MLP blocks) throughout training, to obtain an LLC curve for each component. Recently a work by Wang et al.&nbsp;looks into how attention heads specialize throughout the training of a 2-layer Transformer, and how this specialization is correlated with the “local learning coefficient” (LLC) around that attention head. Through theoretical and empirical investigations, the authors show that the LLC clusters and the attention specialization clusters are highly correlated, allowing LLC metrics to be used as more automated metrics for checking attention specialization. The work was spotlighted at ICLR 2025 for their innovative theoretical contribution. Since the field is relative new and open, many interesting open question invites investigation.</p>
+<p>For this project, we would like to look into LLCs and Emergent Modularity - Deep neural networks, in particular Transformer architectures, often exhibit emergent modularity where certain neurons, layers, or subnetworks specialize in handling different subproblems (e.g., detecting shapes, translating certain token patterns, or handling different frequency signals). However, identifying and quantifying this modularity—especially in large-scale models—remains challenging. We propose to apply Local Learning Coefficient (LLC) as an interpretability measure that quantifies how strongly individual parameters influence the global loss. By aggregating and analyzing the LLC across neurons or sub-networks, we can potentially uncover self-organizing clusters of parameters that correspond to distinct functional modules, providing a quantitative lens to study when and how deep networks split into specialized substructures. We aim to achieve the following goals throughout the project:</p>
+<ol type="1">
+<li><p>Quantify Emergent Modularity with LLC: Develop metrics or frameworks that aggregate LLC values to detect the formation of specialized modules (e.g., specialized neurons or heads).</p></li>
+<li><p>Track Modularity Throughout Training: Investigate how modules emerge or dissolve over the course of training, and relate these changes to the network’s learning phases: early-phase rapid error reduction, mid-phase feature refinement, late-phase fine-tuning.</p></li>
+<li><p>Compare to Existing Approaches: Benchmark LLC-based modularity measures against other known methods (e.g., mutual information clustering, connectivity-based analyses, or hierarchical clustering on weights/activations).</p></li>
+<li><p>Investigate Influence of Architecture &amp; Hyperparameters: Determine how architecture choices and hyperparameters (e.g., depth, width, regularization strategies) affect emergent modularity patterns as measured by LLC.</p></li>
+<li><p>Explore Implications for Interpretability, Robustness, and Transfer.</p></li>
+</ol>
+<p>By participating in this project, students not only gain hands-on empirical research experience with modern Transformer architectures but also explore the deeper mathematical underpinnings of the Local Learning Coefficient, which has roots in algebraic geometry. Even without a background in this area, they have the opportunity to engage with the elegance and rigor of advanced mathematics, seeing firsthand how a theoretical framework can guide and enrich practical machine learning experimentation.</p>
+<p>[1] Carroll, L., Hoogland, J., Farrugia-Roberts, M., &amp; Murfet, D. (2025). Dynamics of Transient Structure in In-Context Linear Regression Transformers.</p>
+<p>[2] Wang, G., Hoogland, J., van Wingerden, S., Furman, Z., &amp; Murfet, D. Differentiation and specialization of attention heads via the refined local learning coefficient, 2024.</p>
+<p>[3] Watanabe, S. (2018). Mathematical theory of Bayesian statistics.</p>
 
 
-</header>
-
-
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">People</li>
-  </ol>
-</nav>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1741099546072" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
-<a href="./speakers/filippo.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/filippo.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Filippo Maria Bianchi
-</h5>
-<div class="card-text listing-description">
-UiT the Arctic University of Norway
+</section>
+</main></div>
+    </div>
+    <img src="Jiayi-Li.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
 </div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1741099546073" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<a href="./speakers/tolga.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/tolga.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tolga Birdal
-</h5>
-<div class="card-text listing-description">
-Imperial College London
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1741099546071" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./speakers/coralia.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/coralia.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Coralia Cartis
-</h5>
-<div class="card-text listing-description">
-University of Oxford
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1741099546072" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
-<a href="./speakers/marco.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/marco.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Marco Cuturi
-</h5>
-<div class="card-text listing-description">
-Apple, CREST - ENSAE, Institut Polytechnique de Paris
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1741099546071" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
-<a href="./speakers/estelle.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/estelle.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Estelle Massart
-</h5>
-<div class="card-text listing-description">
-UCLouvain
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1741099546071" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
-<a href="./speakers/bastian.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/bastian.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bastian Rieck
-</h5>
-<div class="card-text listing-description">
-University of Fribourg
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1741099546072" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<a href="./speakers/francisco.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/francisco.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Francisco J. R. Ruiz
-</h5>
-<div class="card-text listing-description">
-Google DeepMind
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1741099546070" data-listing-reading-time-sort="2" data-listing-word-count-sort="218">
-<a href="./speakers/barbara.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/barbara.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Alice Barbara Tumpach
-</h5>
-<div class="card-text listing-description">
-Wolfgang Pauli Institute (WPI), Vienna
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1741170688247" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
-<a href="./speakers/marinka.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./speakers/marinka.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Marinka Zitnik
-</h5>
-<div class="card-text listing-description">
-Harvard University
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -425,13 +232,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
