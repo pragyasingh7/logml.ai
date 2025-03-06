@@ -1,0 +1,44 @@
+---
+title: "Representation learning and knowledge encoding with biomedical knowledge graphs"
+sidebar: false
+author: "Ruth Johnson"
+categories: []
+sortby: "Johnson, Ruth"
+image: Ruth-Johnson.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?user=IpaMUH0AAAAJ&hl=en
+---
+
+## Ruth Johnson
+
+Ruth Johnson is a Berkowitz Family Living Laboratory Postdoctoral Research Fellow at Harvard Medical School advised by Marinka Zitnik. 
+She received her PhD from the University of California, Los Angeles (UCLA) in computer science and bachelor's degree from UCLA in mathematics. 
+Her current research focuses on developing patient-level foundation models from large-scale electronic health record (EHR) systems in collaboration with the Clalit Health Services in Israel. 
+She is also interested in the intersection of genomics and EHR for studying rare genetic disorders. 
+Previously, she was actively involved in the UCLA ATLAS Precision Health Biobank and focused on developing statistical genetics methods, specifically studying genetic disease risk in ancestrally diverse populations.
+
+## Project
+
+Knowledge graphs (KGs) capture highly complex, real-world information. 
+Integrating diverse biomedical knowledgebases (e.g. drugs, genes) into a KG provides a unified framework of biomedical knowledge that can be integrated into downstream prediction tasks. 
+However, encoding this information into high-quality mathematical representations is non-trivial given the scale, complexity, and breadth of information. 
+Framed as a representation learning problem, we will leverage ideas from self-supervised learning such as contrastive learning and Information Noise-Contrastive Estimation (InfoNCE) to learn embeddings of the KG. 
+We will explore methods for performing large-scale inference with graph neural networks and discuss practical tips for real-world implementation. 
+
+We’ll demonstrate an application of KG embeddings through token injection into open-source large language models (LLMs). 
+By augmenting pre-trained LLMs with the learned embeddings in the form of ‘knowledge tokens’, we can achieve superior performance in biomedical question-answering tasks. 
+This project can be broken down into 3 main components:
+
+1. Knowledge graphs: Intro to KGs and constructing biomedical KGs from scratch.
+
+2. Representation learning on graphs: Self-supervised learning on graphs with GNNs and tips for scaling inference to very large (100K+ node) KGs. 
+
+3. Augmenting LLMs with knowledge tokens: Integrating biomedical knowledge into pre-trained LLMs in the form of new tokens and parameter-efficient fine-tuning. 
+
+
+

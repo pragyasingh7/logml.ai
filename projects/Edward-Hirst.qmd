@@ -1,0 +1,34 @@
+---
+title: "Finite groups and the Cayley graph representation, such that ML can then help identify symmetry from generators"
+sidebar: false
+author: "Edward Hirst"
+categories: []
+sortby: "Hirst, Edward"
+image: Edward-Hirst.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?hl=en&user=_9IPJEIAAAAJ&view_op=list_works&sortby=pubdate
+---
+
+## Edward Hirst
+
+Dr Hirst is a postdoctoral researcher at Queen Mary, University of London, specialising in machine learning methods for geometric datasets in theoretical physics. 
+His interests include Calabi-Yau and G2-manifolds, cluster algebras and their computational generation, and more recently physical and information-geometric approaches to explain neural network architectures.
+
+## Project
+
+Cayley graphs provide a diagrammatic way of representing groups in terms of their generators. 
+Despite being such an intuitive method to represent symmetry groups, their network properties are relatively unstudied. 
+In this project, network analysis and machine learning techniques will be used for the first time to study new databases of Cayley graphs for finite groups we will generate; as well as truncated versions for infinite groups. 
+Looking for correlations between network properties (such as cycle bases and centrality) and group properties (such as abelian and simple). 
+Then extending to using machine learning architectures to predict these properties for groups, with the aim of distilling how these group properties are embedded in the graph combinatoric data through the architecture interpretability. 
+This will involve using Neural Networks to classify the groups in the databases according to whether each group expresses that particular property, taking input as the adjacency matrix of a group’s Cayley graph. 
+For properties which learn well we can take small neural network size limits to determine how many degrees of freedom are required to learn these properties, and if time can experiment with gradient saliency methods to determine which parts of the graphs are most important for determining each group property.
+
+
+
+

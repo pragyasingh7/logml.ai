@@ -1,0 +1,47 @@
+---
+title: "On Depth in Geometric Deep Learning: Scaling Up Biomolecular Analysis Using Deep Neural k-Forms"
+sidebar: false
+author: "Kelly Maggs"
+categories: []
+sortby: "Maggs, Kelly"
+image: Kelly-Maggs.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://sites.google.com/view/kelly-maggs
+---
+
+## Kelly Maggs
+
+Kelly Maggs trained as a mathematician specialising in algebraic topology. 
+After receiving his PhD in mathematics at EPFL under the supervision of Kathryn Hess, he is now working with Heather Harrington at the Max Planck Institute for Cell Biology and Genetics. 
+His research is at the interface of pure mathematics, machine learning and computational biology.
+
+His research interests in order of descending mathematical purity are:
+
+1. Rational homotopy theory and model categories
+
+2. Persistence, TDA, discrete Morse theory, discrete exterior calculus, combinatorial Laplacians.
+
+3. Geometric **DEEP LEARNING** (the bold part should be yelled)
+
+4. Single cell RNA sequencing. 
+
+
+## Project
+
+Recent breakthroughs in artificial intelligence have been largely driven by the surprising robustness of scaling laws, where increasing model size and depth yields significant performance gains. 
+However, in geometric deep learning, traditional message-passing architectures fall short of this potential due to inherent issues like over-smoothing and over-squashing. 
+In this project, will be designing and implementing neural k-form architectures—novel models that leverage differential geometry and algebraic topology to process higher-dimensional features--as a replacement of the underlying message-passing engine. 
+Our goal is to design scalable geometric deep learning architectures via structures from geometry and topology, and to apply these models to real-world challenges in molecular property prediction on large datasets. 
+This somewhat bold interdisciplinary initiative offers a unique opportunity to bridge the gap between pure mathematics and software engineering, pushing the boundaries of geometric deep learning with the goal of tackling some of the most difficult problems in computational biology.
+
+
+This project is interdisciplinary and open to anyone, with any background material to be covered in the workshop. 
+However, on the mathematical side, any experience with differential geometry, algebraic topology, algebraic geometry and/or homological algebra would be considered useful for generating new ideas and approaches. 
+On the ML and engineering side, useful experience includes working with learning on geometric objects such as point clouds, graphs, manifolds, and simplicial complexes, particularly in applications related to computational biology.
+
+[1] Maggs, K., Hacker, C. and Rieck, B., 2023. Simplicial representation learning with neural $ k $-forms. arXiv preprint arXiv:2312.08515.

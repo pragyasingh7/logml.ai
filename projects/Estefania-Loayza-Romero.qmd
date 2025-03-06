@@ -1,0 +1,47 @@
+---
+title: "Riemannian deep reinforcement learning for PDE-constrained shape optimisation"
+sidebar: false
+author: "Estefania Loayza Romero"
+categories: []
+sortby: "Romero, Estefania Loayza"
+image: Estefania-Loayza-Romero.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://pureportal.strath.ac.uk/en/persons/karen-estefania-loayza-romero
+---
+
+## Estefania Loayza Romero
+
+Estefania Loayza Romero is a Lecturer in Mathematics and Statistics at the University of Strathclyde in Glasgow. 
+Before this, she was a Chapman Fellow in the Department of Mathematics at Imperial College London and, prior to that, a postdoctoral researcher at the Cluster of Excellence Mathematics Münster, working in the Mathematical Optimisation group led by Prof. Benedikt Wirth. 
+She completed her PhD at the University of Heidelberg under the supervision of Prof. Roland Herzog and earned her undergraduate and MSc degrees at Escuela Politécnica Nacional del Ecuador, where she was part of the Research Center on Mathematical Modelling (MODEMAT) under the guidance of Prof. Juan Carlos De los Reyes and Prof. Pedro Merino.
+Her research focuses on computational PDE-constrained optimisation, with particular interest in non-smooth optimisation algorithms and their applications, data assimilation, shape optimisation, and optimisation on Riemannian manifolds.
+
+## Project
+
+Deep learning has quickly become a key driver of progress in healthcare, finance, automation, and many other fields, enabling systems to learn from data and make intelligent decisions. 
+However, traditional methods struggle with non-Euclidean structures such as curves and surfaces. 
+This is where non-Euclidean approaches become crucial, allowing models to better capture the true structure of complex data. 
+While this project focuses primarily on the geometric properties of data, it also opens the possibility of exploring its topological and algebraic characteristics [1].
+
+Shape optimisation seeks to identify geometries that enhance performance. 
+In this project, we focus on applications involving partial differential equations (PDEs), which have a broad range of uses. 
+For example, we might search for the most rigid structure within a given volume, optimise the distribution of material and voids to improve an electric motor’s performance, or use impedance tomography to detect inclusions in a material. 
+These problems are typically solved using gradient-based optimisation methods, but they often converge slowly, making them computationally expensive. 
+Our goal is to explore whether deep reinforcement learning can provide a more efficient solution, as proposed in [2]. 
+However, their work relies on parameterised representations of shapes, such as splines or Bézier curves. 
+Instead, we aim to introduce a Riemannian perspective, treating shape data as elements of a shape manifold.
+
+To develop the necessary tools, we will first study the fundamentals of differential geometry and extend optimisation descent methods to work on Riemannian manifolds. 
+This project will leverage the newly developed shape module from the Python package Geomstats [3], which provides tools for statistical learning on shape manifolds.
+
+
+[1] Sanborn, S., Mathe, J., Papillon, M., et al (2024). Beyond euclid: An illustrated guide to modern machine learning with geometric, topological, and algebraic structures. arXiv preprint arXiv:2407.09468.
+
+[2] Viquerat, J., Rabault, J., Kuhnle, A., Ghraieb, H., Larcher, A., & Hachem, E. (2021). Direct shape optimization through deep reinforcement learning. Journal of Computational Physics, 428, 110080.
+
+[3] Pereira, L. F., Brigant, A. L., Myers, A., Hartman, E., et al (2024). Learning from landmarks, curves, surfaces, and shapes in Geomstats. arXiv preprint arXiv:2406.10437.

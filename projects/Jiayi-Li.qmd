@@ -1,0 +1,57 @@
+---
+title: "Symmetry, degeneracy and effective dimensions of neural networks  "
+sidebar: false
+author: "Jiayi Li"
+categories: []
+sortby: "Li, Jiayi"
+image: Jiayi-Li.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://jl2ml.github.io/
+---
+
+## Jiayi Li
+
+Jiayi is a postdoctoral fellow at the Max Planck Institute and a member of the Harrington group. 
+Her research lies at the intersection of algebraic geometry and theoretical machine learning, where she develops numerical algebro-geometric methods to analyze and characterize the optimization landscape of neural networks and creates machine-assisted tools for discovering equations and uncovering hidden structures of interest to the theoretical study of algebraic geometry. 
+Prior to moving to Germany, she did her PhD at UCLA as part of the mathematical machine learning group. 
+Jiayi is passionate about mathematics and machine learning, particularly in devising advanced mathematical techniques that illuminate the training dynamics and generalization behaviors of modern neural networks.
+
+## Project
+
+"Local learning coefficient" (LLC), a concept introduced in singular learning theory have recently gained attention among the modern machine learning community. 
+In neural network setting, the LLC roughly corresponds to how much a single weight affects the overall loss, and thus can be used to track the weights associated to a specific component of the architecture (e.g. attention head, MLP blocks) throughout training, to obtain an LLC curve for each component. 
+Recently a work by Wang et al. looks into how attention heads specialize throughout the training of a 2-layer Transformer, and how this specialization is correlated with the "local learning coefficient" (LLC) around that attention head. 
+Through theoretical and empirical investigations, the authors show that the LLC clusters and the attention specialization clusters are highly correlated, allowing LLC metrics to be used as more automated metrics for checking attention specialization. 
+The work was spotlighted at ICLR 2025 for their innovative theoretical contribution. 
+Since the field is relative new and open, many interesting open question invites investigation.
+
+For this project, we would like to look into LLCs and Emergent Modularity - Deep neural networks, in particular Transformer architectures, often exhibit emergent modularity where certain neurons, layers, or subnetworks specialize in handling different subproblems (e.g., detecting shapes, translating certain token patterns, or handling different frequency signals). 
+However, identifying and quantifying this modularity—especially in large-scale models—remains challenging. 
+We propose to apply Local Learning Coefficient (LLC) as an interpretability measure that quantifies how strongly individual parameters influence the global loss. 
+By aggregating and analyzing the LLC across neurons or sub-networks, we can potentially uncover self-organizing clusters of parameters that correspond to distinct functional modules, providing a quantitative lens to study when and how deep networks split into specialized substructures. 
+We aim to achieve the following goals throughout the project:
+
+1. Quantify Emergent Modularity with LLC: Develop metrics or frameworks that aggregate LLC values to detect the formation of specialized modules (e.g., specialized neurons or heads).
+
+2. Track Modularity Throughout Training: Investigate how modules emerge or dissolve over the course of training, and relate these changes to the network’s learning phases: early-phase rapid error reduction, mid-phase feature refinement, late-phase fine-tuning.
+
+3. Compare to Existing Approaches: Benchmark LLC-based modularity measures against other known methods (e.g., mutual information clustering, connectivity-based analyses, or hierarchical clustering on weights/activations).
+
+4. Investigate Influence of Architecture & Hyperparameters: Determine how architecture choices and hyperparameters (e.g., depth, width, regularization strategies) affect emergent modularity patterns as measured by LLC.
+
+5. Explore Implications for Interpretability, Robustness, and Transfer.
+
+
+By participating in this project, students not only gain hands-on empirical research experience with modern Transformer architectures but also explore the deeper mathematical underpinnings of the Local Learning Coefficient, which has roots in algebraic geometry. 
+Even without a background in this area, they have the opportunity to engage with the elegance and rigor of advanced mathematics, seeing firsthand how a theoretical framework can guide and enrich practical machine learning experimentation.
+
+[1] Carroll, L., Hoogland, J., Farrugia-Roberts, M., & Murfet, D. (2025). Dynamics of Transient Structure in In-Context Linear Regression Transformers.
+
+[2] Wang, G., Hoogland, J., van Wingerden, S., Furman, Z., & Murfet, D. Differentiation and specialization of attention heads via the refined local learning coefficient, 2024.
+
+[3] Watanabe, S. (2018). Mathematical theory of Bayesian statistics.

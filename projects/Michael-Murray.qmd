@@ -1,0 +1,31 @@
+---
+title: "Investigating Emergent Invariance and Sampling Thresholds in Hopfield Networks on Graph Orbit Datasets"
+sidebar: false
+author: "Michael Murray"
+categories: []
+sortby: "Murray, Michael"
+image: Michael-Murray.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://mm5110.github.io/
+---
+
+## Michael Murray
+
+Michael Murrray is a Lecturer in Mathematics at the University of Bath. 
+Prior to this he completed a postdoc at UCLA and received a DPhil from Oxford. 
+His research is focused on developing theory for machine learning: in particular, understanding optimization, generalization and feature learning in the context of neural networks.
+
+
+## Project
+
+Recent experiments have shown classical Hopfield networks, trained via energy flow minimisation, can store the isomorphism class of a graph given vanishingly few examples. 
+This observation suggests, at least in the case of certain graph or group structured datasets, that classical Hopfield networks possess a far greater capacity compared with their ability to store random data. 
+Moreover, empirical findings indicate that the learned Hopfield parameters exhibit at least approximate graph isomorphism invariance and that only a vanishingly small sampling ratio is necessary for strict memorization of the full orbit. 
+This raises a number of important questions: how does invariance emerge when minimizing the energy flow given only a few examples from the orbit? Which types of graph can be strictly memorized by these invariant Hopfield networks? 
+What is the critical sampling ratio required for reliably storing the entire orbit and how does this ratio depend on the properties of the graph in question? 
+In addition, the potential algorithmic significance of these results is underexplored, particularly in the context of solving challenging combinatorial, group and graph theoretic problems.

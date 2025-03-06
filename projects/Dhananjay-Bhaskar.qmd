@@ -1,0 +1,38 @@
+---
+title: "Topological Machine Learning for Brain Dynamics"
+sidebar: false
+author: "Dhananjay Bhaskar"
+categories: []
+sortby: "Bhaskar, Dhananjay"
+image: Dhananjay-Bhaskar.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://dbhaskar92.github.io/
+---
+
+## Dhananjay Bhaskar
+
+Dhananjay Bhaskar is a postdoctoral researcher at Yale University and a visiting scholar in Engineering at Brown University. 
+His interdisciplinary research integrates agent-based modeling, geometry, topology, and machine learning to understand in complex biological systems, from molecular interactions to brain activity. 
+He has been recognized with several prestigious fellowships, including the Boehringer Ingelheim Biomedical Data Science Fellowship, the Kavli Institute for Neuroscience Postdoctoral Fellowship, the German Academic Exchange Fellowship for Generative Models in Machine Learning, and the Eric and Wendy Schmidt AI in Human Health Fellowship. 
+Dhananjay earned his Ph.D. in Biomedical Engineering and Master’s in Data Science from Brown University. 
+He completed his undergraduate studies at the University of British Columbia, where he majored in Computer Science and Mathematics. 
+Beyond research, he is an advocate of inclusivity in science, earning the Yale Postdoctoral Association's Outstanding Contribution Award for advancing diversity and professional development initiatives.
+
+## Project
+
+Transitions between brain states are central to cognition, perception, and disease pathology, yet traditional methods often struggle to capture the intrinsic geometry and topology of brain activity dynamics. 
+This limitation hinders our ability to decode brain activity, diagnose neurological disorders, and design targeted interventions. 
+This project explores the use of topological data analysis (TDA) and machine learning to uncover the hidden structure of brain dynamics by learning topological features that distinguish healthy from aberrant brain activity.
+
+We will leverage publicly available datasets, such as those from the Human Connectome Project, CRCNS portal, and OpenNeuro, to analyze resting-state and task-evoked brain activity. 
+Using an end-to-end differentiable framework built with pytorch-topological, we will learn topological invariants - such as persistent homology and path signatures - directly from spatiotemporal brain activity. 
+These features will be learned by training a machine learning model to classify brain states, enabling the discovery of interpretable, topology-driven biomarkers for neurological disorders.
+
+By integrating TDA with machine learning, this project aims to bridge the gap between the geometric structure of brain dynamics and their functional implications. 
+The learned topological features are expected to provide novel insights into the organization of brain activity, offering a new lens for understanding brain state transitions in health and disease. 
+This work is anticipated to result in a submission to a machine learning conference workshop, such as TAG-ML or COSYNE, and eventually lead to the publication of a machine learning paper, advancing the field of topological machine learning in neuroscience.

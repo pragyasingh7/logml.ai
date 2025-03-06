@@ -1,0 +1,57 @@
+---
+title: "Cycle Matching for High-Dimensional Neural Activation Patterns"
+sidebar: false
+author: "Anthea Monod, Omer Bobrowski"
+categories: []
+sortby: "Monod, Anthea, Bobrowski, Omer"
+image: Anthea-Monod-and-Omer-Bobrowski.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website - Anthea
+      href: https://sites.google.com/view/antheamonod/home
+    - icon: website
+      text: website - Omer
+      href: https://sites.google.com/site/omerbobrowski
+---
+
+## Anthea Monod
+
+Anthea Monod is a Senior Lecturer at the Department of Mathematics at Imperial College London. 
+Her research focuses on problems intersecting algebraic topology and algebraic geometry with computation, statistics, machine learning, and data analysis.  
+
+She currently leads a group of over 20 researchers (postdocs, PhD students, MSc students and undergraduate research assistants). 
+She is a Co-Director of the “Erlangen Programme” £10M EPSRC-funded Hub for Mathematical and Computational Foundations of Artificial Intelligence. 
+She earned her PhD from the Swiss Federal Institute of Technology in Lausanne (EPFL). 
+Prior to joining Imperial, she held postdoctoral and visiting faculty positions at the Technion–Israel Institute of Technology, Duke University, Columbia University in the City of New York, and Tel Aviv University.
+
+## Omer Bobrowski
+
+Omer Bobrowski is a Professor in Mathematical Data Science at Queen Mary University of London.
+His research explores the intersection of probability theory and applied topology, with applications in statistics, data analysis, and machine learning.
+
+He’s currently leading a research group of five members, including postdoctoral researchers and PhD students. 
+He earned his PhD from the Technion – Israel Institute of Technology, and did his postdoctoral research at Duke University. 
+Prior to joining QMUL, he was an Associate Professor at the Technion, where he is currently on leave.
+
+## Project
+
+Topological data analysis (TDA) is a field within data science that adapts algebraic topology to computation, data analysis, statistics, and machine learning, with a purpose to reveal intrinsic geometric features within complex datasets.
+This project will study the task of tracking such features in comparative settings, referred to as cycle matching (or cycle registration)—identifying topological structures that two datasets have in common—in machine learning.
+
+Recently, statistically and computationally amenable approaches to cycle matching have been proposed [1,2], which work well for low-dimensional, naturally aligned data (such as 2D slices of 3D images or time series of images).
+However, neural activation patterns challenge this framework: they are extremely high-dimensional, lack natural alignment, and often exhibit varying intrinsic dimensionalities.
+
+This project will revisit the problem of cycle matching for neural network activations both in terms of its mathematical definition and its computational approach. 
+The goal will be to develop new definitions and algorithms that are robust to the challenges posed by high-dimensional, unaligned point clouds geared towards a tractable tool to study the intricate structure of neural activations. 
+We will proceed by concurrently tackling theoretical questions of redefining cycle matching as well as computational approaches on both synthetic data and real-world, publicly available activation data on state-of-the-art LLMs (Phi 3 3.8, Mistral 7B, LLaMA 8B) under adversarial influences [3].
+
+Such a methodology would result in a twofold impact: (i) we will be able to track the flow of information across different layers of neural networks, providing insights into how models process and transform data and interpreting model latent space, which will have concrete utility in better understanding adversarial influences, for instance; and (ii) the increase in subsampling efficiency will lead to proved topological-statistical estimates while reducing computational overhead, which will be adaptable in full generality of applications beyond understanding how neural networks train and learn.
+
+[1] Y. Reani, O. Bobrowski. Cycle Registration in Persistent Homology with Applications to Topological Bootstrap. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(5): 5579–5593 (2023).
+
+[2] I. Garcia-Redondo, A. Monod, A. Song. Fast Topological Signal Identification and Persistent Cohomological Cycle Matching. Journal of Applied and Computational Topology, 8: 695–726 (2024).
+
+[3] A. Abdelnabi, A. Fay, G. Cherubin, A. Salem, M. Fritz, M. Paverd. Are you still on track!? Catching LLM Task Drift with Activations.  arXiv:2406.00799.

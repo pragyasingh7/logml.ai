@@ -1,0 +1,49 @@
+---
+title: "Graph Transformers for Relational Deep Learning"
+sidebar: false
+author: "Vijay Prakash Dwivedi"
+categories: []
+sortby: "Dwivedi, Vijay Prakash"
+image: Vijay-Prakash-Dwivedi.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?user=8MS7iC0AAAAJ&
+---
+
+## Vijay Prakash Dwivedi
+
+Vijay Prakash Dwivedi is a Postdoctoral Scholar in Computer Science at Stanford University working on graph representation learning. 
+He holds a PhD from Nanyang Technological University (NTU), Singapore. 
+His work has made contributions to advancing benchmarks for Graph Neural Networks (GNNs), graph positional and structural encodings, and Graph Transformers as universal deep neural networks for graph-based learning. 
+He has also contributed to the integration of parametric knowledge in large language models (LLMs) for diverse applications, particularly in healthcare. 
+Several of the methods he developed during his PhD are now widely adopted in state-of-the-art Graph Transformers and other leading graph learning models. 
+For his research, he received one of the Outstanding PhD Thesis Awards from the NTU College of Computing and Data Science. 
+Vijay has over 7 years experience in both academia and industry with institutions including NTU, Snap Inc., Sony, and ASUS.
+
+
+## Project
+
+Recent advancements in graph learning have extended the Transformer architecture beyond natural language processing to model graph-structured data [1,2]. 
+Broadly, Graph Transformers integrate positional and structural encodings with local and global self-attention mechanisms, yielding state-of-the-art performance on various graph learning tasks. 
+At the same time, relational databases remain the backbone of much of the world’s structured data, where represent entities in a table, and edges represent the connections defined by primary and foreign keys, forming complex schema-dependent graph datasets. 
+Despite the prevalence of such relational entity graphs in enterprise and scientific applications, there has not been much success in developing graph deep learning models that perform well on prediction tasks in relational databases, without relying on traditional feature engineering.
+ 
+A critical challenge arises from the fact that the structure of relational entity graphs is intrinsically tied to the database schema, introducing unique characteristics such as temporality, heterogeneity, and complex dependency patterns. 
+General Graph Transformers, designed for arbitrary graphs, typically do not account for these schema-specific features, resulting in models that are less effective in exploiting the relational context. 
+Recent initiatives in relational deep learning [3], including the development of new benchmarks like RelBench [4], underscore both the importance and the difficulty of applying deep learning techniques to relational data, thereby highlighting a clear gap in current methodologies.
+ 
+In this project, we aim to develop a Relational Entity Graph Transformer that explicitly models the distinct characteristics of relational graphs. 
+By designing novel positional and structural encodings that capture the schema-dependent properties of relational data, we aim to enhance existing Transformer architectures to better manage the scale and complexity inherent in relational databases. 
+Our approach will involve adapting and extending current models, followed by evaluation on RelBench benchmark tasks, with the ultimate goal of bridging the gap between general graph learning methods and the specialized demands of relational entity graphs.
+ 
+[1] Dwivedi, V.P. and Bresson, X., 2021. A generalization of transformer networks to graphs. 
+
+[2] Rampášek, L., Galkin, M., Dwivedi, V.P., Luu, A.T., Wolf, G. and Beaini, D., 2022. Recipe for a general, powerful, scalable graph transformer.
+
+[3] Fey, M., Hu, W., Huang, K., Lenssen, J.E., Ranjan, R., Robinson, J., Ying, R., You, J. and Leskovec, J., 2023. Relational deep learning: Graph representation learning on relational databases.
+
+[4] Robinson J, Ranjan R, Hu W, Huang K, Han J, Dobles A, Fey M, Lenssen JE, Yuan Y, Zhang Z, He X. Relbench: A benchmark for deep learning on relational databases.

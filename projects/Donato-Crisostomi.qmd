@@ -1,0 +1,49 @@
+---
+title: "Representational Alignment for Universal Spaces"
+sidebar: false
+author: "Donato Crisostomi"
+categories: []
+sortby: "Crisostomi, Donato"
+image: Donato-Crisostomi.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://crisostomi.com/
+---
+
+## Donato Crisostomi
+
+Donato Crisostomi is a researcher at the Sapienza University of Rome, focusing on model merging and representational alignment. 
+He currently leads the “Model Reuse” work package for the 1.5M€ project “NEXUS: Interoperable Machine Learning with Universal Representations”. 
+He previously held roles as a visiting researcher at the University of Cambridge, a Research Scientist at Amazon Alexa, and an Applied Scientist at Amazon Search. 
+His research has been featured in top-tier AI conferences and journals, including CVPR, NeurIPS, ACM, ACL, and LoG. 
+In addition to his scientific contributions, he has played an active role in the research community as the organizer of the UniReps workshop at NeurIPS and as a program committee member for leading conferences such as CVPR, NeurIPS, ICLR, etc.
+
+
+## Project
+
+Machine learning models learn internal representations that capture task-relevant features, commonly believed to be potentially very different from each other. 
+Yet recent research suggests that, despite their apparent difference, these learned embeddings might often be transformations of one another—sometimes via simple orthogonal mappings—thereby maintaining inter-sample relationships [1, 2]. 
+Such observations hint at the existence of universal representation spaces, large "embeddings hubs" that multiple models can map to while preserving the semantics of their original learned features.
+
+In this project, we plan to investigate whether—and to what extent—universal representation spaces can be identified by leveraging cycle-consistent alignment [3]. 
+Concretely, given several trained models, we will explore how to align their latent representations in a way that is robust to differences in architecture, training conditions and possibly even modalities. 
+By enforcing cycle consistency, every model's embedding can be mapped to a shared "universe" and back again without drifting away from its original representation. 
+This property makes it possible to preserve the local geometric and semantic relationships that each model has learned.
+
+Our research will revolve around three high-level steps. 
+First, we will extract intermediate-layer embeddings from each model and define a consistent strategy for sampling representative data points. 
+Second, we will develop a cycle-consistent alignment procedure that optimizes mapping functions from one model to another by passing through a universal space. 
+Finally, we will evaluate whether the resulting universal space meaningfully captures class separability, domain invariance, or other useful properties across multiple models.
+
+By the end of the program, we aim to have a prototype that tests this idea on a modest set of models and datasets. 
+If the results confirm that cycle-consistent transformations do indeed create a faithful universal embedding space, this research is likely to be submitted to a top-tier machine learning conference, as well as open up new avenues for model merging and multi-modal learning.
+
+[1] Moschella, L., Maiorca, V., Fumero, M., Norelli, A., Locatello, F., & Rodolà, E. Relative representations enable zero-shot latent space communication. In ICLR 2023
+
+[2] Huh, M., Cheung, B., Wang, T., & Isola, P. (2024). The platonic representation hypothesis. ICML Position Paper Track 2024.
+
+[3] Crisostomi, D., Fumero, M., Baieri, D., Bernard, F., & Rodolà, E. (2024). Cycle-Consistent Multi-Model Merging. In NeurIPS 2024

@@ -1,0 +1,38 @@
+---
+title: "Polyhedral Complex Extraction from ReLU Networks"
+sidebar: false
+author: "Arturs Berzins"
+categories: []
+sortby: "Berzins, Arturs"
+image: Arturs-Berzins.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://arturs-berzins.github.io/
+---
+## Arturs Berzins
+
+Arturs Berzins is a postdoctoral researcher at the Institute for Machine Learning at JKU Linz. 
+Arturs research is focused on the intersection of machine learning, geometry, and simulation. 
+He received a PhD in mathematics from the University of Oslo for the thesis on Neural Representations in Geometry. 
+His PhD was hosted by the Geometry group at SINTEF as a fellow of GRAPES — a Marie Sklodowska-Curie ITN on Learning, processing and optimising shapes. 
+Previously, Arturs received his BSc and MSc in mechanical engineering from RWTH Aachen specializing in simulation technology.
+
+
+## Project
+
+A neural network consisting of piecewise affine building blocks, such as fully-connected layers and ReLU activations, is itself a piecewise affine function supported on a polyhedral complex. 
+This complex is used to study the theoretical properties of neural networks and in applied geometry, but, in practice, extracting it has been challenging due to its high combinatorial complexity. 
+A natural idea described in previous works is subdividing the regions via intersections with hyperplanes induced by each neuron. 
+However, [1] argues that subdividing regions leads to computational redundancy and proposes to subdivide edges instead. 
+The resulting "edge subdivision" method uses standard GPU accelerated tensor operations and improves the speed over previous methods by an order of magnitude.
+
+Several avenues remain to improve edge subdivision further, including the generalization to unbounded domains, non-generic arrangements, and other piecewise affine architectures, as well as improving pruning strategies for more efficient extraction of level-sets. 
+The integration of hashing in a specific sub-routine could potentially improve the performance significantly. 
+This improved performance and the differentiability of the method would allow us to consider new use-cases after or during the training, such as for adversarial robustness, grokking, shape representations, or geometric optimization.
+
+[1] Berzins, Arturs. "Polyhedral complex extraction from ReLU networks using edge subdivision." International Conference on Machine Learning. PMLR, 2023.
+
