@@ -1,0 +1,48 @@
+---
+title: "Geometric deep learning for cortical surface analysis"
+sidebar: false
+author: "Julian Suk"
+categories: []
+sortby: "Suk, Julian"
+image: Julian-Suk.png
+about:
+  id: project-profile
+  template: solana
+  links:
+    - icon: website
+      text: website
+      href: https://scholar.google.com/citations?user=Y9-58ZwAAAAJ
+---
+
+## Julian Suk
+
+Julian is a postdoctoral researcher at the Lab for AI in Medicine at the Technical University of Munich (TUM). 
+His research interest is geometric deep learning applied to cardiovascular hemodynamics modelling and cortical surface analysis. 
+Julian received a MSc in applied mathematics from TUM and his PhD from the University of Twente. 
+During his PhD, Julian completed an internship at Qualcomm AI Research in Amsterdam.
+
+## Project
+
+Cortical surface analysis is a field in biomedical science that deals with brain scans that are segmented and subsequently converted into polygonal surface meshes representing the white matter and pial surfaces of the human brain. 
+The geometry of the cortical surface can be linked to pathology like epileptogenic lesions or biomarkers like postmenstrual age by means of geometric deep learning [1,2]. 
+Cortical surface analysis has traditionally been performed by diffeomorphically deforming the wrinkly surface to a sphere and making up for the loss of information about the surface structure by mapping a collection of scalar quantities (curvature, depth of the sulci, etc.) to the sphere. 
+This output is then used to perform estimation of local or global quantities of interest. 
+Those quantities of interest are however highly informed by the surface structure, e.g., young brains are typically less wrinkly than mature ones.
+
+In this project, we address the question to which extent the surface structure could be used directly - without morphing to a sphere - to improve cortical surface analysis. 
+We consider the task of cortical parcellation (segmentation into functional brain regions) and will start by benchmarking a collection of baselines (e.g., PointNet++ [3], DiffusionNet [4] and geometric algebra transformer (GATr) [5]). 
+Notably, the cortical surface has a lot of folds and wrinkles which means Euclidean distance is not a reliable similarity measure between points. 
+We will investigate and try to quantify to which extent the baseline models can learn powerful representations of the surface. 
+We will then use the resulting insights to brainstorm and benchmark novel architectures. 
+Those should be scalable, since faithful representation of the cortical surface requires finely discretised meshes. 
+The project will likely take the form of a hackathon, but participants will be flexible to focus on their own interests and theoretical contribution is more than welcome.
+
+[1] Ripart et al., Detection of Epileptogenic Focal Cortical Dysplasia Using Graph Neural Networks: A MELD Study, JAMA Neurology, 2025
+
+[2] Dahan et al., The Multiscale Surface Vision Transformer, Medical Imaging with Deep Learning, 2024
+
+[3] Qi et al., PointNet++: deep hierarchical feature learning on point sets in a metric space, Proceedings of the 31st International Conference on Neural Information Processing Systems, 2017
+
+[4] Sharp et al., DiffusionNet: Discretization Agnostic Learning on Surfaces, ACM Trans. Graph., 2022
+
+[5] Brehmer et al., Geometric Algebra Transformer, Proceedings of the 37th International Conference on Neural Information Processing Systems, 2023

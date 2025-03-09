@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Julian Suk">
 
-<title>Speakers – LOGML 2025</title>
+<title>Geometric deep learning for cortical surface analysis – LOGML 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,12 +31,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,103 +68,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-keynote .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-keynote'] = new List('listing-keynote', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-speaker .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-speaker'] = new List('listing-speaker', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="LOGML 2025">
 <meta name="twitter:description" content="London Geometry and Machine Learning Summer School, July 7-11 2025">
-<meta name="twitter:image" content="https://www.logml.ai/img/logo.png">
+<meta name="twitter:image" content="Julian-Suk.png">
 <meta name="twitter:site" content="@LogmlSchool">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -203,7 +115,7 @@ window.Quarto = {
 <span class="menu-text">Policies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../logml2024/speaker.html" aria-current="page"> 
+    <a class="nav-link" href="../logml2024/speaker.html"> 
 <span class="menu-text">Archives</span></a>
   </li>  
 </ul>
@@ -233,394 +145,67 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logml2021/speaker.html">LOGML 2021</a></li><li class="breadcrumb-item"><a href="../logml2021/speaker.html">Speakers</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">LOGML 2024</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2024/speaker.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Speakers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2024/projects.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2024/sponsors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sponsors</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2024/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">People</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">LOGML 2022</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/speaker.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Speakers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/projects.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/sponsors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sponsors</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2022/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">People</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">LOGML 2021</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2021/speaker.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Speakers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2021/projects.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2021/sponsors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sponsors</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logml2021/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">People</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
-  <li><a href="#keynote-speakers" id="toc-keynote-speakers" class="nav-link active" data-scroll-target="#keynote-speakers">Keynote speakers</a></li>
-  <li><a href="#speakers" id="toc-speakers" class="nav-link" data-scroll-target="#speakers">Speakers</a></li>
+  <li><a href="#julian-suk" id="toc-julian-suk" class="nav-link active" data-scroll-target="#julian-suk">Julian Suk</a></li>
+  <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logml2021/speaker.html">LOGML 2021</a></li><li class="breadcrumb-item"><a href="../logml2021/speaker.html">Speakers</a></li></ol></nav>
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Speakers</h1>
+<h1 class="title">Geometric deep learning for cortical surface analysis</h1>
 </div>
-
-
-
-<div class="quarto-title-meta column-body">
-
-    
-  
-    
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Julian Suk </p>
+          </div>
   </div>
-  
+  </div>
+</header> <div class="about-links">
+  <a href="https://scholar.google.com/citations?user=Y9-58ZwAAAAJ" class="about-link" rel="" target="">
+    <i class="bi bi-website"></i>
+     <span class="about-link-text">website</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
 
-
-</header>
-
-
-<section id="keynote-speakers" class="level1">
-<h1>Keynote speakers</h1>
-<div id="listing-keynote" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1739903696610" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<a href="../logml2021/speakers2021/keynote/michael-bronstein.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/keynote/michael-bronstein.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="keynote-speakers">
-Michael Bronstein
-</h5>
-<div class="card-text listing-description">
-Imperial College London, Twitter
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1739903719757" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
-<a href="../logml2021/speakers2021/keynote/ulrike-tillmann.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/keynote/ulrike-tillmann.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ulrike Tillmann FRS
-</h5>
-<div class="card-text listing-description">
-University of Oxford
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<section id="julian-suk" class="level2">
+<h2 data-anchor-id="julian-suk">Julian Suk</h2>
+<p>Julian is a postdoctoral researcher at the Lab for AI in Medicine at the Technical University of Munich (TUM). His research interest is geometric deep learning applied to cardiovascular hemodynamics modelling and cortical surface analysis. Julian received a MSc in applied mathematics from TUM and his PhD from the University of Twente. During his PhD, Julian completed an internship at Qualcomm AI Research in Amsterdam.</p>
 </section>
-<section id="speakers" class="level1">
-<h1>Speakers</h1>
-<div id="listing-speaker" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1739903844233" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
-<a href="../logml2021/speakers2021/other/michael-betancourt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/michael-betancourt.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="speakers">
-Michael Betancourt
-</h5>
-<div class="card-text listing-description">
-Imperial College London, Twitter
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1739903909462" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<a href="../logml2021/speakers2021/other/sanja-fidler.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/sanja-fidler.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sanja Fidler
-</h5>
-<div class="card-text listing-description">
-University of Toronto, Vector Institute, Nvidia
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1739903865854" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
-<a href="../logml2021/speakers2021/other/niloy-mitra.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/niloy-mitra.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Niloy J. Mitra
-</h5>
-<div class="card-text listing-description">
-University College London
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1739903928009" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<a href="../logml2021/speakers2021/other/thomas-kipf.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/thomas-kipf.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Thomas Kipf
-</h5>
-<div class="card-text listing-description">
-Google Brain
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1739903825549" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<a href="../logml2021/speakers2021/other/maximilian-nickel.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/maximilian-nickel.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Maximilian Nickel
-</h5>
-<div class="card-text listing-description">
-Facebook AI Research
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1739903770451" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
-<a href="../logml2021/speakers2021/other/maks-ovsjanikov.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/maks-ovsjanikov.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Maks Ovsjanikov
-</h5>
-<div class="card-text listing-description">
-École Polytechnique
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1739903806122" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
-<a href="../logml2021/speakers2021/other/martin-rumpf.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/martin-rumpf.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Martin Rumpf
-</h5>
-<div class="card-text listing-description">
-Universität Bonn
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1739903744869" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
-<a href="../logml2021/speakers2021/other/gabriele-steidl.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/gabriele-steidl.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Gabriele Steidl
-</h5>
-<div class="card-text listing-description">
-Technische Universität Berlin
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1739903884291" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
-<a href="../logml2021/speakers2021/other/ruriko-yoshida.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/ruriko-yoshida.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ruriko Yoshida
-</h5>
-<div class="card-text listing-description">
-Naval Postgraduate School, California
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1739903789085" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<a href="../logml2021/speakers2021/other/marinka-zitnik.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../logml2021/speakers2021/other/marinka-zitnik.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Marinka Zitnik
-</h5>
-<div class="card-text listing-description">
-Harvard University
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
+<section id="project" class="level2">
+<h2 data-anchor-id="project">Project</h2>
+<p>Cortical surface analysis is a field in biomedical science that deals with brain scans that are segmented and subsequently converted into polygonal surface meshes representing the white matter and pial surfaces of the human brain. The geometry of the cortical surface can be linked to pathology like epileptogenic lesions or biomarkers like postmenstrual age by means of geometric deep learning [1,2]. Cortical surface analysis has traditionally been performed by diffeomorphically deforming the wrinkly surface to a sphere and making up for the loss of information about the surface structure by mapping a collection of scalar quantities (curvature, depth of the sulci, etc.) to the sphere. This output is then used to perform estimation of local or global quantities of interest. Those quantities of interest are however highly informed by the surface structure, e.g., young brains are typically less wrinkly than mature ones.</p>
+<p>In this project, we address the question to which extent the surface structure could be used directly - without morphing to a sphere - to improve cortical surface analysis. We consider the task of cortical parcellation (segmentation into functional brain regions) and will start by benchmarking a collection of baselines (e.g., PointNet++ [3], DiffusionNet [4] and geometric algebra transformer (GATr) [5]). Notably, the cortical surface has a lot of folds and wrinkles which means Euclidean distance is not a reliable similarity measure between points. We will investigate and try to quantify to which extent the baseline models can learn powerful representations of the surface. We will then use the resulting insights to brainstorm and benchmark novel architectures. Those should be scalable, since faithful representation of the cortical surface requires finely discretised meshes. The project will likely take the form of a hackathon, but participants will be flexible to focus on their own interests and theoretical contribution is more than welcome.</p>
+<p>[1] Ripart et al., Detection of Epileptogenic Focal Cortical Dysplasia Using Graph Neural Networks: A MELD Study, JAMA Neurology, 2025</p>
+<p>[2] Dahan et al., The Multiscale Surface Vision Transformer, Medical Imaging with Deep Learning, 2024</p>
+<p>[3] Qi et al., PointNet++: deep hierarchical feature learning on point sets in a metric space, Proceedings of the 31st International Conference on Neural Information Processing Systems, 2017</p>
+<p>[4] Sharp et al., DiffusionNet: Discretization Agnostic Learning on Surfaces, ACM Trans. Graph., 2022</p>
+<p>[5] Brehmer et al., Geometric Algebra Transformer, Proceedings of the 37th International Conference on Neural Information Processing Systems, 2023</p>
 
 
 </section>
-
-</main> <!-- /main -->
+</main></div>
+    </div>
+    <img src="Julian-Suk.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -641,13 +226,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
