@@ -1,5 +1,5 @@
 ---
-title: "Finite groups and the Cayley graph representation, such that ML can then help identify symmetry from generators"
+title: "Learning the Graphical Nature of Symmetries"
 sidebar: false
 author: "Edward Hirst"
 categories: []
